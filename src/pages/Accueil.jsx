@@ -17,7 +17,7 @@ const Accueil = () => {
     data: portfolio,
     error,
     isLoading,
-  } = useFetch(`./myportfolioinline.json`);
+  } = useFetch(`https://my-portfolio-three-virid-84.vercel.app/myportfolioinline.json`);
 
   return (
     <div>
