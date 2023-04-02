@@ -17,7 +17,7 @@ const Accueil = () => {
     data: portfolio,
     error,
     isLoading,
-  } = useFetch(`/myportfolioinline.json`);
+  } = useFetch(`./myportfolioinline.json`);
 
   return (
     <div>
