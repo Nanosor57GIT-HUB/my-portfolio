@@ -23,8 +23,10 @@ const Accueil = () => {
     <div>
       {isLoading && <div className="loading">Traitement en cours ...</div>}
       {error && (
+        <div className="containerError">
         <div className="error">
-          Désolé, une erreur est survenue pendant le chargement ...
+          Ooups! une erreur est survenue pendant le chargement ...
+        </div>
         </div>
       )}
       <ScrollIndicator />
