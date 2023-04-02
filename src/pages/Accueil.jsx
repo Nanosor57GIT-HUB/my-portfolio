@@ -17,7 +17,7 @@ const Accueil = () => {
     data: portfolio,
     error,
     isLoading,
-  } = useFetch(`https://api.github.com/repos/Nanosor57GIT-HUB/my-portfolio/contents/myportfolioinline.json`);
+  } = useFetch(`https://github.com/Nanosor57GIT-HUB/my-portfolio/myportfolioinline.json`);
 
   return (
     <div>
