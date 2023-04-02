@@ -19,7 +19,7 @@ const LogoDeveloppeur = () => {
         alt="logo_Sass" 
         />
       <img
-        src={process.env.PUBLIC_URL + "logoDeveloppeur/Javascript.png"}
+        src={process.env.PUBLIC_URL + "logoDeveloppeur/javascript.png"}
         className="logoDev"
         alt="logo_Javascript"
       />
