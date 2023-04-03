@@ -15,9 +15,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -35,10 +35,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/sass.png",
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoSass.png",
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -56,10 +56,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/javascript.png",
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoJavascript.png",
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -77,9 +77,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -97,9 +97,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -117,9 +117,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -137,9 +137,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -157,11 +157,11 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/javascript.png",
-        "logoDeveloppeur/react.png",
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoJavascript.png",
+        "logoDeveloppeur/logoReact.png",
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -179,12 +179,12 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/javascript.png",
-        "logoDeveloppeur/react.png",
+        "logoDeveloppeur/logoJavascript.png",
+        "logoDeveloppeur/logoReact.png",
         "logoDeveloppeur/nodejs.png",
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -202,9 +202,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -222,9 +222,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     }
   ],
@@ -245,10 +245,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/javascript.png",
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoJavascript.png",
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -266,10 +266,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/javascript.png",
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoJavascript.png",
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     },
     {
@@ -287,10 +287,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/sass.png",
-        "logoDeveloppeur/figma.png",
-        "logoDeveloppeur/html5.png",
-        "logoDeveloppeur/css3.png"
+        "logoDeveloppeur/logoSass.png",
+        "logoDeveloppeur/logoFigma.png",
+        "logoDeveloppeur/logoHTML5.png",
+        "logoDeveloppeur/logoCSS3.png"
       ]
     }
   ],
