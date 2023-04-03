@@ -5,6 +5,8 @@ import CurriculumText from "./CurriculumText";
 const BodyCurriculum = (props) => {
 
   const skills = props.compétences
+  const xx = props.quiSuisJe
+  console.log(xx);
 
   return (
     <div id="CurriculumVitae" className="containerCurriculum">

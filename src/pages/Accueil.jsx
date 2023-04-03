@@ -18,7 +18,7 @@ const Accueil = () => {
     error,
     isLoading,
   } = useFetch(`https://raw.githubusercontent.com/Nanosor57GIT-HUB/my-portfolio/main/public/myportfolioInline.json`);
-
+ 
   return (
     <div>
       {isLoading && <div className="loading">Traitement en cours ...</div>}
@@ -32,7 +32,7 @@ const Accueil = () => {
       <ScrollIndicator />
       <Header />
       <BodyAccueil />
-      {portfolio && <BodyCurriculum compétences={portfolio.skills} />}
+      {portfolio && <BodyCurriculum compétences={portfolio.skills} quiSuisJe={portfolio.je_suis} />}
       {portfolio && <FormationCards projets={portfolio} />}
       {portfolio && <PersonnelCards projets={portfolio} />}
       <BodyContact />

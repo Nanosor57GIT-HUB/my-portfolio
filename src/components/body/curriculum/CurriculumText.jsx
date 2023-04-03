@@ -9,7 +9,8 @@ AOS.init({
 });
 
 const CurriculumText = ({skills}) => {
-  
+  console.log(skills);
+ 
 
   return (
     <div className="containerTextPdf">
@@ -33,7 +34,14 @@ const CurriculumText = ({skills}) => {
             </li>
           ))}
         </ul>
-      </div>
+    
+      </div>    
+      <div className="quiSuisJeContainer">
+            <h1 className="titleQuiSuisJe">Qui suis je ?</h1>
+            <ul className="ulQuiSuisJe">
+              <li className="liJeSuis"></li>
+            </ul>
+          </div>
     </div>
   );
 };

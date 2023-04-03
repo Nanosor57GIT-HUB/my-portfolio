@@ -240,8 +240,8 @@
       "logo": "logoProjets/MyPortfolioInline.webp",
       "url": [
         {
-          "git_hub": "",
-          "demo": ""
+          "git_hub": "https://github.com/Nanosor57GIT-HUB/my-portfolio",
+          "demo": "https://my-portfolio-three-virid-84.vercel.app/"
         }
       ],
       "technologies": [
@@ -323,6 +323,11 @@
         "Capacité à travailler dans un environnement en constante évolution.",
         "Esprit critique et créatif pour proposer des améliorations."
       ]
+    }
+  ],
+  "je_suis": [
+    {
+      "qui": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     }
   ]
 }
