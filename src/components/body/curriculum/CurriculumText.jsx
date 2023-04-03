@@ -8,8 +8,9 @@ AOS.init({
   once: false,
 });
 
-const CurriculumText = ({skills}) => {
+const CurriculumText = ({skills, jeSuis}) => {
   console.log(skills);
+  console.log(jeSuis);
  
 
   return (
@@ -36,10 +37,10 @@ const CurriculumText = ({skills}) => {
         </ul>
     
       </div>    
-      <div className="quiSuisJeContainer">
+      <div className="quiSuisJeContainer" data-aos="zoom-in">
             <h1 className="titleQuiSuisJe">Qui suis je ?</h1>
             <ul className="ulQuiSuisJe">
-              <li className="liJeSuis"></li>
+            <li className="liJeSuis" key={jeSuis}>{jeSuis[0].qui}</li>
             </ul>
           </div>
     </div>
