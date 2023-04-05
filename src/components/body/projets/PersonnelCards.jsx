@@ -12,10 +12,7 @@ AOS.init({
   once: false,
 });
 
-const PersonnelCards = (props) => {
-   const projets = props.projets;
-   const perso = projets.perso;
- //  console.log(perso);
+const PersonnelCards = ({perso}) => {
   
  // const { persoData, setPersoData } = useContext(DataContext);
 
@@ -37,28 +34,15 @@ const PersonnelCards = (props) => {
         <span className="numberProjets"> ({perso.length})</span>
       </h1>
       <div>
+        
+        <div className="infoProjetsContainer" data-aos="zoom-out-right">
         <p
            className="infoProjets2"
-          data-aos="zoom-out-right"
+          data-aos="zoom-in-left"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam
-          consequatur deleniti dolorum perferendis et unde, quis asperiores,
-          repellendus quasi optio ullam deserunt dignissimos alias explicabo.
-          Optio eaque quos officia animi? Dicta illum ad nisi reprehenderit
-          libero mollitia iusto quas, obcaecati labore! Temporibus tempora quis
-          cumque blanditiis, quos sint commodi qui perferendis, vero aut quae?
-          Hic doloremque eaque, eligendi enim officia totam asperiores, quo
-          illum, mollitia doloribus facilis accusantium optio unde praesentium
-          quasi quisquam vel dolorem tempore molestiae explicabo repellendus.
-          Omnis suscipit earum quidem natus nam debitis numquam neque, nemo,
-          sint eius voluptatum quibusdam error ipsa facilis explicabo distinctio
-          laborum consequuntur sit accusamus rerum. Dolore pariatur, cupiditate,
-          quisquam ducimus distinctio, rem perspiciatis eveniet odit nam
-          repellendus ipsam incidunt voluptatem ea doloribus a porro optio?
-          Nulla recusandae consequuntur debitis minima quisquam? Placeat nisi
-          corporis quam quia excepturi deleniti et provident? Fugit consectetur
-          harum sunt unde earum debitis omnis labore repellat optio.
+         Projets personnels réalisés à la suite de ma formation pour montrer ma progression et mon évolution en solo sur une base neutre n'ayant que mes idées, mes connaissances et du travail de recherche pour aboutir à un résultat concluant. Basés aussi sur l'accéssibilité des graphisme, chartes graphique couleur et label. Mettant en application mes connaissances.
         </p>
+        </div>
       </div>
       <div className="containerCards">
         {perso.map((item) => (

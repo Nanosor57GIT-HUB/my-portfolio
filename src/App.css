@@ -45,6 +45,8 @@
 
 .App {
   background-color: #2f3330;
+  width: 100%;
+  height: auto;
   
   /* #303d33 */
   /* #2d4734 */

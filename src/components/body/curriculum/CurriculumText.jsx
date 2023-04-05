@@ -9,8 +9,8 @@ AOS.init({
 });
 
 const CurriculumText = ({skills, jeSuis}) => {
-  console.log(skills);
-  console.log(jeSuis);
+  //console.log(skills);
+  //console.log(jeSuis);
  
 
   return (

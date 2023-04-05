@@ -35,9 +35,11 @@
   font-size: 70px;
   letter-spacing: 0.05em;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.5);
-  text-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 0.1vw aquamarine;
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #989898;
+  /* text-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5); */
+  -webkit-text-stroke: 0.08vw aquamarine;
+  filter :drop-shadow(1px 1px 2px aquamarine);
 }
 
 .notranslate {

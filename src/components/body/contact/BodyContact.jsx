@@ -4,7 +4,8 @@ import FormContact from "./FormContact";
 
 const BodyContact = () => {
   return (
-    <div id="Contact" className="contact">
+    <div id="Contact" className="bodyContact">
+      <img src={process.env.PUBLIC_URL + "logoContact.svg"} className="logocontact"  alt="logo_projets" />
       <FormContact />
     </div>
   );

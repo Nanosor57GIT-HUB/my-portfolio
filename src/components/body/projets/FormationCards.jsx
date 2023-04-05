@@ -14,10 +14,8 @@ AOS.init({
 //https://devtrium.com/posts/async-functions-useeffect
 
 
-const FormationCards = (props) => {
- const projets = props.projets
- const pro = projets.pro
-//  console.log(pro);
+const FormationCards = ({pro}) => {
+
 
   return (
     <div className="containerProjets1" id="pro">
@@ -26,20 +24,22 @@ const FormationCards = (props) => {
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
+        <div className="infoProjetsContainer" data-aos="zoom-out-right">
         <p
           className="infoProjets1"
-          data-aos="zoom-out-right"
+          data-aos="zoom-in-left"
         >
           Au cours de ma formation de développeur d'application JavaScript/React
-          chez OpenClassrooms, j'ai réalisé 14 projets pris sur des cas réels d'entreprise. Cette formation s'est déroulée en distanciel incluant un
-          mentorat de 45 minutes par semaine ainsi qu'une plateforme d'entraide.
+          chez OpenClassrooms, j'ai réalisé 14 projets basé sur des cas réels en entreprise avec des énnoncés composés de tenant , d'aboutissants et  d'échange de mails avec les différents Collaborateurs/Clients. Cette formation s'est déroulée en distanciel incluant un
+          mentorat de 45 minutes par semaine et une plateforme d'entraide.
           Les projets ont utilisés divers technologies et frameworks, ce qui m'a
           permis de développer mes compétences en programmation web. Seules les
           applications sont disponibles sous forme de démonstration ou sur
-          GitHub pour le code. Les projets que j'ai créés démontrent mes
+          GitHub pour le code. Ces projets démontrent mes
           capacités à développer des applications web interactives et
           conviviales pour les utilisateurs.
         </p>
+        </div>
       </div>
       <div className="containerCards">
         {pro.map((item) => (

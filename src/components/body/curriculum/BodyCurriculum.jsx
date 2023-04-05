@@ -6,11 +6,10 @@ const BodyCurriculum = (props) => {
 
   const skills = props.compétences
   const jeSuis = props.quiSuisJe
-  console.log(jeSuis);
 
   return (
-    <div id="CurriculumVitae" className="containerCurriculum">
-      <h1 className="titleCurriculum">Curriculum</h1>
+    <div id="CurriculumVitae" className="bodyCurriculum">
+      <img src={process.env.PUBLIC_URL + "logoCV.svg"} className="logoCurriculum"  alt="logo_projets" />
       <div className="blockCurriculum">
      { skills && <CurriculumText skills={skills} jeSuis={jeSuis} />}
       </div>

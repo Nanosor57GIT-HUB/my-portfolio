@@ -117,7 +117,7 @@ useEffect(() => {
 
   return (
     <div id="contact" className="containerContact">
-      <h1 className="titleContact">Contact</h1>
+      {/* <h1 className="titleContact">Contact</h1> */}
       <div className="block_form">
         <h2 className="titleContactForm">Besoin d'en savoir plus ?</h2>
         <form ref={form} autoComplete="OFF" onSubmit={sendEmail}>

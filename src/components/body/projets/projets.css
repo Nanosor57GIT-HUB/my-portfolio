@@ -1,10 +1,29 @@
 /*PROJETS*/
 
-.containerProjets1,
-.containerProjets2 {
+.bodyProjets {
+  position: relative;
   width: 100%;
   min-height: 100vh;
-  margin-top: 200px;
+   margin-top: 200px; 
+}
+
+.svgProjets {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 10%;
+  height: auto;
+}
+
+.containerProjets1,
+.containerProjets2 {
+  width: 94%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.containerProjets1 {
+  padding-top: 130px;
 }
 
 .titleProjets {
@@ -14,32 +33,39 @@
   text-align: end;
   margin-right: 120px;
   padding-top: 30px;
-  color: rgba(255, 255, 255, 0.5);
-  -webkit-text-stroke: 0.1vw rgba(127, 255, 212, 0.728);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #979998;
+  -webkit-text-stroke: 0.05vw rgba(127, 255, 212, 0.728);
 }
 
 .numberProjets {
   font-weight: 300;
 }
 
-.infoProjets1,
-.infoProjets2 {
+.infoProjetsContainer {
   width: 85%;
   height: auto;
-  border-radius: 10px;
+  margin: 80px auto 0;
+  background-color: #35463F;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.infoProjets1,
+.infoProjets2 {
+  border-radius: 10px;
+   background-color: rgba(0, 0, 0, 0.2); 
+   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   font-size: 18px;
-  /* font-family: 'Playfair Display', serif; */
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   letter-spacing: 0.07em;
   word-spacing: 3px;
   line-height: 1.5em;
-  padding: 10px;
+  padding: 20px;
   text-align: justify;
   color: aquamarine;
-  margin: 80px auto 0;
   overflow: hidden;
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -246,13 +272,12 @@
   width: 280px;
   height: 100px;
   font-size: 18px;
-  /* font-family: 'Playfair Display', serif; */
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   letter-spacing: 0.07em;
   word-spacing: 2px;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
