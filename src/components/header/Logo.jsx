@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div>
+    <div className="containerLogoPortfolio">
       <img
         src={process.env.PUBLIC_URL + "./logoPortfolio.svg"}
         className="logo"

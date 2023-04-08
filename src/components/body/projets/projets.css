@@ -12,6 +12,7 @@
   top: 0;
   left: 20px;
   width: 10%;
+  min-width: 110px;
   height: auto;
 }
 
@@ -28,7 +29,7 @@
 
 .titleProjets {
   color: aquamarine;
-  font-size: 48px;
+  font-size: 38px;
   letter-spacing: 0.06em;
   text-align: end;
   margin-right: 120px;
@@ -78,7 +79,7 @@
   justify-content: center;
   width: 90%;
   height: auto;
-  margin: 70px auto;
+  margin: 0 auto;
   z-index: 100;
 }
 

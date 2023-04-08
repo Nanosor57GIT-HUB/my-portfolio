@@ -71,7 +71,6 @@
   min-width: 100%;
   height: 100vh;
   object-fit: cover;
-  z-index: -10;
 }
 
 
@@ -98,7 +97,7 @@
 }
 
 /*ERROR404*/
-.btn404 {
+/* .btn404 {
   width: 100%;
   height: 10vh;
   line-height: 10vh;
@@ -141,4 +140,4 @@
   font-size: 36px;
   font-weight: bold;
   color: aquamarine;
-}
+} */

@@ -9,7 +9,7 @@ const BodyCurriculum = (props) => {
 
   return (
     <div id="CurriculumVitae" className="bodyCurriculum">
-      <img src={process.env.PUBLIC_URL + "logoCV.svg"} className="logoCurriculum"  alt="logo_projets" />
+      <img src={process.env.PUBLIC_URL + "logoCV.svg"} className="svgCurriculum"  alt="logo_projets" />
       <div className="blockCurriculum">
      { skills && <CurriculumText skills={skills} jeSuis={jeSuis} />}
       </div>

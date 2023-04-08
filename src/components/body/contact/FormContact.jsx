@@ -119,10 +119,10 @@ useEffect(() => {
     <div id="contact" className="containerContact">
       {/* <h1 className="titleContact">Contact</h1> */}
       <div className="block_form">
-        <h2 className="titleContactForm">Besoin d'en savoir plus ?</h2>
-        <form ref={form} autoComplete="OFF" onSubmit={sendEmail}>
+        <h2 className="titleBlockForm">Besoin d'en savoir plus ?</h2>
+        <form ref={form} autoComplete="OFF" className="form" onSubmit={sendEmail}>
           <div className="containerInput">
-            <div className="name">
+            <div className="nameContact">
               <div className="flex_input">
                 <label htmlFor="first_name">Prénom</label>
                 <input

@@ -12,7 +12,7 @@ const Modal = (props) => {
 
   return (
     <div className={`container-modal ${toggle ? "active" : ""}`}>
-      <div className="modal">
+      <div className="modalConfirm">
         {/* <img
           src="images/bgConfirm.jpg"
           className="bgConfirm"

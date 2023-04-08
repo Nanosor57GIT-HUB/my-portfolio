@@ -43,7 +43,7 @@ const DropDownNav = () => {
         />
       </p>
       {isOpen && (
-        <div className="dropdown-content">
+        <div id="dropdown-content" className="dropdown-content">
           <Link activeClass="active"
             className={`projetsLink ${hoveredIndex === 0 ? "active" : ""}`}
             to="pro"

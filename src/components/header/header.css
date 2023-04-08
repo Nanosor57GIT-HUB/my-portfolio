@@ -4,9 +4,10 @@
   top: 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  height: 150px;
+  height: auto;
   transition: opacity 0.2s;
 }
 
@@ -29,16 +30,49 @@
   margin-right: 30px;
 }
 
+.containerLogoPortfolio {
+  width: 30%;
+}
+
 .logo {
-  position: absolute;
-  top: 30px;
-  left: 30px;
   width: 20%;
+  min-width: 300px;
+  height: auto;  
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/*Mettre un burger à 880*/
+.containerNavLink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;  
+  width: 798px;
   height: auto;
 }
 
+@media (max-width: 1160px) {
+  .containerNavLink {
+    width: 100%;
+  }.containerLogoPortfolio {
+    width: 100%;
+  }
+}
+@media (max-width: 880px) {
+  .containerNavLink { 
+    justify-content: center;
+    margin-top: 50px;
+  }.containerLogoPortfolio {
+    display: flex;
+   justify-content: center;
+   margin-top: 90px;
+  }.containerHeader {
+    flex-direction: column-reverse;
+  }
+}
+
 .btnNavBar {
-  position: relative;
   width: auto;
   height: 37px;
   font-size: 24px;
@@ -46,6 +80,7 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  z-index: 10;
 }
 
 .btnNavBar:hover {
@@ -54,7 +89,6 @@
 }
 
 .linkedIn {
-  position: relative;
   width: auto;
   height: 37px;
   border-radius: 10px;
