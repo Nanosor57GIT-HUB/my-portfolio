@@ -11,10 +11,14 @@ const BodyProjets = ({projets}) => {
   // console.log(perso);
 
   return (
-    <div className="bodyProjets">
+    <div className="bodyProjets" id="projets">
+      
       <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjets"  alt="logo_projets" />
+      
+      <div className="containerProjets">
      {pro && <FormationCards pro={pro} />}
      {perso && <PersonnelCards perso={perso} />}
+    </div>
     </div>
   );
 };

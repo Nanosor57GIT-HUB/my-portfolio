@@ -28,14 +28,14 @@ const PersonnelCards = ({perso}) => {
 
 
   return (
-    <div className="containerProjets2" id="perso">
+    <div className="blockProjets2" id="perso">
       <h1 className="titleProjets">
         Projets personnels
         <span className="numberProjets"> ({perso.length})</span>
       </h1>
       <div>
         
-        <div className="infoProjetsContainer" data-aos="zoom-out-right">
+        <div className="containerInfoProjets" data-aos="zoom-out-right">
         <p
            className="infoProjets2"
           data-aos="zoom-in-left"

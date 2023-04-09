@@ -14,7 +14,7 @@ const CurriculumText = ({skills, jeSuis}) => {
  
 
   return (
-    <div className="containerTextPdf">
+    <div className="blockCurriculum">
       <div className="hardContainer" data-aos="zoom-in-right">
         <h1 className="titleSkills">Compétences Hard-Skills</h1>
         <ul className="ulHard">
@@ -25,7 +25,7 @@ const CurriculumText = ({skills, jeSuis}) => {
           ))}
         </ul>
       </div>
-      <PdfViewer />
+       <PdfViewer /> 
       <div className="softContainer" data-aos="zoom-in-left">
         <h1 className="titleSkills">Compétences Soft-Skills</h1>
         <ul className="ulSoft">

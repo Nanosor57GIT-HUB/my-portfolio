@@ -46,7 +46,7 @@ const DropDownNav = () => {
         <div id="dropdown-content" className="dropdown-content">
           <Link activeClass="active"
             className={`projetsLink ${hoveredIndex === 0 ? "active" : ""}`}
-            to="pro"
+            to="projets"
             spy={true}
             smooth={true}
             // offset={-70}

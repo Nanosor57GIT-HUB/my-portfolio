@@ -18,13 +18,13 @@ const FormationCards = ({pro}) => {
 
 
   return (
-    <div className="containerProjets1" id="pro">
+    <div className="blockProjets1" >
       <h1 className="titleProjets">
         Projets de formation
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="infoProjetsContainer" data-aos="zoom-out-right">
+        <div className="containerInfoProjets" data-aos="zoom-out-right">
         <p
           className="infoProjets1"
           data-aos="zoom-in-left"
