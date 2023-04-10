@@ -3,10 +3,11 @@
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: 15vh;
-
+margin: 0 auto;
   padding: 15px;
+  border: 1px solid white;
 }
 
 .copyright {
@@ -34,7 +35,7 @@
 
 @media (max-width: 1200px) {
   .containerFooter {
-    width: 100%;
+     width: 100%; 
     flex-direction: column;
   }.copyright {
    position: relative;

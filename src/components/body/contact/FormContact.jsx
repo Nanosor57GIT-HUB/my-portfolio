@@ -177,7 +177,7 @@ useEffect(() => {
           </span>
 
           <textarea
-            rows="8"
+            rows="4"
             cols="46"
             name="message"
             value={formData.message}

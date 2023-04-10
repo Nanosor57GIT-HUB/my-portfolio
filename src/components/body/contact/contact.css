@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 85vh;
+  min-height: 85vh;
   margin-top: 80px;
 }
 
@@ -27,11 +27,11 @@
 .containerContact {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
-  /* justify-content: center; */
    width: 100%;
-   height: 85vh;
+   min-height: 85vh;
+   margin-top: 55px;
   /*height: 550px; */
 }
 
@@ -41,7 +41,8 @@
   flex-direction: column;
   width: 45%;
   min-width: 320px;
-  height: 500px;
+  max-width: 680px;
+  min-height: 460px;
    /* min-height: 520px;  */
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.07em;
@@ -57,8 +58,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 80%;
-  min-height: 80%;
+  min-height: auto;
   align-items: center;
   border: 2px solid #fbd437;
   border-radius: 10px;
@@ -132,7 +132,7 @@ label {
 .textarea {
   display: flex;
   width: 90%;
-  height: 250px;   /* A vérifier*/
+  /* min-height: 250px;    */
   /* max-height: 250px; */
    font-family: 'Bad Script', cursive;
   font-size: 16px;
@@ -143,11 +143,17 @@ label {
   margin: 5px;
   border: 1px solid black;
   border-radius: 5px;
-  text-align: justify;
-   overflow: hidden;
+  overflow: scroll(Y);
+   text-align: justify; 
+   /* overflow: hidden; */
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
+}
+@media (max-width: 730px) {
+  .textarea {
+    font-size: 13px;
+  }
 }
 
 .errors {
