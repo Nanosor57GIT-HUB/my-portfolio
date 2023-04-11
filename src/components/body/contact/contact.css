@@ -6,7 +6,7 @@
   justify-content: center;
   width: 100%;
   min-height: 85vh;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .svgContact {
@@ -152,7 +152,7 @@ label {
 }
 @media (max-width: 730px) {
   .textarea {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 

@@ -1,0 +1,81 @@
+.burger-menu {
+    position: relative;
+    display: none;
+}
+  
+  .burger-menu-button {
+    position: relative; 
+    display: block;
+    border: none;
+    height: 30px; 
+    width: 30px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .burger-menu-icon,
+  .burger-menu-icon:before,
+  .burger-menu-icon:after {
+    background-color: #f7d237;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 50px;
+  }
+  
+  .burger-menu-icon:before {
+    top: -8px;
+  }
+  
+  .burger-menu-icon:after {
+    bottom: -8px;
+  }
+  
+  .burger-menu-dropdown {
+    background-color: #2f3330;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    color: aquamarine;
+    font-size: 24px;
+    width: 200px;
+    height: 200px;
+    line-height: 37px;
+    z-index: 1;
+  }
+
+  .navBurger {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+  }
+  
+  .burger-menu-dropdown-header {
+    background-color: #2f3330;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+  }
+  @media (max-width: 880px) {
+    .burger-menu {
+        display: block;
+        padding: 43px;
+    }.btnNavBar {
+      font-size: 18px;
+    }.dropbtn {
+      font-size: 18px;
+    }.dropdown-content { 
+      min-width: 120px;
+      height: auto;
+      padding: 0 6px;
+    }.projetsLink {
+      width: auto;
+      height: 40px;
+      font-size: 18px;
+    }
+  }

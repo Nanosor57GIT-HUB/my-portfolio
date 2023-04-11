@@ -3,6 +3,7 @@ import "./header.css";
 import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
+import Burger from "../burger/Burger";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -27,6 +28,19 @@ const Header = () => {
     <div className={`containerHeader ${isVisible ? "header-visible" : "header-hidden"}`}>
       <Logo />
       <Navbar />
+      <a
+          href="https://www.linkedin.com/in/thierry-friedrich/"
+          rel="noreferrer"
+          target={"_blank"}
+          className=" linkedIn"
+        >
+          <img
+            src="images/LinkedIn-icon.webp"
+            className="linkedIn"
+            alt="logo_LinkedIn"
+          />
+        </a>
+      <Burger />
     </div>
   );
 };

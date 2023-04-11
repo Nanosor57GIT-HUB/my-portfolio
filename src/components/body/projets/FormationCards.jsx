@@ -19,12 +19,12 @@ const FormationCards = ({pro}) => {
 
   return (
     <div className="blockProjets1" >
-      <h1 className="titleProjets">
+      <h1 className="titleProjets1">
         Projets de formation
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="containerInfoProjets" data-aos="zoom-out-right">
+        <div className="containerInfoProjets" data-aos="zoom-out">
         <p
           className="infoProjets1"
           data-aos="zoom-in-left"
