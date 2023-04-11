@@ -36,7 +36,7 @@ margin-top: 0px;
   margin-top: 80px;
 }
 @media (max-width: 1200px) {
-  .titleProjets {
+  .titleProjets1, .titleProjets2 {
    text-align: center;
   }
 }
@@ -303,3 +303,14 @@ margin-top: 0px;
   border-radius: 10px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
+
+@media  (max-width: 600px) {
+  .infoProjets1,
+.infoProjets2 {
+  font-size: 15px;
+}
+}
+
+/* .infoProjets1,
+.infoProjets2 
+mettre à 16px sur responsive*/

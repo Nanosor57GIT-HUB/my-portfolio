@@ -20,8 +20,8 @@
 .dropDownBox:hover .dropbtn,
 .dropDownBox:focus .dropbtn,
 .dropbtn.active {
-  opacity: 0.7;
-  z-index: 1500;
+  color: #67C2A3;
+  
 }
 
 .dropDown_Arrow {
@@ -53,5 +53,5 @@
 }
 
 .projetsLink:hover {
-  opacity: 0.7 !important;
+  color: #67C2A3;
 }
