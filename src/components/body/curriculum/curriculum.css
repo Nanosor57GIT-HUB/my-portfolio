@@ -168,5 +168,9 @@
 @media  (max-width: 827px) {
   .softContainer {
 width: 100%;
+   }.liHard,
+   .liSoft,
+   .liJeSuis {
+    font-size: 15px;
    }
 }
