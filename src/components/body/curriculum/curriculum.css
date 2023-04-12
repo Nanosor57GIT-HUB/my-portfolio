@@ -40,7 +40,6 @@
   min-width: 280px;
   height: auto;
   margin-top: 30px;
- 
 }
 
 .blockPdf {
@@ -131,7 +130,7 @@
     width: 100%;
     height: auto;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: rgba(127, 255, 212, 0.1);
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
     border-radius: 5px; 
@@ -148,7 +147,7 @@
   .quiSuisJeContainer {
     width: 100%;
     height: auto;
-     margin-top: 20px; 
+     margin-top: 30px; 
   }.hardContainer {
     width: 100%;
   }.ulSoft {
@@ -172,5 +171,10 @@ width: 100%;
    .liSoft,
    .liJeSuis {
     font-size: 15px;
+   }.blockCurriculum {
+    width: 85%;
+   }.blockPdf,
+   containerPdf {
+    width: 280px;
    }
 }

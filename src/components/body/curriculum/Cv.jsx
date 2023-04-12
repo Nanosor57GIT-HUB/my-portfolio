@@ -28,7 +28,7 @@ const PdfViewer = () => {
     <div className="containerPdf" data-aos="zoom-in">
       <div className="blockPdf">
         <Document file={"pdf/CVFriedrichThierry.pdf"}>
-          <Page pageNumber={1} width={260} />
+          <Page pageNumber={1} width={240} />
         </Document>
       </div>
       <div
