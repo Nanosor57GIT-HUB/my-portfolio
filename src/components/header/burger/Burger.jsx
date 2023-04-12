@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./burger.css";
-import DropDownNav from '../header/dropDownNavigation/DropDownNav';
+import DropDownNav from '../dropDownNavigation/DropDownNav';
 import { Link } from 'react-scroll';
 
 const Burger = () => {
@@ -9,6 +9,20 @@ const Burger = () => {
   const handleMenuClick = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleCloseMenu = () => {
+      setIsOpen(false);
+    };
+
+    window.addEventListener('resize', handleCloseMenu);
+    window.addEventListener('scroll', handleCloseMenu);
+
+    return () => {
+      window.removeEventListener('resize', handleCloseMenu);
+      window.removeEventListener('scroll', handleCloseMenu);
+    };
+  }, []);
 
   return (
     <div className="burger-menu">

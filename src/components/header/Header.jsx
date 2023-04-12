@@ -3,7 +3,7 @@ import "./header.css";
 import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
-import Burger from "../burger/Burger";
+import Burger from "./burger/Burger";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);

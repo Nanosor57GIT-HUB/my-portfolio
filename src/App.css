@@ -123,6 +123,8 @@
   justify-content: center;
   width: 100%;
 }
+
+.loading,
 .error {
   position: absolute;
   top: 300px;

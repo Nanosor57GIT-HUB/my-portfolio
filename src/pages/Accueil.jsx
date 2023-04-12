@@ -19,7 +19,7 @@ const Accueil = () => {
  
   return (
     <div>
-      {isLoading && <div className="loading">Traitement en cours ...</div>}
+      {isLoading && <div className="loading">Chargement en cours ...</div>}
       {error && (
         <div className="containerError">
         <div className="error">
