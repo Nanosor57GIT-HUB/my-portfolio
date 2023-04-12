@@ -18,15 +18,16 @@ const Accueil = () => {
   } = useFetch(`https://raw.githubusercontent.com/Nanosor57GIT-HUB/my-portfolio/main/public/myportfolioInline.json`);
  
   return (
-    <div>
+    <div> 
+      <div className="containerFetchDisplay">
       {isLoading && <div className="loading">Chargement en cours ...</div>}
-      {error && (
-        <div className="containerError">
+      {error && 
+       
         <div className="error">
           Ooups! une erreur est survenue pendant le chargement ...
-        </div>
-        </div>
-      )}
+        </div> 
+      }
+      </div>
 
       <ScrollIndicator />
       <Header />
