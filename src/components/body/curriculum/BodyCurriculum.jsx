@@ -9,12 +9,12 @@ const BodyCurriculum = (props) => {
   const jeSuis = props.quiSuisJe
 
   return (
-    <div id="CurriculumVitae" className="bodyCurriculum">
+    <section id="CurriculumVitae" className="bodyCurriculum">
       <img src={process.env.PUBLIC_URL + "logoCV.svg"} className="svgCurriculum"  alt="logo_projets" />
       <div className="containerCurriculum">
      { skills && <CurriculumText skills={skills} jeSuis={jeSuis} />}
       </div>
-    </div>
+    </section>
   );
 };
 

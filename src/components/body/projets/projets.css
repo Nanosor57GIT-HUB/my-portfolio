@@ -5,12 +5,6 @@
   min-height: 100vh;
    margin-top: 120px;
 }
-@media (max-width: 955px) {
-  .bodyProjets {
-margin-top: 100px;
-
-  }
-}
 
 .svgProjets {
   margin-top: 0;
@@ -35,11 +29,7 @@ margin-top: 100px;
 .titleProjets2 {
   margin-top: 80px;
 }
-@media (max-width: 1200px) {
-  .titleProjets1, .titleProjets2 {
-   text-align: center;
-  }
-}
+
 
 .numberProjets {
   font-weight: 300;
@@ -100,14 +90,9 @@ margin-top: 100px;
   justify-content: center;
   width: 100%;
   height: auto;
-  z-index: 100;
+  z-index: 15;
 }
-@media  (max-width: 827px) {
-  .containerInfoProjets,
-  .containerCards {
-    width: 93%;
-  }
-}
+
 .cards {
   width: 280px;
   height: 540px;
@@ -239,7 +224,7 @@ margin-top: 100px;
   height: 215px;
   border-radius: 10px;
   background-color: #000000;
-  z-index: 10;
+  z-index: 9;
 }
 
 .containerCover {
@@ -299,7 +284,6 @@ margin-top: 100px;
   letter-spacing: 0.07em;
   word-spacing: 2px;
   text-align: center;
-  /* margin-bottom: 20px; */
   border: 1px solid rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
@@ -315,6 +299,26 @@ margin-top: 100px;
 .infoProjets2 {
   font-size: 15px;
 }
+}
+
+@media  (max-width: 827px) {
+  .containerInfoProjets,
+  .containerCards {
+    width: 93%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .titleProjets1, .titleProjets2 {
+   text-align: center;
+  }
+}
+
+@media (max-width: 955px) {
+  .bodyProjets {
+margin-top: 100px;
+
+  }
 }
 
 /* .infoProjets1,

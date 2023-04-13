@@ -8,9 +8,19 @@ import BodyContact from "../components/body/contact/BodyContact";
 import ScrollIndicator from "../components/scroll/scrollIndicatorH/ScrollIndicator";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import BodyProjets from "../components/body/projets/BodyProjets";
+//import SideMenu from "../components/scroll/scrollLatéral/SideMenu";
+import SideBar from "../components/scroll/scrollSideBar/SideBar";
 
 //https://www.youtube.com/watch?v=517npPWIb8Q&pp=ugMICgJmchABGAE%3D   (deploy)
 const Accueil = () => {
+
+  // const anchors = [
+  //   { id: 'Accueil-1', label: "section 1" },
+  //   { id: 'CurriculumVitae-2', label: "section 2" },
+  //   { id: 'Projets-3', label: "section 3" },
+  //   { id: 'Contact-4', label: "section 4" },
+  // ];
+
   const {
     data: portfolio,
     error,
@@ -32,10 +42,12 @@ const Accueil = () => {
       <ScrollIndicator />
       <Header />
       <BodyAccueil />
-      {portfolio && <BodyCurriculum compétences={portfolio.skills} quiSuisJe={portfolio.je_suis} />}
-      {portfolio && <BodyProjets projets={portfolio} />}
+      { portfolio && <BodyCurriculum compétences={portfolio.skills} quiSuisJe={portfolio.je_suis} /> }
+      { portfolio && <BodyProjets projets={portfolio} /> }
       <BodyContact />
-      <ScrollAnchor />
+      <ScrollAnchor /> 
+      <SideBar />
+      {/* { anchors&& <SideMenu anchors={anchors} /> } */}
       <Footer />
     </div>
   );

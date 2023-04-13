@@ -9,6 +9,7 @@
   width: 100%;
   height: auto;
   transition: opacity 0.2s;
+  z-index: 20;
 }
 
 .header-visible {
@@ -52,23 +53,6 @@
   height: auto;
 }
 
-
-
-
-/* @media (max-width: 880px) {
-  .containerNavLink { 
-    justify-content: center;
-    margin-top: 50px;
-  }.containerLogoPortfolio {
-    display: flex;
-   justify-content: center;
-   margin-top: 90px;
-   padding-left: 100px;
-  }.containerHeader {
-    flex-direction: column-reverse;
-  }
-} */
-
 .btnNavBar {
   width: auto;
   height: 37px;
@@ -87,7 +71,6 @@
 
 .linkedIn {
   position: fixed;
-  /* position: absolute;*/
   top: 70px;
   right: 40px; 
   width: auto;

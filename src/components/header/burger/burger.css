@@ -46,7 +46,6 @@
     height: 200px;
     line-height: 37px;
     margin-top: 70px;
-  
     z-index: 1;
   }
 
@@ -68,8 +67,6 @@
   @media (max-width: 880px) {
     .burger-menu {
         display: block;
-        /* padding: 36px; */
-        /* margin: 30px; */
         margin-right: 43px;
     }.btnNavBar {
       font-size: 18px;

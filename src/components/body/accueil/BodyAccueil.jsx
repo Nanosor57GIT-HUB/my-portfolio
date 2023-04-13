@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 //https://www.freecodecamp.org/french/news/react-context-pour-debutants/
 
 const BodyAccueil = () => {
+
   function animateLetters(textRef) {
     const letters = textRef.current.textContent.split("");
 
@@ -31,7 +32,7 @@ const BodyAccueil = () => {
   }, []);
 
   return (
-    <div id="accueil" className="bodyAccueil">
+    <section id="/" className="bodyAccueil">
       <div className="containerBody">
         <div className="containerTitlePortfolio">
           <h1 className="titlePortfolio notranslate" ref={textRef}>
@@ -40,7 +41,7 @@ const BodyAccueil = () => {
           <span className="responsiveText">( For PC & Tablet )</span>
         </div>
         <div className="containerText">
-          <section className="presentation">  <img
+          <div className="presentation">  <img
               src={process.env.PUBLIC_URL + "./images/portrait.webp"}
               alt="Mon_portrait"
               className="portrait"
@@ -55,10 +56,10 @@ const BodyAccueil = () => {
               défis dans le développement logiciel.
             </p>
           
-          </section>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

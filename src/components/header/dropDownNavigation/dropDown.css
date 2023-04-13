@@ -2,6 +2,7 @@
 
 .dropDownBox {
   z-index: 1500;
+  background-color: transparent;
 }
 .dropbtn {
   display: flex;

@@ -1,6 +1,5 @@
 .btnAnchor {
   display: block;
- 
   position: fixed;
   right: 0;
   bottom: 0;
@@ -17,6 +16,7 @@
   cursor: pointer;
   -webkit-animation: animAnchor 0.7s ease-in-out;
   animation: animAnchor 0.7s ease-in-out;
+  z-index: 10;
 }
 @keyframes animAnchor {
   0% {
@@ -25,11 +25,6 @@
   }
   100% {
     opacity: 1;
-  }
-}
-@media (max-width: 800px) {
-  .btnAnchor {
-  display: none;
   }
 }
 
@@ -45,4 +40,10 @@
 .textBtnAncre {
   color: #060626;
   font-size: 11px;
+}
+
+@media (max-width: 800px) {
+  .btnAnchor {
+  display: none;
+  }
 }
