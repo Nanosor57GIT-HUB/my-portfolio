@@ -161,7 +161,7 @@
   height: 60px;
 }
 
-.containerCards .contentCards .linkProjets {
+ .linkProjets {
   position: relative;
   display: inline-block;
   width: 110px;
@@ -292,6 +292,15 @@
   color: aquamarine;
   border-radius: 10px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 660px) {
+  .description {
+    height: auto;
+    font-size: 14px;
+  }.cards {
+    height: 400px;
+  }
 }
 
 @media  (max-width: 600px) {

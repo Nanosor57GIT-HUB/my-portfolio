@@ -312,6 +312,10 @@ label {
 @media (max-width: 660px) {
  .svgContact {
     margin-left: 0;
+  }.btn_contact {
+    width: 80px;
+    height: 20px;
+    font-size: 14px;
   }
 }
 
