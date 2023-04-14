@@ -29,8 +29,8 @@ const FormationCards = ({pro}) => {
           className="infoProjets1"
           data-aos="zoom-in-left"
         >
-          Au cours de ma formation de développeur d'application JavaScript/React
-          chez OpenClassrooms, j'ai réalisé 14 projets basé sur des cas réels en entreprise avec des énnoncés composés de tenant , d'aboutissants et  d'échange de mails avec les différents Collaborateurs/Clients. Cette formation s'est déroulée en distanciel incluant un
+          Au cours de ma formation de développeur d'application JavaScript / React
+          chez OpenClassrooms, j'ai réalisé 14 projets basé sur des cas réels en entreprise avec des énnoncés composés de tenant , d'aboutissants et  d'échange de mails avec les différents Collaborateurs / Clients. Cette formation s'est déroulée en distanciel incluant un
           mentorat de 45 minutes par semaine et une plateforme "d'entraide".
           Les projets ont étaient réalisés avec divers technologies et frameworks, ce qui m'a
           permis de développer mes compétences en programmation web. Les

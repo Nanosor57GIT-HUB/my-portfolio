@@ -15,7 +15,7 @@ const SideBar = () => {
   const handleScroll = () => {
     const secondLink = document.getElementById("CurriculumVitae");
     if (secondLink) {
-      const linkTop = secondLink.getBoundingClientRect().top;
+      const linkTop = secondLink.getBoundingClientRect().top >= 20;
       if (linkTop <= 0) {
         setShowAnchor(true);
       } else {
@@ -55,7 +55,7 @@ const SideBar = () => {
               to={link.to}
               spy={true}
               smooth={true}
-              // offset={-70}
+             //  offset={-70}
               duration={800} 
             >
               {/* {link.label} */}

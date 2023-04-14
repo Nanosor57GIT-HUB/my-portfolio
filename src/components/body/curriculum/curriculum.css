@@ -171,6 +171,7 @@ width: 100%;
    .liSoft,
    .liJeSuis {
     font-size: 15px;
+    text-align: justify;
    }.blockCurriculum {
     width: 85%;
    }.blockPdf,
