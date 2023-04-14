@@ -45,13 +45,13 @@ const FormationCards = ({pro}) => {
           <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
             <div className="card" >            
-              <div className="containerCover">
+              {/* <div className="containerCover">
                 <img
                   src={item.cover}
                   className="coverProjets"
                   alt={item.title}
                 />
-              </div>
+              </div> */}
               <div className="contentCards">
                 <h2 className="position">{item.position}</h2>
                 <img src={item.logo} alt={item.title} className="logoProjets" />
