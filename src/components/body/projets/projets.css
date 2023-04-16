@@ -118,35 +118,34 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(3px);
   /* transform: rotateZ(4deg); */
-  /* transform: rotate3d(1, 0, 0, 40deg);
-  transition-duration: 0.7s; */
+  transform: rotate3d(1, 0, 0, 40deg);
+  transition-duration: 0.7s;
 }
 
 .containerCards .card .contentCards {
   width: 280px;
    height: 700px; 
- 
   padding: 10px;
   text-align: center;
-  /* transform: translateY(0px); */
-  /* opacity: 0;
-  transition: 0.5s; */
+   transform: translateY(0px); 
+   opacity: 0;
+  transition: 0.5s; 
   cursor: pointer;
 }
 
-/* .containerCards .card:hover .contentCards {
+.containerCards .card:hover .contentCards {
   transform: translateY(190px);
   opacity: 1;
-} */
+}
 
-/* .containerCards .card:hover .coverProjets {
+.containerCards .card:hover .coverProjets {
   opacity: 0;
-} */
+}
 
-/* .card:hover {
+.card:hover {
   transform: rotateZ(0deg);
   border: none;
-} */
+}
 
 .containerCards .card .contentCards h2 {
   position: absolute;
@@ -206,8 +205,7 @@
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   letter-spacing: 0.07em;
-  word-spacing: 2px;
-  text-justify: auto;
+  word-spacing: 1px;
   text-align: left;
   color: aquamarine;
   background-color: rgba(0, 0, 0, 0.4);
@@ -223,6 +221,7 @@
 .detailsProjet:hover {
   width: 260px;
   height: 215px;
+ 
   border-radius: 10px;
   background-color: #000000;
   z-index: 9;
@@ -301,28 +300,31 @@
     font-size: 14px;
   }.cards {
     height: 400px;
-   }/* .containerCards .card {
-    transform: none;
-    transition-duration: 0s;
-  }*/.containerCards .card .contentCards h2 { 
+   }
+  .containerCards .card .contentCards h2 { 
     color: rgba(127, 255, 212, 0.5);
-   margin-top: 40px;
+   margin-top: 35px;
   }.containerCards .card .contentCards {
-    opacity: 1;
-    height: 150px;
-    /* transform: translateY(180px); */
+    height: 700px;
+    transform: translateY(0px);
     z-index: 20;
+    
   }.linkProjets {
     padding: 4px 10px;
     margin: 10px 5px;
     background-color: rgb(82, 88, 49);
   }.containerTechnologies {
     margin: 0;
-  }.coverProjets {
-    opacity: 0.2;
-   } .detailsProjet {
-    display: none;
-  }
+  }.containerCover {
+    opacity: 0.7;
+   }.detailsProjet:hover {
+    font-size: 14px;
+    padding: 5px;
+    height: 195px;
+   }img {
+    max-width: 100%;
+    height: auto;
+}
 }
 
 @media  (max-width: 600px) {
@@ -351,7 +353,3 @@ margin-top: 100px;
 
   }
 }
-
-/* .infoProjets1,
-.infoProjets2 
-mettre à 16px sur responsive*/

@@ -13,7 +13,7 @@
  margin-top: 20px;
  margin-left: 20px;
   width: 13%;
-  min-width: 150px;
+  min-width: 120px;
   height: auto;
 }
 
@@ -22,7 +22,7 @@
   flex-direction: column;
   align-items: center;
    width: 100%;
-   min-height: 85vh;
+   min-height: 70vh;
    margin-top: 55px; 
 }
 
@@ -34,6 +34,7 @@
   min-width: 285px;
   max-width: 680px;
   min-height: 460px;
+  max-height: 500px;
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.07em;
   justify-content: space-evenly;
@@ -167,13 +168,12 @@ label {
   flex-direction: column;
   align-items: center;
   width: 100%; 
-  min-height: 85vh; 
+  min-height: 70vh; 
   visibility: hidden;
   opacity: 0;
   transform: scale(0.3);
   transition: opacity 0.2s, visibility 0.3s, transform 0.3s;
   z-index: 200;
-
 }
 
 .container-modal.active {
@@ -195,13 +195,13 @@ label {
   width: 45%;
   min-width: 285px;
   max-width: 680px;
-  min-height: 467px;
+  min-height: 460px;
+  max-height: 500px;
   background-color: #2f3330;
   border-radius: 10px;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
   z-index: 110;
-  /* opacity: 0.3; */
 }
 
 .internBorder {
@@ -276,7 +276,7 @@ label {
 }
 
 .confirmText {
-  margin: 40px;
+  margin: 20px;
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Playfair Display', serif;
@@ -293,28 +293,37 @@ label {
 @media (max-width: 1130px) { 
   .titleBlockForm {
     font-size: 24px;
+  }.confirmText {
+    font-size: 1.1rem;
   }
  }
 
  @media  (max-width: 827px) {
  .bodyContact {
  width: 87%;
- }.blockForm {
+ }/*.blockForm {
   width: 200px;
- }.titleBlockForm {
+ }*/.titleBlockForm {
   font-size: 20px;
  }input {
   font-size: 14px;
- }
+ }.confirmText {
+  font-size: 1rem;
+}
  }
 
 @media (max-width: 660px) {
  .svgContact {
-    margin-left: 0;
+    /* margin-left: 0; */
+    margin: 20px auto 0;
   }.btn_contact {
     width: 80px;
     height: 20px;
     font-size: 14px;
+  }.containerContact {
+    margin: 55px 0 0 0;
+  }.confirmText {
+    font-size: 0.8rem;
   }
 }
 
@@ -322,6 +331,6 @@ label {
   .textarea {
     font-size: 14px;
   }.modalConfirm {
-    height: 514px;
+    height: 414px;
   }
 }

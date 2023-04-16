@@ -41,7 +41,6 @@ const Accueil = () => {
       <BodyContact />
       <ScrollAnchor /> 
       <SideBar />
-      {/* { anchors&& <SideMenu anchors={anchors} /> } */}
       <Footer />
     </div>
   );
