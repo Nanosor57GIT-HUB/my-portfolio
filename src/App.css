@@ -110,14 +110,14 @@ border: 1px solid red;
   position: absolute;
   text-align: center;
   top: 100px;
- width: 80%;
+ width: auto;
  height: auto;
  padding: 10px;
  border-radius: 10px;
   font-size: 32px; 
   font-weight: bold;
  margin-top: 80px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 1160px) {

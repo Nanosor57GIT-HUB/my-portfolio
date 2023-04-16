@@ -14,19 +14,13 @@ import SideBar from "../components/scroll/scrollSideBar/SideBar";
 //https://www.youtube.com/watch?v=517npPWIb8Q&pp=ugMICgJmchABGAE%3D   (deploy)
 const Accueil = () => {
 
-  // const anchors = [
-  //   { id: 'Accueil-1', label: "section 1" },
-  //   { id: 'CurriculumVitae-2', label: "section 2" },
-  //   { id: 'Projets-3', label: "section 3" },
-  //   { id: 'Contact-4', label: "section 4" },
-  // ];
-
   const {
     data: portfolio,
     error,
     isLoading,
   } = useFetch(`https://raw.githubusercontent.com/Nanosor57GIT-HUB/my-portfolio/main/public/myportfolioInline.json`);
- 
+// console.log(portfolio);
+
   return (
     <div> 
       <div className="containerFetchDisplay">
