@@ -126,26 +126,26 @@
   width: 280px;
   height: 700px;
   padding: 10px;
-  text-align: center;
-  transform: translateY(0px);
+  /* text-align: center;
+  transform: translateY(0px); */
   opacity: 0;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.containerCards .card:hover .contentCards {
+/* .containerCards .card:hover .contentCards {
   transform: translateY(190px);
   opacity: 1;
-}
+} */
 
-.containerCards .card:hover .coverProjets {
+/* .containerCards .card:hover .coverProjets {
   opacity: 0;
-}
+} */
 
-.card:hover {
+/* .card:hover {
   transform: rotateZ(0deg);
   border: none;
-}
+} */
 
 .containerCards .card .contentCards h2 {
   position: absolute;
@@ -319,9 +319,7 @@
     margin: 0;
   }.coverProjets {
     opacity: 0.2;
-  }.containerCards .card:hover .contentCards {
-   display: none;
-  }.detailsProjet {
+   } .detailsProjet {
     display: none;
   }
 }
