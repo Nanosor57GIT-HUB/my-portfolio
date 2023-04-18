@@ -26,7 +26,7 @@ function ScrollAnchor() {
   };
 
   return (
-    <div>
+    <div className="containerAnchor">
       {showAnchor && (
         <button onClick={handleClick} className="btnAnchor">
           <img src="images/up-arrow.svg" className="anchor" alt="Ancrage" />

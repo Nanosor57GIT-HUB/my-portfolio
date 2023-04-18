@@ -1,18 +1,17 @@
 /*FORMULAIRE */
 .bodyContact {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+display: flex;
   width: 100%;
   min-height: 85vh;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .svgContact {
- margin-top: 20px;
- margin-left: 20px;
-  width: 13%;
+  position: absolute;
+ top: 20px;
+ left: 20px;
+  width: 10%;
   min-width: 120px;
   height: auto;
 }
@@ -21,8 +20,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
    width: 100%;
    min-height: 70vh;
+   max-height: 75vh;
    margin-top: 55px; 
 }
 
@@ -31,10 +32,10 @@
   display: flex;
   flex-direction: column;
   width: 45%;
-  min-width: 285px;
+  min-width: 270px;
   max-width: 680px;
   min-height: 460px;
-  max-height: 500px;
+ 
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.07em;
   justify-content: space-evenly;
@@ -49,7 +50,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: auto;
+  min-height: 85%;
   align-items: center;
   border: 2px solid #fbd437;
   border-radius: 10px;
@@ -58,6 +59,7 @@
 .titleBlockForm {
   width: 100%;
   height: 50px;
+  line-height: 50px;
   font-size: 34px;
   text-align: center;
   color: aquamarine;
@@ -126,14 +128,13 @@ label {
   border: 1px solid black;
   border-radius: 5px;
   overflow: scroll(Y);
-   text-align: justify; 
-   /* overflow: hidden; */
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
 }
 
 .errors {
+  max-width: 210px;
   color: #fbd437;
   font-size: 12px;
   margin: 0;
@@ -284,7 +285,46 @@ label {
   color: aquamarine;
 }
 
-@media (max-width: 1343px) {
+@media (max-width: 1200px) and (min-width: 801px) {
+  .block_form {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 300px) {
+  .block_form {
+    width: 70%;
+  } .titleBlockForm {
+    font-size: 28px;
+  }input, .textarea {
+    font-size: 13px;
+  }.btn_contact {
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+  }.containerContact {
+    width: 88%;
+  }label {
+    font-size: 14px;
+  }.first_name,
+  .last_name,
+  .user_email {height: 25px;
+  } 
+}
+
+@media (max-width: 600px) {
+  .titleBlockForm {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 450px) {
+  .titleBlockForm {
+    font-size: 18px;
+  }
+}
+
+/* @media (max-width: 1343px) {
 .modalConfirm {
   height: 525px;
 }
@@ -300,10 +340,9 @@ label {
 
  @media  (max-width: 827px) {
  .bodyContact {
- width: 87%;
- }/*.blockForm {
-  width: 200px;
- }*/.titleBlockForm {
+ width: 86%;
+ 
+ }.titleBlockForm {
   font-size: 20px;
  }input {
   font-size: 14px;
@@ -314,8 +353,7 @@ label {
 
 @media (max-width: 660px) {
  .svgContact {
-    /* margin-left: 0; */
-    margin: 20px auto 0;
+  display: none;
   }.btn_contact {
     width: 80px;
     height: 20px;
@@ -333,4 +371,4 @@ label {
   }.modalConfirm {
     height: 414px;
   }
-}
+} */

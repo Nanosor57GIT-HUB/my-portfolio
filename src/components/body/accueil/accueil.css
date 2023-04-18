@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: flex-end;
   width: auto;
-  height: 110px;
+  height: 105px;
   margin: 0 auto;
 }
 
@@ -106,9 +106,9 @@
   padding: 20px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
   .containerTitlePortfolio {
-  margin-top: 100px;
+  margin-top: 50px;
   }
 }
 @media (max-width: 880px) {
@@ -128,11 +128,10 @@
     font-size: 16px;
   }
  }
+
  @media (max-width: 750px) {
   .titlePortfolio {
     font-size: 40px;
-    }.containerTitlePortfolio {
-      height: 70px;
     }
 }
 @media (max-width: 530px) {

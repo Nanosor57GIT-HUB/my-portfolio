@@ -2,6 +2,7 @@ import React from "react";
 import "./projets.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LazyLoad from "react-lazy-load";
 import { Link } from "react-router-dom";
 
 AOS.init({
@@ -46,12 +47,14 @@ const FormationCards = ({pro}) => {
             <p className="description">{item.description}</p>
             <div className="card" >            
               <div className="containerCover">
+                <LazyLoad height={400} width={280} offset={300}>
                 <img
                   src={item.cover}
                   className="coverProjets"
                   alt={item.title}
-                  width="280" height="400"
+                  // width="280" height="400"
                 />
+                </LazyLoad>
               </div>
               <div className="contentCards">
                 <h2 className="position">{item.position}</h2>

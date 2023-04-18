@@ -27,14 +27,14 @@ margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 320px;
+  width: 280px;
   margin-left: 20px;
   height: 15vh;
 }
 
 .logoDev {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 @media (max-width: 1200px) {
