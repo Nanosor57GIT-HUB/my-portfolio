@@ -13,11 +13,6 @@ const Modal = (props) => {
   return (
     <div className={`container-modal ${toggle ? "active" : ""}`}>
       <div className="modalConfirm">
-        {/* <img
-          src="images/bgConfirm.jpg"
-          className="bgConfirm"
-          alt="bgdark"
-        ></img> */}
         <div className="internBorder">
           <div className="ContainerCloseModal">
             <Link

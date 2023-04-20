@@ -49,7 +49,7 @@ const PersonnelCards = ({perso}) => {
            <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
           <div className="card" >
-            <div className="containerCover">
+            <div className="containerCover" data-aos="fade" data-aos-anchor-placement="top-bottom">
               <img
                 src={item.cover}
                 className="coverProjets"

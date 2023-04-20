@@ -33,7 +33,7 @@ const BodyAccueil = () => {
 
   return (
     <section id="/" className="bodyAccueil">
-      <div className="containerBody">
+      <div className="containerAccueil">
         <div className="containerTitlePortfolio">
           <h1 className="titlePortfolio notranslate" ref={textRef}>
             Portfolio Professionnel
@@ -41,7 +41,8 @@ const BodyAccueil = () => {
           <span className="responsiveText">( For PC & Tablet )</span>
         </div>
         <div className="containerText">
-          <div className="presentation">  <img
+          <div className="presentation">  
+          <img
               src={process.env.PUBLIC_URL + "./images/portrait.webp"}
               alt="Mon_portrait"
               className="portrait"

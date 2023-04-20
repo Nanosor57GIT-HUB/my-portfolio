@@ -58,7 +58,7 @@ const FormContact = () => {
   };
 
   const resetErrors = () => {
-    const formContact = document.getElementById("contact");
+    const formContact = document.getElementById("ResetErrorsContact");
     if (formContact) {
       const formRect = formContact.getBoundingClientRect();
       const isVisible =
@@ -116,9 +116,8 @@ useEffect(() => {
   }
 
   return (
-    <div id="contact" className="containerContact">
-      {/* <h1 className="titleContact">Contact</h1> */}
-      <div className="block_form">
+  
+      <div id="ResetErrorsContact" className="block_form">
         <h2 className="titleBlockForm">Besoin d'en savoir plus ?</h2>
         <form ref={form} autoComplete="OFF" className="form" onSubmit={sendEmail}>
           <div className="containerInput">
@@ -192,9 +191,10 @@ useEffect(() => {
             Envoyez
           </button>
         </form>
+        <Modal toggle={modalState} action={closeModal} />
       </div>
-      <Modal toggle={modalState} action={closeModal} />
-    </div>
+      
+   
   );
 };
 

@@ -1,10 +1,11 @@
-/*FORMULAIRE */
+/*FORMULAIRE CONTACT */
 .bodyContact {
   position: relative;
 display: flex;
+align-items: center;
+justify-content: center;
   width: 100%;
-  min-height: 85vh;
-  /* margin-top: 50px; */
+ min-height: 85vh;
 }
 
 .svgContact {
@@ -12,59 +13,51 @@ display: flex;
  top: 20px;
  left: 20px;
   width: 10%;
-  min-width: 120px;
+  min-width: 110px;
   height: auto;
 }
 
-.containerContact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-   width: 100%;
-   min-height: 70vh;
-   max-height: 75vh;
-   margin-top: 55px; 
-}
-
+/* modale formulaire */
 .block_form {
-  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
   width: 45%;
   min-width: 270px;
   max-width: 680px;
-  min-height: 460px;
- 
+  min-height: 446px; 
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.07em;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 15px;
+  padding: 0 15px 15px 15px;
   border-radius: 10px;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 85%;
-  align-items: center;
-  border: 2px solid #fbd437;
-  border-radius: 10px;
-}
-
 .titleBlockForm {
   width: 100%;
-  height: 50px;
-  line-height: 50px;
+  height: auto;
+  padding: 5px;
   font-size: 34px;
   text-align: center;
   color: aquamarine;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  width: 100%;
+  min-height: 85%;
+  border: 2px solid #fbd437;
+  border-radius: 10px;
+}
+/**********************************/
+
+
+/* container formulaire */
 .containerInput {
   width: 90%;
   height: auto;
@@ -118,6 +111,7 @@ label {
 .textarea {
   display: flex;
   width: 90%;
+  min-height: 136px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -141,9 +135,9 @@ label {
 }
 
 .btn_contact {
-  width: 120px;
-  height: 40px;
-  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
   font-weight: 500;
   margin: 15px 35%;
   border-radius: 10px;
@@ -156,11 +150,10 @@ label {
 .btn_contact:hover {
   box-shadow: 0px 0px 2px 2px rgba(255, 212, 55, 0.5);
 }
+/***************************************/
+
 
 /*MODAL Confirm*/
-
-
-
 .container-modal {
   position: absolute;
   bottom: 0;
@@ -288,14 +281,22 @@ label {
 @media (max-width: 1200px) and (min-width: 801px) {
   .block_form {
     width: 60%;
+  }.titleBlockForm {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 800px) {
+   .titleBlockForm {
+    font-size: 24px;
   }
 }
 
 @media (max-width: 800px) and (min-width: 300px) {
-  .block_form {
+  .bodyContact {
+    margin-top: 30px;
+  }.block_form {
     width: 70%;
-  } .titleBlockForm {
-    font-size: 28px;
   }input, .textarea {
     font-size: 13px;
   }.btn_contact {
@@ -309,12 +310,14 @@ label {
   }.first_name,
   .last_name,
   .user_email {height: 25px;
-  } 
+  } .errors {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 600px) {
   .titleBlockForm {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -323,52 +326,3 @@ label {
     font-size: 18px;
   }
 }
-
-/* @media (max-width: 1343px) {
-.modalConfirm {
-  height: 525px;
-}
-}
-
-@media (max-width: 1130px) { 
-  .titleBlockForm {
-    font-size: 24px;
-  }.confirmText {
-    font-size: 1.1rem;
-  }
- }
-
- @media  (max-width: 827px) {
- .bodyContact {
- width: 86%;
- 
- }.titleBlockForm {
-  font-size: 20px;
- }input {
-  font-size: 14px;
- }.confirmText {
-  font-size: 1rem;
-}
- }
-
-@media (max-width: 660px) {
- .svgContact {
-  display: none;
-  }.btn_contact {
-    width: 80px;
-    height: 20px;
-    font-size: 14px;
-  }.containerContact {
-    margin: 55px 0 0 0;
-  }.confirmText {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 731px) {
-  .textarea {
-    font-size: 14px;
-  }.modalConfirm {
-    height: 414px;
-  }
-} */
