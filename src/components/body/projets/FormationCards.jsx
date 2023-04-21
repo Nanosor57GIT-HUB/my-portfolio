@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
 AOS.init({
-  duration: 600,
+  duration: 100,
   once: false,
 });
 
@@ -45,7 +45,7 @@ const FormationCards = ({pro}) => {
         {pro.map((item) => (
           <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
-            <div className="card" data-aos="fade" data-aos-anchor-placement="top-bottom"  data-aos-duration="100">            
+            <div className="card" data-aos="fade" data-aos-anchor-placement="top-bottom">            
               <div className="containerCover" >
               
                 <img
