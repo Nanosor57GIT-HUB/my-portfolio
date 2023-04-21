@@ -52,7 +52,7 @@ const FormationCards = ({pro}) => {
                   src={item.cover}
                   className="coverProjets"
                   alt={item.title}
-                   width="280" height="400"
+                  style={{ width: 280, height: 400,}}
                 />
               
               </div>
