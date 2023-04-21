@@ -168,6 +168,7 @@ label {
   transform: scale(0.3);
   transition: opacity 0.2s, visibility 0.3s, transform 0.3s; */
   z-index: 200;
+  opacity: 0.3;
 }
 
 .container-modal.active {
@@ -267,7 +268,6 @@ label {
 .imgModal {
   width: 40%;
   height: 100%;
-  border: 1px solid blue;
 }
 
 .confirmText {
