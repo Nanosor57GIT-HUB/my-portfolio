@@ -45,8 +45,8 @@ const FormationCards = ({pro}) => {
         {pro.map((item) => (
           <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
-            <div className="card" >            
-              <div className="containerCover" data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-offset="200">
+            <div className="card" data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-offset="100">            
+              <div className="containerCover" >
               
                 <img
                   src={item.cover}
