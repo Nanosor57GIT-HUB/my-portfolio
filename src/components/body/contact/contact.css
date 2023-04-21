@@ -324,5 +324,7 @@ label {
 @media (max-width: 450px) {
   .titleBlockForm {
     font-size: 18px;
+  }.bodyContact {
+    width: 87%;
   }
 }

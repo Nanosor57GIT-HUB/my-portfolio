@@ -18,6 +18,7 @@ const FormationCards = ({pro}) => {
 
 
   return (
+    <div className="containerProjets">
     <div className="blockProjets1" >
       <h1 className="titleProjets1">
         Projets de formation
@@ -45,7 +46,7 @@ const FormationCards = ({pro}) => {
           <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
             <div className="card" >            
-              <div className="containerCover" data-aos="fade" data-aos-anchor-placement="top-bottom">
+              <div className="containerCover" data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-offset="400">
               
                 <img
                   src={item.cover}
@@ -99,6 +100,7 @@ const FormationCards = ({pro}) => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

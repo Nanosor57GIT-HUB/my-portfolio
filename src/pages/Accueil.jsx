@@ -16,14 +16,14 @@ const Accueil = () => {
   const {
     data: portfolio,
     error,
-    isLoading,
+   // isLoading,
   } = useFetch(`https://raw.githubusercontent.com/Nanosor57GIT-HUB/my-portfolio/main/public/myportfolioInline.json`);
 // console.log(portfolio);
 
   return (
     <div> 
       <div className="containerFetchDisplay">
-      {isLoading && <div className="loading">Chargement en cours ...</div>}
+      {/* {isLoading && <div className="loading"></div>} */}
       {error && 
        
         <div className="error">

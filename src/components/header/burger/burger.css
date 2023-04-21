@@ -70,14 +70,23 @@
     padding: 8px;
     text-align: center;
   }
-  @media (max-width: 800px) {
+
+  @media (max-width: 990px) {
     .burger-menu {
         display: block; 
-    }.btnNavBar {
-      font-size: 18px;
+    }
+    .navBurger {
+      height: 170px;
+    }
+    .btnNavBar {
+      display: flex;
+      align-items: center;
+      font-size: 15px;
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 7px;
-      width: 150px
+      width: auto;
+      height: 30px;
+      padding: 10px;
     }.btnNavBar.active {
       background-color: rgba(127, 255, 212, 0.2);
       border-radius: 15px;
@@ -86,18 +95,31 @@
      display: flex;
      flex-direction: row;
      justify-content: center;
-      font-size: 18px;
+      font-size: 15px;
       width: 150px;
+      width: auto;
+      height: 30px;
+      padding: 10px;
       border-radius: 7px;
       border: 1px solid rgba(255, 255, 255, 0.5);
     }.dropdown-content { 
       align-items: center;
-      min-width: 150px;
+      min-width: 135px;
       height: auto;
       padding: 0 6px;
     }.projetsLink {
+      display: flex;
+      align-items: center;
       width: auto;
-      height: 40px;
-      font-size: 18px;
+      height: 30px;
+      font-size: 15px;
     }
+  }
+
+  @media (max-width: 475px) {
+    .burger-menu-button {
+  right: 90px;
+}.navBurger {
+  margin-top: 60px;
+}
   }

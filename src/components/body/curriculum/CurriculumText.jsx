@@ -14,6 +14,7 @@ const CurriculumText = ({skills, jeSuis}) => {
  
 
   return (
+   
     <div className="blockCurriculum">
       <div className="hardContainer" data-aos="zoom-in-right">
         <h1 className="titleSkills">Compétences Hard-Skills</h1>
@@ -44,6 +45,7 @@ const CurriculumText = ({skills, jeSuis}) => {
             </ul>
           </div>
     </div>
+    
   );
 };
 

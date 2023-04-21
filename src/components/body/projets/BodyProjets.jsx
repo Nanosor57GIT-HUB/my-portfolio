@@ -14,11 +14,10 @@ const BodyProjets = ({projets}) => {
     <section id="Projets" className="bodyProjets">
       
       <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjets"  alt="logo_projets" />
-      
-      <div className="containerProjets">
+        
      {pro && <FormationCards pro={pro} />}
      {perso && <PersonnelCards perso={perso} />}
-    </div>
+  
     </section>
   );
 };

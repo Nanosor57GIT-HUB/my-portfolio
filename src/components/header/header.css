@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   height: 20vh;
   transition: opacity 0.2s;
@@ -21,35 +21,37 @@
   visibility: hidden;
 }
 
-.containerNav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  width: 650px;
-  height: auto;
-}
-
 .containerLogoPortfolio {
+  position: absolute;
+  top: 0;
+  left: 30px;
   width: 25%;
-  height: auto ;
+  height: 20vh ;
 }
 
 .logo {
-  width: 15%;
-  min-width: 240px;
+  width: 240px;
+  min-width: 230px;
   height: auto;  
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 30px;
 }
 
-/*Mettre un burger à 880*/
 .containerNavLink {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;  
   width: 850px;
+  height: 20vh;
+}
+
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 650px;
   height: auto;
 }
 
@@ -69,9 +71,18 @@
   text-shadow: 4px 1px 2px rgba(0, 53, 63, 0.4);
 }
 
+.btnNavBar.active {
+  border-bottom: 2px solid #fbd437;
+  border-radius: 7px;
+  color: #fbd437 !important;
+  opacity: 1 !important;
+  text-shadow: 1px 2px 5px #00353f;
+  -webkit-text-stroke: 0.01vw #00353f;
+}
+
 .linkedIn {
   position: fixed;
-  top: 60px;
+  top: 55px;
   right: 60px; 
   width: auto;
   height: 37px;
@@ -83,14 +94,6 @@
   box-shadow: -1px -2px 5px 2px rgba(255, 255, 255, 0.5);
 }
 
-.btnNavBar.active {
-  border-bottom: 2px solid #fbd437;
-  border-radius: 7px;
-  color: #fbd437 !important;
-  opacity: 1 !important;
-  text-shadow: 1px 2px 5px #00353f;
-  -webkit-text-stroke: 0.01vw #00353f;
-}
 
 @media (max-width: 1160px) {
   .containerNavLink {
@@ -99,16 +102,25 @@ justify-content: center;
 margin-left: 120px;
   }.containerLogoPortfolio {
     width: 100%;
-  }.linkedIn {
-    top: 25px;
   }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 990px) {
   .containerNavLink {
     width: 798px;
     display: none;
   }.containerLogoPortfolio {
     width: 35%;
   }
+  .linkedIn {
+    top: 25px;
+  }
+}
+
+@media (max-width: 475px) {
+.logo {
+  margin-left: 5px;
+}.linkedIn {
+  right: 40px;
+}
 }

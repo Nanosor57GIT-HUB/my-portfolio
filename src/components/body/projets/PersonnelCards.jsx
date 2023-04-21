@@ -28,6 +28,7 @@ const PersonnelCards = ({perso}) => {
 
 
   return (
+    <div className="containerProjets">
     <div className="blockProjets2" id="perso">
       <h1 className="titleProjets2">
         Projets personnels
@@ -104,6 +105,7 @@ const PersonnelCards = ({perso}) => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

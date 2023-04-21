@@ -13,7 +13,7 @@ const BodyCurriculum = (props) => {
       <img src={process.env.PUBLIC_URL + "logoCV.svg"} className="svgCurriculum"  alt="logo_projets" />
       <div className="containerCurriculum">
      { skills && <CurriculumText skills={skills} jeSuis={jeSuis} />}
-      </div>
+    </div>
     </section>
   );
 };
