@@ -9,9 +9,9 @@
 .svgProjets {
   margin-top: 0;
   margin-left: 20px;
-  width: 13%;
+  width: 10%;
   min-width: 75px;
-  height: auto;
+  height: 100%;
 }
 
 .titleProjets1,
@@ -253,11 +253,12 @@
   width: 30%;
   height: auto;
   padding: 3px;
+ 
 }
 
 .logoTechno {
-  width: 40%;
-  height: auto;
+  width: 50%;
+  height: 80%;
 }
 
 .description {
