@@ -27,63 +27,40 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
   height: auto;
-}
-
-.containerPdf {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-width: 260px;
-  height: auto;
-}
-
-.blockPdf {
-  background-color: rgba(117, 107, 133, 0.2);
- padding: 10px;
-  border-radius: 10px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.5);
   
 }
 
-.containerBtnCV {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 60px;
-  margin: 0;
-}
 
-.lookCVbtn {
-  width: auto;
-  height: 30px;
-  line-height: 10px;
-  font-size: 16px;
-  color: aquamarine;
-  background-color: rgba(255, 212, 55, 0.2);
-  border: 1px solid #ffe062;
-  border-radius: 10px;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.lookCVbtn:hover {
-  box-shadow: 0px 0px 2px 2px rgba(255, 212, 55, 0.5);
-}
-
-/*TEXT container*/
-
+/* CONTENT CURRICULUM */
 .hardContainer {
-  width: 700px;
+  width: 50%;
   height: auto;
   padding: 10px;
   background-color: rgba(127, 255, 212, 0.1);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+}
+
+.softContainer {
+  width: 20%;
+  height: auto;
+  padding: 10px;
+  background-color: rgba(127, 255, 212, 0.1);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+
+.quiSuisJeContainer {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-top: 60px;
+  background-color: rgba(127, 255, 212, 0.1);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 5px; 
 }
 
 .titleSkills,
@@ -115,33 +92,64 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.softContainer {
-  width: 250px;
+
+
+/* PDF */
+.containerPdf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 260px;
   height: auto;
+}
+
+.blockPdf {
+  width: 100%;
+  background-color: rgba(117, 107, 133, 0.2);
+ padding: 10px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.containerBtnCV {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+}
+
+.lookCVbtn {
+  width: auto;
+  height: 30px;
+  line-height: 10px;
+  font-size: 16px;
+  color: aquamarine;
+  background-color: rgba(255, 212, 55, 0.2);
+  border: 1px solid #ffe062;
+  border-radius: 10px;
   padding: 10px;
-  background-color: rgba(127, 255, 212, 0.1);
-  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  cursor: pointer;
 }
 
-
-
-.quiSuisJeContainer {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin-top: 60px;
-    background-color: rgba(127, 255, 212, 0.1);
-    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
-    border-radius: 5px; 
+.lookCVbtn:hover {
+  box-shadow: 0px 0px 2px 2px rgba(255, 212, 55, 0.5);
 }
+/* ******* END PDF ******** */
+
+/* ********** END CONTENT CURRICULUM  ************ */
+
+
 
  @media  (max-width: 1350px) and (min-width: 801px) {
   .containerTextPdf {
     justify-content: space-evenly;
   } .blockPdf {
-    padding: 20px;
-    margin: 20px;
+    margin-top: 29px;
   }
    .softContainer,
   .quiSuisJeContainer {
@@ -167,7 +175,10 @@
 @media (max-width: 800px) and (min-width: 320px) {
   .bodyCurriculum {
     margin-top: 0;
-  }.containerCurriculum {
+  }.hardContainer {
+    width: 100%;
+  }
+  .containerCurriculum {
     margin-top: 10px;
   }.blockPdf {
     margin-top: 60px;
@@ -186,7 +197,10 @@ width: 100%;
     text-align: justify;
    }.blockCurriculum {
     width: 85%;
-   }.containerPdf {
+   }.blockPdf {
+    width: 283px;
+   }
+   .containerPdf {
     width: 100%;
    }
 }
