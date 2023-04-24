@@ -2,4 +2,7 @@ import React from "react";
 
 const DataContext = React.createContext();
 
-export default DataContext;
+const DataContextProvider = DataContext.Provider;
+
+export { DataContext, DataContextProvider };
+
