@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./projets.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,10 +14,16 @@ AOS.init({
 
 //https://devtrium.com/posts/async-functions-useeffect
 
+//   https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=devtools
+
+// localstorage      https://www.youtube.com/watch?v=vRDGUUEg_n8
+//   https://youtu.be/siVVovFRzfw
+//    https://www.freecodecamp.org/french/news/comment-utiliser-le-localstorage-avec-les-hooks-de-react-pour-enregister-et-afficher-des-elements/
 
 const FormationCards = ({pro}) => {
-
-
+  // const data = useContext(DataContext);
+  // const pro = data.pro;
+ 
   return (
     <div className="containerProjets">
     <div className="blockProjets1" >
@@ -45,7 +52,7 @@ const FormationCards = ({pro}) => {
         {pro.map((item) => (
           <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
-            <div className="card" data-aos="fade" data-aos-anchor-placement="top-bottom">            
+            <div className="card" >            
               <div className="containerCover" >
               
                 <img

@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 //import useFetch from "../../service/UseFetch";
 import { Link } from "react-router-dom";
-//import { DataContext } from "./DataContext";
+
 
 
 AOS.init({
@@ -13,6 +13,9 @@ AOS.init({
 });
 
 const PersonnelCards = ({perso}) => {
+
+  
+  /****************************************************************************** */
   
  // const { persoData, setPersoData } = useContext(DataContext);
 
@@ -49,7 +52,7 @@ const PersonnelCards = ({perso}) => {
         {perso.map((item) => (
            <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
-          <div className="card" data-aos="fade" data-aos-anchor-placement="top-bottom">
+          <div className="card" >
             <div className="containerCover" >
               <img
                 src={item.cover}

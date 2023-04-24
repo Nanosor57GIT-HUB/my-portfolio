@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PdfViewer from "./Cv";
+import DataContext from "../../../contexts/DataContext";
 
 AOS.init({
   duration: 600,
   once: false,
 });
 
-const CurriculumText = ({skills, jeSuis}) => {
-  //console.log(skills);
-  //console.log(jeSuis);
- 
+const CurriculumText = () => {
+
+  const data = useContext(DataContext);
+  console.log(data.skills);
+  const skills = data.skills;
+  const jeSuis = data.je_suis;
 
   return (
    
