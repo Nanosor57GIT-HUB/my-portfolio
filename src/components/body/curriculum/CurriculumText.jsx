@@ -5,7 +5,7 @@ import PdfViewer from "./Cv";
 //import DataContextProvider from "../../../contexts/DataContext";
 
 AOS.init({
-  duration: 600,
+  duration: 300,
   once: false,
 });
 

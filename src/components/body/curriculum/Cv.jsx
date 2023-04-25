@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `pdf.worker.min.js`;
 
 AOS.init({
-  duration: 800,
+  duration: 300,
   once: "false",
 });
 
@@ -37,7 +37,7 @@ const PdfViewer = () => {
         data-aos-duration="600"
         data-aos-easing="ease-in-sine"
       >
-        <button className="lookCVbtn" onClick={handleOpenPdf}>
+        <button className="lookCVbtn" aria-label="Aria Voir_Mon_CV" onClick={handleOpenPdf}>
           Voir mon CV
         </button>
       </div>

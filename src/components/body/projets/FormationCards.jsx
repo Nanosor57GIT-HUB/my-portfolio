@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
 AOS.init({
-  duration: 600,
+  duration: 300,
   once: false,
 });
 
