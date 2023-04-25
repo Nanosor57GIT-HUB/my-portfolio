@@ -33,8 +33,8 @@ margin: 0 auto;
 }
 
 .logoDev {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 @media (max-width: 1200px) {
@@ -46,5 +46,9 @@ margin: 0 auto;
     font-size: 14px;
   }.containerLogoDev {
     margin-left: 0;
+    width: 90%;
+  }.logoDev {
+    width: 30px;
+    height: 30px;
   }
 }
