@@ -187,7 +187,7 @@ useEffect(() => {
           />
           {errors.message && <p className="errors">{errors.message}</p>}
 
-          <button type="submit" className="btn_contact" onClick={sendEmail}>
+          <button type="submit" className="btn_contact" aria-label="Aria Envoyez" onClick={sendEmail}>
             Envoyez
           </button>
         </form>

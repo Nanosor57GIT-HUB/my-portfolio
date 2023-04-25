@@ -75,6 +75,7 @@ const FormationCards = ({pro}) => {
                         target="_blank"
                         rel="noreferrer"
                         className="linkProjets"
+                        aria-label="Aria Git-Hub"
                       >
                         Git-Hub
                       </Link>
@@ -85,6 +86,7 @@ const FormationCards = ({pro}) => {
                         target="_blank"
                         rel="noreferrer"
                         className="linkProjets"
+                        aria-label="Aria Demo"
                       >
                         Demo
                       </Link>
@@ -98,6 +100,7 @@ const FormationCards = ({pro}) => {
                         src={logoDev}
                         className="logoTechno"
                         alt="logoTechno"
+                        style={{ width: '40%', height: '80%'}}
                       />
                     </div>
                   ))}
