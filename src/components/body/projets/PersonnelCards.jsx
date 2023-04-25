@@ -76,6 +76,7 @@ const PersonnelCards = ({perso}) => {
                       target="_blank"
                       rel="noreferrer"
                       className="linkProjets"
+                      aria-label="Aria Git-Hub"
                     >
                       Git-Hub
                     </Link>
@@ -86,6 +87,7 @@ const PersonnelCards = ({perso}) => {
                       target="_blank"
                       rel="noreferrer"
                       className="linkProjets"
+                      aria-label="Aria Demo"
                     >
                       Demo
                     </Link>
