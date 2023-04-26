@@ -7,10 +7,7 @@ import { Link } from "react-router-dom";
 
 
 
-AOS.init({
-  duration: 300,
-  once: false,
-});
+AOS.init();
 
 const PersonnelCards = ({perso}) => {
 

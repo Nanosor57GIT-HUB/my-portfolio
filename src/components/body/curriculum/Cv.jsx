@@ -10,10 +10,7 @@ import "aos/dist/aos.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `pdf.worker.min.js`;
 
-AOS.init({
-  duration: 300,
-  once: "false",
-});
+AOS.init();
 
 const PdfViewer = () => {
 
@@ -34,6 +31,7 @@ const PdfViewer = () => {
       <div
         className="containerBtnCV"
         data-aos="zoom-in"
+        data-aos-delay="400"
         data-aos-duration="600"
         data-aos-easing="ease-in-sine"
       >

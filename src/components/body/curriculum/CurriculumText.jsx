@@ -4,10 +4,7 @@ import "aos/dist/aos.css";
 import PdfViewer from "./Cv";
 //import DataContextProvider from "../../../contexts/DataContext";
 
-AOS.init({
-  duration: 300,
-  once: false,
-});
+AOS.init();
 
 const CurriculumText = ({skills, jeSuis}) => {
 
