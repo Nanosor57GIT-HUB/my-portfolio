@@ -37,8 +37,9 @@ const Header = () => {
         >
           <img
             src="images/LinkedIn-icon.webp"
+            role="button"
             className="linkedIn"
-            alt="logo_LinkedIn"
+            alt="logo_LinkedIn"  
           />
         </a>
       <Burger />
