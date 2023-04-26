@@ -26,7 +26,7 @@ const Burger = () => {
 
   return (
     <div className="burger-menu">
-      <button className="burger-menu-button" onClick={handleMenuClick}>
+      <button className="burger-menu-button" aria-label="menu burger item" onClick={handleMenuClick}>
         <span className="burger-menu-icon"></span>
       </button>
       {isOpen && (
