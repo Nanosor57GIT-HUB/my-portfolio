@@ -33,13 +33,13 @@ const Header = () => {
           rel="noreferrer"
           target={"_blank"}
           className=" linkedIn"
-          aria-label="profil LinkedIn"
+          aria-label="Profil LinkedIn de Thierry Friedrich"
         >
           <img
             src="images/LinkedIn-icon.webp"
             role="button"
             className="linkedIn"
-            alt="logo_LinkedIn"  
+            alt="Profil LinkedIn de Thierry Friedrich"   
           />
         </a>
       <Burger />
