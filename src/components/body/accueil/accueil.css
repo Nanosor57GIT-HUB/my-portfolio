@@ -132,6 +132,8 @@
  @media (max-width: 750px) {
   .containerTitlePortfolio {
     text-align: center;
+    width: 490px;
+    height: 75px;
   }
   .titlePortfolio {
     font-size: 40px;
