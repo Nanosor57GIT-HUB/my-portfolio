@@ -97,7 +97,7 @@ const FormationCards = ({pro}) => {
                         src={logoDev}
                         className="logoTechno"
                         alt="logoTechno"
-                        // style={{ maxWidth: 40, maxHeight: 40}}
+                         style={{ maxWidth: 25, maxHeight: 20}}
                       />
                     </div>
                   ))}
