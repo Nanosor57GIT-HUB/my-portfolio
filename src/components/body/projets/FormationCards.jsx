@@ -62,7 +62,7 @@ const FormationCards = ({pro}) => {
               </div>
               <div className="contentCards">
                 <h2 className="position">{item.position}</h2>
-                <img src={item.logo} alt={item.title} className="logoProjets" style={{ maxWidth: 180}} />
+                <img src={item.logo} alt={item.title} className="logoProjets" style={{ maxWidth: 160}} />
                 <p className="detailsProjet">{item.details}</p>
                 {item.url.map((item) => (
                   <div className="containerLinks" key={item.demo}>
@@ -97,7 +97,7 @@ const FormationCards = ({pro}) => {
                         src={logoDev}
                         className="logoTechno"
                         alt="logoTechno"
-                        style={{ width: '40%', height: '90%'}}
+                        style={{ maxWidth: 40, maxHeight: 40}}
                       />
                     </div>
                   ))}
