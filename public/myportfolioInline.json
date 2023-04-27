@@ -15,9 +15,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -26,7 +26,7 @@
       "title": "ohmyfood",
       "description": "Dynamisez une page web avec des animations CSS",
       "details": "Développer un site First-Mobile proposant le menu de plusieurs restaurants parisiens. Permettre la réservation en ligne avec la composition de menus avec le respect de la charte graphique, en HTML, CSS, les animations et l’utilisation de SASS.",
-      "cover": "coverProjets/CoverOhmyfood(180x60).png",
+      "cover": "coverProjets/CoverOhmyfood.webp",
       "logo": "logoProjets/Ohmyfood(180x60).png",
       "url": [
         {
@@ -35,10 +35,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoSass.webp",
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoSass(25x20).png",
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -56,10 +56,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoJavascript.webp",
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoJavascript(25x20).png",
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -77,9 +77,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -97,9 +97,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -117,9 +117,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -137,9 +137,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -157,11 +157,11 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoJavascript.webp",
-        "logoDeveloppeur/logoReact.webp",
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoJavascript(25x20).png",
+        "logoDeveloppeur/logoReact(25x20).png",
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -179,12 +179,12 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoJavascript.webp",
-        "logoDeveloppeur/logoReact.webp",
-        "logoDeveloppeur/logoNodejs.webp",
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoJavascript(25x20).png",
+        "logoDeveloppeur/logoReact(25x20).png",
+        "logoDeveloppeur/logoNodejs(25x20).png",
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -202,9 +202,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -222,9 +222,9 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     }
   ],
@@ -245,10 +245,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoJavascript.webp",
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoJavascript(25x20).png",
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -266,10 +266,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoJavascript.webp",
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoJavascript(25x20).png",
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     },
     {
@@ -287,10 +287,10 @@
         }
       ],
       "technologies": [
-        "logoDeveloppeur/logoSass.webp",
-        "logoDeveloppeur/logoFigma.webp",
-        "logoDeveloppeur/logoHTML5.webp",
-        "logoDeveloppeur/logoCSS3.webp"
+        "logoDeveloppeur/logoSass(25x20).png",
+        "logoDeveloppeur/logoFigma(25x20).png",
+        "logoDeveloppeur/logoHTML5(20x20).png",
+        "logoDeveloppeur/logoCSS3(20x20).png"
       ]
     }
   ],
