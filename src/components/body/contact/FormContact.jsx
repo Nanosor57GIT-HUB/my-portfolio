@@ -187,7 +187,7 @@ useEffect(() => {
           />
           {errors.message && <p className="errors">{errors.message}</p>}
 
-          <button type="submit" className="btn_contact"   onClick={sendEmail} title="Envoyez" aria="Envoyez votre demade de contact">
+          <button type="submit" className="btn_contact"   onClick={sendEmail} title="Envoyez" aria="Envoyez">
             Envoyez
           </button>
         </form>
