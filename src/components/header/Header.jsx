@@ -33,7 +33,7 @@ const Header = () => {
           rel="noreferrer"
           target={"_blank"}
           className=" linkedIn"
-          aria-label="Profil LinkedIn de Thierry Friedrich"
+          aria-labelledby="Profil LinkedIn de Thierry Friedrich"
         >
           <img
             src="images/LinkedIn-icon.webp"
