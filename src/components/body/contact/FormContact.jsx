@@ -78,7 +78,7 @@ const FormContact = () => {
           "service_19k8uap",
           "template_t2zgykl",
           form.current,
-          "MMxU-Ki_LKRNh3M4q"
+          "MMxU-Ki_LKRNh3M4q",
         );
         console.log("message send");
         setFormData({
@@ -187,7 +187,7 @@ useEffect(() => {
           />
           {errors.message && <p className="errors">{errors.message}</p>}
 
-          <button type="submit" className="btn_contact" aria-label="Envoyez" title="Contactez Thierry Friedrich par e-mail" onClick={sendEmail}>
+          <button type="submit" className="btn_contact"   onClick={sendEmail} aria-label="Envoyer le formulaire de contact">
             Envoyez
           </button>
         </form>
