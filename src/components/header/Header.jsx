@@ -39,7 +39,8 @@ const Header = () => {
             src="images/LinkedIn-icon.webp"
             role="button"
             className="linkedIn"
-            alt="Profil LinkedIn de Thierry Friedrich"   
+            alt="Profil LinkedIn de Thierry Friedrich"
+            aria-label="Profil LinkedIn de Thierry Friedrich"   
           />
         </a>
       <Burger />
