@@ -11,7 +11,7 @@ const Navbar = () => {
         role="navigation"
         aria-label="main navigation"
       >
-        <Link className="btnNavBar active" to="/">
+        <Link className="btnNavBar active" to="/" aria-label="Page Accueil">
           Accueil
         </Link>
         <Link
@@ -22,6 +22,7 @@ const Navbar = () => {
           smooth={true}
          //  offset={-70}
           duration={800} 
+          aria-label="Page Curriculum Vitae"
         >
           Curriculum
         </Link>
@@ -33,6 +34,7 @@ const Navbar = () => {
           smooth={true}
           // offset={-70}
           duration={2500} 
+          aria-label="Page Contact"
         >
           Contact
         </Link>
