@@ -187,7 +187,7 @@ useEffect(() => {
           />
           {errors.message && <p className="errors">{errors.message}</p>}
 
-          <input type="submit" className="btn_contact"   onClick={sendEmail} value="Envoyez" />
+          <input type="submit" className="btn_contact"   onClick={sendEmail} value="Envoyez" aria-label="Envoyez votre demande de contact" />
           
         </form>
         <Modal toggle={modalState} action={closeModal} />
