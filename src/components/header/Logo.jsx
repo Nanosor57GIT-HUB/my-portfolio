@@ -4,10 +4,10 @@ const Logo = () => {
   return (
     <div className="containerLogoPortfolio">
       <img
-        src={process.env.PUBLIC_URL + "./logoPortfolio.png"}
+        src={process.env.PUBLIC_URL + "./logoPortfolio(360x180).png"}
         className="logo"
         alt="logo_My Portfolio inline"
-        style={{ width: 240, height: 120,}}
+        style={{ width: 360, height: 180,}}
       ></img>
     </div>
   );
