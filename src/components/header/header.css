@@ -117,7 +117,7 @@ margin-left: 120px;
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 525px) {
 .linkedIn {
   right: 40px;
 }

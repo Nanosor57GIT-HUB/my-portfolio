@@ -44,23 +44,23 @@
     background-color: transparent;
     position: absolute;
     top: 100%;
-    right: 30px;
+    right: 10px;
     display: flex;
     justify-content: flex-end;
     color: aquamarine;
     font-size: 24px;
     width: 100;
-    height: 200px;
+    height: auto;
     line-height: 37px;
     z-index: 1;
   }
 
   .navBurger {
-    width: 100%;
-   display: flex;
+    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
+    width: 100%;
    cursor: pointer;
   }
   
@@ -76,7 +76,8 @@
         display: block; 
     }
     .navBurger {
-      height: 170px;
+      height: 155px;
+      
     }
     .btnNavBar {
       display: flex;
@@ -88,6 +89,7 @@
       height: 30px;
       padding: 10px;
     }.btnNavBar.active {
+      margin-bottom: 20px;
       background-color: rgba(127, 255, 212, 0.2);
       border-radius: 15px;
       pointer-events: none;
@@ -107,19 +109,22 @@
       min-width: 135px;
       height: auto;
       padding: 0 6px;
-    }.projetsLink {
+    }
+  }
+
+  @media (max-width: 525px) {
+    .projetsLink {
       display: flex;
       align-items: center;
       width: auto;
       height: 30px;
       font-size: 15px;
     }
-  }
-
-  @media (max-width: 475px) {
     .burger-menu-button {
-  right: 90px;
+      top: 70px;
+  right: 43px;
 }.navBurger {
-  margin-top: 60px;
+  height: 190px;
+  margin-top: 35px;
 }
   }
