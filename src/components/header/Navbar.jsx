@@ -18,7 +18,7 @@ const Navbar = () => {
           className="btnNavBar"
           activeClass="active"
           to="CurriculumVitae"
-          spy={true}
+          spy={true}    
           smooth={true}
          //  offset={-70}
           duration={800} 

@@ -23,3 +23,6 @@ const BodyProjets = ({projets}) => {
 };
 
 export default BodyProjets;
+
+
+//https://www.youtube.com/watch?v=NLI5axVvZZI  useparams

@@ -34,7 +34,7 @@ const Accueil = () => {
 
       <ScrollIndicator />
       <Header />
-      <BodyAccueil />
+      <BodyAccueil path="Accueil"/>
        { portfolio && <BodyCurriculum compétences={portfolio.skills} quiSuisJe={portfolio.je_suis} /> }
       { portfolio && <BodyProjets projets={portfolio} /> } 
       <BodyContact />
