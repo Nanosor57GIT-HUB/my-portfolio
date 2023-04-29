@@ -30,9 +30,9 @@
 }
 
 .logo {
-   /* width: 240px;
-  min-width: 240px;
-  height: 120px;    */
+   width: 360px;
+   height: 180px;
+/*  height: 120px;    */
   margin-top: 25px;
   /* margin-left: 30px; */
 }
