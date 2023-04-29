@@ -7,7 +7,7 @@ const Logo = () => {
         src={process.env.PUBLIC_URL + "./logoPortfolio(360x180).png"}
         className="logo"
         alt="logo_My Portfolio inline"
-        style={{ width: 360, height: 180,}}
+        style={{ maxWidth: 360, maxHeight: 180,}}
       ></img>
     </div>
   );
