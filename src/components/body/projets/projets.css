@@ -256,6 +256,10 @@ height: 100%;
   padding: 5px;
   border: 1px solid blue;
 }
+.logoTechno {
+  width: 20px;
+  height: 20px;
+}
 
 .description {
   width: 250px;
