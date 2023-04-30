@@ -121,7 +121,7 @@ margin-left: 120px;
 .linkedIn {
   right: 40px;
 }.logo {
-  width: 360px;
-  height: 180px;
+ width: 80%;
+height: auto;
 }
 }
