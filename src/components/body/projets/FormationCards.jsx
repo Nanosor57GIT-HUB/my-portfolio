@@ -72,7 +72,7 @@ const FormationCards = ({pro}) => {
                         target="_blank"
                         rel="noreferrer"
                         className="linkProjets"
-                        aria-label="Aria Git-Hub"
+                        aria-label="Button Git-Hub"
                       >
                         Git-Hub
                       </Link>
@@ -83,7 +83,7 @@ const FormationCards = ({pro}) => {
                         target="_blank"
                         rel="noreferrer"
                         className="linkProjets"
-                        aria-label="Aria Demo"
+                        aria-label="Button Demo"
                       >
                         Demo
                       </Link>
