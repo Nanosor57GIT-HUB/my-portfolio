@@ -14,3 +14,6 @@ const Logo = () => {
 };
 
 export default Logo;
+
+
+//https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images

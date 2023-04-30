@@ -82,10 +82,10 @@
 
 .linkedIn {
   position: fixed;
-  top: 55px;
-  right: 60px; 
+  top: 50px;
+  right: 50px; 
   width: auto;
-  height: 37px;
+  height: 48px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -119,6 +119,6 @@ margin-left: 120px;
 
 @media (max-width: 525px) {
 .linkedIn {
-  right: 40px;
+  right: 35px;
 }
 }
