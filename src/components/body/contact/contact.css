@@ -163,10 +163,10 @@ label {
   align-items: center;
   width: 100%;
   min-height: 85vh;
-  visibility: hidden;
+  /* visibility: hidden;
   opacity: 0;
   transform: scale(0.3);
-  transition: opacity 0.2s, visibility 0.3s, transform 0.3s;
+  transition: opacity 0.2s, visibility 0.3s, transform 0.3s; */
   z-index: 200;
 }
 
@@ -318,6 +318,9 @@ margin-top: 113px;
 .modalConfirm {
   margin-top: 135px;
   height: 452px;
+}.imgModal {
+  width: 168px;
+  height: 155px;
 }
 }
 
