@@ -82,7 +82,7 @@
 
 .linkedIn {
   position: fixed;
-  top: 50px;
+  top: 54px;
   right: 50px; 
   width: 45px;
   height: 45px;
@@ -98,6 +98,7 @@
 @media (max-width: 1160px) {
   .containerNavLink {
     width: 100%;
+    height: auto;
 justify-content: center;
 margin-left: 120px;
   }.containerLogoPortfolio {
@@ -109,7 +110,7 @@ margin-left: 120px;
 
 @media (max-width: 990px) {
   .containerNavLink {
-    width: 798px;
+    /* width: 798px; */
     display: none;
   }
   .linkedIn {
@@ -121,7 +122,7 @@ margin-left: 120px;
 .linkedIn {
   width: 30px;
   height: 30px;
-  right: 35px;
+  right: 43px;
 }.logo {
   width: 250px;
 height: 125px;

@@ -3,14 +3,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 11%;
+    height: 15%;
      margin-right: 63px;
     display: none; 
 }
   
   .burger-menu-button {
     position:absolute; 
-    top: 27px;
+    top: 32px;
     right: 120px;
     display: block;
     border: none;
