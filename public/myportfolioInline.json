@@ -68,7 +68,7 @@
       "title": "FishEye",
       "description": "Créez un site accessible pour une plateforme de photographes",
       "details": "Création d’un prototype accessible en HTML, CSS et Javascript d’après des maquettes.",
-     
+      "cover": "coverProjets/CoverFishEye(250x370).webp",
       "logo": "logoProjets/FishEye(180x60).webp",
       "url": [
         {
