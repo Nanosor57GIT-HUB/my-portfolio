@@ -32,6 +32,7 @@ const Modal = (props) => {
               src={process.env.PUBLIC_URL + "images/logoWithoutTitle.webp"}
               className="imgModal"
               alt="img modal"
+              style={{ maxWidth: 620, maxHeight: 571 }}
             />
             <h1 className="confirmText">
               Nous accusons réception de votre demande et vous répondrons dans
