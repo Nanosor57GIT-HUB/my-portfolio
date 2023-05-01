@@ -35,7 +35,7 @@ const Header = () => {
           className=" linkedIn"
         >
           <img
-            src="images/logoLinkedIn(45x45).png"
+            src="images/logoLinkedIn(68x68).png"
             role="button"
             className="linkedIn"
             alt="Profil LinkedIn de Thierry Friedrich"
