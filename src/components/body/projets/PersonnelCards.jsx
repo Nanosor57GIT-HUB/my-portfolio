@@ -36,7 +36,7 @@ const PersonnelCards = ({perso}) => {
       </h1>
       <div>
         
-        <div className="containerInfoProjets" >
+        <div className="containerInfoProjets" data-aos="zoom-out">
         <p
            className="infoProjets2"
           data-aos="zoom-in"

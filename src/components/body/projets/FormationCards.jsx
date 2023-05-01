@@ -29,10 +29,10 @@ const FormationCards = ({pro}) => {
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="containerInfoProjets" >
+        <div className="containerInfoProjets" data-aos="zoom-out">
         <p
           className="infoProjets1"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in"
           
         >
           Au cours de ma formation de développeur d'application JavaScript / React
