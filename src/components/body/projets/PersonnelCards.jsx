@@ -36,7 +36,7 @@ const PersonnelCards = ({perso}) => {
       </h1>
       <div>
         
-        <div className="containerInfoProjets" data-aos="zoom-out">
+        <div className="containerInfoProjets" data-aos="zoom-out" data-aos-offset="-200">
         <p
            className="infoProjets2"
           data-aos="zoom-in-left"

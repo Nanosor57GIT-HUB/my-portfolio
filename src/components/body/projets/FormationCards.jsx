@@ -29,10 +29,11 @@ const FormationCards = ({pro}) => {
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="containerInfoProjets" data-aos="zoom-out">
+        <div className="containerInfoProjets" data-aos="zoom-out" data-aos-offset="-200">
         <p
           className="infoProjets1"
           data-aos="zoom-in-left"
+          
         >
           Au cours de ma formation de développeur d'application JavaScript / React
           chez OpenClassrooms, j'ai réalisé 14 projets basé sur des cas réels en entreprise avec des énnoncés composés de tenant , d'aboutissants et  d'échange de mails avec les différents Collaborateurs / Clients. Cette formation s'est déroulée en distanciel incluant un
