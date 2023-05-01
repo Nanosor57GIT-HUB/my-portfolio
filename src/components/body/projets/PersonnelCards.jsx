@@ -55,7 +55,7 @@ const PersonnelCards = ({perso}) => {
                 src={item.cover}
                 className="coverProjets"
                 alt={item.title}
-                style={{ width: 250, height: 370,}}
+                style={{ maxWidth: 250, maxHeight: 370 }}
               />
             </div>
             <div

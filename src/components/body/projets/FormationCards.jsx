@@ -57,7 +57,7 @@ const FormationCards = ({pro}) => {
                   src={item.cover}
                   className="coverProjets"
                   alt={item.title}
-                  style={{ minWidth: 250}}
+                  style={{ maxWidth: 250, maxHeight: 370 }}
                 />
               
               </div>
