@@ -36,10 +36,10 @@ const PersonnelCards = ({perso}) => {
       </h1>
       <div>
         
-        <div className="containerInfoProjets" data-aos="zoom-out" data-aos-offset="-200">
+        <div className="containerInfoProjets" >
         <p
            className="infoProjets2"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in"
         >
          Projets personnels réalisés à la suite de ma formation pour montrer ma progression et mon évolution en solo sur une base neutre n'ayant que mes idées, mes connaissances et du travail de recherche pour aboutir à un résultat concluant. Basés aussi sur l'accéssibilité des graphisme, chartes graphique couleur et label. Mettant en application mes connaissances.
         </p>

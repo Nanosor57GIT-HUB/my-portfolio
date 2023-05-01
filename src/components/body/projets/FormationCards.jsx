@@ -29,7 +29,7 @@ const FormationCards = ({pro}) => {
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="containerInfoProjets" data-aos="zoom-out" data-aos-offset="-200">
+        <div className="containerInfoProjets" >
         <p
           className="infoProjets1"
           data-aos="zoom-in-left"
