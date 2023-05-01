@@ -7,7 +7,7 @@
       "description": "Transformez une maquette en site web avec HTML & CSS",
       "details": "Intégration de l’interface du site avec du code HTML et du CSS. Mettre en place un CSS Responsive.",
       "cover": "coverProjets/CoverReservia.webp",
-      "logo": "logoProjets/Reservia(180x60).png",
+      "logo": "logoProjets/Reservia(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/ThierryFriedrich_02_07072021",
@@ -27,7 +27,7 @@
       "description": "Dynamisez une page web avec des animations CSS",
       "details": "Développer un site First-Mobile proposant le menu de plusieurs restaurants parisiens. Permettre la réservation en ligne avec la composition de menus avec le respect de la charte graphique, en HTML, CSS, les animations et l’utilisation de SASS.",
       "cover": "coverProjets/CoverOhmyfood.webp",
-      "logo": "logoProjets/Ohmyfood(180x60).png",
+      "logo": "logoProjets/Ohmyfood(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/ThierryFriedrich_03_13082021",
@@ -48,7 +48,7 @@
       "description": "Créez une landing page avec Javascript",
       "details": "Prise de relais pour la complétion sur la partie Front-End pour le formulaire et de son responsive.",
       "cover": "coverProjets/CoverGameOn.webp",
-      "logo": "logoProjets/GameOn(180x60).png",
+      "logo": "logoProjets/GameOn(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/ThierryFriedrich_04_23092021",
@@ -69,7 +69,7 @@
       "description": "Créez un site accessible pour une plateforme de photographes",
       "details": "Création d’un prototype accessible en HTML, CSS et Javascript d’après des maquettes.",
       "cover": "coverProjets/CoverFishEye.webp",
-      "logo": "logoProjets/FishEye(180x60).png",
+      "logo": "logoProjets/FishEye(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/p6FishEye",
@@ -89,7 +89,7 @@
       "description": "Développez un algorithme de recherche en JavaScript",
       "details": "Faire la différence avec les autres sites en fluidifiant le moteur de recherche. Travailler dans un premier temps avec un JSON local avant l’arrivée de l’équipe Back-End. Implémenter la fonctionnalité de recherche.",
       "cover": "coverProjets/CoverLes_petits_plats.webp",
-      "logo": "logoProjets/Les_petits_plats(180x60).png",
+      "logo": "logoProjets/Les_petits_plats(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/07LesPetitsPlats",
@@ -109,7 +109,7 @@
       "description": "Débuggez et testez un SaaS RH",
       "details": "Débugger la partie administrateur. Tester et débugger la partie employée.",
       "cover": "coverProjets/CoverBilled.webp",
-      "logo": "logoProjets/Billed(180x60).png",
+      "logo": "logoProjets/Billed(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/P9-Debugg-Sass",
@@ -129,7 +129,7 @@
       "description": "Définissez les besoins pour une app de soutien scolaire",
       "details": "Définir les besoins du client en faisant les diagrammes de cas d’usage avec une connexion, un chat, un calendrier, un gestionnaire de tâches et un tableau de bord. Faire les user-Stories avec les critères d’acceptation pour chacune des fonctionnalités.",
       "cover": "coverProjets/CoverLearn.webp",
-      "logo": "logoProjets/Dev4U(180x60).png",
+      "logo": "logoProjets/Dev4U(180x60).webp",
       "url": [
         {
           "git_hub": "",
@@ -149,7 +149,7 @@
       "description": "Développez une application Web avec React et React Router",
       "details": "Démarrer le projet en React et développer l’ensemble de l’application, des composants React et des routes React-Router en suivant les maquettes Figma (responsive !) et ce avec un code de qualité. Doit se faire sans librairie React externe.",
       "cover": "coverProjets/CoverKasa.webp",
-      "logo": "logoProjets/Kasa(180x60).png",
+      "logo": "logoProjets/Kasa(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/nanosor57git-hub.github.io",
@@ -171,7 +171,7 @@
       "description": "Développez un tableau de bord d'analytics avec React",
       "details": "Intégration de la page suivante selon maquette et Kanban (User-Stories) via un Sprint. Développement du profil en React. Ajout de graphiques avec Recharts. Travailler sur Desktop seulement (min. 1024px*780px lisibilité) avec Back-End pour les appels HTTP. Les appels doivent être effectués à l'extérieur des composants via un service. Création de la documentation (JsDoc, ReadMe) en anglais.",
       "cover": "coverProjets/CoverSportsee.webp",
-      "logo": "logoProjets/SportSee(180x60).png",
+      "logo": "logoProjets/SportSee(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/P12-sportsee",
@@ -194,7 +194,7 @@
       "description": "Utilisez une API pour un compte utilisateur bancaire avec React",
       "details": "Authentification des utilisateurs avec la création d’une application Web permettant aux clients de se connecter, de gérer leurs comptes et profil. Transactions – Spécifier les EndPoints nécessaire pour une deuxième mission une fois la première terminée.",
       "cover": "coverProjets/CoverArgentBank.webp",
-      "logo": "logoProjets/ArgentBank(180x60).png",
+      "logo": "logoProjets/ArgentBank(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/P13_ArgentBank",
@@ -214,7 +214,7 @@
       "description": "Faites passer une librairie jQuery vers React",
       "details": "Faire une nouvelle version des pages « Create Employee » et « Employee List » avec React. Convertir un des 4 plugins actuels en React et le publier sur NPM. Remplacer les 3 autres en important depuis des librairies existantes. Ajouter un système de gestion d’état.",
       "cover": "coverProjets/CoverHealthWealth.webp",
-      "logo": "logoProjets/Wealth_Health(180x60).png",
+      "logo": "logoProjets/Wealth_Health(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/HRnet_P14_project",
@@ -237,7 +237,7 @@
       "description": "Création d'un portfolio",
       "details": "Création d'un portfolio professionnel incluant les projets de formation et personnels.",
       "cover": "coverProjets/CoverPortfolio.webp",
-      "logo": "logoProjets/MyPortfolioInline(180x60).png",
+      "logo": "logoProjets/MyPortfolioInline(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/my-portfolio",
@@ -258,7 +258,7 @@
       "description": "A mettre en place",
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "cover": "coverProjets/CoverBackgroundFreeProjets.webp",
-      "logo": "logoProjets/MyPortfolioInline(180x60).png",
+      "logo": "logoProjets/MyPortfolioInline(180x60).webp",
       "url": [
         {
           "git_hub": "https://github.com/Nanosor57GIT-HUB/ThierryFriedrich_04_23092021",
@@ -279,7 +279,7 @@
       "description": "A mettre en place",
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "cover": "coverProjets/CoverBackgroundFreeProjets.webp",
-      "logo": "logoProjets/MyPortfolioInline(180x60).png",
+      "logo": "logoProjets/MyPortfolioInline(180x60).webp",
       "url": [
         {
           "git_hub": "",
