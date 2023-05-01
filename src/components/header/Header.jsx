@@ -30,11 +30,11 @@ const Header = () => {
       <Navbar />
       <a
           href="https://www.linkedin.com/in/thierry-friedrich/"
+          aria-label="Viens voir mon profil LinkedIn"
+          title="Mon profil LinkedIn est disponible ici"
            rel="noopener noreferrer"
           target={"_blank"}
           className=" linkedIn"
-          aria-label="Voir mon profil sur LinkedIn"
-          title="Viens voir mon profil LinkedIn"
         >
           <img
             src="images/logoLinkedIn(68x68).png"
