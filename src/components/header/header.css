@@ -119,6 +119,8 @@ margin-left: 120px;
 
 @media (max-width: 525px) {
 .linkedIn {
+  width: 30px;
+  height: 30px;
   right: 35px;
 }.logo {
   width: 250px;
