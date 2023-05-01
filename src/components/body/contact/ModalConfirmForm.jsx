@@ -29,10 +29,10 @@ const Modal = (props) => {
           </div>
           <div className="content">
             <img
-              src={process.env.PUBLIC_URL + "images/logoWithoutTitle.webp"}
+              src={process.env.PUBLIC_URL + "images/logoWithoutTitle(300x270).png"}
               className="imgModal"
               alt="img modal"
-              style={{ maxWidth: 620, maxHeight: 571 }}
+              style={{ maxWidth: 300, maxHeight: 270 }}
             />
             <h1 className="confirmText">
               Nous accusons réception de votre demande et vous répondrons dans
