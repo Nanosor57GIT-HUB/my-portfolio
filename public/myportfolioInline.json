@@ -6,7 +6,7 @@
       "title": "Reservia",
       "description": "Transformez une maquette en site web avec HTML & CSS",
       "details": "Intégration de l’interface du site avec du code HTML et du CSS. Mettre en place un CSS Responsive.",
-      "cover": "coverProjets/CoverReservia.webp",
+      "cover": "coverProjets/CoverReservia(250x370).webp",
       "logo": "logoProjets/Reservia(180x60).webp",
       "url": [
         {
@@ -26,7 +26,7 @@
       "title": "ohmyfood",
       "description": "Dynamisez une page web avec des animations CSS",
       "details": "Développer un site First-Mobile proposant le menu de plusieurs restaurants parisiens. Permettre la réservation en ligne avec la composition de menus avec le respect de la charte graphique, en HTML, CSS, les animations et l’utilisation de SASS.",
-      "cover": "coverProjets/CoverOhmyfood.webp",
+      "cover": "coverProjets/CoverOhmyfood(250x370).webp",
       "logo": "logoProjets/Ohmyfood(180x60).webp",
       "url": [
         {
@@ -47,7 +47,7 @@
       "title": "GameOn",
       "description": "Créez une landing page avec Javascript",
       "details": "Prise de relais pour la complétion sur la partie Front-End pour le formulaire et de son responsive.",
-      "cover": "coverProjets/CoverGameOn.webp",
+      "cover": "coverProjets/CoverGameOn(250x370).webp",
       "logo": "logoProjets/GameOn(180x60).webp",
       "url": [
         {
@@ -68,7 +68,7 @@
       "title": "FishEye",
       "description": "Créez un site accessible pour une plateforme de photographes",
       "details": "Création d’un prototype accessible en HTML, CSS et Javascript d’après des maquettes.",
-      "cover": "coverProjets/CoverFishEye.webp",
+      "cover": "coverProjets/CoverFishEye(250x370).webp",
       "logo": "logoProjets/FishEye(180x60).webp",
       "url": [
         {
@@ -88,7 +88,7 @@
       "title": "Les petits plats",
       "description": "Développez un algorithme de recherche en JavaScript",
       "details": "Faire la différence avec les autres sites en fluidifiant le moteur de recherche. Travailler dans un premier temps avec un JSON local avant l’arrivée de l’équipe Back-End. Implémenter la fonctionnalité de recherche.",
-      "cover": "coverProjets/CoverLes_petits_plats.webp",
+      "cover": "coverProjets/CoverLes_petits_plats(250x370).webp",
       "logo": "logoProjets/Les_petits_plats(180x60).webp",
       "url": [
         {
@@ -148,7 +148,7 @@
       "title": "Kasa",
       "description": "Développez une application Web avec React et React Router",
       "details": "Démarrer le projet en React et développer l’ensemble de l’application, des composants React et des routes React-Router en suivant les maquettes Figma (responsive !) et ce avec un code de qualité. Doit se faire sans librairie React externe.",
-      "cover": "coverProjets/CoverKasa.webp",
+      "cover": "coverProjets/CoverKasa(250x370).webp",
       "logo": "logoProjets/Kasa(180x60).webp",
       "url": [
         {
@@ -213,7 +213,7 @@
       "title": "Health Wealth",
       "description": "Faites passer une librairie jQuery vers React",
       "details": "Faire une nouvelle version des pages « Create Employee » et « Employee List » avec React. Convertir un des 4 plugins actuels en React et le publier sur NPM. Remplacer les 3 autres en important depuis des librairies existantes. Ajouter un système de gestion d’état.",
-      "cover": "coverProjets/CoverHealthWealth.webp",
+      "cover": "coverProjets/CoverHealthWealth(250x370).webp",
       "logo": "logoProjets/Wealth_Health(180x60).webp",
       "url": [
         {
@@ -236,7 +236,7 @@
       "title": "Mon portfolio",
       "description": "Création d'un portfolio",
       "details": "Création d'un portfolio professionnel incluant les projets de formation et personnels.",
-      "cover": "coverProjets/CoverPortfolio.webp",
+      "cover": "coverProjets/CoverPortfolio(250x370).webp",
       "logo": "logoProjets/MyPortfolioInline(180x60).webp",
       "url": [
         {
@@ -257,7 +257,7 @@
       "title": "GameOn",
       "description": "A mettre en place",
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "cover": "coverProjets/CoverBackgroundFreeProjets.webp",
+      "cover": "coverProjets/CoverBackgroundFreeProjets(250x370).webp",
       "logo": "logoProjets/MyPortfolioInline(180x60).webp",
       "url": [
         {
@@ -278,7 +278,7 @@
       "title": "ohmyfood",
       "description": "A mettre en place",
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "cover": "coverProjets/CoverBackgroundFreeProjets.webp",
+      "cover": "coverProjets/CoverBackgroundFreeProjets(250x370).webp",
       "logo": "logoProjets/MyPortfolioInline(180x60).webp",
       "url": [
         {
