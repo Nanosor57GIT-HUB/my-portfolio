@@ -36,7 +36,7 @@ const Header = () => {
         >
           <img
             src="images/logoLinkedIn(68x68).webp"
-            role="button"
+            // role="button"
             className="linkedIn"
             alt="Profil LinkedIn de Thierry Friedrich"
           />
