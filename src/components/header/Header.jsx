@@ -32,7 +32,7 @@ const Header = () => {
           href="https://www.linkedin.com/in/thierry-friedrich/"
            rel="noopener noreferrer"
           target={"_blank"}
-          className=" linkedIn"
+          className=" linkedInLink"
         >
           <img
             src="images/logoLinkedIn(68x68).webp"
