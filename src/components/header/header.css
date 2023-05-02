@@ -124,6 +124,7 @@ margin-left: 120px;
   width: 35px;
   height: 35px;
   right: 40px;
+  display: none;
 }.logo {
   width: 250px;
 height: 125px;
