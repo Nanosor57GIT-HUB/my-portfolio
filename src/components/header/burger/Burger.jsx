@@ -61,7 +61,7 @@ const Burger = () => {
         >
           Contact
         </Link>
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/thierry-friedrich/"
           rel="noreferrer"
           target={"_blank"}
@@ -72,7 +72,7 @@ const Burger = () => {
             className="linkedIn"
             alt="logo_LinkedIn"
           />
-        </a>
+        </a> */}
       </nav>
         </div>
       )}
