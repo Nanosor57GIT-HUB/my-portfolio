@@ -33,6 +33,7 @@ const Header = () => {
            rel="noopener noreferrer"
           target={"_blank"}
           className=" linkedInLink"
+          aria-label="Voir mon profil linkedIn"
         >
           <img
             src="images/logoLinkedIn(68x68).webp"
