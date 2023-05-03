@@ -1,5 +1,5 @@
 import React from "react";
-import { Document, Page, pdfjs } from "react-pdf";
+import { Document, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "@react-pdf-viewer/core/lib/styles/index.css";
@@ -25,7 +25,7 @@ const PdfViewer = () => {
     <div className="containerPdf" data-aos="zoom-in">
       <div className="blockPdf">
         <Document file={"pdf/CVFriedrichThierry.pdf"}>
-          <Page pageNumber={1} width={260} />
+          {/* <Page pageNumber={1} width={260} /> */}
         </Document>
       </div>
       <div
