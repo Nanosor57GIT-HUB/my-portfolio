@@ -116,7 +116,7 @@ position: absolute;
 
 @media (max-width: 525px) {
   .burger-menu {
-    margin-top: 70px; /*40*/
+    margin-top: 92px; /*40*/
   margin-right: 42px;
   }
   .navBurger {
