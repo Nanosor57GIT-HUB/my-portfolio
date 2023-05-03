@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./projets.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -72,7 +71,7 @@ const FormationCards = ({pro}) => {
                         to={item.git_hub}
                         target="_blank"
                         rel="noreferrer"
-                        className="linkProjets"
+                        className="linkProjets btn-GitHub"
                         aria-label="Button Git-Hub"
                       >
                         Git-Hub
@@ -83,7 +82,7 @@ const FormationCards = ({pro}) => {
                         to={item.demo}
                         target="_blank"
                         rel="noreferrer"
-                        className="linkProjets"
+                        className="linkProjets btn-Demo"
                         aria-label="Button Demo"
                       >
                         Demo
