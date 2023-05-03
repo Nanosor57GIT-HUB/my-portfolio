@@ -28,7 +28,7 @@ const Header = () => {
     <div className={`containerHeader ${isVisible ? "header-visible" : "header-hidden"}`}>
       <Logo />
       <Navbar />
-      <a
+      {/* <a
           href="https://www.linkedin.com/in/thierry-friedrich/"
            rel="noopener noreferrer"
           target={"_blank"}
@@ -42,7 +42,7 @@ const Header = () => {
             className="linkedIn"
             alt="Profil LinkedIn de Thierry Friedrich"
           />
-        </a>
+        </a> */}
       <Burger />
     </div>
   );
