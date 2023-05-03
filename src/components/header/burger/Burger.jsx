@@ -61,18 +61,6 @@ const Burger = () => {
         >
           Contact
         </Link>
-        {/* <a
-          href="https://www.linkedin.com/in/thierry-friedrich/"
-          rel="noreferrer"
-          target={"_blank"}
-          className=" linkedIn"
-        >
-          <img
-            src="images/LinkedIn-icon.webp"
-            className="linkedIn"
-            alt="logo_LinkedIn"
-          />
-        </a> */}
       </nav>
         </div>
       )}
