@@ -26,22 +26,20 @@
   top: 0;
   left: 30px;
   width: 25%;
-  height: 20vh ;
+  height: 20vh;
 }
 
 .logo {
-   width: 300px;
-   height: 150px;
-/*  height: 120px;    */
+  width: 300px;
+  height: 150px;
   margin-top: 25px;
-  /* margin-left: 30px; */
 }
 
 .containerNavLink {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;  
+  justify-content: flex-start;
   width: 850px;
   height: 20vh;
 }
@@ -67,7 +65,7 @@
 }
 
 .btnNavBar:hover {
-  color: #67C2A3;
+  color: #67c2a3;
   text-shadow: 4px 1px 2px rgba(0, 53, 63, 0.4);
 }
 
@@ -83,8 +81,8 @@
 .linkedInLink {
   position: fixed;
   top: 54px;
-  right: 50px; 
- border: none;
+  right: 50px;
+  border: none;
   width: 45px;
   height: 45px;
 }
@@ -96,19 +94,18 @@
   cursor: pointer;
 }
 
-
 .linkedIn:hover {
   box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.7);
 }
-
 
 @media (max-width: 1160px) {
   .containerNavLink {
     width: 100%;
     height: auto;
-justify-content: center;
-margin-left: 120px;
-  }.containerLogoPortfolio {
+    justify-content: center;
+    margin-left: 120px;
+  }
+  .containerLogoPortfolio {
     width: 100%;
     height: auto;
     left: 0;
@@ -122,23 +119,25 @@ margin-left: 120px;
   }
   /* .linkedIn {
     top: 25px;
-  } */.linkedInLink {
-   top: 25px;
+  } */
+  .linkedInLink {
+    top: 25px;
   }
 }
 
 @media (max-width: 525px) {
   .logo {
-  width: 250px;
-height: 125px;
-}
-.linkedInLink {
-  width: 35px;
-  height: 35px;
-  top: 30px;
-  right: 40px;
-}.linkedIn {
-  width: 35px;
-  height: 35px;
-}
+    width: 250px;
+    height: 125px;
+  }
+  .linkedInLink {
+    width: 35px;
+    height: 35px;
+    top: 30px;
+    right: 40px;
+  }
+  .linkedIn {
+    width: 35px;
+    height: 35px;
+  }
 }

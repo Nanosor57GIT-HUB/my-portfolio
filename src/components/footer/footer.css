@@ -5,7 +5,7 @@
   align-items: center;
   width: 97%;
   height: 15vh;
-margin: 0 auto;
+  margin: 0 auto;
   padding: 15px;
 }
 
@@ -21,8 +21,6 @@ margin: 0 auto;
   text-shadow: 1px 2px 5px #00353f;
 }
 
-
-
 .containerLogoDev {
   display: flex;
   align-items: center;
@@ -37,17 +35,23 @@ margin: 0 auto;
   height: 30px;
 }
 
-
-
 @media (max-width: 1200px) {
   .containerFooter {
-     width: 100%; 
+    width: 100%;
     flex-direction: column;
-  }.copyright {
-   position: relative;
+  }
+  .copyright {
+    position: relative;
     font-size: 14px;
-  }.containerLogoDev {
+  }
+  .containerLogoDev {
     margin-left: 0;
+    width: 60%;
+  }
+}
+
+@media (max-width: 525px) {
+  .containerLogoDev {
     width: 90%;
   }
 }

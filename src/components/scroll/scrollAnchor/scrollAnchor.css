@@ -44,6 +44,6 @@
 
 @media (max-width: 800px) {
   .btnAnchor {
-  display: none;
+    display: none;
   }
 }

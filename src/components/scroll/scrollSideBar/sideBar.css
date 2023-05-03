@@ -1,58 +1,54 @@
-
-
 .containerSideBarLink {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
-    height: 100vh;
-    z-index: 16;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100vh;
+  z-index: 16;
 }
 
 .containerSideBar {
-    width: 35px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-   visibility: hidden;
-   -webkit-animation: animSideBar 0.7s ease-in-out;
-   animation: animSideBar 0.7s ease-in-out;
+  width: 35px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  visibility: hidden;
+  -webkit-animation: animSideBar 0.7s ease-in-out;
+  animation: animSideBar 0.7s ease-in-out;
 }
 @keyframes animSideBar {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
   }
-
-.btnSideBar {
-    width: 18px;
-    height: 18px;
-    border: 2px solid aquamarine;
-    border-radius: 50%;
-    transition: all 0.3s ease-out;
-    cursor: pointer;
+  100% {
+    opacity: 1;
+  }
 }
 
+.btnSideBar {
+  width: 18px;
+  height: 18px;
+  border: 2px solid aquamarine;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
 
 .activeSide {
-    width: 16px;
-    height: 16px;
-    border: 2px solid #979998;
-    background-color: #fbd437;
-    border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #979998;
+  background-color: #fbd437;
+  border-radius: 50%;
 }
 
 @media (max-width: 800px) {
-    .containerSideBar {
-        visibility: visible;
-       
-    }
+  .containerSideBar {
+    visibility: visible;
+  }
 }
