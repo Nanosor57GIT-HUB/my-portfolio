@@ -1,10 +1,10 @@
 import React from "react";
 import "./projets.css";
-//import AOS from "aos";
-//import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
-// AOS.init();
+AOS.init();
 
 //https://michalsnik.github.io/aos/
 
@@ -28,10 +28,10 @@ const FormationCards = ({pro}) => {
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="containerInfoProjets" >
+        <div className="containerInfoProjets" data-aos="zoom-out">
         <p
           className="infoProjets1"
-          
+          data-aos="zoom-in"
           
         >
           Au cours de ma formation de développeur d'application JavaScript / React

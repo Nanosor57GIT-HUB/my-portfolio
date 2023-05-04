@@ -4,13 +4,13 @@ import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/thumbnail/lib/styles/index.css";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+ import AOS from "aos";
+ import "aos/dist/aos.css";
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `pdf.worker.min.js`;
 
-// AOS.init();
+ AOS.init();
 
 const PdfViewer = () => {
 
@@ -30,10 +30,10 @@ const PdfViewer = () => {
       </div>
       <div
         className="containerBtnCV"
-        // data-aos="zoom-in"
-        // data-aos-delay="400"
-        // data-aos-duration="600"
-        // data-aos-easing="ease-in-sine"
+        data-aos="zoom-in"
+        data-aos-delay="400"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-sine"
       >
         <button className="lookCVbtn" aria-label="Aria Voir_Mon_CV" onClick={handleOpenPdf}>
           Voir mon CV
