@@ -1,11 +1,12 @@
-import React from "react";
-import { Document, pdfjs } from "react-pdf";
+import React from "react"; 
+import AOS from "aos";
+ import "aos/dist/aos.css";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/thumbnail/lib/styles/index.css";
- import AOS from "aos";
- import "aos/dist/aos.css";
+
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `pdf.worker.min.js`;
@@ -24,9 +25,7 @@ const PdfViewer = () => {
   return (
     <div className="containerPdf" >
       <div className="blockPdf">
-        <Document file={"pdf/CVFriedrichThierry.pdf"}>
-          {/* <Page pageNumber={1} width={260} /> */}
-        </Document>
+       <img src="./pdf/CoverPDFCV.jpg" className="imgCV" alt="Mon CV" style={{ width: 260 }} />
       </div>
       <div
         className="containerBtnCV"
