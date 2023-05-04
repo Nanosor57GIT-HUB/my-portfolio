@@ -25,7 +25,7 @@ const PdfViewer = () => {
   return (
     <div className="containerPdf" >
       <div className="blockPdf">
-       <img src="./pdf/CoverPDFCV.webp" className="imgCV" alt="Mon CV" style={{ width: 240, height: 344 }} />
+       <img src="./pdf/CoverPDFCV.webp" className="imgCV" alt="Mon CV" style={{ width: 240, height: 336 }} />
       </div>
       <div
         className="containerBtnCV"
