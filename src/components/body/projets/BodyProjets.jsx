@@ -24,5 +24,10 @@ const BodyProjets = ({projets}) => {
 
 export default BodyProjets;
 
+// https://developer.chrome.com/docs/lighthouse/seo/tap-targets/?utm_source=lighthouse&utm_medium=lr
+// https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=lr
+// https://www.copier-coller.com/creer-des-animations-avec-aos/
+// https://stackoverflow.com/questions/63088430/how-do-i-include-an-animation-cdn-in-react
+
 
 //https://www.youtube.com/watch?v=NLI5axVvZZI  useparams
