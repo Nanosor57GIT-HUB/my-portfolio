@@ -28,7 +28,7 @@ const Header = () => {
     <div className={`containerHeader ${isVisible ? "header-visible" : "header-hidden"}`}>
       <Logo />
       <Navbar />
-      {/* <a
+      <a
           href="https://www.linkedin.com/in/thierry-friedrich/"
            rel="noopener noreferrer"
           target={"_blank"}
@@ -37,12 +37,12 @@ const Header = () => {
           aria-label="Voir mon profil linkedIn"
         >
           <img
-            src="images/logoLinkedIn(68x68).webp"
-            // role="button"
+            src="./images/logoLinkedIn(68x68).webp"
+             role="button"
             className="linkedIn"
             alt="Profil LinkedIn de Thierry Friedrich"
           />
-        </a> */}
+        </a>
       <Burger />
     </div>
   );
