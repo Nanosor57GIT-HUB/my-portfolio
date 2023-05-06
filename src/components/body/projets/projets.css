@@ -302,7 +302,7 @@
 @media (max-width: 660px) {
   .description {
     height: auto;
-    font-size: 14px;
+    font-size: 12px;
   }
   .cards {
     height: 400px;
@@ -328,7 +328,7 @@
     opacity: 0.8;
   }
   .detailsProjet:hover {
-    font-size: 13px;
+    font-size: 12px;
     padding: 5px;
     height: 195px;
   }
