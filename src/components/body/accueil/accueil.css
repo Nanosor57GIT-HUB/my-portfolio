@@ -129,7 +129,7 @@
   }
   .presentation-text {
     width: 90%;
-    font-size: 16px;
+    font-size: 14px;
      padding: 0; 
   }
 }
@@ -155,6 +155,6 @@
   .responsiveText {
     display: none;
   }.presentation-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 }

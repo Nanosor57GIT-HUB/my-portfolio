@@ -19,8 +19,8 @@ const BodyAccueil = () => {
 
       gsap.to(span, {
         opacity: 1,
-        duration: 1,
-        delay: i * 0.08,
+        duration: 0.2,
+        delay: i * 0.04,
       });
     });
   }
