@@ -7,7 +7,11 @@ import { Link } from "react-router-dom";
 
 
 
-AOS.init();
+AOS.init({ animatedClassName: 'animated',
+duration: 400,
+easing: 'linear',
+anchor: '#Perso',
+anchorPlacement: 'top-center' });
 
 const PersonnelCards = ({perso}) => {
 
@@ -36,9 +40,9 @@ const PersonnelCards = ({perso}) => {
       </h1>
       <div>
         
-        <div className="containerInfoProjets" data-aos="zoom-out">
+        <div className="containerInfoProjets animated" data-aos="zoom-out">
         <p
-           className="infoProjets2"
+           className="infoProjets2 animated"
           data-aos="zoom-in"
         >
          Projets personnels réalisés à la suite de ma formation pour montrer ma progression et mon évolution en solo sur une base neutre n'ayant que mes idées, mes connaissances et du travail de recherche pour aboutir à un résultat concluant. Basés aussi sur l'accéssibilité des graphisme, chartes graphique couleur et label. Mettant en application mes connaissances.

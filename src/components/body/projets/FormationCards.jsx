@@ -4,7 +4,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
-AOS.init();
+AOS.init({ animatedClassName: 'animated',
+          duration: 400,
+          easing: 'linear',
+          anchor: '#Projets',
+          anchorPlacement: 'top-center' });
 
 //https://michalsnik.github.io/aos/
 
@@ -37,11 +41,10 @@ const FormationCards = ({pro}) => {
         <span className="numberProjets"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="containerInfoProjets" data-aos="zoom-out">
+        <div className="containerInfoProjets animated" data-aos="zoom-out">
         <p
-          className="infoProjets1"
+          className="infoProjets1 animated"
           data-aos="zoom-in"
-          
         >
           Au cours de ma formation de développeur d'application JavaScript / React
           chez OpenClassrooms, j'ai réalisé 14 projets basé sur des cas réels en entreprise avec des énnoncés composés de tenant , d'aboutissants et  d'échange de mails avec les différents Collaborateurs / Clients. Cette formation s'est déroulée en distanciel incluant un

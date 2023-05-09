@@ -288,6 +288,8 @@
   .cards {
     width: 260px;
     height: 540px;
+  }[data-aos].animated{
+    transform: translateX(0);
   }
 }
 
