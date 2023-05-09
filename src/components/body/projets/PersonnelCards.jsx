@@ -1,5 +1,5 @@
 import React from "react";
-import "./projets.css";
+//import "./projets.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 //import useFetch from "../../service/UseFetch";

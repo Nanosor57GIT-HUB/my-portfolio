@@ -1,5 +1,5 @@
 import React from "react";
-import "./projets.css";
+//import "./projets.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -15,6 +15,15 @@ AOS.init();
 // localstorage      https://www.youtube.com/watch?v=vRDGUUEg_n8
 //   https://youtu.be/siVVovFRzfw
 //    https://www.freecodecamp.org/french/news/comment-utiliser-le-localstorage-avec-les-hooks-de-react-pour-enregister-et-afficher-des-elements/
+
+
+
+
+// https://fr.legacy.reactjs.org/docs/context.html
+// https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/?utm_source=lighthouse&utm_medium=lr
+// https://developer.chrome.com/docs/lighthouse/performance/time-to-first-byte/?utm_source=lighthouse&utm_medium=lr
+
+
 
 const FormationCards = ({pro}) => {
   // const data = useContext(DataContext);
