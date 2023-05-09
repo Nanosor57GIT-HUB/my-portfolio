@@ -1,5 +1,5 @@
 import React from "react";
-//import "./projets.css";
+import "./projets.css";
 import FormationCards from "./FormationCards";
 import PersonnelCards from "./PersonnelCards";
 

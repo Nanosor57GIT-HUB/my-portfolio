@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-//import "./accueil.css";
+import "./accueil.css";
 import { gsap } from "gsap";
 
 //https://www.freecodecamp.org/french/news/react-context-pour-debutants/
