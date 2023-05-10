@@ -7,16 +7,21 @@ import { gsap } from "gsap";
 const BodyAccueil = () => {
 
   function animateLetters(textRef) {
-    const letters = textRef.current.textContent.split("");
-
+    const letters = textRef.current.textContent?.split("") || [];
+  
+    if (!textRef.current) {
+      console.error("textRef.current is null or undefined");
+      return;
+    }
+  
     textRef.current.textContent = "";
-
+  
     letters.forEach((letter, i) => {
       const span = document.createElement("span");
       span.textContent = letter;
       span.style.opacity = 0;
       textRef.current.appendChild(span);
-
+  
       gsap.to(span, {
         opacity: 1,
         duration: 0.2,
@@ -24,12 +29,13 @@ const BodyAccueil = () => {
       });
     });
   }
-
+  
   const textRef = useRef(null);
-
+  
   useEffect(() => {
     animateLetters(textRef);
   }, []);
+  
 
   return (
     <section id="/" className="bodyAccueil">

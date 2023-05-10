@@ -29,6 +29,12 @@ AOS.init({ animatedClassName: 'animated',
 
 
 
+// https://snowpact.com/blog/reduire-son-bundle-react-avec-sourcemap
+// https://greensock.com/forums/topic/26679-using-gsap-with-npm/
+//  https://karac.ch/blog/animations-scroll-aos
+//  https://michalsnik.github.io/aos/
+//  https://github.com/michalsnik/aos
+
 const FormationCards = ({pro}) => {
   // const data = useContext(DataContext);
   // const pro = data.pro;
