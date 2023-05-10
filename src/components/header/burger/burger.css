@@ -47,10 +47,11 @@ position: absolute;
   justify-content: flex-end;
   color: aquamarine;
   font-size: 24px;
-  width: 100;
+  width: 120px;
   height: auto;
   line-height: 37px;
   z-index: 1;
+  
 }
 
 .navBurger {
@@ -76,12 +77,12 @@ position: absolute;
     margin-top: 110px;
   }
   .navBurger {
-    height: 175px;
+    height: 165px;
   }
   .btnNavBar {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 13px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 7px;
     width: auto;
@@ -89,7 +90,6 @@ position: absolute;
     padding: 10px;
   }
   .btnNavBar.active {
-    margin-bottom: 20px;
     background-color: rgba(127, 255, 212, 0.2);
     border-radius: 15px;
     pointer-events: none;
@@ -98,7 +98,7 @@ position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 15px;
+    font-size: 13px;
     width: 150px;
     width: auto;
     height: 30px;
@@ -106,9 +106,13 @@ position: absolute;
     border-radius: 7px;
     border: 1px solid rgba(255, 255, 255, 0.5);
   }
+  .dropDown_Arrow {
+    width: 20px;
+    height: 20px;
+  }
   .dropdown-content {
     align-items: center;
-    min-width: 135px;
+    min-width: 118px;
     height: auto;
     padding: 0 6px;
   }
@@ -116,12 +120,12 @@ position: absolute;
 
 @media (max-width: 525px) {
   .burger-menu {
+    position: relative;
     margin-top: 92px; /*40*/
   margin-right: 42px;
-  }
-  .navBurger {
-    height: 190px;
-    margin-top: 35px;
+  }.navBurger {
+    height: 160px;
+   align-items: center;
   }
   .projetsLink {
     display: flex;
