@@ -45,9 +45,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* #2f3330 */
 .App {
-  background-color: #2f3330;
+  background-color: #150A1F;
  width: 100%;
  height: auto; 
 }

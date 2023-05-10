@@ -55,12 +55,14 @@
   width: 100%;
   height: auto;
   margin-top: 80px;
-  background-color: #35463f;
+  /* background-color: #35463f;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5); */
+  background-color: rgba(127, 255, 212, 0.2);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 10px;
   overflow: hidden;
-  border: 1px solid aquamarine;
+  /* border: 1px solid aquamarine; */
 }
 
 .infoProjets1,
@@ -293,7 +295,7 @@
   }
 }
 
-@media (max-width: 800px) and (min-width: 320px) {
+@media (max-width: 800px) and (min-width: 270px) {
   .bodyProjets {
     margin-top: 50px;
   }.btn-Demo {
@@ -308,6 +310,16 @@
   }
   .cards {
     height: 400px;
+    margin-top: 25px;   /* à vérifier (en test) */
+    
+  }.card {          /* à vérifier (en test) */
+    width: 90%;margin-bottom: 10px;
+  }.contentCards {    /* à vérifier (en test) */
+    width: 90%;
+  }.coverProjets {          /* à vérifier (en test) */
+    width: 100%;
+  }.description {   /* à vérifier (en test) */
+    width: 90%;
   }
   .contentCards h2 {
     color: rgba(127, 255, 212, 0.5);
@@ -353,3 +365,4 @@
     font-size: 12px;
   }
 }
+
