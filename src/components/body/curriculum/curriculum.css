@@ -1,28 +1,31 @@
-
-
 /*CURRICULUM-VITAE*/
 
 .bodyCurriculum {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   min-height: 100vh;
   margin-top: 50px;
+  border: 1px solid red;
 }
 
 .svgCurriculum {
+  position: absolute;
   margin-top: 20px;
   margin-left: 20px;
-  width: 9%;
-  min-width: 70px;
-  height: 100%;
+  width: auto;
+    min-width: 50px;  
+  height: 8%;
 }
 
 .containerCurriculum {
+  
   width: 95%;
   min-height: 100vh;
-  margin: 50px auto 0;
+  margin: 200px auto 0;
+  border: 1px solid blue;
 }
 
 .blockCurriculum {

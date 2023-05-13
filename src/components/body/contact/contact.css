@@ -1,6 +1,5 @@
+/*FORM CONTACT */
 
-
-/*FORMULAIRE CONTACT */
 .bodyContact {
   position: relative;
   display: flex;
@@ -14,9 +13,9 @@
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 10%;
+  width: auto;
   min-width: 110px;
-  height: auto;
+  height: 12%;
 }
 
 /* modale formulaire */
