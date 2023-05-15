@@ -30,6 +30,7 @@ const Burger = () => {
         <span className="burger-menu-icon"></span>
       </button>
       {isOpen && (
+        <div className="testburger">
         <div className="burger-menu-dropdown">
         <nav
         className="navBurger"
@@ -62,6 +63,7 @@ const Burger = () => {
           Contact
         </Link>
       </nav>
+        </div>
         </div>
       )}
     </div>
