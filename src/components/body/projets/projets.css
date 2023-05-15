@@ -314,6 +314,7 @@
     
   }.card {          /* à vérifier (en test) */
     width: 90%;
+    height: 300px;
     margin-bottom: 10px;
   }.contentCards {    /* à vérifier (en test) */
     width: 90%;
@@ -328,7 +329,7 @@
     margin-top: 40px;
   }
   .contentCards {
-    height: 700px;
+    height: 675px;
     transform: translateY(0px);
     z-index: 20;
   }
@@ -341,7 +342,7 @@
     margin: 0;
   }
   .containerCover {
-    opacity: 0.8;
+    opacity: 0.9;
   }
   .detailsProjet:hover {
     font-size: 12px;
@@ -365,6 +366,10 @@
   .infoProjets1,
   .infoProjets2 {
     font-size: 12px;
+  }
+  .logoProjets {   /* à vérifier */
+    width: 70%;
+    height: auto;
   }
 }
 
