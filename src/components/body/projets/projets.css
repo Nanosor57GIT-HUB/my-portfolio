@@ -9,7 +9,7 @@
 .svgProjets {
   margin-top: 0;
   margin-left: 20px;
-  width: 10%;
+  width: 120px;
   min-width: 75px;
   height: 100%;
 }
@@ -53,14 +53,11 @@
   width: 100%;
   height: auto;
   margin-top: 80px;
-  /* background-color: #35463f;
-  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5); */
   background-color: rgba(127, 255, 212, 0.2);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 10px;
   overflow: hidden;
-  /* border: 1px solid aquamarine; */
 }
 
 .infoProjets1,
@@ -373,3 +370,9 @@
   }
 }
 
+@media (max-width: 335px) {
+  .titleProjets1,
+  .titleProjets2 {
+    font-size: 30px;
+  }
+}

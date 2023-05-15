@@ -1,3 +1,5 @@
+/* ANCHOR SCROLL */
+
 .btnAnchor {
   display: block;
   position: fixed;
@@ -27,7 +29,6 @@
     opacity: 1;
   }
 }
-/* ANCHOR SCROLL */
 
 .anchor {
   width: 25px;
