@@ -310,7 +310,7 @@
     margin-top: 25px;   /* à vérifier (en test) */
     
   }.card {          /* à vérifier (en test) */
-    width: 225px;
+    width: 90%;
     height: 300px;
     margin-bottom: 10px;
   }.contentCards {    /* à vérifier (en test) */
