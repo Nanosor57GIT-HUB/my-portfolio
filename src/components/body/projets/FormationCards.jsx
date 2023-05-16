@@ -40,16 +40,16 @@ const FormationCards = ({pro}) => {
   // const pro = data.pro;
  
   return (
-    <div className="containerProjets">
-    <div className="blockProjets1" >
-      <h1 className="titleProjets1">
+    <div className="containerProjects">
+    <div className="formationBlockProjects" >
+      <h1 className="formationTitleProjects">
         Projets de formation
-        <span className="numberProjets"> ({pro.length})</span>
+        <span className="numberProjects"> ({pro.length})</span>
       </h1>
       <div>
-        <div className="containerInfoProjets animated" data-aos="zoom-out">
+        <div className="containerInfoProjects animated" data-aos="zoom-out">
         <p
-          className="infoProjets1 animated"
+          className="formationInfoProjects animated"
           data-aos="zoom-in"
         >
           Au cours de ma formation de développeur d'application JavaScript / React
@@ -72,7 +72,7 @@ const FormationCards = ({pro}) => {
               
                 <img
                   src={item.cover}
-                  className="coverProjets"
+                  className="coverProjects"
                   alt={item.title}
                   style={{ maxWidth: 250, maxHeight: 370 }}
                 />
@@ -80,8 +80,8 @@ const FormationCards = ({pro}) => {
               </div>
               <div className="contentCards">
                 <h2 className="position">{item.position}</h2>
-                <img src={item.logo} alt={item.title} className="logoProjets" style={{ maxWidth: 180, maxHeight: 60 }} />
-                <p className="detailsProjet">{item.details}</p>
+                <img src={item.logo} alt={item.title} className="logoProjects" style={{ maxWidth: 180, maxHeight: 60 }} />
+                <p className="detailsProjects">{item.details}</p>
                 {item.url.map((item) => (
                   <div className="containerLinks" key={item.demo}>
                     {item.git_hub && (
@@ -89,7 +89,7 @@ const FormationCards = ({pro}) => {
                         to={item.git_hub}
                         target="_blank"
                         rel="noreferrer"
-                        className="linkProjets btn-GitHub"
+                        className="linkProjects btn-GitHub"
                         aria-label="Button Git-Hub"
                       >
                         Git-Hub
@@ -100,7 +100,7 @@ const FormationCards = ({pro}) => {
                         to={item.demo}
                         target="_blank"
                         rel="noreferrer"
-                        className="linkProjets btn-Demo"
+                        className="linkProjects btn-Demo"
                         aria-label="Button Demo"
                       >
                         Demo

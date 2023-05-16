@@ -1,12 +1,12 @@
 /*PROJECTS CARDS*/
 
-.bodyProjets {
+.bodyProjects {
   width: 100%;
   min-height: 100vh;
   margin-top: 120px;
 }
 
-.svgProjets {
+.svgProjects {
   margin-top: 0;
   margin-left: 20px;
   width: 120px;
@@ -14,8 +14,8 @@
   height: 100%;
 }
 
-.titleProjets1,
-.titleProjets2 {
+.formationTitleProjects,
+.personalTitleProjects {
   width: 100%;
   height: auto;
   color: aquamarine;
@@ -26,30 +26,30 @@
   -webkit-text-stroke: 0.05vw rgba(127, 255, 212, 0.728);
 }
 
-.titleProjets2 {
+.personalTitleProjects {
   margin-top: 80px;
 }
 
-.numberProjets {
+.numberProjects {
   font-weight: 300;
 }
 
-.containerProjets {
+.containerProjects {
   width: 95%;
   margin: 0 auto;
 }
 
-.blockProjets1,
-.blockProjets2 {
+.formationBlockProjects,
+.personalBlockProjects {
   width: 90%;
   min-height: 100vh;
 }
 
-.blockProjets2 {
+.personalBlockProjects {
   padding-top: 40px;
 }
 
-.containerInfoProjets {
+.containerInfoProjects {
   width: 100%;
   height: auto;
   margin-top: 80px;
@@ -60,8 +60,8 @@
   overflow: hidden;
 }
 
-.infoProjets1,
-.infoProjets2 {
+.formationInfoProjects,
+.personalInfoProjects {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
@@ -128,7 +128,7 @@
   opacity: 0.8;
 }
 
-.coverProjets {
+.coverProjects {
   width: 250px;
   height: 100%;
   padding: 9px;
@@ -153,7 +153,7 @@
   opacity: 1;
 }
 
-.card:hover .coverProjets {
+.card:hover .coverProjects {
   opacity: 0;
 }
 
@@ -162,7 +162,7 @@
   border: none;
 }
 
-.contentCards h2 {
+.position {
   position: absolute;
   top: -70px;
   right: 10px;
@@ -171,12 +171,12 @@
   z-index: -1;
 }
 
-.logoProjets {
+.logoProjects {
   width: 180px;
   height: 60px;
 }
 
-.detailsProjet {
+.detailsProjects {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,7 +200,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.detailsProjet:hover {
+.detailsProjects:hover {
   margin: 0;
   height: 215px;
   /* font-size: 0.65em; */
@@ -214,7 +214,7 @@
   height: 60px;
 }
 
-.linkProjets {
+.linkProjects {
   position: relative;
   display: inline-block;
   width: 90px;
@@ -229,7 +229,7 @@
   border: 1px solid #fbd437;
 }
 
-.linkProjets:hover {
+.linkProjects:hover {
   box-shadow: 0px 0px 2px 1px rgba(255, 212, 55, 0.5);
 }
 
@@ -277,8 +277,8 @@
 }
 
 @media (max-width: 1200px) {
-  .titleProjets1,
-  .titleProjets2 {
+  .formationTitleProjects,
+  .personalTitleProjects {
     text-align: center;
   }
 }
@@ -293,7 +293,7 @@
 }
 
 @media (max-width: 800px) and (min-width: 270px) {
-  .bodyProjets {
+  .bodyProjects {
     margin-top: 50px;
   }.btn-Demo {
     display: none;
@@ -302,6 +302,7 @@
 
 @media (max-width: 660px) {
   .description {
+    width: 90%;
     height: auto;
     font-size: 12px;
   }
@@ -313,24 +314,23 @@
     width: 90%;
     height: 300px;
     margin-bottom: 10px;
-  }.contentCards {    /* à vérifier (en test) */
-    width: 90%;
-  }.coverProjets {          /* à vérifier (en test) */
+  }.coverProjects {          /* à vérifier (en test) */
     width: 100%;
-  }.description {   /* à vérifier (en test) */
-    width: 90%;
   }
-  .contentCards h2 {
-    font-size: 5.5em;
+  .position {
+    font-size: 4em;
+    top: -60px;
+    right: 10px;
     color: rgba(127, 255, 212, 0.5);
     margin-top: 40px;
   }
   .contentCards {
+    /* width: 90%; */
     height: 675px;
     transform: translateY(0px);
     z-index: 20;
   }
-  .linkProjets {
+  .linkProjects {
     padding: 4px 10px;
     margin: 10px 5px;
     background-color: rgb(82, 88, 49);
@@ -341,38 +341,42 @@
   .containerCover {
     opacity: 0.9;
   }
-  .detailsProjet:hover {
-    font-size: 12px;
+  .detailsProjects:hover {
+    font-size: 10.5px;
     padding: 5px;
     height: 195px;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+    .formationInfoProjects,
+    .personalInfoProjects {
+      font-size: 12px;
+    }
+    .logoProjects {   /* à vérifier */
+      width: 120px;
+      height: 40px;
+    }
 }
 
 @media (max-width: 827px) {
-  .containerInfoProjets,
+  .containerInfoProjects,
   .containerCards {
     width: 93%;
   }
 }
 
-@media (max-width: 600px) {
-  .infoProjets1,
-  .infoProjets2 {
+/* @media (max-width: 600px) {
+  .formationInfoProjects,
+  .personalInfoProjects {
     font-size: 12px;
   }
-  .logoProjets {   /* à vérifier */
+  .logoProjects {  
     width: 120px;
     height: 40px;
   }
-}
+} */
 
 @media (max-width: 335px) {
-  .titleProjets1,
-  .titleProjets2 {
+  .formationTitleProjects,
+  .personalTitleProjects {
     font-size: 30px;
   }
 }

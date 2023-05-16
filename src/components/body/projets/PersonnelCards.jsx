@@ -32,17 +32,17 @@ const PersonnelCards = ({perso}) => {
 
 
   return (
-    <div className="containerProjets">
-    <div className="blockProjets2" id="perso">
-      <h1 className="titleProjets2">
+    <div className="containerProjects">
+    <div className="personalBlockProjects" id="perso">
+      <h1 className="personalTitleProjects">
         Projets personnels
-        <span className="numberProjets"> ({perso.length})</span>
+        <span className="numberProjects"> ({perso.length})</span>
       </h1>
       <div>
         
-        <div className="containerInfoProjets animated" data-aos="zoom-out">
+        <div className="containerInfoProjects animated" data-aos="zoom-out">
         <p
-           className="infoProjets2 animated"
+           className="personalInfoProjects animated"
           data-aos="zoom-in"
         >
          Projets personnels réalisés à la suite de ma formation pour montrer ma progression et mon évolution en solo sur une base neutre n'ayant que mes idées, mes connaissances et du travail de recherche pour aboutir à un résultat concluant. Basés aussi sur l'accéssibilité des graphisme, chartes graphique couleur et label. Mettant en application mes connaissances.
@@ -57,7 +57,7 @@ const PersonnelCards = ({perso}) => {
             <div className="containerCover" >
               <img
                 src={item.cover}
-                className="coverProjets"
+                className="coverProjects"
                 alt={item.title}
                 style={{ maxWidth: 250, maxHeight: 370 }}
               />
@@ -67,8 +67,8 @@ const PersonnelCards = ({perso}) => {
        
             >
               <h2 className="position">{item.position}</h2>
-              <img src={item.logo} alt={item.title} className="logoProjets" style={{ maxWidth: 180, maxHeight: 60 }} />
-              <p className="detailsProjet">{item.details}</p>
+              <img src={item.logo} alt={item.title} className="logoProjects" style={{ maxWidth: 180, maxHeight: 60 }} />
+              <p className="detailsProjects">{item.details}</p>
               {item.url.map((item) => (
                 <div className="containerLinks" key={item.demo}>
                   {item.git_hub && (
@@ -76,7 +76,7 @@ const PersonnelCards = ({perso}) => {
                       to={item.git_hub}
                       target="_blank"
                       rel="noreferrer"
-                      className="linkProjets btn-GitHub"
+                      className="linkProjects btn-GitHub"
                       aria-label="Aria Git-Hub"
                     >
                       Git-Hub
@@ -87,7 +87,7 @@ const PersonnelCards = ({perso}) => {
                       to={item.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="linkProjets btn-Demo"
+                      className="linkProjects btn-Demo"
                       aria-label="Aria Demo"
                     >
                       Demo

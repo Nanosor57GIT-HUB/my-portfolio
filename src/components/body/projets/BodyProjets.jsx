@@ -11,9 +11,9 @@ const BodyProjets = ({projets}) => {
   // console.log(perso);
 
   return (
-    <section id="Projets" className="bodyProjets">
+    <section id="Projects" className="bodyProjects">
       
-      <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjets"  alt="logo_projets" />
+      <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjects"  alt="logo_projets" />
         
      {pro && <FormationCards pro={pro} />}
      {perso && <PersonnelCards perso={perso} />}
