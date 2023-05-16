@@ -310,7 +310,7 @@
     margin-top: 25px;   /* à vérifier (en test) */
     
   }.card {          /* à vérifier (en test) */
-    width: 90%;
+    width: 80%;
     height: 300px;
     margin-bottom: 10px;
   }.contentCards {    /* à vérifier (en test) */
@@ -318,7 +318,7 @@
   }.coverProjets {          /* à vérifier (en test) */
     width: 100%;
   }.description {   /* à vérifier (en test) */
-    width: 90%;
+    width: 80%;
   }
   .contentCards h2 {
     font-size: 5.5em;
