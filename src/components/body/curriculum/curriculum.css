@@ -1,7 +1,6 @@
 /*CURRICULUM-VITAE*/
 
 .bodyCurriculum {
-  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -182,9 +181,7 @@
 }
 
 @media (max-width: 800px) and (min-width: 270px) {
-  .bodyCurriculum {
-    margin-top: 0;
-  }
+  
   .hardContainer {
     width: 100%;
   }

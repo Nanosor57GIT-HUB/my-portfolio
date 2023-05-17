@@ -90,7 +90,7 @@
     margin-right: 32px;
   }
   .navBurger {
-    height: 165px;
+    height: 150px;
   }
   .btnNavBar {
     display: flex;
@@ -129,6 +129,13 @@
     height: auto;
     padding: 0 6px;
   }
+  .projetsLink {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 525px) {
@@ -139,14 +146,7 @@
     margin-right: 42px;
   }
   .navBurger {
-    height: 160px;
     align-items: center;
   }
-  .projetsLink {
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 30px;
-    font-size: 15px;
-  }
+  
 }

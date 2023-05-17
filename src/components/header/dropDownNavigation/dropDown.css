@@ -1,7 +1,7 @@
 /*DROPDOWN NAVIGATION*/
 
 .dropDownBox {
-  z-index: 1500;
+  z-index: 150;
   background-color: transparent;
 }
 .dropbtn {
@@ -37,7 +37,7 @@
   height: auto;
   padding: 10px;
   border-radius: 10px;
-  background-color: #2f3330;
+  background-color: #2a3b43;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.5);
 }

@@ -35,7 +35,7 @@ const SideBar = () => {
     },
     {
       label: "3",
-      to: "Projets",
+      to: "Projects",
     },
     {
       label: "4",
