@@ -27,7 +27,7 @@
   justify-content: space-evenly;
   margin-top: 80px;
   width: 45%;
-  min-width: 270px;
+  min-width: 230px;
   max-width: 680px;
   min-height: 446px;
   /* font-family: "Playfair Display", serif; */
@@ -284,12 +284,7 @@ label {
   }
 }
 
-@media (max-width: 1010px) {
-  .modalConfirm {
-    margin-top: 118px;
-    height: 488px;
-  }
-}
+
 
 @media (max-width: 1200px) and (min-width: 801px) {
   .block_form {
@@ -305,6 +300,12 @@ label {
   }
 }
 
+@media (max-width: 1010px) {
+  .modalConfirm {
+    margin-top: 118px;
+    height: 488px;
+  }
+}
 
 @media (max-width: 658px) {
   .modalConfirm {
@@ -337,30 +338,32 @@ label {
     margin-top: 137px;
   }
   .bodyContact {
+    width: 95%;
     margin-top: 30px;
   }
-  .block_form {
+  /* .block_form {
     width: 70%;
-  }
+  } */
   input,
   .textarea {
-    font-size: 13px;
+    font-size: 10px;
   }
   .btn_contact {
-    width: 80px;
-    height: 48px;
-    font-size: 14px;
+    width: 60px;
+    height: 36px;
+    font-size: 13px;
   }
   .containerContact {
     width: 88%;
   }
   label {
-    font-size: 14px;
+    font-size: 13px;
   }
   .first_name,
   .last_name,
   .user_email {
     height: 25px;
+    font-size: 12px;
   }
   .errors {
     font-size: 10px;
