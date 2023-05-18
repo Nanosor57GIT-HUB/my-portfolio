@@ -48,8 +48,6 @@
   height: 170px;
 }
 
-/*dropdown*/
-
 .burger-menu-dropdown {
   background-color: transparent;
   display: flex;
@@ -106,35 +104,6 @@
     background-color: rgba(127, 255, 212, 0.2);
     border-radius: 15px;
     pointer-events: none;
-  }
-  .dropbtn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 13px;
-    width: 150px;
-    width: auto;
-    height: 30px;
-    padding: 10px;
-    border-radius: 7px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-  }
-  .dropDown_Arrow {
-    width: 20px;
-    height: 20px;
-  }
-  .dropdown-content {
-    align-items: center;
-    min-width: 118px;
-    height: auto;
-    padding: 0 6px;
-  }
-  .projetsLink {
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 30px;
-    font-size: 15px;
   }
 }
 
