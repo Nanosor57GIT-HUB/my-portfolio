@@ -140,8 +140,8 @@
 
 @media (max-width: 525px) {
   .logo {
-    width: 250px;
-    height: 125px;
+    width: 280px;
+    height: 140px;
    }
   .linkedInLink {
     width: 35px;
@@ -161,7 +161,7 @@
     left: 5px;
   }
   .logo {
-    width: 200px;
-    height: auto;
+    width: 220px;
+    height: 110px;
    }
 }
