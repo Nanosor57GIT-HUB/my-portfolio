@@ -195,8 +195,12 @@
   }
   .blockPdf {
     margin-top: 60px;
-
+width: 85%;
   }
+   .imgCV {
+    height: 85%;
+    border-radius: 9px;
+  } 
   .softContainer {
     margin-top: 50px;
   }
