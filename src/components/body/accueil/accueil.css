@@ -161,12 +161,16 @@
   .containerTitlePortfolio {
     display: none;
   }
-  .titlePortfolio {
+  /* .titlePortfolio {
     display: none;
   }
   .responsiveText {
     display: none;
-  }.presentation-text {
+  } */
+  .containerPresentation {
+    height: auto;
+  }
+  .presentation-text {
     font-size: 12px;
   }
 }
