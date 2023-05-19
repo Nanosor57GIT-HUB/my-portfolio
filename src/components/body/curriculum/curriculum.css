@@ -101,11 +101,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: auto;
-  min-width: 262px;
-  height: 420px;
-  
+  height: 450px;
 }
 
 .blockPdf {
@@ -113,17 +111,18 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 356px;
+  height: auto;
   background-color: rgba(117, 107, 133, 0.2);
-  /* padding: 10px; */
+   padding: 10px; 
   border-radius: 10px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.imgPdf {
-  width: 240px;
-  height: 336px;
+.imgCV {
+  width: 100%;
+  height: auto;
+  border-radius: 9px;
 }
 
 .containerBtnCV {
