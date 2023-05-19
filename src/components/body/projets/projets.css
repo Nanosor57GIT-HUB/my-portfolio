@@ -334,28 +334,29 @@
 } */
 
 @media (max-width: 660px) {
-  /* .bodyProjects {
+   .bodyProjects {
     width: 85%;
-  } */
+  } 
   .description {
     font-size: 11px;
   }
-  /* .cards { 
-    height: 300px;  
-    margin-top: 25px;   
-  }.card {          
-   width: 90%;
-    margin-bottom: 10px;
-  }
-  .coverProjects {         
-    width: 100%;
-  } */
+  
   .position {
     font-size: 4em;
     top: -60px;
     right: 10px;
     color: rgba(127, 255, 212, 0.5);
     margin-top: 40px;
+  }
+  .cards {
+    width: 85%;
+  }
+  .card {
+    width: 65%;
+    
+  }
+  .coverProjects {
+    width: 100%;
   }
   .contentCards {
     /* width: 90%; */
