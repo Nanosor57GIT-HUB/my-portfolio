@@ -3,25 +3,32 @@
 .bodyAccueil {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   min-height: 100vh;
+  border: 1px solid white;
 }
 
 .containerAccueil {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  justify-content: space-evenly;
+  /* margin-top: 50px; */
+  border: 1px solid blue;
 }
 
 .containerTitlePortfolio {
   position: relative;
-  top: 200px;
+  /* top: 200px; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   width: 720px;
-  height: 105px;
+  height: 40%;
   margin: 0 auto;
+  border: 1px solid green;
 }
 
 .titlePortfolio {
@@ -65,11 +72,13 @@
   }
 }
 
-.containerText {
+.containerPresentation {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 250px;
+  height: 60%;
+  /* margin-top: 250px; */
+  border: 1px solid red;
 }
 
 .presentation {

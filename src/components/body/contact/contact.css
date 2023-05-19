@@ -8,9 +8,11 @@
   width: 100%;
   min-height: 85vh;
   margin-top: 50px;
+  border: 1px solid white;
 }
 
 .svgContact {
+  display: none;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -370,11 +372,12 @@ label {
   }
 }
 
-/* @media (max-width: 600px) {
-  .titleBlockForm {
-    font-size: 19px;
+ @media (max-width: 660px) {
+  .bodyContact {
+    border: 1px solid white;
+    width: 85%;
   }
-} */
+} 
 
 @media (max-width: 299px) {
   .titleBlockForm {

@@ -52,7 +52,7 @@ const BodyAccueil = () => {
           </h1>
           <span className="responsiveText">( For PC & Tablet )</span>
         </div>
-        <div className="containerText">
+        <div className="containerPresentation">
           <div className="presentation">  
           <img
               src={process.env.PUBLIC_URL + "./images/portrait(315x315).webp"}
