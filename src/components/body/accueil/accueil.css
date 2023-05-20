@@ -110,7 +110,6 @@
 .portrait {
   width: 250px;
   height: 250px;
-  padding: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -142,6 +141,7 @@
   .responsiveText {
     font-size: 12px;
   }
+
 }
 
 @media (max-width: 530px) {
