@@ -55,7 +55,7 @@ const BodyAccueil = () => {
         <div className="containerPresentation">
           <div className="presentation">  
           <img
-              src={process.env.PUBLIC_URL + "./images/portrait(240x240).webp"}
+              src={process.env.PUBLIC_URL + "./images/portrait2(240x240).webp"}
               alt="Mon_portrait"
               className="portrait"
                style={{ maxWidth: 240, maxHeight: 240}}

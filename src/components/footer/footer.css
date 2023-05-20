@@ -56,3 +56,10 @@
     width: 90%;
   }
 }
+
+@media (max-width: 335px) {
+  .copyright {
+    
+    font-size: 11px;
+  }
+}
