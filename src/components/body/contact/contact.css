@@ -310,6 +310,9 @@ label {
   .block_form {
     width: 95%;
   }
+  ::placeholder {
+    font-size: 11px;
+  }
   .modalConfirm {
     margin-top: 135px;
     height: 452px;
@@ -380,6 +383,16 @@ label {
     width: 85%;
   }
 } 
+
+@media (max-width: 565px)  {
+  .titleBlockForm {
+    font-size: 13px;
+  }
+  label {
+    font-size: 12px;
+  }
+  
+  }
 
 @media (max-width: 299px) {
   .titleBlockForm {

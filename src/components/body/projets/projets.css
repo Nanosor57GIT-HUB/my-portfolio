@@ -389,7 +389,9 @@
   .containerTechnologies {
     margin: 0;
   }
-  
+  .detailsProjects {
+    font-size: 11px;
+  }
   .detailsProjects:hover {
     font-size: 10.5px;
     padding: 5px;
@@ -422,6 +424,8 @@
     height: 40px;
   }
 } */
+
+
 
 @media (max-width: 335px) {
   .formationTitleProjects,
