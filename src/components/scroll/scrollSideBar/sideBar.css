@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 10%;
   height: 100vh;
   z-index: 16;
 }
@@ -54,3 +54,9 @@
     visibility: visible;
   }
 }
+@media (max-width: 660px) {
+    .containerSideBarLink  {
+      width: 15%;
+    }
+  }
+

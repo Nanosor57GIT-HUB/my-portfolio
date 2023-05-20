@@ -7,7 +7,6 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 50px;
-  border: 1px solid white;
 }
 
 .svgCurriculum {
@@ -25,7 +24,7 @@
   width: 85%;
   min-height: 100vh;
   margin: 80px auto 0;
-  border: 1px solid blue;
+ 
 }
 
 .blockCurriculum {
@@ -35,7 +34,7 @@
   justify-content: space-evenly;
   width: 95%;
   height: auto;
-  border: 1px solid white;
+ 
 }
 
 /* CONTENT CURRICULUM */
@@ -232,6 +231,9 @@ width: 85%;
 @media (max-width: 660px) {
   .bodyCurriculum {
     width: 85%;
+  }
+  .containerCurriculum {
+    width: 100%;
   }
 }
 

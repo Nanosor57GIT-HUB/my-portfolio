@@ -4,7 +4,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 50px;
-  border: 1px solid white;
+  
 }
 
 .svgProjects {
@@ -21,14 +21,14 @@
   justify-content: center;
   width: 85%;
   margin: 0 auto;
-  border: 1px solid blue;
+ 
 }
 
 .formationBlockProjects,
 .personalBlockProjects {
   width: 95%;
   min-height: 100vh;
-  border: 1px solid white;
+
 }
 
 .personalBlockProjects {
@@ -105,7 +105,7 @@
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  border: 1px solid green;
+  
 }
 
 .card {
@@ -339,6 +339,7 @@
   } 
   .description {
     font-size: 11px;
+    width: 90%;
   }
   
   .position {
@@ -349,8 +350,26 @@
     margin-top: 40px;
   }
   .cards {
-    width: 70%;
-  }/* 
+    width: 220px;
+
+  }
+  .card {         /* 250 x 370 */
+    width: 90%;
+   
+  }
+  .containerProjects {
+    width: 100%;
+  }
+ 
+  
+  /* .containerCover {
+    width: 100%;
+    border: 1px solid blue;
+  } */
+  /* .coverProjects {
+    width: 100%;
+  } */
+  /* 
   .card {
     width: 65%;
     
@@ -359,10 +378,8 @@
     width: 100%;
   } */
   .contentCards {
-    /* width: 90%; */
-    height: 675px;
-    transform: translateY(0px);
-    z-index: 20;
+     width: 100%; 
+    /* height: 675px; */
   }
   .linkProjects {
     padding: 4px 10px;

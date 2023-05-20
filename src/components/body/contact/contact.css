@@ -8,7 +8,6 @@
   width: 100%;
   min-height: 85vh;
   margin-top: 50px;
-  border: 1px solid white;
 }
 
 .svgContact {
@@ -289,9 +288,7 @@ label {
 
 
 @media (max-width: 1200px) and (min-width: 801px) {
-  .block_form {
-    width: 60%;
-  }
+  
   .titleBlockForm {
     font-size: 28px;
   }
@@ -310,6 +307,9 @@ label {
 }
 
 @media (max-width: 658px) {
+  .block_form {
+    width: 95%;
+  }
   .modalConfirm {
     margin-top: 135px;
     height: 452px;
@@ -331,6 +331,9 @@ label {
 } 
 
 @media (max-width: 800px) and (min-width: 300px) {
+  .block_form {
+    width: 60%;
+  }
   .titleBlockForm {
     font-size: 17px;
   }
@@ -374,7 +377,6 @@ label {
 
  @media (max-width: 660px) {
   .bodyContact {
-    border: 1px solid white;
     width: 85%;
   }
 } 
