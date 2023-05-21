@@ -89,7 +89,6 @@
   align-items: center;
   width: 95%;
   height: 100%;
-  border: 1px solid blue;
 }
 
 .presentation-text {
@@ -108,7 +107,6 @@
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
-border: 1px solid blue;
 }
 
 .portrait {
