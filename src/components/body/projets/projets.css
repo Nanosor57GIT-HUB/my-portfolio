@@ -293,12 +293,12 @@
 }
 
 @media (max-width: 800px) {
-  .cards {   /* 300 x 540 */
+  .cards { 
     width: 250px;
-    height: 360px;  /* normal 400 *****************************************/
-    margin-top: 25px;   /* à vérifier (en test) */
+    height: 360px;  
+    margin-top: 25px; 
    
-  }.card {         /* 250 x 370 */
+  }.card {       
     width: 80%;
    height: 90%;
     margin-bottom: 10px;
@@ -313,10 +313,6 @@
    .coverProjects {        
     width: 100%;
   } 
-  /* .cards {
-    width: 260px;
-    height: 540px;
-  } */
   [data-aos].animated{
     transform: translateX(0);
   }
@@ -324,14 +320,6 @@
     display: none;
   }
 }
-
-/* @media (max-width: 800px) and (min-width: 270px) {
-  .bodyProjects {
-    margin-top: 50px;
-  }.btn-Demo {
-    display: none;
-  }
-} */
 
 @media (max-width: 660px) {
    .bodyProjects {
@@ -341,7 +329,6 @@
     font-size: 11px;
     width: 90%;
   }
-  
   .position {
     font-size: 4em;
     top: -60px;
@@ -351,35 +338,15 @@
   }
   .cards {
     width: 220px;
-
   }
-  .card {         /* 250 x 370 */
+  .card {       
     width: 90%;
-   
   }
   .containerProjects {
     width: 100%;
   }
- 
-  
-  /* .containerCover {
-    width: 100%;
-    border: 1px solid blue;
-  } */
-  /* .coverProjects {
-    width: 100%;
-  } */
-  /* 
-  .card {
-    width: 65%;
-    
-  }
-  .coverProjects {
-    width: 100%;
-  } */
   .contentCards {
      width: 100%; 
-    /* height: 675px; */
   }
   .linkProjects {
     padding: 4px 10px;
@@ -401,35 +368,15 @@
     .personalInfoProjects {
       font-size: 12px;
     }
-    .logoProjects {   /* à vérifier */
+    .logoProjects { 
       width: 120px;
       height: 40px;
     }
 }
 
-/* @media (max-width: 827px) {
-  .containerInfoProjects,
-  .containerCards {
-    width: 93%;
-  }
-} */
-
-/* @media (max-width: 600px) {
-  .formationInfoProjects,
-  .personalInfoProjects {
-    font-size: 12px;
-  }
-  .logoProjects {  
-    width: 120px;
-    height: 40px;
-  }
-} */
-
-
-
-@media (max-width: 335px) {
+@media (max-width: 530px) {
   .formationTitleProjects,
   .personalTitleProjects {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
