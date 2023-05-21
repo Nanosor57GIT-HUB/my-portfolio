@@ -40,7 +40,7 @@ const BodyAccueil = () => {
   
 
   return (
-    <section id="/" className="bodyAccueil">
+    <section className="bodyAccueil">
       <div className="containerAccueil">
         <div className="containerTitlePortfolio">
           <h1 className="titlePortfolio notranslate" >  

@@ -25,7 +25,8 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={`containerHeader ${isVisible ? "header-visible" : "header-hidden"}`}>
+    <div id="/">
+    <div  className={`containerHeader ${isVisible ? "header-visible" : "header-hidden"}`}>
       <Logo />
       <Navbar />
       <a
@@ -44,6 +45,7 @@ const Header = () => {
           />
         </a>
       <Burger />
+    </div>
     </div>
   );
 };

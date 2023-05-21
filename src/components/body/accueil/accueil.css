@@ -149,6 +149,9 @@
   .containerTitlePortfolio {
     display: none;
   }
+  .presentation {
+    margin-top: 120px;
+  }
  .portrait {
   width: 220px;
   height: 220px;
