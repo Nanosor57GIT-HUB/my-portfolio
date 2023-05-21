@@ -120,6 +120,9 @@
   .containerTitlePortfolio {
     margin-top: 50px;
   }
+  .presentation-text {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 955px) {
