@@ -89,6 +89,7 @@
   align-items: center;
   width: 95%;
   height: 100%;
+  border: 1px solid blue;
 }
 
 .presentation-text {
@@ -107,13 +108,14 @@
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
-border: 1px solid grey;
+border: 1px solid blue;
 }
 
 .portrait {
   width: 280px;
   height: 280px;
   border: 1px solid white;
+  border-radius: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -125,6 +127,9 @@ border: 1px solid grey;
 @media (max-width: 955px) {
   .titlePortfolio {
     font-size: 60px;
+  }
+  .presentation {
+    min-height: 450px;
   }
   .presentation-text {
     width: 90%;
@@ -143,7 +148,10 @@ border: 1px solid grey;
   .responsiveText {
     font-size: 12px;
   }
-
+  .portrait {
+    width: 250px;
+    height: 250px;
+   }
 }
 
 @media (max-width: 530px) {
