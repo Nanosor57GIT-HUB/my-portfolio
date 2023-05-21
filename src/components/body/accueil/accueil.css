@@ -92,11 +92,11 @@
 }
 
 .presentation-text {
-  width: 60%;
+  width: 45%;
   height: auto;
   /* padding: 40px; */
   color: aquamarine;
-  font-size: 17px;
+  font-size: 16px;
   /* font-family: "Lato", sans-serif; */
   font-weight: 600;
   letter-spacing: 0.07em;
@@ -111,8 +111,8 @@
 }
 
 .portrait {
-  width: 320px;
-  height: 320px;
+  width: 280px;
+  height: 280px;
 }
 
 @media (max-width: 1200px) {
@@ -126,7 +126,7 @@
     font-size: 60px;
   }
   .presentation-text {
-    width: 90%;
+    width: 60%;
     font-size: 14px;
      
   }
