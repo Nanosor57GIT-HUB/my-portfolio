@@ -110,10 +110,10 @@
 
 }
 
-/* .portrait {
-  width: 360px;
-  height: 360px;
-} */
+.portrait {
+  width: 340px;
+  height: 340px;
+}
 
 @media (max-width: 1200px) {
   .containerTitlePortfolio {
