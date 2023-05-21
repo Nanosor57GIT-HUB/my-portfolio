@@ -92,7 +92,7 @@
 }
 
 .presentation-text {
-  width: 45%;
+  width: 50%;
   height: auto;
   /* padding: 40px; */
   color: aquamarine;
@@ -126,7 +126,7 @@
     font-size: 60px;
   }
   .presentation-text {
-    width: 60%;
+    width: 90%;
     font-size: 14px;
      
   }
