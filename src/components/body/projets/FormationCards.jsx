@@ -1,5 +1,4 @@
 import React from "react";
-//import "./projets.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -10,30 +9,7 @@ AOS.init({ animatedClassName: 'animated',
           anchor: '#Projets',
           anchorPlacement: 'top-center' });
 
-//https://michalsnik.github.io/aos/
 
-//https://devtrium.com/posts/async-functions-useeffect
-
-//   https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=devtools
-
-// localstorage      https://www.youtube.com/watch?v=vRDGUUEg_n8
-//   https://youtu.be/siVVovFRzfw
-//    https://www.freecodecamp.org/french/news/comment-utiliser-le-localstorage-avec-les-hooks-de-react-pour-enregister-et-afficher-des-elements/
-
-
-
-
-// https://fr.legacy.reactjs.org/docs/context.html
-// https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/?utm_source=lighthouse&utm_medium=lr
-// https://developer.chrome.com/docs/lighthouse/performance/time-to-first-byte/?utm_source=lighthouse&utm_medium=lr
-
-
-
-// https://snowpact.com/blog/reduire-son-bundle-react-avec-sourcemap
-// https://greensock.com/forums/topic/26679-using-gsap-with-npm/
-//  https://karac.ch/blog/animations-scroll-aos
-//  https://michalsnik.github.io/aos/
-//  https://github.com/michalsnik/aos
 
 const FormationCards = ({pro}) => {
   // const data = useContext(DataContext);
@@ -65,7 +41,7 @@ const FormationCards = ({pro}) => {
       </div>
       <div className="containerCards">
         {pro.map((item) => (
-          <div className="cards" key={item.id}>
+          <div className="cards" key={item.id} data-aos="zoom-in">
             <p className="description">{item.description}</p>
             <div className="card" >            
               <div className="containerCover" >
