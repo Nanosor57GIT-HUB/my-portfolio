@@ -152,8 +152,8 @@
     display: none;
   }
  .portrait {
-  width: 70%;
-  height: auto;
+  width: 240px;
+  height: 240px;
  }
   .presentation-text {
     font-size: 12px;
