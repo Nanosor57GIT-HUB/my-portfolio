@@ -95,6 +95,7 @@
   width: 100%;
   min-height: 70vh;
   z-index: 15;
+  
 }
 
 .cards {
@@ -167,7 +168,7 @@
 }
 
 .card:hover {
-  transform: rotateZ(0deg);
+  transform: rotateZ(0deg);background-color: rgb(34, 47, 54);
   border: none;
 }
 
