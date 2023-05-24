@@ -125,7 +125,7 @@
     font-size: 60px;
   }
   .presentation-text {
-    width: 90%;
+    width: 80%;
     font-size: 13px;
   }
 }
@@ -167,13 +167,14 @@
   height: 220px;
  }
   .presentation-text {
-    width: 90%;
+    width: 50%;
     font-size: 12px;
   }
 }
 
 @media (max-width: 390px) {
   .presentation-text {
+ 
     font-size: 11px;
   }
 }
