@@ -26,6 +26,7 @@ const Burger = () => {
   }, []);
 
   return (
+    <div className="containerBurger">
     <div className="burger-menu">
       <button className="burger-menu-button" aria-label="menu burger item" onClick={handleMenuClick}>
         <span className="burger-menu-icon"></span>
@@ -69,6 +70,7 @@ const Burger = () => {
         </div>
         </div>
       )}
+    </div>
     </div>
   );
 };

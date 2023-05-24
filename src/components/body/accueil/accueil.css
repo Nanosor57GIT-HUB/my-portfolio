@@ -1,13 +1,15 @@
 /* HOME PRESENTATION */
 
 .bodyAccueil {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  margin-top: 25vh;
+  /* margin-top: 25vh; */
+ 
 }
 
 .containerAccueil {

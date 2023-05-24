@@ -1,8 +1,9 @@
 /*DROPDOWN NAVIGATION*/
 
 .dropDownBox {
-  z-index: 150;
+  
   background-color: transparent;
+  z-index: 150;
 }
 .dropbtn {
   display: flex;
