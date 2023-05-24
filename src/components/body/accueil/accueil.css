@@ -89,6 +89,7 @@
 .presentation-text {
   width: 50%;
   height: auto;
+  padding: 5px;
   color: aquamarine;
   font-size: 16px;
   /* font-family: "Lato", sans-serif; */
