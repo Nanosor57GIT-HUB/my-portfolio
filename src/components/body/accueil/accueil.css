@@ -84,7 +84,7 @@
   align-items: center;
   width: 95%;
   height: 100%;
-  border: 1px solid blue;
+ 
 }
 
 .presentation-text {
@@ -92,7 +92,7 @@
   height: auto;
   margin: 10px 0;
   color: aquamarine;
-  font-size: 16px;
+  font-size: 15px;
   /* font-family: "Lato", sans-serif; */
   font-weight: 600;
   letter-spacing: 0.07em;
@@ -103,7 +103,7 @@
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
-  border: 1px solid white;
+ 
 }
 
 .portrait {
@@ -116,7 +116,7 @@
 
 @media (max-width: 1200px) {
   .presentation-text {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -126,7 +126,7 @@
   }
   .presentation-text {
     width: 90%;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -172,4 +172,8 @@
   }
 }
 
-
+@media (max-width: 390px) {
+  .presentation-text {
+    font-size: 11px;
+  }
+}
