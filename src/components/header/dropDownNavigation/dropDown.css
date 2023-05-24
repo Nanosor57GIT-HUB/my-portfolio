@@ -1,7 +1,6 @@
 /*DROPDOWN NAVIGATION*/
 
 .dropDownBox {
-  
   background-color: transparent;
   z-index: 150;
 }
@@ -34,25 +33,26 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  min-width: 160px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 160px;
   height: auto;
-  padding: 10px;
   border-radius: 10px;
   background-color: #2a3b43;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.projetsLink {
-  width: 100%;
+.projectsLink {
+  width: 80%;
+  margin: 5px;
   height: auto;
-  padding: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: aquamarine;
   cursor: pointer;
 }
 
-.projetsLink:hover {
+.projectsLink:hover {
   color: #67C2A3;
 }
 
@@ -74,18 +74,15 @@
     width: 20px;
     height: 20px;
   }
- 
-  .projetsLink {
+ .dropdown-content {
+    width: 118px;
+  } 
+  .projectsLink {
     display: flex;
     align-items: center;
-    width: auto;
+    justify-content: center;
     height: 30px;
     font-size: 15px;
-  }
-  .dropdown-content {
-    align-items: center;
-    min-width: 118px;
-    height: auto;
-    padding: 0 6px;
+    margin: 2px;
   }
 }

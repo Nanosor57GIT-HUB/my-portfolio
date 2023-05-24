@@ -45,7 +45,7 @@ const DropDownNav = () => {
       {isOpen && (
         <div id="dropdown-content" className="dropdown-content">
           <Link activeClass="active"
-            className={`projetsLink ${hoveredIndex === 0 ? "active" : ""}`}
+            className={`projectsLink ${hoveredIndex === 0 ? "active" : ""}`}
             to="Projects"
             spy={true}
             smooth={true}
@@ -57,7 +57,7 @@ const DropDownNav = () => {
           </Link>
           <Link
             activeClass="active"
-            className={`projetsLink ${hoveredIndex === 1 ? "active" : ""}`}
+            className={`projectsLink ${hoveredIndex === 1 ? "active" : ""}`}
             to="perso"
             spy={true}
             smooth={true}
