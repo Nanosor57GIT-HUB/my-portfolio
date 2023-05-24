@@ -317,9 +317,25 @@
   [data-aos].animated{
     transform: translateX(0);
   }
+  .contentCards {
+    height: 655px;
+  }
+  .position {
+    top: -15px;
+    font-size: 4rem;
+  }
+  .logoProjects {
+    width: 120px;
+    height: 40px;
+  }
+  .detailsProjects {
+    font-size: 10.5px;
+  }
   .btn-Demo {
     display: none;
   }
+  
+  
 }
 
 @media (max-width: 660px) {

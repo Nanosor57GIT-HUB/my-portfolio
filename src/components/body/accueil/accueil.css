@@ -84,7 +84,6 @@
   align-items: center;
   width: 95%;
   height: 100%;
- 
 }
 
 .presentation-text {
@@ -103,7 +102,6 @@
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
- 
 }
 
 .portrait {
@@ -124,10 +122,6 @@
   .titlePortfolio {
     font-size: 60px;
   }
-  /* .presentation-text {
-    width: 80%;
-    font-size: 13px;
-  } */
 }
 
 @media (max-width: 800px) {
@@ -151,9 +145,6 @@
 }
 
 @media (max-width: 530px) {
-   /* .containerTitlePortfolio {
-   display: none;
-  }  */
   .titlePortfolio {
     font-size: 25px;
     -webkit-text-stroke: none;
@@ -172,8 +163,3 @@
   }
 }
 
-/* @media (max-width: 390px) {
-  .presentation-text {
-    font-size: 11px;
-  }
-} */
