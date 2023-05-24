@@ -124,10 +124,10 @@
   .titlePortfolio {
     font-size: 60px;
   }
-  .presentation-text {
+  /* .presentation-text {
     width: 80%;
     font-size: 13px;
-  }
+  } */
 }
 
 @media (max-width: 800px) {
@@ -172,8 +172,8 @@
   }
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   .presentation-text {
     font-size: 11px;
   }
-}
+} */
