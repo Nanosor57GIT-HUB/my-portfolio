@@ -84,12 +84,13 @@
   align-items: center;
   width: 95%;
   height: 100%;
+  border: 1px solid blue;
 }
 
 .presentation-text {
   width: 50%;
   height: auto;
-  padding: 5px;
+  margin: 10px;
   color: aquamarine;
   font-size: 16px;
   /* font-family: "Lato", sans-serif; */
@@ -102,11 +103,13 @@
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
+  border: 1px solid white;
 }
 
 .portrait {
   width: 280px;
   height: 280px;
+  margin: 10px;
   border: 1px solid white;
   border-radius: 20px;
 }
