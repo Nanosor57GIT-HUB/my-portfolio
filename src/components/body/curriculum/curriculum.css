@@ -207,7 +207,7 @@ width: 85%;
   }
 }
 
-/* @media (max-width: 827px) {
+@media (max-width: 827px) {
   .softContainer {
     width: 100%;
   }
@@ -217,14 +217,14 @@ width: 85%;
     font-size: 12px;
     text-align: justify;
   }
-  /* .blockCurriculum {
+   .blockCurriculum {
     width: 85%;
-  } */
-  /* .containerPdf {
+  }
+  .containerPdf {
     width: auto;
     height: auto;
   } 
-} */
+}
 
 
 /* test */

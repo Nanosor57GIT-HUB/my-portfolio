@@ -1,12 +1,12 @@
 /*HEADER*/
 
 .containerHeader {
-  top: 0;
+  position: relative;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-evenly;
+  width: 95%;
   min-height: 15vh;
   transition: opacity 1.2s;
  z-index: 20; 
@@ -25,7 +25,7 @@
 .logo {
   width: 300px;
   height: 150px;
-  margin: 12.5px;
+  margin: 12.5px 0;
   border: 1px solid red;
 }
 
@@ -34,8 +34,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 850px;
+  width: 750px;
   height: 44px;
+  border: 1px solid blue;
 }
 
 .containerNav {
@@ -74,12 +75,12 @@
 
 .linkedInLink {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 15px;
+  right: 0px;
   border: none;
   width: 35px;
   height: 35px;
-  z-index: 1;
+  z-index: 21;
   border: 1px solid green;
 }
 
@@ -94,9 +95,10 @@
   box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.7);
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1150px) {
    .containerNavLink {
     width: 100%;
+    
   }
 }
 
@@ -125,8 +127,9 @@
 }
 
 @media (max-width: 800px) {
-  .logo {
-    margin: 0 auto;
+  .containerHeader {
+    display: flex;
+   justify-content: center;
   }
 }
 

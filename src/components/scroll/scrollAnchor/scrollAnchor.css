@@ -17,6 +17,7 @@
   cursor: pointer;
   -webkit-animation: animAnchor 0.7s ease-in-out;
   animation: animAnchor 0.7s ease-in-out;
+  z-index: 15;
 }
 @keyframes animAnchor {
   0% {
