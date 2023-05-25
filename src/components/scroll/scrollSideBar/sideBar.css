@@ -7,7 +7,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60px;
   height: 100vh;
+  border: 1px solid blue;
 }
 
 .containerSideBar {
@@ -50,9 +52,6 @@
 @media (max-width: 800px) {
   .containerSideBar {
     visibility: visible;
-  }
-  .containerSideBarLink  {
-    width: 70px;
   }
 }
 /* @media (max-width: 660px) {
