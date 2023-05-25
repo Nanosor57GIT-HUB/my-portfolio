@@ -1,7 +1,6 @@
 /* ANCHOR SCROLL */
 
 .btnAnchor {
-  display: block;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -18,7 +17,6 @@
   cursor: pointer;
   -webkit-animation: animAnchor 0.7s ease-in-out;
   animation: animAnchor 0.7s ease-in-out;
-  z-index: 17;
 }
 @keyframes animAnchor {
   0% {

@@ -1,16 +1,13 @@
 /* SIDEBAR SCROLL */
 
 .containerSideBarLink {
-
   position: fixed;
   bottom: 0;
   right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10%;
   height: 100vh;
- 
 }
 
 .containerSideBar {
@@ -54,10 +51,13 @@
   .containerSideBar {
     visibility: visible;
   }
+  .containerSideBarLink  {
+    width: 70px;
+  }
 }
-@media (max-width: 660px) {
+/* @media (max-width: 660px) {
     .containerSideBarLink  {
       width: 15%;
     }
-  }
+  } */
 
