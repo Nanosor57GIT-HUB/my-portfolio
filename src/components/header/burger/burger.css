@@ -2,6 +2,7 @@
 
 .containerBurger {
   width: 100%;
+  border: 1px solid green;
 }
 .burger-menu {
   display: flex;
