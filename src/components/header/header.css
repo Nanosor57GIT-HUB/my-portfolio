@@ -8,9 +8,10 @@
   justify-content: space-evenly;
   width: 95%;
   min-height: 15vh;
+  margin: 0 auto;
   transition: opacity 1.2s;
  z-index: 20; 
- border: 1px solid white;
+ /* border: 1px solid white; */
 }
 
 .header-visible {
@@ -25,8 +26,8 @@
 .logo {
   width: 300px;
   height: 150px;
-  margin: 12.5px 0;
-  border: 1px solid red;
+  margin: 10px 0;
+  /* border: 1px solid red; */
 }
 
 .containerNavLink {
@@ -36,7 +37,7 @@
   justify-content: center;
   width: 750px;
   height: 44px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .containerNav {
@@ -46,7 +47,7 @@
   text-align: center;
   width: 650px;
   height: auto;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .btnNavBar {
@@ -81,7 +82,7 @@
   width: 35px;
   height: 35px;
   z-index: 21;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .linkedInImg {
@@ -102,13 +103,13 @@
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 800px) {
   .containerNavLink {
     display: none;
   }
-  .linkedInLink {
+  /* .linkedInLink {
     top: 25px;
-  }
+  } */
   .btnNavBar {
     display: flex;
     align-items: center;
@@ -138,10 +139,10 @@
     width: 280px;
     height: 140px;
    }
-  .linkedInLink {
+  /* .linkedInLink {
     top: 30px;
     right: 40px;
-  }
+  } */
 }
 
 @media (max-width: 300px) {
