@@ -226,6 +226,24 @@ width: 85%;
   } 
 }
 
+@media (max-width: 660px) {
+  .bodyCurriculum {
+width: 90%;
+}
+    .containerCurriculum {
+width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .liHard,
+  .liSoft,
+  .liJeSuis {
+    font-size: 11px;
+    text-align: justify;
+  }
+}
+
 
 /* test */
 

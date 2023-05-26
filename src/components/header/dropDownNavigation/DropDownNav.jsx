@@ -49,7 +49,7 @@ const DropDownNav = () => {
             to="Projects"
             spy={true}
             smooth={true}
-            // offset={-70}
+             //offset={-170}
             duration={1500} 
             onMouseEnter={() => handleLinkHover(0)}
           >
@@ -61,7 +61,7 @@ const DropDownNav = () => {
             to="perso"
             spy={true}
             smooth={true}
-            // offset={-70}
+            // offset={-170}
             duration={2000} 
             onMouseEnter={() => handleLinkHover(1)}
           >
