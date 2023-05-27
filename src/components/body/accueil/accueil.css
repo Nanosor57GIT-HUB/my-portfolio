@@ -147,7 +147,8 @@
     height: 240px;
    }
    .presentation-text {
-    width: 70%;
+    width: 426px;
+    margin: 10px;
   }
 }
 
@@ -171,3 +172,8 @@
   }
 }
 
+/* @media (max-width: 333px) {
+  presentation-text {
+    font-size: 206px;
+  }
+} */
