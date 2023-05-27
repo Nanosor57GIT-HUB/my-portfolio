@@ -22,7 +22,7 @@ const FormationCards = ({pro}) => {
         Projets de formation
         <span className="numberProjects"> ({pro.length})</span>
       </h1>
-      <div>
+      <div className="blockInfoProjects">
         <div className="containerInfoProjects animated" data-aos="zoom-out">
         <p
           className="formationInfoProjects animated"

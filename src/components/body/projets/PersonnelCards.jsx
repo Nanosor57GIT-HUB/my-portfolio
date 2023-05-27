@@ -38,8 +38,7 @@ const PersonnelCards = ({perso}) => {
         Projets personnels
         <span className="numberProjects"> ({perso.length})</span>
       </h1>
-      <div>
-        
+      <div className="blockInfoProjects">
         <div className="containerInfoProjects animated" data-aos="zoom-out">
         <p
            className="personalInfoProjects animated"

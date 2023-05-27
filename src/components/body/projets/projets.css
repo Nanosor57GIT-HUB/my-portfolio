@@ -4,7 +4,6 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 50px;
-  
 }
 
 .svgProjects {
@@ -21,12 +20,14 @@
   justify-content: center;
   width: 85%;
   margin: 0 auto;
- 
 }
 
 .formationBlockProjects,
 .personalBlockProjects {
-  width: 95%;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
   min-height: 100vh;
 
 }
@@ -55,8 +56,13 @@
   font-weight: 300;
 }
 
+.blockInfoProjects {
+  display: flex;
+  justify-content: center;
+}
+
 .containerInfoProjects {
-  width: 100%;
+  width: 95%;
   height: auto;
   margin-top: 80px;
   background-color: rgba(127, 255, 212, 0.2);
@@ -64,7 +70,7 @@
   border-radius: 10px;
   padding: 10px;
   overflow: hidden;
-  /* border: 1px solid grey; */
+   border: 1px solid grey; 
 }
 
 .formationInfoProjects,
@@ -91,11 +97,8 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
   width: 100%;
   min-height: 70vh;
-
-  
 }
 
 .cards {
@@ -213,7 +216,6 @@
 .detailsProjects:hover {
   margin: 0;
   height: 215px;
-  /* font-size: 0.65em; */
   border-radius: 10px;
   background-color: #000000;
   z-index: 9;
@@ -293,6 +295,17 @@
   }
 }
 
+@media (max-width: 827px) {
+  .formationInfoProjects,
+  .personalInfoProjects {
+    font-size: 13px;
+  }
+  .description {
+    width: 80%;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 800px) {
   .cards { 
     width: 250px;
@@ -304,10 +317,6 @@
    height: 90%;
     margin-bottom: 10px;
   }
-  .description {
-    width: 80%;
-    font-size: 12px;
-  }
   .containerCover {
     opacity: 0.9;
   }
@@ -318,6 +327,7 @@
     transform: translateX(0);
   }
   .contentCards {
+    width: 100%;
     height: 655px;
   }
   .position {
@@ -333,54 +343,11 @@
   }
   .btn-Demo {
     display: none;
-  }
-  
-  
+  } 
 }
 
 @media (max-width: 660px) {
-   .bodyProjects {
-    width: 85%;
-  } 
-  .description {
-    font-size: 11px;
-    width: 90%;
-  }
-  .position {
-    font-size: 4em;
-    top: -60px;
-    right: 10px;
-    color: rgba(127, 255, 212, 0.5);
-    margin-top: 40px;
-  }
-  .cards {
-    width: 220px;
-  }
-  .card {       
-    width: 90%;
-  }
-  .containerProjects {
-    width: 100%;
-  }
-  .contentCards {
-     width: 100%; 
-  }
-  .linkProjects {
-    padding: 4px 10px;
-    margin: 10px 5px;
-    background-color: rgb(82, 88, 49);
-  }
-  .containerTechnologies {
-    margin: 0;
-  }
-  .detailsProjects {
-    font-size: 11px;
-  }
-  .detailsProjects:hover {
-    font-size: 10.5px;
-    padding: 5px;
-    height: 195px;
-  }
+
     .formationInfoProjects,
     .personalInfoProjects {
       font-size: 12px;
@@ -396,4 +363,20 @@
   .personalTitleProjects {
     font-size: 24px;
   }
+}
+
+@media (max-width: 375px) {
+  .formationInfoProjects,
+    .personalInfoProjects {
+      font-size: 11px;
+    }
+    .description {
+     font-size: 11px;
+    }
+}
+
+@media (max-width: 279px) {
+* {
+  display: none;
+}
 }

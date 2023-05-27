@@ -7,7 +7,6 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 50px;
-  border: 1px solid white;
 }
 
 .svgCurriculum {
@@ -25,7 +24,6 @@
   width: 85%;
   min-height: 100vh;
   margin: 80px auto 0;
- border: 1px solid red;
 }
 
 .blockCurriculum {
@@ -214,11 +212,11 @@ width: 85%;
   .liHard,
   .liSoft,
   .liJeSuis {
-    font-size: 12px;
+    font-size: 13px;
     text-align: justify;
   }
    .blockCurriculum {
-    width: 85%;
+    width: 95%;
   }
   .containerPdf {
     width: auto;
@@ -227,11 +225,14 @@ width: 85%;
 }
 
 @media (max-width: 660px) {
-  .bodyCurriculum {
-width: 90%;
-}
     .containerCurriculum {
-width: 100%;
+width: 85%;
+  }
+  .liHard,
+  .liSoft,
+  .liJeSuis {
+    font-size: 12px;
+    text-align: justify;
   }
 }
 
@@ -243,18 +244,6 @@ width: 100%;
     text-align: justify;
   }
 }
-
-
-/* test */
-
-/* @media (max-width: 660px) {
-  .bodyCurriculum {
-    width: 85%;
-  }
-  .containerCurriculum {
-    width: 100%;
-  }
-} */
 
 /* LES CARACTERES
 Entre 16 et 20px pour le texte principal,  et entre 12px et 16px pour les textes secondaires. Les éléments interactifs et boutons, 20 et 24px. Limiter la longueur à 70 caractères. Pour les images et les vidéos, il est recommandé de les adapter à la taille de l'écran.
