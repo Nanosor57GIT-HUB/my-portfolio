@@ -75,10 +75,10 @@
 .containerPresentation {
   display: flex;
   justify-content: center;
-  width: 95%;
+  width: 95%; 
+  height: 100%;
   margin: 0 auto;
-  min-height: 100%;
-  /* border: 1px solid beige; */
+   /* border: 1px solid beige;  */
 }
 
 .presentation {
@@ -89,11 +89,11 @@
   align-items: center;
   width: 95%;
   height: 100%;
-  /* border: 1px solid grey; */
+   /* border: 1px solid grey;  */
 }
 
 .presentation-text {
-  width: 45%;
+  width: 511px;
   height: auto;
   margin: 10px 0;
   color: aquamarine;
@@ -154,26 +154,20 @@
 
 @media (max-width: 530px) {
   .titlePortfolio {
-    font-size: 25px;
-    -webkit-text-stroke: none;
+    font-size: 24px;
     filter: none;
   }
  .responsiveText {
   display: none;
  }
  .portrait {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
  }
   .presentation-text {
     width: 250px;
-    font-size: 10px;
-    margin: 10px;
+    font-size: 11px;
   }
 }
 
-/* @media (max-width: 333px) {
-  presentation-text {
-    font-size: 206px;
-  }
-} */
+
