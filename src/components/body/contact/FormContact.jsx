@@ -64,7 +64,8 @@ const FormContact = () => {
     if (formContact) {
       const formRect = formContact.getBoundingClientRect();
       const isVisible =
-        formRect.bottom >= 0 && formRect.bottom >= window.innerHeight;
+        formRect.bottom >= 0 &&
+         formRect.top >= window.innerHeight;
       if (isVisible) {
         setErrors({});
       }
