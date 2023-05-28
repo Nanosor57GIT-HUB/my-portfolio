@@ -27,6 +27,7 @@ const FormContact = () => {
     }
   };
 
+  // Gestion d'affiche des messages d'erreurs
   const validate = () => {
     let tempErrors = {};
     if (!formData.first_name) {
@@ -57,18 +58,20 @@ const FormContact = () => {
     return Object.keys(tempErrors).length === 0;
   };
 
+  // Fonction de gestion de fermeture des erreurs au scroll
   const resetErrors = () => {
     const formContact = document.getElementById("ResetErrorsContact");
     if (formContact) {
       const formRect = formContact.getBoundingClientRect();
       const isVisible =
-        formRect.bottom >= 0 && formRect.bottom <= window.innerHeight;
+        formRect.bottom >= 0 && formRect.bottom >= window.innerHeight;
       if (isVisible) {
         setErrors({});
       }
     }
   };
 
+  // Fonction d'envoi du formulaire complété au destinataire
   const sendEmail = async (e) => {
     e.preventDefault();
     if (validate()) {
@@ -99,12 +102,14 @@ const FormContact = () => {
 
   const [modalState, setModalState] = useState(false);
 
+  // Aplication de suppression général d'erreurs au scroll
 useEffect(() => {
   window.addEventListener("scroll", resetErrors);
   return () => {
     window.removeEventListener("scroll", resetErrors);
   };
 }, []);
+
 
   function openModal() {
     setModalState(!modalState);
@@ -116,7 +121,6 @@ useEffect(() => {
   }
 
   return (
-  
       <div id="ResetErrorsContact" className="block_form">
         <h2 className="titleBlockForm">Besoin d'en savoir plus ?</h2>
         <form ref={form} autoComplete="OFF" className="form" onSubmit={sendEmail}>
