@@ -281,14 +281,14 @@ label {
   color: aquamarine;
 }
 
-@media (max-width: 1342px) {
+@media (max-width: 1349px) {
   .modalConfirm {
     height: 497px;
     margin-top: 113px;
   } 
-  /* .block_form {
+  .block_form {
     width: 795px;
-  } */
+  }
 }
 
 
