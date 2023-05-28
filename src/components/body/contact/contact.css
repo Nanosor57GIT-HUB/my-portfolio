@@ -8,6 +8,7 @@
   width: 100%;
   min-height: 85vh;
   margin-top: 50px;
+  /* border: 1px solid white; */
 }
 
 .svgContact {
@@ -29,14 +30,15 @@
   margin-top: 80px;
   width: 45%;
   min-width: 230px;
-  max-width: 680px;
-  min-height: 446px;
+  max-width: 690px;
+  min-height: 460px;
   /* font-family: "Playfair Display", serif; */
   letter-spacing: 0.07em;
   padding: 0 15px 15px 15px;
   border-radius: 10px;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
+  /* border: 1px solid blue; */
 }
 
 .titleBlockForm {
@@ -130,7 +132,8 @@ label {
 }
 
 .errors {
-  max-width: 210px;
+  width: 210px;
+  height: 20px;
   color: #fbd437;
   font-size: 12px;
   margin: 0;
@@ -282,13 +285,16 @@ label {
   .modalConfirm {
     height: 497px;
     margin-top: 113px;
-  }
+  } 
+  /* .block_form {
+    width: 795px;
+  } */
 }
 
 
 
 @media (max-width: 1200px) and (min-width: 801px) {
-  
+ 
   .titleBlockForm {
     font-size: 28px;
   }
@@ -335,11 +341,11 @@ label {
 
 @media (max-width: 800px) and (min-width: 300px) {
   .block_form {
-    width: 60%;
+    width: 690px;
   }
-  .titleBlockForm {
-    font-size: 17px;
-  }
+  /* .titleBlockForm {
+    font-size: 24px;
+  } */
   .modalConfirm {
     width: 70%;
     height: 448px;
@@ -352,7 +358,7 @@ label {
   /* .block_form {
     width: 70%;
   } */
-  input,
+ 
   .textarea {
     font-size: 10px;
   }
@@ -367,12 +373,12 @@ label {
   label {
     font-size: 13px;
   }
-  .first_name,
+  /* .first_name,
   .last_name,
   .user_email {
     height: 25px;
     font-size: 12px;
-  }
+  } */
   .errors {
     font-size: 10px;
   }
