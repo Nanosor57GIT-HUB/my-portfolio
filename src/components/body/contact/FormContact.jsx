@@ -198,8 +198,6 @@ useEffect(() => {
         </form>
         <Modal toggle={modalState} action={closeModal} />
       </div>
-      
-   
   );
 };
 

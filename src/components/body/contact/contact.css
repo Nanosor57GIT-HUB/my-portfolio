@@ -2,7 +2,7 @@
 
 .bodyContact {
   position: relative;
-  display: flex;
+ display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -24,16 +24,15 @@
 
 /* modale formulaire */
 .block_form {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   width: 690px;
-  min-width: 230px;
-  max-width: 690px;
- 
-  min-height: 446px;
-  max-height: 546px;
+
+ min-height: 446px;
+
   /* font-family: "Playfair Display", serif; */
   letter-spacing: 0.07em;
   padding: 0 15px 15px 15px;
