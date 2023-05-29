@@ -2,11 +2,10 @@
 
 .bodyContact {
   position: relative;
- display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center; 
   width: 100%;
-
   min-height: 85vh;
   margin-top: 50px;
   border: 1px solid white;
@@ -24,15 +23,14 @@
 
 /* modale formulaire */
 .block_form {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   width: 690px;
-
+ 
  min-height: 446px;
-
+ margin: 70px 0;
   /* font-family: "Playfair Display", serif; */
   letter-spacing: 0.07em;
   padding: 0 15px 15px 15px;
@@ -133,7 +131,7 @@ label {
 
 .errors {
   max-width: 210px;
-  height: 20px;
+ 
   color: #fbd437;
   font-size: 12px;
   margin: 0;
@@ -310,9 +308,7 @@ label {
 }
 
 @media (max-width: 658px) {
-  .block_form {
-    width: 95%;
-  }
+
   ::placeholder {
     font-size: 11px;
   }
@@ -338,7 +334,7 @@ label {
 
 @media (max-width: 800px) and (min-width: 300px) {
   .block_form {
-    width: 60%;
+    width: 80%;
   }
   .titleBlockForm {
     font-size: 17px;
