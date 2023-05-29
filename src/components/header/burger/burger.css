@@ -1,7 +1,7 @@
 /* BURGER MENU */
 
 .containerBurger {
- position: relative;
+  position: relative;
 }
 .burger-menu {
   display: flex;
@@ -31,9 +31,7 @@
   content: "";
   height: 2px;
   width: 30px;
-  /* margin-right: 32px; */
   border-radius: 50px;
-  
 }
 
 .burger-menu-icon:before {
@@ -50,10 +48,9 @@
   right: 60px;
   display: flex;
   justify-content: center;
-  align-items: center;  /* à vérifier */
+  align-items: center; /* à vérifier */
   width: 140px;
   height: 170px;
-  /* z-index: 1; */
 }
 
 .burger-menu-dropdown {
@@ -65,7 +62,6 @@
   width: 120px;
   height: auto;
   line-height: 37px;
-  
 }
 
 .navBurger {
@@ -87,32 +83,28 @@
 @media (max-width: 800px) {
   .burger-menu {
     width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  /* margin-right: 32px;  */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
-  /* .burger-menu-button {
-     margin-right: 32px; 
-  } */
   .navBurger {
     height: 150px;
   }
   .containerBurger {
     width: 100%;
   }
-.containerDropdown {
-top: 100%;
-right: 0;
-width: 100%;
-position: relative;
-}
+  .containerDropdown {
+    top: 100%;
+    right: 0;
+    width: 100%;
+    position: relative;
+  }
 }
 
 @media (max-width: 500px) {
   .containerBurger {
     position: relative;
- top: 0;
- right: 0;  
+    top: 0;
+    right: 0;
   }
 }

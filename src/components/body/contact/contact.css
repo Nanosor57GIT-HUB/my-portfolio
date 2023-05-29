@@ -3,12 +3,10 @@
 .bodyContact {
   position: relative;
   display: flex;
-  /* align-items: center; */
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
   min-height: 85vh;
   margin-top: 50px;
-  border: 1px solid white;
 }
 
 .svgContact {
@@ -28,9 +26,8 @@
   align-items: center;
   justify-content: space-evenly;
   width: 690px;
- 
- min-height: 446px;
- margin: 70px 0;
+  min-height: 446px;
+  margin: 70px 0;
   /* font-family: "Playfair Display", serif; */
   letter-spacing: 0.07em;
   padding: 0 15px 15px 15px;
@@ -131,7 +128,7 @@ label {
 
 .errors {
   max-width: 210px;
- 
+
   color: #fbd437;
   font-size: 12px;
   margin: 0;
@@ -286,10 +283,7 @@ label {
   }
 } */
 
-
-
 @media (max-width: 1200px) and (min-width: 801px) {
-  
   .titleBlockForm {
     font-size: 28px;
   }
@@ -308,7 +302,6 @@ label {
 }
 
 @media (max-width: 658px) {
-
   ::placeholder {
     font-size: 11px;
   }
@@ -330,7 +323,7 @@ label {
     width: 70px;
     height: auto;
   }
-} 
+}
 
 @media (max-width: 800px) and (min-width: 300px) {
   .block_form {
@@ -348,9 +341,6 @@ label {
     width: 95%;
     margin-top: 30px;
   }
-  /* .block_form {
-    width: 70%;
-  } */
   input,
   .textarea {
     font-size: 10px;
@@ -377,21 +367,20 @@ label {
   }
 }
 
- @media (max-width: 660px) {
+@media (max-width: 660px) {
   .bodyContact {
     width: 85%;
   }
-} 
+}
 
-@media (max-width: 565px)  {
+@media (max-width: 565px) {
   .titleBlockForm {
     font-size: 13px;
   }
   label {
     font-size: 12px;
   }
-  
-  }
+}
 
 @media (max-width: 299px) {
   .titleBlockForm {

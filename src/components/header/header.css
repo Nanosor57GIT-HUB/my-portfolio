@@ -107,9 +107,6 @@
   .containerNavLink {
     display: none;
   }
-  /* .linkedInLink {
-    top: 25px;
-  } */
   .btnNavBar {
     display: flex;
     align-items: center;
@@ -139,10 +136,6 @@
     width: 250px;
     height: 125px;
    }
-  /* .linkedInLink {
-    top: 30px;
-    right: 40px;
-  } */
 }
 
 @media (max-width: 320px) {
