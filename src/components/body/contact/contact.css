@@ -25,7 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 690px;
+  width: 680px;
   min-height: 446px;
   margin: 70px 0;
   /* font-family: "Playfair Display", serif; */
@@ -40,9 +40,10 @@
   width: 100%;
   height: auto;
   padding: 5px;
-  font-size: 34px;
+  font-size: 30px;
   text-align: center;
   color: aquamarine;
+  /* border: 1px solid white; */
 }
 
 .form {
@@ -53,6 +54,7 @@
   min-height: 85%;
   border: 2px solid #fbd437;
   border-radius: 10px;
+  /* border: 1px solid blue; */
 }
 /**********************************/
 
@@ -61,6 +63,7 @@
   width: 90%;
   height: auto;
   margin: 0;
+  /* border: 1px solid yellow; */
 }
 
 ::placeholder {
@@ -70,50 +73,53 @@
   opacity: 0.5;
 }
 
-input {
-  background-color: aquamarine;
-  font-weight: 600;
-  font-size: 18px;
-  padding-left: 10px;
-}
-
 .nameContact {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* border: 2px solid red; */
 }
 
 .flex_input {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
+  /* border: 1px solid white; */
 }
 
-label {
-  color: aquamarine;
+label,
+span {
   margin-bottom: 2px;
+  color: aquamarine;
 }
 
+/*****input*****/
 .first_name,
-.last_name {
-  width: 100%;
-  height: 30px;
-  border-radius: 5px;
-}
-
+.last_name,
 .user_email {
   width: 100%;
   height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 10px;
+  background-color: aquamarine;
+  border: none;
   border-radius: 5px;
 }
+/***************/
 
+.titleTextarea {
+  width: 90%;
+  margin-top: 10px;
+  text-align: center;
+}
 .textarea {
   display: flex;
   width: 90%;
   min-height: 136px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 2px;
   background-color: aquamarine;
   padding: 10px;
@@ -124,14 +130,15 @@ label {
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
+  /* border: 3px solid violet; */
 }
 
 .errors {
   max-width: 210px;
-
+  height: 20px;
   color: #fbd437;
   font-size: 12px;
-  margin: 0;
+  /* border: 1px solid pink; */
 }
 
 .btn_contact {
@@ -283,65 +290,69 @@ label {
   }
 } */
 
-@media (max-width: 1200px) and (min-width: 801px) {
-  .titleBlockForm {
+/* @media (max-width: 1200px) and (min-width: 801px) {
+   .titleBlockForm {
     font-size: 28px;
-  }
+  } 
   .modalConfirm {
     width: 60%;
     height: 448px;
     margin-top: 137px;
   }
-}
+} */
 
-@media (max-width: 1010px) {
+/* @media (max-width: 1010px) {
   .modalConfirm {
     margin-top: 118px;
     height: 488px;
   }
-}
+} */
 
-@media (max-width: 658px) {
+/* @media (max-width: 658px) {
   ::placeholder {
     font-size: 11px;
-  }
-  .modalConfirm {
+  } */
+/* .modalConfirm {
     margin-top: 135px;
     height: 452px;
-  }
-  .imgModal {
+  } */
+/* .imgModal {
     width: 140px;
     height: 126px;
   }
   .confirmText {
     font-size: 1rem;
-  }
-}
+  } 
+}*/
 
-@media (max-width: 321px) {
+/* @media (max-width: 321px) {
   .svgContact {
     width: 70px;
     height: auto;
   }
-}
+} */
 
-@media (max-width: 800px) and (min-width: 300px) {
+@media (max-width: 800px) {
   .block_form {
-    width: 80%;
+    width: 500px;
   }
   .titleBlockForm {
-    font-size: 17px;
+    font-size: 22px;
   }
-  .modalConfirm {
+  .textarea {
+    font-size: 14px;
+  }
+}
+/*   .modalConfirm {
     width: 70%;
     height: 448px;
     margin-top: 137px;
-  }
+  } 
   .bodyContact {
     width: 95%;
     margin-top: 30px;
   }
-  input,
+   input, 
   .textarea {
     font-size: 10px;
   }
@@ -356,40 +367,92 @@ label {
   label {
     font-size: 13px;
   }
+   .first_name,
+  .last_name,
+  .user_email {
+    height: 25px;
+    font-size: 12px;
+  } 
+  .errors {
+    font-size: 10px;
+  }
+} */
+
+@media (max-width: 620px) {
+  .block_form {
+    width: 350px;
+  }
+  label,
+  .textMax {
+    font-size: 10px;
+  }
   .first_name,
   .last_name,
   .user_email {
     height: 25px;
     font-size: 12px;
   }
+  ::placeholder {
+    font-size: 11px;
+  }
   .errors {
     font-size: 10px;
   }
-}
-
-@media (max-width: 660px) {
-  .bodyContact {
-    width: 85%;
+  .titleTextarea {
+    font-size: 12px;
   }
-}
-
-@media (max-width: 565px) {
-  .titleBlockForm {
-    font-size: 13px;
-  }
-  label {
+  .textarea {
     font-size: 12px;
   }
 }
 
-@media (max-width: 299px) {
-  .titleBlockForm {
-    font-size: 17px;
+@media (max-width: 470px) {
+  .block_form {
+    width: 65%;
   }
+  .titleBlockForm {
+    font-size: 13px;
+  }
+  .titleTextarea {
+    font-size: 11px;
+  }
+  .textarea {
+    font-size: 10px;
+  }
+}
+
+/* @media (max-width: 660px) {
   .bodyContact {
     width: 87%;
   }
-}
+} */
+
+/* @media (max-width: 565px) {
+  .titleBlockForm {
+    font-size: 16px;
+  }
+  label {
+    font-size: 12px;
+  } 
+} */
+
+/* @media (max-width: 400px) {
+  .titleBlockForm {
+    font-size: 13px;
+  }
+  .bodyContact {
+    width: 87%;
+  } 
+} */
+
+/******************************************/
+
+/* @media (max-width: 299px) {
+  
+  .bodyContact {
+    width: 87%;
+  }
+} */
 
 /* @media (max-width: 299px) {
   .svgContact {
