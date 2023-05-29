@@ -283,55 +283,6 @@ span {
   color: aquamarine;
 }
 
-/* @media (max-width: 1342px) {
-  .modalConfirm {
-    height: 497px;
-    margin-top: 113px;
-  }
-} */
-
-/* @media (max-width: 1200px) and (min-width: 801px) {
-   .titleBlockForm {
-    font-size: 28px;
-  } 
-  .modalConfirm {
-    width: 60%;
-    height: 448px;
-    margin-top: 137px;
-  }
-} */
-
-/* @media (max-width: 1010px) {
-  .modalConfirm {
-    margin-top: 118px;
-    height: 488px;
-  }
-} */
-
-/* @media (max-width: 658px) {
-  ::placeholder {
-    font-size: 11px;
-  } */
-/* .modalConfirm {
-    margin-top: 135px;
-    height: 452px;
-  } */
-/* .imgModal {
-    width: 140px;
-    height: 126px;
-  }
-  .confirmText {
-    font-size: 1rem;
-  } 
-}*/
-
-/* @media (max-width: 321px) {
-  .svgContact {
-    width: 70px;
-    height: auto;
-  }
-} */
-
 @media (max-width: 800px) {
   .block_form {
     width: 500px;
@@ -343,40 +294,6 @@ span {
     font-size: 14px;
   }
 }
-/*   .modalConfirm {
-    width: 70%;
-    height: 448px;
-    margin-top: 137px;
-  } 
-  .bodyContact {
-    width: 95%;
-    margin-top: 30px;
-  }
-   input, 
-  .textarea {
-    font-size: 10px;
-  }
-  .btn_contact {
-    width: 60px;
-    height: 36px;
-    font-size: 13px;
-  }
-  .containerContact {
-    width: 88%;
-  }
-  label {
-    font-size: 13px;
-  }
-   .first_name,
-  .last_name,
-  .user_email {
-    height: 25px;
-    font-size: 12px;
-  } 
-  .errors {
-    font-size: 10px;
-  }
-} */
 
 @media (max-width: 620px) {
   .block_form {
@@ -384,7 +301,7 @@ span {
   }
   label,
   .textMax {
-    font-size: 10px;
+    font-size: 11px;
   }
   .first_name,
   .last_name,
@@ -396,7 +313,7 @@ span {
     font-size: 11px;
   }
   .errors {
-    font-size: 10px;
+    font-size: 11px;
   }
   .titleTextarea {
     font-size: 12px;
@@ -417,45 +334,6 @@ span {
     font-size: 11px;
   }
   .textarea {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
-
-/* @media (max-width: 660px) {
-  .bodyContact {
-    width: 87%;
-  }
-} */
-
-/* @media (max-width: 565px) {
-  .titleBlockForm {
-    font-size: 16px;
-  }
-  label {
-    font-size: 12px;
-  } 
-} */
-
-/* @media (max-width: 400px) {
-  .titleBlockForm {
-    font-size: 13px;
-  }
-  .bodyContact {
-    width: 87%;
-  } 
-} */
-
-/******************************************/
-
-/* @media (max-width: 299px) {
-  
-  .bodyContact {
-    width: 87%;
-  }
-} */
-
-/* @media (max-width: 299px) {
-  .svgContact {
-   display: none;
-  }
-} */

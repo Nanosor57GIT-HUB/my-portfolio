@@ -73,13 +73,6 @@
   cursor: pointer;
 }
 
-/* .burger-menu-dropdown-header {
-  background-color: #2f3330;
-  font-weight: bold;
-  padding: 8px;
-  text-align: center;
-} */
-
 @media (max-width: 800px) {
   .burger-menu {
     width: 100%;
