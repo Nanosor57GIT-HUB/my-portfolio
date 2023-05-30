@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 150px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .svgProjects {
@@ -20,10 +20,8 @@
 }
 
 .containerProjects {
-  /* display: flex;
-  justify-content: center; */
   width: 85%; 
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .formationBlockProjects,
@@ -73,7 +71,7 @@
   border-radius: 10px;
   padding: 10px;
   overflow: hidden;
-   border: 1px solid grey; 
+   /* border: 1px solid grey;  */
 }
 
 .formationInfoProjects,
@@ -100,12 +98,11 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
   width: 100%;
   min-height: 50vh;
   margin-top: 100px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .cards {
