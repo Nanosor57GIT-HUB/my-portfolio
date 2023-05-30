@@ -7,6 +7,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 50px;
+  border: 1px solid white;
 }
 
 .svgCurriculum {
@@ -24,6 +25,7 @@
   width: 85%;
   min-height: 100vh;
   margin: 80px auto 0;
+  border: 1px solid blue;
 }
 
 .blockCurriculum {
@@ -181,8 +183,29 @@
     width: 100%;
   }
 }
+@media (max-width: 827px) {
+  .softContainer {
+    width: 100%;
+  }
+  .liHard,
+  .liSoft,
+  .liJeSuis {
+    font-size: 13px;
+    text-align: justify;
+  }
+  /* .blockCurriculum {
+    width: 95%;
+  } */
+  .containerPdf {
+    width: auto;
+    height: auto;
+  }
+}
 
-@media (max-width: 800px) and (min-width: 270px) {
+@media (max-width: 800px) {
+  .bodyCurriculum {
+width: 92%;
+  }
   .hardContainer {
     width: 100%;
   }
@@ -203,28 +226,12 @@
   }
 }
 
-@media (max-width: 827px) {
-  .softContainer {
-    width: 100%;
-  }
-  .liHard,
-  .liSoft,
-  .liJeSuis {
-    font-size: 13px;
-    text-align: justify;
-  }
-  .blockCurriculum {
-    width: 95%;
-  }
-  .containerPdf {
-    width: auto;
-    height: auto;
-  }
-}
 
-@media (max-width: 660px) {
+
+/* @media (max-width: 660px) {
   .containerCurriculum {
     width: 85%;
+    border: 1px solid white;
   }
   .liHard,
   .liSoft,
@@ -232,16 +239,16 @@
     font-size: 12px;
     text-align: justify;
   }
-}
+} */
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .liHard,
   .liSoft,
   .liJeSuis {
     font-size: 11px;
     text-align: justify;
   }
-}
+} */
 
 /* LES CARACTERES
 Entre 16 et 20px pour le texte principal,  et entre 12px et 16px pour les textes secondaires. Les éléments interactifs et boutons, 20 et 24px. Limiter la longueur à 70 caractères. Pour les images et les vidéos, il est recommandé de les adapter à la taille de l'écran.

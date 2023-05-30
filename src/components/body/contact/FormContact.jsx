@@ -176,8 +176,8 @@ useEffect(() => {
           </div>
 
           <label htmlFor="textarea" className="titleTextarea">En quoi puis-je vous aider ?</label>
-          <span className="textMax" style={{ color: "#fbd437" }}>
-            ( 300 characters Maxi )
+          <span className="textMaxChars" style={{ color: "#fbd437" }}>
+            ( 300 caractères Max. )
           </span>
 
           <textarea

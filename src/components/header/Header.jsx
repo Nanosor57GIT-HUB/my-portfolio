@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     function handleScroll() {
-      if (window.scrollY > 150) {
+      if (window.scrollY > 0) {
         setIsVisible(false);
       } else {
         setIsVisible(true);
