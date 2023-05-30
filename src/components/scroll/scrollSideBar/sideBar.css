@@ -10,7 +10,7 @@
   width: 50px;
   height: 100vh;
   z-index: 10;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .containerSideBar {

@@ -8,7 +8,7 @@
   align-items: center;
   width: 100%;
   min-height: 75vh;
-  /* border: 1px solid white; */
+   border: 1px solid white; 
 }
 
 .containerAccueil {
@@ -95,7 +95,7 @@
 .presentation-text {
   width: 511px;
   height: auto;
-  margin: 10px 0;
+  margin: 10px ;
   color: aquamarine;
   font-size: 15px;
   /* font-family: "Lato", sans-serif; */
@@ -115,7 +115,7 @@
 .portrait {
   width: 260px;
   height: 260px;
-  margin: 10px 0;
+  margin: 10px ;
   border: 1px solid white;
   border-radius: 20px;
 }

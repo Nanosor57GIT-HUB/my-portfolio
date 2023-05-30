@@ -6,12 +6,12 @@
   flex-wrap: wrap;
   width: 100%;
   min-height: 100vh;
-  margin-top: 50px;
-  border: 1px solid white;
+  margin-top: 150px;
+   border: 1px solid white; 
 }
 
 .svgCurriculum {
-  display: none;
+ display: none;
   margin-top: 20px;
   margin-left: 20px;
   width: 80px;
@@ -57,10 +57,10 @@
 }
 
 .quiSuisJeContainer {
-  /* width: 100%;
-  height: auto; */
+     /* width: 100%;   */
+  /*height: auto; */
   padding: 10px;
-  margin-top: 60px;
+  margin: 60px 0;
   background-color: rgba(127, 255, 212, 0.2);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
@@ -210,6 +210,7 @@ width: 92%;
     width: 100%;
   }
   .containerCurriculum {
+    width: 100%;
     margin-top: 10px;
   }
   .blockPdf {
@@ -221,8 +222,17 @@ width: 92%;
     height: 85%;
     border-radius: 9px;
   }
+  .lookCVbtn:hover {
+    box-shadow: none;
+  }
   .softContainer {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerCurriculum {
+    width: 87%;
   }
 }
 

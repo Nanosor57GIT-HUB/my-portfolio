@@ -1,9 +1,13 @@
 /*PROJECTS CARDS*/
 
 .bodyProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   min-height: 100vh;
-  margin-top: 50px;
+  margin-top: 150px;
+  border: 1px solid white;
 }
 
 .svgProjects {
@@ -16,24 +20,23 @@
 }
 
 .containerProjects {
-  display: flex;
-  justify-content: center;
-  width: 85%;
-  margin: 0 auto;
+  /* display: flex;
+  justify-content: center; */
+  width: 85%; 
+  border: 1px solid blue;
 }
 
 .formationBlockProjects,
 .personalBlockProjects {
   display: flex;
   flex-direction: column;
-
   width: 100%;
   min-height: 100vh;
-
 }
 
 .personalBlockProjects {
   padding-top: 40px;
+  /* border: 1px solid white; */
 }
 
 .formationTitleProjects,
@@ -97,8 +100,12 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
+
+  justify-content: center;
   width: 100%;
-  min-height: 70vh;
+  min-height: 50vh;
+  margin-top: 100px;
+  border: 1px solid blue;
 }
 
 .cards {
@@ -171,7 +178,7 @@
 }
 
 .card:hover {
-  transform: rotateZ(0deg);background-color: rgb(34, 47, 54);
+  transform: rotateZ(0deg);background-color: rgb(39, 55, 63);
   border: none;
 }
 
@@ -181,6 +188,7 @@
   right: 10px;
   font-size: 6em;
   color: rgba(255, 255, 255, 0.5);
+  opacity: 0.2;
   z-index: -1;
 }
 
@@ -307,6 +315,12 @@
 }
 
 @media (max-width: 800px) {
+  .bodyProjects {
+    width: 92%;
+  }
+  .containerProjects {
+    width: 100%;
+  }
   .cards { 
     width: 250px;
     height: 360px;  
@@ -343,6 +357,9 @@
   }
   .btn-Demo {
     display: none;
+  }
+  .linkProjects:hover {
+    box-shadow: none;
   } 
 }
 
@@ -358,10 +375,16 @@
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 500px) {
   .formationTitleProjects,
   .personalTitleProjects {
     font-size: 24px;
+  }
+  .containerProjects {
+    width: 85%;
+  }
+  .cards {
+width: 300px;
   }
 }
 
