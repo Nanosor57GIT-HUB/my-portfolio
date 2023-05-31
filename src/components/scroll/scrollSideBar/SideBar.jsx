@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
 import "./sideBar.css";
+import { Link } from "react-scroll";
+
 
 const SideBar = () => {
   const [showAnchor, setShowAnchor] = useState(false);
@@ -58,7 +59,6 @@ const SideBar = () => {
              //  offset={-70}
               duration={800} 
             >
-              {/* {link.label} */}
             </Link>
           ))}
         </nav>

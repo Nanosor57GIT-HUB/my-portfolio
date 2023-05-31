@@ -11,6 +11,7 @@ import BodyProjets from "../components/body/projets/BodyProjets";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
 
 //https://www.youtube.com/watch?v=517npPWIb8Q&pp=ugMICgJmchABGAE%3D   (deploy)
+
 const Accueil = () => {
 
   const {

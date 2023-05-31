@@ -1,43 +1,14 @@
-//import React, { useEffect, useRef } from "react";
 import React from "react";
 import "./accueil.css";
-//import { gsap } from "gsap";
+
 
 
 //https://www.freecodecamp.org/french/news/react-context-pour-debutants/
 
 const BodyAccueil = () => {
+  
 
-  // function animateLetters(textRef) {
-  //   const letters = textRef.current.textContent?.split("") || [];
-  
-  //   if (!textRef.current) {
-  //     console.error("textRef.current is null or undefined");
-  //     return;
-  //   }
-  
-  //   textRef.current.textContent = "";
-  
-  //   letters.forEach((letter, i) => {
-  //     const span = document.createElement("span");
-  //     span.textContent = letter;
-  //     span.style.opacity = 0;
-  //     textRef.current.appendChild(span);
-  
-  //     gsap.to(span, {
-  //       opacity: 1,
-  //       duration: 0.2,
-  //       delay: i * 0.04,
-  //     });
-  //   });
-  // }
-  
-  // const textRef = useRef(null);
-  
-  // useEffect(() => {
-  //   animateLetters(textRef);
-  // }, []);
-  
+//https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/265gsjapno?form_factor=mobile
 
   return (
     <section className="bodyAccueil">

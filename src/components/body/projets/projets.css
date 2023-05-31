@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 110px;
-  /* border: 1px solid white; */
+ 
 }
 
 .svgProjects {
@@ -35,7 +35,6 @@ padding-top: 40px;
 
 .personalBlockProjects {
   padding-top: 40px;
-   border: 1px solid white; 
 }
 
 .formationTitleProjects,
@@ -386,7 +385,9 @@ margin-top: 25px;
   .personalTitleProjects {
     font-size: 24px;
   }
- 
+  .bodyProjects {
+width: 85%;
+ }
 }
 
 @media (max-width: 375px) {

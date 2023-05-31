@@ -1,11 +1,7 @@
 import React from "react";
-//import "./projets.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-//import useFetch from "../../service/UseFetch";
 import { Link } from "react-router-dom";
-
-
 
 AOS.init({ animatedClassName: 'animated',
 duration: 400,
@@ -14,22 +10,8 @@ anchor: '#Perso',
 anchorPlacement: 'top-center' });
 
 const PersonnelCards = ({perso}) => {
-
-  
-  /****************************************************************************** */
   
  // const { persoData, setPersoData } = useContext(DataContext);
-
-//  const { data, isLoading, error } = useFetch("myportfolioinline.json");
-
-//  if (isLoading) {
-//    return <div>Chargement en cours...</div>;
-//  }
-
-//  if (error) {
-//    return <div>{error}</div>;
-//  }
-
 
   return (
     <div className="containerProjects">
