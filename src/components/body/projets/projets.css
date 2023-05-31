@@ -315,17 +315,25 @@
   .bodyProjects {
     width: 92%;
   }
+  /* .containerProjects {
+    width: 100%;
+  } */
   .containerProjects {
     width: 100%;
   }
-  .cards { 
+  .cards {
+width: 290px;
+height: 360px;
+margin-top: 25px;
+  }
+  /* .cards { 
     width: 250px;
     height: 360px;  
     margin-top: 25px; 
-   
-  }.card {       
+  } */
+  .card {       
     width: 80%;
-   height: 90%;
+   height: 80%;
     margin-bottom: 10px;
   }
   .containerCover {
@@ -377,12 +385,7 @@
   .personalTitleProjects {
     font-size: 24px;
   }
-  .containerProjects {
-    width: 85%;
-  }
-  .cards {
-width: 300px;
-  }
+ 
 }
 
 @media (max-width: 375px) {
