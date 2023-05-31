@@ -33,7 +33,7 @@ const Burger = () => {
       </button>
       {isOpen && (
         
-        <div className="containerDropdown">
+        <div className="containerDropdown1">
         
         <div className="burger-menu-dropdown">
         <nav
@@ -50,7 +50,7 @@ const Burger = () => {
           to="CurriculumVitae"
           spy={true}
           smooth={true}
-           offset={-170}
+          // offset={-170}
           duration={800} 
         >
           Curriculum
@@ -61,7 +61,7 @@ const Burger = () => {
           to="Contact"
           spy={true}
           smooth={true}
-           offset={-170}
+         //  offset={-170}
           duration={2500} 
         >
           Contact

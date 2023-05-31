@@ -6,7 +6,7 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  margin-top: 150px;
+  margin-top: 110px;
   /* border: 1px solid white; */
 }
 
@@ -30,11 +30,12 @@
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
+padding-top: 40px;
 }
 
 .personalBlockProjects {
   padding-top: 40px;
-  /* border: 1px solid white; */
+   border: 1px solid white; 
 }
 
 .formationTitleProjects,
@@ -49,9 +50,9 @@
   -webkit-text-stroke: 0.05vw rgba(127, 255, 212, 0.728);
 }
 
-.personalTitleProjects {
+/* .personalTitleProjects {
   margin-top: 80px;
-}
+} */
 
 .numberProjects {
   font-weight: 300;
