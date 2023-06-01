@@ -120,6 +120,12 @@
   }
 }
 
+@media (max-width: 279px) {
+  * {
+    display: none;
+  }
+  }
+
 /*ERROR404*/
 /* .btn404 {
   width: 100%;

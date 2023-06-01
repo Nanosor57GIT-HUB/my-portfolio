@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 150px;
-   /* border: 1px solid white;  */
+    /* border: 1px solid white;   */
 }
 
 .svgCurriculum {
@@ -25,7 +25,7 @@
   width: 85%;
   min-height: 100vh;
   margin: 80px auto 0;
-  /* border: 1px solid blue; */
+   /* border: 1px solid blue;  */
 }
 
 .blockCurriculum {
@@ -137,7 +137,8 @@
   width: auto;
   height: 30px;
   line-height: 10px;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 500;
   color: aquamarine;
   background-color: rgba(255, 212, 55, 0.2);
   border: 1px solid #ffe062;
@@ -205,13 +206,13 @@
 @media (max-width: 800px) {
   .bodyCurriculum {
 width: 92%;
-  }
-  .hardContainer {
-    width: 100%;
-  }
+  } 
   .containerCurriculum {
     width: 100%;
     margin-top: 10px;
+  }
+  .hardContainer {
+    width: 100%;
   }
   .blockPdf {
     margin-top: 60px;
@@ -231,34 +232,11 @@ width: 92%;
 }
 
 @media (max-width: 500px) {
-  .containerCurriculum {
-    width: 87%;
-  }
-}
-
-
-
-/* @media (max-width: 660px) {
-  .containerCurriculum {
+  .bodyCurriculum {
     width: 85%;
-    border: 1px solid white;
-  }
-  .liHard,
-  .liSoft,
-  .liJeSuis {
-    font-size: 12px;
-    text-align: justify;
-  }
-} */
-
-/* @media (max-width: 375px) {
-  .liHard,
-  .liSoft,
-  .liJeSuis {
-    font-size: 11px;
-    text-align: justify;
-  }
-} */
+    margin-left: 5px;
+      }
+}
 
 /* LES CARACTERES
 Entre 16 et 20px pour le texte principal,  et entre 12px et 16px pour les textes secondaires. Les éléments interactifs et boutons, 20 et 24px. Limiter la longueur à 70 caractères. Pour les images et les vidéos, il est recommandé de les adapter à la taille de l'écran.

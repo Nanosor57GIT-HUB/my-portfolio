@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 110px;
- 
+ /* border: 1px solid white; */
 }
 
 .svgProjects {
@@ -21,7 +21,7 @@
 
 .containerProjects {
   width: 85%; 
-  /* border: 1px solid blue; */
+   /* border: 1px solid blue;  */
 }
 
 .formationBlockProjects,
@@ -190,6 +190,7 @@ padding-top: 40px;
 }
 
 .logoProjects {
+  display: block;
   width: 180px;
   height: 60px;
 }
@@ -245,6 +246,16 @@ padding-top: 40px;
   color: aquamarine;
   border: 1px solid #fbd437;
 }
+/* width: auto;
+height: 30px;
+line-height: 10px;
+font-size: 15px;
+color: aquamarine;
+background-color: rgba(255, 212, 55, 0.2);
+border: 1px solid #ffe062;
+border-radius: 10px;
+padding: 10px;
+cursor: pointer; */
 
 .linkProjects:hover {
   box-shadow: 0px 0px 2px 1px rgba(255, 212, 55, 0.5);
@@ -315,9 +326,6 @@ padding-top: 40px;
   .bodyProjects {
     width: 92%;
   }
-  /* .containerProjects {
-    width: 100%;
-  } */
   .containerProjects {
     width: 100%;
   }
@@ -326,11 +334,6 @@ width: 290px;
 height: 360px;
 margin-top: 25px;
   }
-  /* .cards { 
-    width: 250px;
-    height: 360px;  
-    margin-top: 25px; 
-  } */
   .card {       
     width: 80%;
    height: 80%;
@@ -350,22 +353,33 @@ margin-top: 25px;
     height: 655px;
   }
   .position {
-    top: -15px;
+    top: -13px;
     font-size: 4rem;
   }
   .logoProjects {
     width: 120px;
     height: 40px;
   }
-  .detailsProjects {
+  .detailsProjects:hover {
+    margin-top: -45px;
+    height: 230px;
+    padding-top: 40px;
     font-size: 11px;
   }
   .btn-Demo {
     display: none;
   }
+  .btn-GitHub {
+    width: auto;
+    padding: 2px 10px;
+    font-size: 11px;
+  }
   .linkProjects:hover {
     box-shadow: none;
   } 
+  .containerTechnologies {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 660px) {
@@ -387,6 +401,7 @@ margin-top: 25px;
   }
   .bodyProjects {
 width: 85%;
+margin-left: 5px;
  }
 }
 
@@ -400,8 +415,4 @@ width: 85%;
     }
 }
 
-@media (max-width: 279px) {
-* {
-  display: none;
-}
-}
+
