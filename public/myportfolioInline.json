@@ -107,7 +107,7 @@
       "position": "06",
       "title": "Billed",
       "description": "Débuggez et testez un SaaS RH",
-      "details": "Débugger la partie administrateur. Tester et débugger la partie employée.",
+      "details": "Débugger la partie Administrateur. Tester et débugger la partie Employée.",
       "cover": "coverProjets/CoverBilled(250x370).webp",
       "logo": "logoProjets/Billed(180x60).webp",
       "url": [
@@ -169,7 +169,7 @@
       "position": "09",
       "title": "SportSee",
       "description": "Développez un tableau de bord d'analytics avec React",
-      "details": "Intégration de la page suivante selon maquette et Kanban (User-Stories) via un Sprint. Développement du profil en React. Ajout de graphiques avec Recharts. Travailler sur Desktop seulement (min. 1024px*780px lisibilité) avec Back-End pour les appels HTTP. Les appels doivent être effectués à l'extérieur des composants via un service. Création de la documentation (JsDoc, ReadMe) en anglais.",
+      "details": "Intégration de la page selon maquette et Kanban (User-Stories) via un Sprint. Développement du profil en React. Ajout de graphiques avec Recharts. Travailler sur Desktop seulement (min. 1024px*780px lisibilité) avec Back-End pour les appels HTTP qui doivent être effectués à l'extérieur des composants via un service. Création de la documentation (JsDoc, ReadMe) en anglais.",
       "cover": "coverProjets/CoverSportsee(250x370).webp",
       "logo": "logoProjets/SportSee(180x60).webp",
       "url": [
