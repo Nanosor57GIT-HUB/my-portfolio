@@ -7,11 +7,11 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 150px;
-     border: 1px solid white;   
+  /* border: 1px solid white; */
 }
 
 .svgCurriculum {
- display: none;
+  display: none;
   margin-top: 20px;
   margin-left: 20px;
   width: 80px;
@@ -28,7 +28,7 @@
   min-height: 100vh;
   height: auto;
   margin: 80px auto 0;
- border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 /* CONTENT CURRICULUM */
@@ -51,8 +51,8 @@
 }
 
 .quiSuisJeContainer {
-     width: 96%;  
-  height: auto; 
+  width: 96%;
+  height: auto;
   padding: 10px;
   margin: 60px 0;
   background-color: rgba(127, 255, 212, 0.2);
@@ -189,9 +189,9 @@
 
 @media (max-width: 800px) {
   .bodyCurriculum {
-width: 92%;
-margin-left: 5px;
-  } 
+    width: 92%;
+    margin-left: 5px;
+  }
   .blockCurriculum {
     width: 100%;
   }
@@ -224,15 +224,15 @@ margin-left: 5px;
 }
 
 @media (max-width: 630px) {
-.bodyCurriculum {
- width: 85%;
-}
+  .bodyCurriculum {
+    width: 85%;
+  }
 }
 
 @media (max-width: 500px) {
   .bodyCurriculum {
     width: 80%;
-      }
+  }
 }
 
 /* LES CARACTERES

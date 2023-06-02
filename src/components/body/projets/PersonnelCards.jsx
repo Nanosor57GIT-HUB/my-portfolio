@@ -14,7 +14,7 @@ const PersonnelCards = ({perso}) => {
  // const { persoData, setPersoData } = useContext(DataContext);
 
   return (
-    <div className="containerProjects">
+  //  <div className="containerProjects">
     <div className="personalBlockProjects" id="perso">
       <h1 className="personalTitleProjects">
         Projets personnels
@@ -94,7 +94,7 @@ const PersonnelCards = ({perso}) => {
         ))}
       </div>
     </div>
-    </div>
+  //  </div>
   );
 };
 

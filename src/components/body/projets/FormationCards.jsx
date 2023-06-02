@@ -16,7 +16,7 @@ const FormationCards = ({pro}) => {
   // const pro = data.pro;
  
   return (
-    <div className="containerProjects">
+    // <div className="containerProjects">
     <div className="formationBlockProjects" >
       <h1 className="formationTitleProjects">
         Projets de formation
@@ -102,7 +102,7 @@ const FormationCards = ({pro}) => {
         ))}
       </div>
     </div>
-    </div>
+   // </div>
   );
 };
 

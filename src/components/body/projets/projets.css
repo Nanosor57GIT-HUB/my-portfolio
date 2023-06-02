@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 110px;
-  border: 1px solid white; 
+  /* border: 1px solid white;  */
 }
 
 .svgProjects {
@@ -19,19 +19,14 @@
   height: 100%;
 }
 
-.containerProjects {
-  width: 85%; 
-    border: 1px solid blue; 
-}
-
 .formationBlockProjects,
 .personalBlockProjects {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   min-height: 100vh;
-padding-top: 40px;
-border: 1px solid red;
+  padding-top: 40px;
+  /* border: 1px solid red; */
 }
 
 .personalBlockProjects {
@@ -64,7 +59,7 @@ border: 1px solid red;
 }
 
 .containerInfoProjects {
-  width: 95%;
+  width: 100%;
   height: auto;
   margin-top: 80px;
   background-color: rgba(127, 255, 212, 0.2);
@@ -72,7 +67,7 @@ border: 1px solid red;
   border-radius: 10px;
   padding: 10px;
   overflow: hidden;
-   /* border: 1px solid grey;  */
+  /* border: 1px solid grey;  */
 }
 
 .formationInfoProjects,
@@ -114,7 +109,6 @@ border: 1px solid red;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  
 }
 
 .card {
@@ -176,7 +170,8 @@ border: 1px solid red;
 }
 
 .card:hover {
-  transform: rotateZ(0deg);background-color: rgb(39, 55, 63);
+  transform: rotateZ(0deg);
+  background-color: rgb(39, 55, 63);
   border: none;
 }
 
@@ -315,27 +310,29 @@ border: 1px solid red;
 @media (max-width: 800px) {
   .bodyProjects {
     width: 92%;
+    margin-left: 5px;
   }
-  .containerProjects {
+  .formationBlockProjects,
+  .personalBlockProjects {
     width: 100%;
   }
   .cards {
-width: 290px;
-height: 360px;
-margin-top: 25px;
+    width: 290px;
+    height: 360px;
+    margin-top: 25px;
   }
-  .card {       
+  .card {
     width: 80%;
-   height: 80%;
+    height: 80%;
     margin-bottom: 10px;
   }
   .containerCover {
     opacity: 0.9;
   }
-   .coverProjects {        
+  .coverProjects {
     width: 100%;
-  } 
-  [data-aos].animated{
+  }
+  [data-aos].animated {
     transform: translateX(0);
   }
   .contentCards {
@@ -366,22 +363,27 @@ margin-top: 25px;
   }
   .linkProjects:hover {
     box-shadow: none;
-  } 
+  }
   .containerTechnologies {
     margin-top: 0;
   }
 }
 
 @media (max-width: 660px) {
+  .formationInfoProjects,
+  .personalInfoProjects {
+    font-size: 12px;
+  }
+  .logoProjects {
+    width: 120px;
+    height: 40px;
+  }
+}
 
-    .formationInfoProjects,
-    .personalInfoProjects {
-      font-size: 12px;
-    }
-    .logoProjects { 
-      width: 120px;
-      height: 40px;
-    }
+@media (max-width: 630px) {
+  .bodyProjects {
+    width: 85%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -390,19 +392,16 @@ margin-top: 25px;
     font-size: 24px;
   }
   .bodyProjects {
-width: 85%;
-margin-left: 5px;
- }
+    width: 80%;
+  }
 }
 
 @media (max-width: 375px) {
   .formationInfoProjects,
-    .personalInfoProjects {
-      font-size: 11px;
-    }
-    .description {
-     font-size: 11px;
-    }
+  .personalInfoProjects {
+    font-size: 11px;
+  }
+  .description {
+    font-size: 11px;
+  }
 }
-
-
