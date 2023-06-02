@@ -13,7 +13,7 @@ const Modal = (props) => {
   return (
     <div className={`container-modal ${toggle ? "active" : ""}`}>
       <div className="modalConfirm">
-        <div className="internBorder">
+        
           <div className="ContainerCloseModal">
             <Link
               className="btnCloseModal"
@@ -25,9 +25,10 @@ const Modal = (props) => {
               X
             </Link>
 
-            <span className="close">Close</span>
+            <span className="close">Fermer</span>
           </div>
-          <div className="content">
+          <div className="containerContent">
+        
             <img
               src={process.env.PUBLIC_URL + "images/logoWithoutTitle(300x270).webp"}
               className="imgModal"
@@ -38,7 +39,6 @@ const Modal = (props) => {
               Nous accusons réception de votre demande et vous répondrons dans
               les plus brefs délais.
             </h1>
-          </div>
         </div>
       </div>
     </div>

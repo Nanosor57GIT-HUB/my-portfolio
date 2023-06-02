@@ -131,6 +131,7 @@ useEffect(() => {
                 <label htmlFor="first_name">Prénom</label>
                 <input
                   type="text"
+                  id="first_Name"
                   name="first_name"
                   value={formData.first_name}
                   className="first_name"
@@ -146,6 +147,7 @@ useEffect(() => {
                 <label htmlFor="last_name">Nom</label>
                 <input
                   type="text"
+                  id="last_name"
                   name="last_name"
                   value={formData.last_name}
                   className="last_name"
@@ -162,6 +164,7 @@ useEffect(() => {
               <label htmlFor="user_email">Email</label>
               <input
                 type="email"
+                id="user_email"
                 name="user_email"
                 value={formData.user_email}
                 className="user_email"
