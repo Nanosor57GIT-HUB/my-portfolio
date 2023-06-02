@@ -33,7 +33,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  width: 81%;
+  width: 80%;
   min-height: 100vh;
   height: auto;
   margin: 80px auto 0;
@@ -210,9 +210,8 @@
   .bodyCurriculum {
 width: 92%;
   } 
-  .containerCurriculum {
-    width: 100%;
-    margin-top: 10px;
+  .blockCurriculum {
+    width: 90%;
   }
   .hardContainer {
     width: 100%;
