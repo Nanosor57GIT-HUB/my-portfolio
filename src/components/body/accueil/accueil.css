@@ -9,7 +9,7 @@
   width: 100%;
   min-height: 75vh;
    margin-top: 10px; 
-   /* border: 1px solid white;  */
+    /* border: 1px solid white;   */
 }
 
 .containerAccueil {
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* border: 1px solid blue; */
+   /* border: 1px solid blue;  */
 }
 
 .containerTitlePortfolio {
@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: flex-end;
   margin: 0 auto;
-  /* border: 1px solid blue; */
+   /* border: 1px solid blue;  */
 }
 
 .titlePortfolio {
@@ -75,22 +75,14 @@
 
 .containerPresentation {
   display: flex;
-  justify-content: center;
-  width: 95%;
-  height: 100%;
-  margin: 0 auto;
-  /* border: 1px solid beige;  */
-}
-
-.presentation {
-  display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  width: 95%;
+  width: 90%;
   height: 100%;
-  /* border: 1px solid grey;  */
+  margin: 0 auto;
+   /* border: 1px solid beige;   */
 }
 
 .presentation-text {
@@ -105,12 +97,11 @@
   word-spacing: 1px;
   line-height: 1.5em;
   text-align: justify;
- 
   overflow: hidden;
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
-  /* border: 1px solid white; */
+   /* border: 1px solid violet;  */
 }
 
 .portrait {

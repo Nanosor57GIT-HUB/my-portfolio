@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 110px;
- /* border: 1px solid white; */
+  border: 1px solid white; 
 }
 
 .svgProjects {
@@ -21,7 +21,7 @@
 
 .containerProjects {
   width: 85%; 
-   /* border: 1px solid blue;  */
+    border: 1px solid blue; 
 }
 
 .formationBlockProjects,
@@ -31,6 +31,7 @@
   width: 100%;
   min-height: 100vh;
 padding-top: 40px;
+border: 1px solid red;
 }
 
 .personalBlockProjects {

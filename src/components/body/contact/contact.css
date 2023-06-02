@@ -5,7 +5,7 @@
   width: 100%;
   min-height: 85vh;
   margin-top: 150px;
-   /* border: 1px solid white;  */
+    /* border: 1px solid white;   */
 }
 
 .svgContact {
@@ -45,7 +45,7 @@
   font-size: 30px;
   text-align: center;
   color: aquamarine;
-  /* border: 1px solid white; */
+   /* border: 1px solid white;  */
 }
 
 .form {
@@ -56,7 +56,7 @@
   min-height: 85%;
   border: 2px solid #fbd437;
   border-radius: 10px;
-  /* border: 1px solid blue; */
+   /* border: 1px solid blue;  */
 }
 /**********************************/
 
@@ -65,7 +65,7 @@
   width: 90%;
   height: auto;
   margin: 0;
-  /* border: 1px solid yellow; */
+   /* border: 1px solid yellow;  */
 }
 
 ::placeholder {
@@ -79,14 +79,14 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* border: 2px solid red; */
+   /* border: 2px solid red;  */
 }
 
 .flex_input {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
-  /* border: 1px solid white; */
+   /* border: 1px solid white;  */
 }
 
 label {

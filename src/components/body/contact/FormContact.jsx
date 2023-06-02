@@ -158,7 +158,7 @@ useEffect(() => {
                 )}
               </div>
             </div>
-            <div className="flex_input">
+            
               <label htmlFor="user_email">Email</label>
               <input
                 type="email"
@@ -172,7 +172,7 @@ useEffect(() => {
               {errors.user_email && (
                 <p className="errors">{errors.user_email}</p>
               )}
-            </div>
+         
           </div>
 
           <label htmlFor="textarea" className="titleTextarea">En quoi puis-je vous aider ?</label>

@@ -20,7 +20,7 @@ const BodyAccueil = () => {
           <span className="responsiveText">( For PC & Tablet )</span>
         </div>
         <div className="containerPresentation">
-          <div className="presentation">  
+           
           <img
               src={process.env.PUBLIC_URL + "./images/portrait3(360x360).webp"}
               alt="Mon_portrait"
@@ -36,8 +36,7 @@ const BodyAccueil = () => {
               ouvert à toutes les technologies et prêt à relever de nouveaux
               défis dans le développement logiciel.
             </p>
-          
-          </div>
+        
         </div>
       </div>
     </section>
