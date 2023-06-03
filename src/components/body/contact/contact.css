@@ -95,10 +95,6 @@ label {
   color: aquamarine;
 }
 
-.textMaxChars {
-  font-size: 14px;
-}
-
 /*****input*****/
 .first_name,
 .last_name,
@@ -119,6 +115,11 @@ label {
   margin-top: 10px;
   text-align: center;
 }
+
+.textMaxChars {
+  font-size: 12px;
+}
+
 .textarea {
   display: flex;
   width: 90%;

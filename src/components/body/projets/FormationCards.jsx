@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 AOS.init({ animatedClassName: 'animated',
           duration: 400,
           easing: 'linear',
-          anchor: '#Projets',
+          anchor: '#Projects',
           anchorPlacement: 'top-bottom' });
 
 
@@ -41,7 +41,7 @@ const FormationCards = ({pro}) => {
       </div>
       <div className="containerCards">
         {pro.map((item) => (
-          <div className="cards" key={item.id} >
+          <div className="cards" key={item.id} data-aos="zoom-in">
             <p className="description">{item.description}</p>
             <div className="card" >            
               <div className="containerCover" >
