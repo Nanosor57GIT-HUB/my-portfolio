@@ -176,21 +176,17 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
   width: 100%;
   height: 100%;
-  /* min-height: 85vh; */
-  /* visibility: hidden;
+  visibility: hidden;
    opacity: 0;
   transform: scale(0.3);
-  transition: opacity 0.2s, visibility 0.3s, transform 0.3s; */
+  transition: opacity 0.2s, visibility 0.3s, transform 0.3s;
 }
 
 .container-modal.active {
   position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
+  right: 0;top: 0;
   visibility: visible;
   opacity: 1;
   transform: scale(1);

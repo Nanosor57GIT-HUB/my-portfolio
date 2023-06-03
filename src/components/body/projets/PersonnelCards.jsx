@@ -7,7 +7,7 @@ AOS.init({ animatedClassName: 'animated',
 duration: 400,
 easing: 'linear',
 anchor: '#Perso',
-anchorPlacement: 'top-center' });
+anchorPlacement: 'top-bottom' });
 
 const PersonnelCards = ({perso}) => {
   
