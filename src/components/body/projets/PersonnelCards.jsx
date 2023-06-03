@@ -21,7 +21,7 @@ const PersonnelCards = ({perso}) => {
         <span className="numberProjects"> ({perso.length})</span>
       </h1>
       <div className="blockInfoProjects">
-        <div className="containerInfoProjects animated" >
+        <div className="containerInfoProjects animated" data-aos="zoom-out">
         <p
            className="personalInfoProjects animated"
           data-aos="zoom-in"
@@ -32,7 +32,7 @@ const PersonnelCards = ({perso}) => {
       </div>
       <div className="containerCards">
         {perso.map((item) => (
-           <div className="cards" key={item.id} data-aos="zoom-in">
+           <div className="cards" key={item.id} >
             <p className="description">{item.description}</p>
           <div className="card" >
             <div className="containerCover" >
