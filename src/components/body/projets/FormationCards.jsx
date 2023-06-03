@@ -41,7 +41,7 @@ const FormationCards = ({pro}) => {
       </div>
       <div className="containerCards">
         {pro.map((item) => (
-          <div className="cards" key={item.id} data-aos="zoom-in" data-aos-anchor-placement="top-top">
+          <div className="cards" key={item.id} data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
             <p className="description">{item.description}</p>
             <div className="card" >            
               <div className="containerCover" >
