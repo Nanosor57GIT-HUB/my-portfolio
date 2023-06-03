@@ -8,7 +8,7 @@ import "./accueil.css";
 const BodyAccueil = () => {
   
 
-//https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/265gsjapno?form_factor=mobile
+// https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/3uwup1cabw?form_factor=mobile
 
   return (
     <section className="bodyAccueil">
