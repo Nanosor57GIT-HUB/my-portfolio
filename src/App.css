@@ -74,6 +74,12 @@
   border: 1px solid olive;
 }
 
+.loadingCards {
+  color: aquamarine;
+  line-height: 75vh;
+  text-align: center;
+}
+
 .loading,
 .error {
   position: absolute;
