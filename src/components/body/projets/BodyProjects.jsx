@@ -11,10 +11,9 @@ const BodyProjects = ({projets}) => {
   // console.log(perso);
 
   function BigSpinner() {
-    return <h2 className="loadingCards">🌀 Loading...</h2>;
-    
+    return <h2 className="loadingCards">🌀 Loading...</h2>;    
   }
-console.log("ok");
+//console.log("ok");
 
   return (
     <section id="Projects" className="bodyProjects">
@@ -22,12 +21,8 @@ console.log("ok");
       <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjects"  alt="logo_projets" />
         
       <Suspense fallback={<BigSpinner />}>
-        <React.Fragment>
         {pro && <FormationCards pro={pro} />}
-        </React.Fragment>
-        <React.Fragment>
         {perso && <PersonnelCards perso={perso} />}
-        </React.Fragment>
       </Suspense>
 
     </section>
