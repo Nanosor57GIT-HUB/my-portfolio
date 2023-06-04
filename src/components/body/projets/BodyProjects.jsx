@@ -1,7 +1,7 @@
-import React, { Suspense } from "react";
+import React, { Suspense, lazy } from "react";
 import "./projets.css";
-import FormationCards from "./FormationCards";
-import PersonnelCards from "./PersonnelCards";
+const FormationCards = lazy(() => import('./FormationCards'));
+const PersonnelCards = lazy(() => import('./PersonnelCards'));
 
 const BodyProjects = ({projets}) => {
   //console.log(projets);
@@ -10,14 +10,24 @@ const BodyProjects = ({projets}) => {
    const perso = projets.perso
   // console.log(perso);
 
+  function BigSpinner() {
+    return <h2 className="loadingCards">🌀 Loading...</h2>;
+    
+  }
+console.log("ok");
+
   return (
     <section id="Projects" className="bodyProjects">
       
       <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjects"  alt="logo_projets" />
         
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<BigSpinner />}>
+        <React.Fragment>
         {pro && <FormationCards pro={pro} />}
+        </React.Fragment>
+        <React.Fragment>
         {perso && <PersonnelCards perso={perso} />}
+        </React.Fragment>
       </Suspense>
 
     </section>
