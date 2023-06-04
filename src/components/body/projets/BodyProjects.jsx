@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "./projets.css";
 import FormationCards from "./FormationCards";
 import PersonnelCards from "./PersonnelCards";
 
-const BodyProjets = ({projets}) => {
+const BodyProjects = ({projets}) => {
   //console.log(projets);
    const pro = projets.pro
    //console.log(pro);
@@ -15,14 +15,16 @@ const BodyProjets = ({projets}) => {
       
       <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjects"  alt="logo_projets" />
         
-     {pro && <FormationCards pro={pro} />}
-     {perso && <PersonnelCards perso={perso} />}
-  
+      <Suspense fallback={<div>Loading...</div>}>
+        {pro && <FormationCards pro={pro} />}
+        {perso && <PersonnelCards perso={perso} />}
+      </Suspense>
+
     </section>
   );
 };
 
-export default BodyProjets;
+export default BodyProjects;
 
 // https://developer.chrome.com/docs/lighthouse/seo/tap-targets/?utm_source=lighthouse&utm_medium=lr
 // https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=lr

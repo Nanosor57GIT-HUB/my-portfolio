@@ -7,7 +7,7 @@ import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyContact from "../components/body/contact/BodyContact";
 import ScrollIndicator from "../components/scroll/scrollIndicatorH/ScrollIndicator";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
-import BodyProjets from "../components/body/projets/BodyProjets";
+import BodyProjects from "../components/body/projets/BodyProjects";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
 
 //https://www.youtube.com/watch?v=517npPWIb8Q&pp=ugMICgJmchABGAE%3D   (deploy)
@@ -37,7 +37,7 @@ const Accueil = () => {
       <Header />
       <BodyAccueil path="Accueil"/>
        { portfolio && <BodyCurriculum compétences={portfolio.skills} quiSuisJe={portfolio.je_suis} /> }
-      { portfolio && <BodyProjets projets={portfolio} /> } 
+      { portfolio && <BodyProjects projets={portfolio} /> } 
       <BodyContact />
        <ScrollAnchor />  
       <SideBar />
