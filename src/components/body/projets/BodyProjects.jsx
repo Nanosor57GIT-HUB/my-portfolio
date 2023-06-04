@@ -1,7 +1,9 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import "./projets.css";
-const FormationCards = lazy(() => import('./FormationCards'));
-const PersonnelCards = lazy(() => import('./PersonnelCards'));
+import FormationCards from "./FormationCards";
+import PersonnelCards from "./PersonnelCards";
+//const FormationCards = lazy(() => import('./FormationCards'));
+//const PersonnelCards = lazy(() => import('./PersonnelCards'));
 
 const BodyProjects = ({projets}) => {
   //console.log(projets);
@@ -10,9 +12,9 @@ const BodyProjects = ({projets}) => {
    const perso = projets.perso
   // console.log(perso);
 
-  function BigSpinner() {
-    return <h2 className="loadingCards">🌀 Loading...</h2>;    
-  }
+  // function BigSpinner() {
+  //   return <h2 className="loadingCards">🌀 Loading...</h2>;    
+  // }
 //console.log("ok");
 
   return (
@@ -20,10 +22,10 @@ const BodyProjects = ({projets}) => {
       
       <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjects"  alt="logo_projets" />
         
-      <Suspense fallback={<BigSpinner />}>
+      {/* <Suspense fallback={<BigSpinner />}> */}
         {pro && <FormationCards pro={pro} />}
         {perso && <PersonnelCards perso={perso} />}
-      </Suspense>
+      {/* </Suspense> */}
 
     </section>
   );

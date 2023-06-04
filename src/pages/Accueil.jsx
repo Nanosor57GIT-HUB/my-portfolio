@@ -1,14 +1,20 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import Header from "../components/header/Header";
-import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import useFetch from "../components/fetchHook/UseFetch";
 import Footer from "../components/footer/Footer";
-import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyContact from "../components/body/contact/BodyContact";
 import ScrollIndicator from "../components/scroll/scrollIndicatorH/ScrollIndicator";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
-import BodyProjects from "../components/body/projets/BodyProjects";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
+//import BodyAccueil from "../components/body/accueil/BodyAccueil";
+const BodyAccueil = lazy(() => import('../components/body/accueil/BodyAccueil'));
+
+//import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
+const BodyCurriculum = lazy(() => import('../components/body/curriculum/BodyCurriculum'));
+
+//import BodyProjects from "../components/body/projets/BodyProjects";
+const BodyProjects = lazy(() => import('../components/body/projets/BodyProjects'));
+
 
 //https://www.youtube.com/watch?v=517npPWIb8Q&pp=ugMICgJmchABGAE%3D   (deploy)
 
@@ -21,6 +27,10 @@ const Accueil = () => {
   } = useFetch(`https://raw.githubusercontent.com/Nanosor57GIT-HUB/my-portfolio/main/public/myportfolioInline.json`);
 // console.log(portfolio);
 
+function BigSpinner() {
+  return <h2 className="loadingCards">🌀 Loading...</h2>;    
+}
+
   return (
     <div> 
        <div className="containerFetchDisplay">
@@ -32,13 +42,14 @@ const Accueil = () => {
         </div> 
       }
       </div> 
-
       <ScrollIndicator />
       <Header />
+      <Suspense fallback={<BigSpinner />}>
       <BodyAccueil path="Accueil"/>
        { portfolio && <BodyCurriculum compétences={portfolio.skills} quiSuisJe={portfolio.je_suis} /> }
       { portfolio && <BodyProjects projets={portfolio} /> } 
       <BodyContact />
+      </ Suspense>
        <ScrollAnchor />  
       <SideBar />
       <Footer />
