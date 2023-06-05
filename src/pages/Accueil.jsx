@@ -1,11 +1,12 @@
 import React, { Suspense, lazy } from "react";
-import Header from "../components/header/Header";
 import useFetch from "../components/fetchHook/UseFetch";
 import Footer from "../components/footer/Footer";
 import BodyContact from "../components/body/contact/BodyContact";
 import ScrollIndicator from "../components/scroll/scrollIndicatorH/ScrollIndicator";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
+//import Header from "../components/header/Header";
+const Header = lazy(() => import('../components/header/Header'));
 //import BodyAccueil from "../components/body/accueil/BodyAccueil";
 const BodyAccueil = lazy(() => import('../components/body/accueil/BodyAccueil'));
 
@@ -43,8 +44,8 @@ function BigSpinner() {
       }
       </div> 
       <ScrollIndicator />
-      <Header />
       <Suspense fallback={<BigSpinner />}>
+      <Header />
       <BodyAccueil path="Accueil"/>
        { portfolio && <BodyCurriculum compétences={portfolio.skills} quiSuisJe={portfolio.je_suis} /> }
       { portfolio && <BodyProjects projets={portfolio} /> } 
