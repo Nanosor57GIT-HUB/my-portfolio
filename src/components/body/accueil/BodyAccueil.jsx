@@ -25,7 +25,7 @@ const BodyAccueil = () => {
               src={process.env.PUBLIC_URL + "./images/portrait3(360x360).webp"}
               alt="Mon_portrait"
               className="portrait"
-               style={{ maxWidth: 360, maxHeight: 360}}
+              //  style={{ maxWidth: 360, maxHeight: 360}}
             />
             <p className="presentation-text">
               Je suis développeur d'applications Front-end javascript/React

@@ -49,7 +49,7 @@ const FormationCards = ({ pro }) => {
                   src={item.cover}
                   className="coverProjects"
                   alt={item.title}
-                  style={{ maxWidth: 250, maxHeight: 370 }}
+                  // style={{ maxWidth: 250, maxHeight: 370 }}
                 />
               </div>
               <div className="contentCards">
@@ -58,7 +58,7 @@ const FormationCards = ({ pro }) => {
                   src={item.logo}
                   alt={item.title}
                   className="logoProjects"
-                  style={{ maxWidth: 180, maxHeight: 60 }}
+                  // style={{ maxWidth: 180, maxHeight: 60 }}
                 />
                 <p className="detailsProjects">{item.details}</p>
                 {item.url.map((item) => (
@@ -94,7 +94,7 @@ const FormationCards = ({ pro }) => {
                         src={logoDev}
                         className="logoTechno"
                         alt="logoTechno"
-                        style={{ maxWidth: 25, maxHeight: 20 }}
+                        // style={{ maxWidth: 25, maxHeight: 20 }}
                       />
                     </div>
                   ))}

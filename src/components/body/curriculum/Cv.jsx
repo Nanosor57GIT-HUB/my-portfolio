@@ -21,7 +21,7 @@ const PdfViewer = () => {
           src="./pdf/CoverPDFCV.webp"
           className="imgCV"
           alt="Mon CV"
-          style={{ maxWidth: 240, maxHeight: 336 }}
+          // style={{ maxWidth: 240, maxHeight: 336 }}
         />
       </div>
       <div
