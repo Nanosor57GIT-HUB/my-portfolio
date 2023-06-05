@@ -70,14 +70,8 @@
   border: 1px solid red;
 }
 .loading {
-  color: olive;
-  border: 1px solid olive;
-}
-
-.loadingCards {
-  color: aquamarine;
-  line-height: 75vh;
-  text-align: center;
+  color: #2a3b43;
+  border: 1px solid black;
 }
 
 .loading,
@@ -92,7 +86,8 @@
   font-size: 32px;
   font-weight: bold;
   margin-top: 80px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #989898;
+  filter: drop-shadow(1px 1px 2px aquamarine);
 }
 
 @media (max-width: 1160px) {

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./sideBar.css";
 import { Link } from "react-scroll";
 
-
 const SideBar = () => {
   const [showAnchor, setShowAnchor] = useState(false);
 
@@ -47,7 +46,11 @@ const SideBar = () => {
   return (
     <div className="containerSideBarLink">
       {showAnchor && (
-        <nav className="containerSideBar" role="navigation" aria-label="main navigation">
+        <nav
+          className="containerSideBar"
+          role="navigation"
+          aria-label="main navigation"
+        >
           {links.slice(0).map((link, index) => (
             <Link
               key={index}
@@ -56,10 +59,9 @@ const SideBar = () => {
               to={link.to}
               spy={true}
               smooth={true}
-             //  offset={-70}
-              duration={800} 
-            >
-            </Link>
+              //  offset={-70}
+              duration={800}
+            ></Link>
           ))}
         </nav>
       )}
@@ -68,4 +70,3 @@ const SideBar = () => {
 };
 
 export default SideBar;
-

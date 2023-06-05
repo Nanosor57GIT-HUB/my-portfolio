@@ -26,12 +26,16 @@ const Header = () => {
 
   return (
     <div id="/">
-    <div  className={`containerHeader ${isVisible ? "header-visible" : "header-hidden"}`}>
-      <Logo />
-      <Navbar />
-      <a
+      <div
+        className={`containerHeader ${
+          isVisible ? "header-visible" : "header-hidden"
+        }`}
+      >
+        <Logo />
+        <Navbar />
+        <a
           href="https://www.linkedin.com/in/thierry-friedrich/"
-           rel="noopener noreferrer"
+          rel="noopener noreferrer"
           target={"_blank"}
           className=" linkedInLink"
           id="linkedInLink"
@@ -39,13 +43,13 @@ const Header = () => {
         >
           <img
             src="./images/logoLinkedIn(68x68).webp"
-             role="button"
+            role="button"
             className="linkedInImg"
             alt="Profil LinkedIn de Thierry Friedrich"
           />
         </a>
-      <Burger />
-    </div>
+        <Burger />
+      </div>
     </div>
   );
 };

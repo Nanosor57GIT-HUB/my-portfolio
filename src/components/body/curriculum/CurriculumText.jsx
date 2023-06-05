@@ -4,14 +4,15 @@ import "aos/dist/aos.css";
 import PdfViewer from "./Cv";
 //import DataContextProvider from "../../../contexts/DataContext";
 
-AOS.init({ animatedClassName: 'animated',
-duration: 400,
-easing: 'linear',
-anchor: '#CurriculumVitae',
-anchorPlacement: 'top-center' });
+AOS.init({
+  animatedClassName: "animated",
+  duration: 400,
+  easing: "linear",
+  anchor: "#CurriculumVitae",
+  anchorPlacement: "top-center",
+});
 
-const CurriculumText = ({skills, jeSuis}) => {
-
+const CurriculumText = ({ skills, jeSuis }) => {
   // const data = useContext(DataContextProvider);
   // console.log(data);
   // console.log(data.compétences);
@@ -19,7 +20,6 @@ const CurriculumText = ({skills, jeSuis}) => {
   // const jeSuis = data.qui_suis_je;
 
   return (
-   
     <div className="blockCurriculum">
       <div className="hardContainer animated" data-aos="zoom-in-right">
         <h1 className="titleSkills">Compétences Hard-Skills</h1>
@@ -31,7 +31,7 @@ const CurriculumText = ({skills, jeSuis}) => {
           ))}
         </ul>
       </div>
-       <PdfViewer /> 
+      <PdfViewer />
       <div className="softContainer animated" data-aos="zoom-in-left">
         <h1 className="titleSkills">Compétences Soft-Skills</h1>
         <ul className="ulSoft">
@@ -41,16 +41,16 @@ const CurriculumText = ({skills, jeSuis}) => {
             </li>
           ))}
         </ul>
-    
-      </div>    
+      </div>
       <div className="quiSuisJeContainer animated" data-aos="zoom-in">
-            <h1 className="titleQuiSuisJe">Qui suis je ?</h1>
-            <ul className="ulQuiSuisJe">
-            <li className="liJeSuis" key={jeSuis}>{jeSuis[0].qui}</li>
-            </ul>
-          </div>
+        <h1 className="titleQuiSuisJe">Qui suis je ?</h1>
+        <ul className="ulQuiSuisJe">
+          <li className="liJeSuis" key={jeSuis}>
+            {jeSuis[0].qui}
+          </li>
+        </ul>
+      </div>
     </div>
-    
   );
 };
 

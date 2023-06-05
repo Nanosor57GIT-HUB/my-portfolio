@@ -27,10 +27,7 @@ const useFetch = (url, cacheTime = 1200000) => {
           setIsLoading(false);
           setError(null);
           localStorage.setItem(url, JSON.stringify(data));
-          localStorage.setItem(
-            `${url}:expiry`,
-            Date.now() + cacheTime
-          );
+          localStorage.setItem(`${url}:expiry`, Date.now() + cacheTime);
         })
         .catch((err) => {
           console.log(err.message);
@@ -44,4 +41,3 @@ const useFetch = (url, cacheTime = 1200000) => {
 };
 
 export default useFetch;
-

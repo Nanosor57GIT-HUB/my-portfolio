@@ -2,31 +2,24 @@ import React from "react";
 import "./projets.css";
 import FormationCards from "./FormationCards";
 import PersonnelCards from "./PersonnelCards";
-//const FormationCards = lazy(() => import('./FormationCards'));
-//const PersonnelCards = lazy(() => import('./PersonnelCards'));
 
-const BodyProjects = ({projets}) => {
+const BodyProjects = ({ projets }) => {
   //console.log(projets);
-   const pro = projets.pro
-   //console.log(pro);
-   const perso = projets.perso
+  const pro = projets.pro;
+  //console.log(pro);
+  const perso = projets.perso;
   // console.log(perso);
-
-  // function BigSpinner() {
-  //   return <h2 className="loadingCards">🌀 Loading...</h2>;    
-  // }
-//console.log("ok");
 
   return (
     <section id="Projects" className="bodyProjects">
-      
-      <img src={process.env.PUBLIC_URL + "logoProjets.svg"} className="svgProjects"  alt="logo_projets" />
-        
-      {/* <Suspense fallback={<BigSpinner />}> */}
-        {pro && <FormationCards pro={pro} />}
-        {perso && <PersonnelCards perso={perso} />}
-      {/* </Suspense> */}
+      <img
+        src={process.env.PUBLIC_URL + "logoProjets.svg"}
+        className="svgProjects"
+        alt="logo_projets"
+      />
 
+      {pro && <FormationCards pro={pro} />}
+      {perso && <PersonnelCards perso={perso} />}
     </section>
   );
 };

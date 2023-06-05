@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-scroll";
 import DropDownNav from "./dropDownNavigation/DropDownNav";
 
-
 const Navbar = () => {
   return (
     <div className="containerNavLink">
@@ -18,28 +17,28 @@ const Navbar = () => {
           className="btnNavBar"
           activeClass="active"
           to="CurriculumVitae"
-          spy={true}    
+          spy={true}
           smooth={true}
-         //  offset={-70}
-          duration={800} 
+          //  offset={-70}
+          duration={800}
           aria-label="Page Curriculum Vitae"
         >
           Curriculum
         </Link>
         <DropDownNav />
-        <Link activeClass="active"
+        <Link
+          activeClass="active"
           className="btnNavBar"
           to="Contact"
           spy={true}
           smooth={true}
           // offset={-70}
-          duration={2500} 
+          duration={2500}
           aria-label="Page Contact"
         >
           Contact
         </Link>
-        </nav>
-       
+      </nav>
     </div>
   );
 };

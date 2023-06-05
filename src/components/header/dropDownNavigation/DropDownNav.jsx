@@ -44,13 +44,14 @@ const DropDownNav = () => {
       </p>
       {isOpen && (
         <div id="dropdown-content" className="dropdown-content">
-          <Link activeClass="active"
+          <Link
+            activeClass="active"
             className={`projectsLink ${hoveredIndex === 0 ? "active" : ""}`}
             to="Projects"
             spy={true}
             smooth={true}
-             //offset={-170}
-            duration={1500} 
+            //offset={-170}
+            duration={1500}
             onMouseEnter={() => handleLinkHover(0)}
           >
             Formation
@@ -62,7 +63,7 @@ const DropDownNav = () => {
             spy={true}
             smooth={true}
             // offset={-170}
-            duration={2000} 
+            duration={2000}
             onMouseEnter={() => handleLinkHover(1)}
           >
             Personnels
