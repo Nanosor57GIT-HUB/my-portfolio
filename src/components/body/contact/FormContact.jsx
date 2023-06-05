@@ -124,20 +124,21 @@ useEffect(() => {
   return (
       <div id="ResetErrorsContact" className="block_form">
         <h2 className="titleBlockForm">Besoin d'en savoir plus ?</h2>
-        <form ref={form} autoComplete="OFF" className="form" onSubmit={sendEmail}>
+        <form ref={form}  className="form" onSubmit={sendEmail}>
           <div className="containerInput">
             <div className="nameContact">
               <div className="flex_input">
                 <label htmlFor="first_name">Prénom</label>
                 <input
                   type="text"
-                  id="first_Name"
+                  id="first_name"
                   name="first_name"
                   value={formData.first_name}
                   className="first_name"
                   onChange={handleChange}
                   placeholder="Votre prénom"
                   required
+                  autocomplete="given-name"
                 />
                 {errors.first_name && (
                   <p className="errors">{errors.first_name}</p>
@@ -186,7 +187,8 @@ useEffect(() => {
           <textarea
             rows="4"
             cols="46"
-            name="message"
+            id="textarea"
+            name="textarea"
             value={formData.message}
             className="textarea"
             onChange={handleChange}
