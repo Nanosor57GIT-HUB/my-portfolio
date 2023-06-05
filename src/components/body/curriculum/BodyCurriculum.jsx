@@ -10,7 +10,7 @@ const BodyCurriculum = (props) => {
   return (
     <section id="CurriculumVitae" className="bodyCurriculum">
       <img
-        src={process.env.PUBLIC_URL + "logoCV1.svg"}
+        src={process.env.PUBLIC_URL + "logoCurriculum.svg"}
         className="svgCurriculum"
         alt="Logo_Curriculum_Vitae"
       />

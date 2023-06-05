@@ -59,7 +59,6 @@ const SideBar = () => {
               to={link.to}
               spy={true}
               smooth={true}
-              //  offset={-70}
               duration={800}
             ></Link>
           ))}

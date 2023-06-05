@@ -10,8 +10,6 @@ import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyProjects from "../components/body/projets/BodyProjects";
 
-//https://www.youtube.com/watch?v=517npPWIb8Q&pp=ugMICgJmchABGAE%3D   (deploy)
-
 const Accueil = () => {
   const {
     data: portfolio,

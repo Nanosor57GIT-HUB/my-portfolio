@@ -19,7 +19,6 @@ const Navbar = () => {
           to="CurriculumVitae"
           spy={true}
           smooth={true}
-          //  offset={-70}
           duration={800}
           aria-label="Page Curriculum Vitae"
         >
@@ -32,7 +31,6 @@ const Navbar = () => {
           to="Contact"
           spy={true}
           smooth={true}
-          // offset={-70}
           duration={2500}
           aria-label="Page Contact"
         >

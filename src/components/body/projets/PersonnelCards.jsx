@@ -42,7 +42,6 @@ const PersonnelCards = ({ perso }) => {
                   src={item.cover}
                   className="coverProjects"
                   alt={item.title}
-                  // style={{ maxWidth: 250, maxHeight: 370 }}
                 />
               </div>
               <div className="contentCards">
@@ -51,7 +50,6 @@ const PersonnelCards = ({ perso }) => {
                   src={item.logo}
                   alt={item.title}
                   className="logoProjects"
-                  // style={{ maxWidth: 180, maxHeight: 60 }}
                 />
                 <p className="detailsProjects">{item.details}</p>
                 {item.url.map((item) => (
@@ -87,7 +85,6 @@ const PersonnelCards = ({ perso }) => {
                         src={logoDev}
                         className="logoTechno"
                         alt="logoTechno"
-                        // style={{ maxWidth: 25, maxHeight: 20 }}
                       />
                     </div>
                   ))}
