@@ -10,7 +10,7 @@ const FormContact = () => {
     first_name: "",
     last_name: "",
     user_email: "",
-    message: "",
+    textarea: "",
   });
 
   const [errors, setErrors] = useState({});
@@ -46,12 +46,12 @@ const FormContact = () => {
       tempErrors.user_email = "Invalid email address";
     }
 
-    if (!formData.message) {
-      tempErrors.message = "Message is required";
-    } else if (formData.message.length < 15) {
-      tempErrors.message = "Message must be at least 15 characters long";
-    } else if (formData.message.length > 300) {
-      tempErrors.message = "Message must be no more than 300 characters long";
+    if (!formData.textarea) {
+      tempErrors.textarea = "Message is required";
+    } else if (formData.textarea.length < 15) {
+      tempErrors.textarea = "Message must be at least 15 characters long";
+    } else if (formData.textarea.length > 300) {
+      tempErrors.textarea = "Message must be no more than 300 characters long";
     }
 
     setErrors(tempErrors);
@@ -89,7 +89,7 @@ const FormContact = () => {
           first_name: "",
           last_name: "",
           user_email: "",
-          message: "",
+          textarea: "",
         });
         openModal();
         // Make API call or perform other form actions
@@ -188,13 +188,13 @@ useEffect(() => {
             cols="46"
             id="textarea"
             name="textarea"
-            value={formData.message}
+            value={formData.textarea}
             className="textarea"
             onChange={handleChange}
             placeholder="Votre message ici ...."
             required
           />
-          {errors.message && <p className="errors">{errors.message}</p>}
+          {errors.textarea && <p className="errors">{errors.textarea}</p>}
 
           <button type="submit" className="btn_contact"  onClick={sendEmail} >
             Envoyez

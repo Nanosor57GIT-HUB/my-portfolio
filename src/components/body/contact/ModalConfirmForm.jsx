@@ -10,11 +10,13 @@ const Modal = (props) => {
     window.scrollTo(0, 0);
   };
 
+  
   return (
-    <div className={`container-modal ${toggle ? "active" : ""}`}>
-      <div className="modalConfirm">
+   
+    <div className={`containerConfirmation ${toggle ? "active" : ""}`}> 
+      <div className="modalConfirmation">
         
-          <div className="ContainerCloseModal">
+          <div className="blockCloseModal">
             <Link
               className="btnCloseModal"
               onClick={() => {
@@ -25,16 +27,16 @@ const Modal = (props) => {
               X
             </Link>
 
-            <span className="close">Fermer</span>
+            <span className="closeTitle">Fermer</span>
           </div>
-          <div className="containerContent">
+          <div className="blockContentConfirmation">
         
             <img
               src={process.env.PUBLIC_URL + "images/logoWithoutTitle(300x300).webp"}
-              className="imgModal"
-              alt="img modal"
+              className="imgModalConfirmation"
+              alt="logo_My_portfolio_inline"
             />
-            <h1 className="confirmText">
+            <h1 className="confirmationText">
               Nous accusons réception de votre demande et vous répondrons dans
               les plus brefs délais.
             </h1>

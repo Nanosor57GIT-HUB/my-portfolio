@@ -2,10 +2,12 @@
 
 .bodyContact {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   min-height: 85vh;
   margin-top: 150px;
-  /* border: 1px solid white;  */
 }
 
 .svgContact {
@@ -20,18 +22,9 @@
 
 /* modale formulaire */
 .block_form {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  /* display: flex;
-  flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
   width: 680px;
   min-height: 446px;
   max-height: 566px;
-  /* font-family: "Playfair Display", serif; */
   letter-spacing: 0.07em;
   padding: 0 15px 15px 15px;
   border-radius: 10px;
@@ -72,7 +65,6 @@
 ::placeholder {
   font-size: 14px;
   color: rgb(77, 6, 6);
-  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   opacity: 0.5;
 }
 
@@ -169,25 +161,22 @@ label {
 /***************************************/
 
 /*MODAL Confirm*/
-.container-modal {
+.containerConfirmation {
   position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   visibility: hidden;
-   opacity: 0;
+  opacity: 0;
   transform: scale(0.3);
   transition: opacity 0.2s, visibility 0.3s, transform 0.3s;
 }
 
-.container-modal.active {
-  position: absolute;
-  right: 0;top: 0;
+.containerConfirmation.active {
   visibility: visible;
   opacity: 1;
   transform: scale(1);
@@ -195,15 +184,14 @@ label {
   z-index: 10;
 }
 
-.modalConfirm {
- 
-  width: 680px;
-  min-height: 446px;
-  max-height: 566px;
+.modalConfirmation {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  width: 680px;
+  min-height: 470px;
+  max-height: 566px;
   background-color: #2a3b43;
   border-radius: 10px;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
@@ -213,16 +201,16 @@ label {
 
 /***************/
 /* Close modal */
-.ContainerCloseModal {
+.blockCloseModal {
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 95%;
-  height: 55px;
+  height: 40px;
 }
 
-.close {
+.closeTitle {
   position: absolute;
   right: 0;
   margin-right: 50px;
@@ -234,7 +222,6 @@ label {
   position: absolute;
   right: 10px;
   text-decoration: none;
-  /* font-family: "Montserrat", sans-serif; */
   color: #fbd437;
   border: 2px solid rgba(255, 212, 55, 0.4);
   border-radius: 50%;
@@ -250,28 +237,27 @@ label {
 /* End Close modal */
 /********************/
 
-.containerContent {
+.blockContentConfirmation {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   width: 95%;
- height: 80%;
- background-color: #232f36;
+  height: 370px;
+  background-color: #232f36;
   border: 2px solid #fbd437;
   border-radius: 10px;
 }
 
-.imgModal {
+.imgModalConfirmation {
   width: 180px;
   height: 180px;
 }
 
-.confirmText {
-width: 90%;
+.confirmationText {
+  width: 90%;
   text-align: center;
   font-size: 1.3rem;
-  /* font-family: "Playfair Display", serif; */
   color: aquamarine;
 }
 
@@ -288,15 +274,21 @@ width: 90%;
   .btn_contact:hover {
     box-shadow: none;
   }
-  .modalConfirm {
+  .modalConfirmation {
     width: 490px;
     height: 484px;
   }
-  .confirmText { 
-      font-size: 1rem;
-    }
+  .btnCloseModal {
+    padding: 0 6px;
+    font-size: 15px;
   }
-
+  .closeTitle {
+    margin-right: 45px;
+  }
+  .confirmationText {
+    font-size: 1rem;
+  }
+}
 
 @media (max-width: 620px) {
   .block_form {
@@ -324,15 +316,16 @@ width: 90%;
   .textarea {
     font-size: 12px;
   }
-  .modalConfirm {
-    width: 100%;
+  .modalConfirmation {
+    width: 350px;
+    height: auto;
   }
-  
 }
 
 @media (max-width: 470px) {
   .block_form {
     width: 70%;
+    height: auto;
   }
   .titleBlockForm {
     font-size: 16px;
@@ -348,16 +341,15 @@ width: 90%;
     height: 25px;
     font-size: 14px;
   }
-  .modalConfirm {
-    width: 100%;
-    height: 100%;
+  .modalConfirmation {
+    width: 70%;
+    height: auto;
   }
   .imgModal {
-      width: 150px; 
-      height: 150px; 
+    width: 150px;
+    height: 150px;
+  }
 }
-}
-
 
 @media (max-width: 350px) {
   .bodyContact {
@@ -367,7 +359,11 @@ width: 90%;
   .block_form {
     width: 100%;
   }
-  .confirmText {
+  .confirmationText {
     font-size: 0.8rem;
+  }
+  .modalConfirmation {
+    width: 100%;
+    height: auto;
   }
 }
