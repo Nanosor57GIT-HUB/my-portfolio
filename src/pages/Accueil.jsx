@@ -1,13 +1,19 @@
 import React from "react";
-import Header from "../components/header/Header";
 import useFetch from "../components/fetchHook/UseFetch";
-import Footer from "../components/footer/Footer";
-import BodyContact from "../components/body/contact/BodyContact";
 import ScrollIndicator from "../components/scroll/scrollIndicatorH/ScrollIndicator";
-import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
+import Header from "../components/header/Header";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
 import BodyAccueil from "../components/body/accueil/BodyAccueil";
+import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
+//import BodyContact from "../components/body/contact/BodyContact";
+import Footer from "../components/footer/Footer";
+
+
+
+
+
+
 import BodyProjects from "../components/body/projets/BodyProjects";
 
 const Accueil = () => {
@@ -32,6 +38,7 @@ const Accueil = () => {
       </div>
       <ScrollIndicator />
       <Header />
+       <ScrollAnchor />
       <BodyAccueil path="Accueil" />
       {portfolio && (
         <BodyCurriculum
@@ -39,10 +46,9 @@ const Accueil = () => {
           quiSuisJe={portfolio.je_suis}
         />
       )}
-      {portfolio && <BodyProjects projets={portfolio} />}
-      <BodyContact />
-      <ScrollAnchor />
       <SideBar />
+      {portfolio && <BodyProjects projets={portfolio} />}
+      {/* <BodyContact /> */}
       <Footer />
     </div>
   );
