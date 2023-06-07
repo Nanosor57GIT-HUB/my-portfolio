@@ -6,7 +6,7 @@ import SideBar from "../components/scroll/scrollSideBar/SideBar";
 import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
-//import BodyContact from "../components/body/contact/BodyContact";
+import BodyContact from "../components/body/contact/BodyContact";
 import Footer from "../components/footer/Footer";
 
 
@@ -48,7 +48,7 @@ const Accueil = () => {
       )}
       <SideBar />
       {portfolio && <BodyProjects projets={portfolio} />}
-      {/* <BodyContact /> */}
+      <BodyContact />
       <Footer />
     </div>
   );
