@@ -173,21 +173,23 @@ label {
 
 /*MODAL Confirm*/
 .containerConfirmation {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 85vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-   /* visibility: hidden;
+   visibility: hidden;
   opacity: 0;
   transform: scale(0.3);
-  transition: opacity 0.2s, visibility 0.3s, transform 0.3s;  */
+  transition: opacity 0.2s, visibility 0.3s, transform 0.3s; 
+  opacity: 1;
 }
 
 .containerConfirmation.active {
+ 
   visibility: visible;
   opacity: 1;
   transform: scale(1);
@@ -201,8 +203,9 @@ label {
   justify-content: space-evenly;
   align-items: center;
   width: 680px;
-  min-height: 470px;
-  max-height: 566px;
+  height: 100%;
+  /* min-height: 470px;
+  max-height: 566px; */
   background-color: #2a3b43;
   border-radius: 10px;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
@@ -273,9 +276,9 @@ label {
 }
 
 @media (max-width: 800px) {
-   .block_form {
+   /* .block_form {
     width: 490px;
-  } 
+  }  */
   .block_form {
     width: 80%;;
   }
@@ -288,16 +291,16 @@ label {
   .btn_contact:hover {
     box-shadow: none;
   }
-  .modalConfirmation {
-    width: 490px;
+  /* .modalConfirmation {
+    width: 100%;
     height: 484px;
-  }
+  } */
   .btnCloseModal {
-    padding: 0 6px;
+    padding: 0 5px;
     font-size: 15px;
   }
   .closeTitle {
-    margin-right: 45px;
+    margin-right: 40px;
   }
   .confirmationText {
     font-size: 1rem;
@@ -330,10 +333,10 @@ label {
   .textarea {
     font-size: 12px;
   }
-  .modalConfirmation {
+  /* .modalConfirmation {
     width: 350px;
     height: auto;
-  }
+  } */
 }
 
 @media (max-width: 470px) {
@@ -355,10 +358,10 @@ label {
     height: 25px;
     font-size: 14px;
   }
-  .modalConfirmation {
+  /* .modalConfirmation {
     width: 70%;
     height: auto;
-  }
+  } */
   .imgModal {
     width: 150px;
     height: 150px;
@@ -376,8 +379,8 @@ label {
   .confirmationText {
     font-size: 0.8rem;
   }
-  .modalConfirmation {
+  /* .modalConfirmation {
     width: 100%;
     height: auto;
-  }
+  } */
 }
