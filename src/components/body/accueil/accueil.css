@@ -57,7 +57,7 @@
   display: block;
   bottom: 0;
   right: 5px;
-  font-size: 15px;
+  font-size: 14px;
   color: aquamarine;
   animation: textresponsive 1s ease-in-out;
 }
@@ -90,10 +90,10 @@
   height: auto;
   margin: 10px;
   color: aquamarine;
-  font-size: 15px;
+  font-size: 16px;
   /* font-family: "Lato", sans-serif; */
   font-weight: 600;
-  letter-spacing: 0.07em;
+  /* letter-spacing: 0.07em; */
   word-spacing: 1px;
   line-height: 1.5em;
   text-align: justify;

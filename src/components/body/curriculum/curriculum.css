@@ -74,10 +74,10 @@
   width: 100%;
   margin-top: 10px;
   padding: 5px;
-  font-size: 16px;
+  font-size: 15px;
   /* font-family: "Lato", sans-serif; */
   font-weight: 600;
-  letter-spacing: 0.08em;
+  /* letter-spacing: 0.08em; */
   word-spacing: 1px;
   overflow: hidden;
   hyphens: auto;
