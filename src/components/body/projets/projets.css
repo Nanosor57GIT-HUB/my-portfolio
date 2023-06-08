@@ -7,7 +7,6 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 110px;
-  /* border: 1px solid white;  */
 }
 
 .svgProjects {
@@ -26,7 +25,6 @@
   width: 80%;
   min-height: 100vh;
   padding-top: 40px;
-  /* border: 1px solid red; */
 }
 
 .personalBlockProjects {
@@ -39,15 +37,11 @@
   height: auto;
   color: aquamarine;
   font-size: 38px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-align: end;
   color: #979998;
   -webkit-text-stroke: 0.05vw rgba(127, 255, 212, 0.728);
 }
-
-/* .personalTitleProjects {
-  margin-top: 80px;
-} */
 
 .numberProjects {
   font-weight: 300;
@@ -67,7 +61,6 @@
   border-radius: 10px;
   padding: 10px;
   overflow: hidden;
-  /* border: 1px solid grey;  */
 }
 
 .formationInfoProjects,
@@ -76,9 +69,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   font-size: 15px;
-  /* font-family: "Lato", sans-serif; */
   font-weight: 600;
-  /* letter-spacing: 0.07em; */
   word-spacing: 1px;
   line-height: 1.5em;
   padding: 20px;
@@ -98,13 +89,7 @@
   width: 100%;
   min-height: 50vh;
   margin-top: 100px;
-  /* border: 1px solid blue; */
 }
-
-/* .loadingCards {
-  color: aquamarine;
-  line-height: 100vh;
-} */
 
 .cards {
   width: 280px;
@@ -169,7 +154,7 @@
   opacity: 1;
 }
 
-.card:hover .coverProjects {  
+.card:hover .coverProjects {
   transition-duration: 0.5s;
   opacity: 0;
 }
@@ -203,7 +188,6 @@
   height: 80px;
   padding: 10px;
   font-size: 0.65em;
-  /* font-family: "Lato", sans-serif; */
   font-weight: 600;
   letter-spacing: 0.07em;
   word-spacing: 1px;
@@ -279,7 +263,6 @@
   width: 250px;
   height: 80px;
   font-size: 16px;
-  /* font-family: "Lato", sans-serif; */
   font-weight: 600;
   letter-spacing: 0.07em;
   word-spacing: 2px;
@@ -400,13 +383,3 @@
     width: 80%;
   }
 }
-
-/* @media (max-width: 375px) {
-  .formationInfoProjects,
-  .personalInfoProjects {
-    font-size: 11px;
-  }
-  .description {
-    font-size: 11px;
-  }
-} */

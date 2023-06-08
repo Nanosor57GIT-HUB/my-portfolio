@@ -5,14 +5,12 @@
   height: 85vh;
   margin: 0;
 }
-.containerContact {
 
+.containerContact {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  
-  border: 1px solid blue;
 }
 
 .svgContact {
@@ -27,13 +25,11 @@
 
 /* modale formulaire */
 .block_form {
-  position: absolute; /* Ajoutez cette ligne */
-  top: 50%; /* Ajoutez cette ligne */
-  left: 50%; /* Ajoutez cette ligne */
-  transform: translate(-50%, -50%); /* Ajoutez cette ligne */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 680px;
-  /* min-height: 446px;
-  max-height: 566px; */
   letter-spacing: 0.07em;
   border-radius: 10px;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
@@ -46,10 +42,9 @@
   align-items: center;
   width: 95%;
   min-height: 85%;
- margin: 0 auto 20px;
+  margin: 0 auto 20px;
   border: 2px solid #fbd437;
   border-radius: 10px;
-  /* border: 1px solid blue;  */
 }
 
 .titleBlockForm {
@@ -59,9 +54,7 @@
   font-size: 30px;
   text-align: center;
   color: aquamarine;
-  /* border: 1px solid white;  */
 }
-
 
 /**********************************/
 
@@ -70,7 +63,6 @@
   width: 90%;
   height: auto;
   margin: 0;
-  /* border: 1px solid yellow;  */
 }
 
 ::placeholder {
@@ -83,14 +75,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* border: 2px solid red;  */
 }
 
 .flex_input {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
-  /* border: 1px solid white;  */
 }
 
 label {
@@ -133,7 +123,7 @@ label {
   letter-spacing: 2px;
   background-color: aquamarine;
   padding: 10px;
-   margin: 5px; 
+  margin: 5px;
   border: 1px solid black;
   border-radius: 5px;
   overflow: scroll(Y);
@@ -144,11 +134,9 @@ label {
 
 .errors {
   max-width: 210px;
-  /* height: 20px; */
   height: auto;
   color: #fbd437;
   font-size: 12px;
-  /* border: 1px solid pink; */
 }
 
 .btn_contact {
@@ -181,15 +169,14 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-   visibility: hidden;
+  visibility: hidden;
   opacity: 0;
   transform: scale(0.3);
-  transition: opacity 0.2s, visibility 0.3s, transform 0.3s; 
+  transition: opacity 0.2s, visibility 0.3s, transform 0.3s;
   opacity: 1;
 }
 
 .containerConfirmation.active {
- 
   visibility: visible;
   opacity: 1;
   transform: scale(1);
@@ -204,8 +191,6 @@ label {
   align-items: center;
   width: 680px;
   height: 100%;
-  /* min-height: 470px;
-  max-height: 566px; */
   background-color: #2a3b43;
   border-radius: 10px;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
@@ -276,11 +261,8 @@ label {
 }
 
 @media (max-width: 800px) {
-   /* .block_form {
-    width: 490px;
-  }  */
   .block_form {
-    width: 80%;;
+    width: 80%;
   }
   .titleBlockForm {
     font-size: 22px;
@@ -291,10 +273,6 @@ label {
   .btn_contact:hover {
     box-shadow: none;
   }
-  /* .modalConfirmation {
-    width: 100%;
-    height: 484px;
-  } */
   .btnCloseModal {
     padding: 0 5px;
     font-size: 15px;
@@ -308,9 +286,9 @@ label {
 }
 
 @media (max-width: 620px) {
-   .block_form {
+  .block_form {
     width: 350px;
-  } 
+  }
   label,
   .textMaxChars {
     font-size: 11px;
@@ -333,10 +311,6 @@ label {
   .textarea {
     font-size: 12px;
   }
-  /* .modalConfirmation {
-    width: 350px;
-    height: auto;
-  } */
 }
 
 @media (max-width: 470px) {
@@ -358,10 +332,6 @@ label {
     height: 25px;
     font-size: 14px;
   }
-  /* .modalConfirmation {
-    width: 70%;
-    height: auto;
-  } */
   .imgModal {
     width: 150px;
     height: 150px;
@@ -379,8 +349,4 @@ label {
   .confirmationText {
     font-size: 0.8rem;
   }
-  /* .modalConfirmation {
-    width: 100%;
-    height: auto;
-  } */
 }
