@@ -76,7 +76,7 @@
 ::placeholder {
   font-size: 14px;
   color: rgb(77, 6, 6);
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .nameContact {
@@ -272,7 +272,7 @@ label {
   color: aquamarine;
 } */
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
    .block_form {
     width: 490px;
   } 
@@ -302,9 +302,9 @@ label {
   .confirmationText {
     font-size: 1rem;
   }
-} */
+}
 
-/* @media (max-width: 620px) {
+@media (max-width: 620px) {
    .block_form {
     width: 350px;
   } 
@@ -334,9 +334,9 @@ label {
     width: 350px;
     height: auto;
   }
-} */
+}
 
-/* @media (max-width: 470px) {
+@media (max-width: 470px) {
   .block_form {
     width: 70%;
     height: auto;
@@ -363,9 +363,9 @@ label {
     width: 150px;
     height: 150px;
   }
-} */
+}
 
-/* @media (max-width: 350px) {
+@media (max-width: 350px) {
   .bodyContact {
     width: 82%;
     margin-left: 5px;
@@ -380,4 +380,4 @@ label {
     width: 100%;
     height: auto;
   }
-} */
+}
