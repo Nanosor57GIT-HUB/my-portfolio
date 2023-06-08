@@ -227,6 +227,12 @@
   .bodyCurriculum {
     width: 85%;
   }
+  .liHard,
+  .liSoft,
+  .liJeSuis {
+    font-size: 12px;
+    
+  }
 }
 
 @media (max-width: 500px) {

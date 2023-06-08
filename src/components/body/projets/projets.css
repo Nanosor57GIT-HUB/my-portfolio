@@ -401,7 +401,7 @@
   }
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .formationInfoProjects,
   .personalInfoProjects {
     font-size: 11px;
@@ -409,4 +409,4 @@
   .description {
     font-size: 11px;
   }
-}
+} */
