@@ -1,9 +1,10 @@
 /* BURGER MENU */
 
-.containerBurger {
-  position: relative;
-  height: 170px;
-}
+/* .containerBurger {
+ border: 1px solid white;
+} */
+
+
 .burger-menu {
   display: flex;
   justify-content: center;
@@ -11,40 +12,39 @@
   display: none;
 }
 
+
 .burger-menu-button {
-  display: flex;
-  align-items: center;
+  position: relative;
   border: none;
   width: 30px;
-  height: 30px;
+  height: 25px;
   background-color: transparent;
   cursor: pointer;
-  z-index: 100;
+  z-index: 90;
 }
+
 
 .burger-menu-icon,
 .burger-menu-icon:before,
 .burger-menu-icon:after {
   position: absolute;
-  display: block;
+  top: 0;left: 0;
   background-color: #f7d237;
   content: "";
-  height: 2px;
-  width: 30px;
+  height: 3px;
+  width: 100%;
   border-radius: 50px;
 }
 
 .burger-menu-icon:before {
-  top: -8px;
+  top: 10px;
 }
 
 .burger-menu-icon:after {
-  bottom: -8px;
+  top: 20px;
 }
 
 .containerDropdown1 {
-  position: absolute;
-  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,14 +89,14 @@
     top: 100%;
     right: 0;
     width: 100%;
-    position: relative;
+    
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .containerBurger {
     position: relative;
     top: 0;
     right: 0;
   }
-}
+} */
