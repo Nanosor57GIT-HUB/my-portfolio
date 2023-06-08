@@ -1,13 +1,18 @@
 /*FORM CONTACT */
-
 .bodyContact {
   position: relative;
+  width: 100%;
+  height: 85vh;
+  margin: 0;
+}
+.containerContact {
+
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 85vh;
-  margin-top: 150px;
+  
+  border: 1px solid blue;
 }
 
 .svgContact {
@@ -22,14 +27,29 @@
 
 /* modale formulaire */
 .block_form {
+  position: absolute; /* Ajoutez cette ligne */
+  top: 50%; /* Ajoutez cette ligne */
+  left: 50%; /* Ajoutez cette ligne */
+  transform: translate(-50%, -50%); /* Ajoutez cette ligne */
   width: 680px;
-  min-height: 446px;
-  max-height: 566px;
+  /* min-height: 446px;
+  max-height: 566px; */
   letter-spacing: 0.07em;
-  padding: 0 15px 15px 15px;
   border-radius: 10px;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  min-height: 85%;
+ margin: 0 auto 20px;
+  border: 2px solid #fbd437;
+  border-radius: 10px;
+  /* border: 1px solid blue;  */
 }
 
 .titleBlockForm {
@@ -42,16 +62,7 @@
   /* border: 1px solid white;  */
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  min-height: 85%;
-  border: 2px solid #fbd437;
-  border-radius: 10px;
-  /* border: 1px solid blue;  */
-}
+
 /**********************************/
 
 /* container formulaire */
@@ -122,19 +133,19 @@ label {
   letter-spacing: 2px;
   background-color: aquamarine;
   padding: 10px;
-  margin: 5px;
+   margin: 5px; 
   border: 1px solid black;
   border-radius: 5px;
   overflow: scroll(Y);
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
-  /* border: 3px solid violet; */
 }
 
 .errors {
   max-width: 210px;
-  height: 20px;
+  /* height: 20px; */
+  height: auto;
   color: #fbd437;
   font-size: 12px;
   /* border: 1px solid pink; */
@@ -161,7 +172,7 @@ label {
 /***************************************/
 
 /*MODAL Confirm*/
-.containerConfirmation {
+/* .containerConfirmation {
   position: absolute;
   top: 0;
   left: 0;
@@ -170,13 +181,13 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  visibility: hidden;
+   visibility: hidden;
   opacity: 0;
   transform: scale(0.3);
-  transition: opacity 0.2s, visibility 0.3s, transform 0.3s;
-}
+  transition: opacity 0.2s, visibility 0.3s, transform 0.3s; 
+} */
 
-.containerConfirmation.active {
+/* .containerConfirmation.active {
   visibility: visible;
   opacity: 1;
   transform: scale(1);
@@ -197,11 +208,11 @@ label {
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
   z-index: 110;
-}
+} */
 
 /***************/
 /* Close modal */
-.blockCloseModal {
+/* .blockCloseModal {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -233,11 +244,11 @@ label {
 .btnCloseModal:hover {
   box-shadow: 0px 0px 1px 2px rgb(255, 212, 55);
   opacity: 1;
-}
+} */
 /* End Close modal */
 /********************/
 
-.blockContentConfirmation {
+/* .blockContentConfirmation {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,11 +270,14 @@ label {
   text-align: center;
   font-size: 1.3rem;
   color: aquamarine;
-}
+} */
 
-@media (max-width: 800px) {
-  .block_form {
+/* @media (max-width: 800px) {
+   .block_form {
     width: 490px;
+  } 
+  .block_form {
+    width: 80%;;
   }
   .titleBlockForm {
     font-size: 22px;
@@ -288,12 +302,12 @@ label {
   .confirmationText {
     font-size: 1rem;
   }
-}
+} */
 
-@media (max-width: 620px) {
-  .block_form {
+/* @media (max-width: 620px) {
+   .block_form {
     width: 350px;
-  }
+  } 
   label,
   .textMaxChars {
     font-size: 11px;
@@ -320,9 +334,9 @@ label {
     width: 350px;
     height: auto;
   }
-}
+} */
 
-@media (max-width: 470px) {
+/* @media (max-width: 470px) {
   .block_form {
     width: 70%;
     height: auto;
@@ -349,11 +363,11 @@ label {
     width: 150px;
     height: 150px;
   }
-}
+} */
 
-@media (max-width: 350px) {
+/* @media (max-width: 350px) {
   .bodyContact {
-    width: 80%;
+    width: 82%;
     margin-left: 5px;
   }
   .block_form {
@@ -366,4 +380,4 @@ label {
     width: 100%;
     height: auto;
   }
-}
+} */

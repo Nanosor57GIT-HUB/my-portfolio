@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser'
-import Modal from "./ModalConfirmForm";
+//import Modal from "./ModalConfirmForm";
 
 const FormContact = () => {
   const form = useRef();
@@ -91,7 +91,7 @@ const FormContact = () => {
           user_email: "",
           textarea: "",
         });
-        openModal();
+        // openModal();
         // Make API call or perform other form actions
       } catch (error) {
         console.log(error.text);
@@ -101,7 +101,7 @@ const FormContact = () => {
     }
   };
 
-  const [modalState, setModalState] = useState(false);
+  // const [modalState, setModalState] = useState(false);
 
   // Aplication de suppression général d'erreurs au scroll
 useEffect(() => {
@@ -112,16 +112,17 @@ useEffect(() => {
 }, []);
 
 
-  function openModal() {
-    setModalState(!modalState);
-  }
+  // function openModal() {
+  //   setModalState(!modalState);
+  // }
 
-  function closeModal() {
-    setModalState(false);
-    resetErrors();
-  }
+  // function closeModal() {
+  //   setModalState(false);
+  //   resetErrors();
+  // }
 
   return (
+    <div className="containerContact">
       <div id="ResetErrorsContact" className="block_form">
         <h2 className="titleBlockForm">Besoin d'en savoir plus ?</h2>
         <form ref={form} autoComplete="OFF"  className="form" onSubmit={sendEmail}>
@@ -200,7 +201,8 @@ useEffect(() => {
             Envoyez
           </button>
         </form>
-        <Modal toggle={modalState} action={closeModal} />
+        {/* <Modal toggle={modalState} action={closeModal} /> */}
+      </div>
       </div>
   );
 };
