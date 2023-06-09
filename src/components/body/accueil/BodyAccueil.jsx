@@ -1,6 +1,6 @@
 import React from "react";
 //import "./accueil.css";
-export
+
 const BodyAccueil = () => {
   return (
     <section className="bodyAccueil">
