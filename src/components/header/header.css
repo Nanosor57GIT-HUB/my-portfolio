@@ -13,16 +13,16 @@
   z-index: 20;
 }
 
-.header-visible {
+.headerVisible {
   opacity: 1;
 }
 
-.header-hidden {
+.headerHidden {
   opacity: 0;
   visibility: hidden;
 }
 
-.logo {
+.logoWebSite {
   width: 300px;
   height: 150px;
   margin: 10px 0;
@@ -126,14 +126,14 @@
 }
 
 @media (max-width: 530px) {
-  .logo {
+  .logoWebSite {
     width: 250px;
     height: 125px;
   }
 }
 
 @media (max-width: 320px) {
-  .logo {
+  .logoWebSite {
     width: 240px;
     height: 120px;
   }

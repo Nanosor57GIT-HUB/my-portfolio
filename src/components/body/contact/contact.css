@@ -24,7 +24,7 @@
 }
 
 /* modale formulaire */
-.block_form {
+.blockForm {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -77,7 +77,7 @@
   flex-wrap: wrap;
 }
 
-.flex_input {
+.flexInput {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
@@ -89,9 +89,9 @@ label {
 }
 
 /*****input*****/
-.first_name,
-.last_name,
-.user_email {
+.firstName,
+.lastName,
+.userEmail {
   width: 100%;
   height: 30px;
   font-size: 18px;
@@ -139,7 +139,7 @@ label {
   font-size: 12px;
 }
 
-.btn_contact {
+.btnContact {
   width: 100px;
   height: 30px;
   font-size: 18px;
@@ -152,7 +152,7 @@ label {
   cursor: pointer;
 }
 
-.btn_contact:hover {
+.btnContact:hover {
   box-shadow: 0px 0px 2px 2px rgba(255, 212, 55, 0.5);
 }
 
@@ -261,7 +261,7 @@ label {
 }
 
 @media (max-width: 800px) {
-  .block_form {
+  .blockForm {
     width: 80%;
   }
   .titleBlockForm {
@@ -270,7 +270,7 @@ label {
   .textarea {
     font-size: 14px;
   }
-  .btn_contact:hover {
+  .btnContact:hover {
     box-shadow: none;
   }
   .btnCloseModal {
@@ -286,16 +286,16 @@ label {
 }
 
 @media (max-width: 620px) {
-  .block_form {
+  .blockForm {
     width: 350px;
   }
   label,
   .textMaxChars {
     font-size: 11px;
   }
-  .first_name,
-  .last_name,
-  .user_email {
+  .firstName,
+  .lastName,
+  .userEmail {
     height: 25px;
     font-size: 12px;
   }
@@ -314,7 +314,7 @@ label {
 }
 
 @media (max-width: 470px) {
-  .block_form {
+  .blockForm {
     width: 70%;
     height: auto;
   }
@@ -327,7 +327,7 @@ label {
   .textarea {
     font-size: 11px;
   }
-  .btn_contact {
+  .btnContact {
     width: 80px;
     height: 25px;
     font-size: 14px;
@@ -343,7 +343,7 @@ label {
     width: 82%;
     margin-left: 5px;
   }
-  .block_form {
+  .blockForm {
     width: 100%;
   }
   .confirmationText {

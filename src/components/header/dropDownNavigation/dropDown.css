@@ -4,7 +4,7 @@
   background-color: transparent;
   z-index: 150;
 }
-.dropbtn {
+.dropBtn {
   display: flex;
   width: 100%;
   height: 37px;
@@ -18,18 +18,18 @@
   cursor: pointer;
 }
 
-.dropDownBox:hover .dropbtn,
-.dropDownBox:focus .dropbtn,
+.dropDownBox:hover .dropBtn,
+.dropDownBox:focus .dropBtn,
 .dropbtn.active {
   color: #67C2A3;
 }
 
-.dropDown_Arrow {
+.dropDownArrow {
   width: 24px;
   height: 24px;
 }
 
-.dropdown-content { 
+.dropdownContent { 
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@
 
 
 @media (max-width: 800px) {
-  .dropbtn {
+  .dropBtn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -70,11 +70,11 @@
     border-radius: 7px;
     border: 1px solid rgba(255, 255, 255, 0.5);
   }
-  .dropDown_Arrow {
+  .dropDownArrow {
     width: 20px;
     height: 20px;
   }
- .dropdown-content {
+ .dropdownContent {
     width: 118px;
   } 
   .projectsLink {

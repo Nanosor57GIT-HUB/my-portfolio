@@ -66,7 +66,7 @@ const FormationCards = ({ pro }) => {
                         to={item.git_hub}
                         target="_blank"
                         rel="noreferrer"
-                        className="linkProjects btn-GitHub"
+                        className="linkProjects btnGitHub"
                         aria-label="Button Git-Hub"
                       >
                         Git-Hub
@@ -77,7 +77,7 @@ const FormationCards = ({ pro }) => {
                         to={item.demo}
                         target="_blank"
                         rel="noreferrer"
-                        className="linkProjects btn-Demo"
+                        className="linkProjects btnDemo"
                         aria-label="Button Demo"
                       >
                         Demo

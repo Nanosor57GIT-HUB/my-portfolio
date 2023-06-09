@@ -28,7 +28,7 @@ const Header = () => {
     <div id="/">
       <div
         className={`containerHeader ${
-          isVisible ? "header-visible" : "header-hidden"
+          isVisible ? "headerVisible" : "headerHidden"
         }`}
       >
         <Logo />

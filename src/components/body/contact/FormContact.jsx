@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useState, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from '@emailjs/browser'
 import Modal from "./ModalConfirmForm";
 
@@ -7,9 +6,9 @@ const FormContact = () => {
   const form = useRef();
 
   const [formData, setFormData] = useState({
-    first_name: "",
-    last_name: "",
-    user_email: "",
+    firstName: "",
+    lastName: "",
+    userEmail: "",
     textarea: "",
   });
 
@@ -30,20 +29,20 @@ const FormContact = () => {
   // Gestion d'affiche des messages d'erreurs
   const validate = () => {
     let tempErrors = {};
-    if (!formData.first_name) {
-      tempErrors.first_name = "FirstName is required";
+    if (!formData.firstName) {
+      tempErrors.firstName = "FirstName is required";
     }
 
-    if (!formData.last_name) {
-      tempErrors.last_name = "LastName is required";
+    if (!formData.lastName) {
+      tempErrors.lastName = "LastName is required";
     }
 
-    if (!formData.user_email) {
-      tempErrors.user_email = "Email is required";
+    if (!formData.userEmail) {
+      tempErrors.userEmail = "Email is required";
     } else if (
-      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.user_email)
+      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.userEmail)
     ) {
-      tempErrors.user_email = "Invalid email address";
+      tempErrors.userEmail = "Invalid email address";
     }
 
     if (!formData.textarea) {
@@ -76,7 +75,7 @@ const FormContact = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
     if (validate()) {
-      console.log("Form is valid!");
+    //  console.log("Form is valid!");
       try {
         await emailjs.sendForm(
           "service_19k8uap",
@@ -86,15 +85,15 @@ const FormContact = () => {
         );
         console.log("message send");
         setFormData({
-          first_name: "",
-          last_name: "",
-          user_email: "",
+          firstName: "",
+          lastName: "",
+          userEmail: "",
           textarea: "",
         });
          openModal();
         // Make API call or perform other form actions
       } catch (error) {
-        console.log(error.text);
+       // console.log(error.text);
       }
     } else {
       console.log("Form is invalid.");
@@ -123,58 +122,58 @@ useEffect(() => {
 
   return (
     <div className="containerContact">
-      <div id="ResetErrorsContact" className="block_form">
+      <div id="ResetErrorsContact" className="blockForm">
         <h2 className="titleBlockForm">Besoin d'en savoir plus ?</h2>
         <form ref={form} autoComplete="OFF"  className="form" onSubmit={sendEmail}>
           <div className="containerInput">
             <div className="nameContact">
               <div className="flex_input">
-                <label htmlFor="first_name">Prénom</label>
+                <label htmlFor="firstName">Prénom</label>
                 <input
                   type="text"
-                  id="first_name"
-                  name="first_name"
-                  value={formData.first_name}
-                  className="first_name"
+                  id="firstName"
+                  name="firstName"
+                  value={formData.firstName}
+                  className="firstName"
                   onChange={handleChange}
                   placeholder="Votre prénom"
                   required
                 />
-                {errors.first_name && (
-                  <p className="errors">{errors.first_name}</p>
+                {errors.firstName && (
+                  <p className="errors">{errors.firstName}</p>
                 )}
               </div>
-              <div className="flex_input">
-                <label htmlFor="last_name">Nom</label>
+              <div className="flexInput">
+                <label htmlFor="lastName">Nom</label>
                 <input
                   type="text"
-                  id="last_name"
-                  name="last_name"
-                  value={formData.last_name}
-                  className="last_name"
+                  id="lastName"
+                  name="lastName"
+                  value={formData.lastName}
+                  className="lastName"
                   onChange={handleChange}
                   placeholder="Votre nom"
                   required
                 />
-                {errors.last_name && (
-                  <p className="errors">{errors.last_name}</p>
+                {errors.lastName && (
+                  <p className="errors">{errors.lastName}</p>
                 )}
               </div>
             </div>
             
-              <label htmlFor="user_email">Email</label>
+              <label htmlFor="userEmail">Email</label>
               <input
                 type="email"
-                id="user_email"
-                name="user_email"
-                value={formData.user_email}
-                className="user_email"
+                id="userEmail"
+                name="userEmail"
+                value={formData.userEmail}
+                className="userEmail"
                 onChange={handleChange}
                 placeholder="Votre adresse mail"
                 required
               />
-              {errors.user_email && (
-                <p className="errors">{errors.user_email}</p>
+              {errors.userEmail && (
+                <p className="errors">{errors.userEmail}</p>
               )}
          
           </div>
@@ -197,7 +196,7 @@ useEffect(() => {
           />
           {errors.textarea && <p className="errors">{errors.textarea}</p>}
 
-          <button type="submit" className="btn_contact"  onClick={sendEmail} >
+          <button type="submit" className="btnContact"  onClick={sendEmail} >
             Envoyez
           </button>
         </form>

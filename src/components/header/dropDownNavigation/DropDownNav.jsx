@@ -34,19 +34,19 @@ const DropDownNav = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <p className="dropbtn" onFocus={handleFocus} onBlur={handleBlur}>
+      <p className="dropBtn" onFocus={handleFocus} onBlur={handleBlur}>
         Achèvements
         <img
           src="images/caret-vers-le-bas.svg"
           alt="arrow"
-          className="dropDown_Arrow"
+          className="dropDownArrow"
         />
       </p>
       {isOpen && (
-        <div id="dropdown-content" className="dropdown-content">
+        <div id="dropdownContent" className="dropdownContent">
           <Link
             activeClass="active"
-            className={`projectsLink ${hoveredIndex === 0 ? "active" : ""}`}
+            className={`projectsLink ${hoveredIndex === 0 ? "activeProjectsLinks" : ""}`}
             to="Projects"
             spy={true}
             smooth={true}
@@ -57,7 +57,7 @@ const DropDownNav = () => {
           </Link>
           <Link
             activeClass="active"
-            className={`projectsLink ${hoveredIndex === 1 ? "active" : ""}`}
+            className={`projectsLink ${hoveredIndex === 1 ? "activeProjectsLinks" : ""}`}
             to="perso"
             spy={true}
             smooth={true}

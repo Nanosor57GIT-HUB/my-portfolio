@@ -26,17 +26,17 @@ const Burger = () => {
 
   return (
     <div className="containerBurger">
-      <div className="burger-menu">
+      <div className="burgerMenu">
         <button
-          className="burger-menu-button"
+          className="burgerMenuButton"
           aria-label="menu burger item"
           onClick={handleMenuClick}
         >
-          <span className="burger-menu-icon"></span>
+          <span className="burgerMenuIcon"></span>
         </button>
         {isOpen && (
-          <div className="containerDropdown1">
-            <div className="burger-menu-dropdown">
+          <div className="containerDropdownBurger">
+            <div className="burgerMenuDropdown">
               <nav
                 className="navBurger"
                 role="navigation"

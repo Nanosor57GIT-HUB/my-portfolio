@@ -20,14 +20,14 @@ const PdfViewer = () => {
         <img src="./pdf/CoverPDFCV.webp" className="imgCV" alt="Mon CV" />
       </div>
       <div
-        className="containerBtnCV"
+        className="containerBtnCv"
         data-aos="zoom-in"
         data-aos-delay="400"
         data-aos-duration="600"
         data-aos-easing="ease-in-sine"
       >
         <button
-          className="lookCVbtn"
+          className="lookCvBtn"
           aria-label="Aria Voir_Mon_CV"
           onClick={handleOpenPdf}
         >

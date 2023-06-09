@@ -5,7 +5,7 @@ const Logo = () => {
     <>
       <img
         src={process.env.PUBLIC_URL + "./logoPortfolio(360x180).webp"}
-        className="logo"
+        className="logoWebSite"
         alt="logo_My Portfolio inline"
       ></img>
     </>

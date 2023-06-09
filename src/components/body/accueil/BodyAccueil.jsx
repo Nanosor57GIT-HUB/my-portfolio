@@ -1,11 +1,7 @@
 import React from "react";
 import "./accueil.css";
 
-
-
 const BodyAccueil = () => {
-  
-
   return (
     <section className="bodyAccueil">
       <div className="containerAccueil">
@@ -17,11 +13,11 @@ const BodyAccueil = () => {
         </div>
         <div className="containerPresentation">
           <img
-            src={process.env.PUBLIC_URL + "./images/portrait3(360x360).webp"}
-            alt="Mon_portrait"
+            src={process.env.PUBLIC_URL + "./images/portrait(360x360).webp"}
+            alt="MonPortrait"
             className="portrait"
           />
-          <p className="presentation-text">
+          <p className="presentationText">
             Je suis développeur d'applications Front-end javascript/React formé
             à un diplôme de niveau 6 (Bac +3/4) en distanciel chez
             OpenClassrooms. Mon portfolio a été conçu pour mettre en valeur mes
