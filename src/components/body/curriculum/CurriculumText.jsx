@@ -1,16 +1,16 @@
 import React from "react";
-import AOS from "aos";
+//import AOS from "aos";
 import "aos/dist/aos.css";
 import PdfViewer from "./Cv";
 //import DataContextProvider from "../../../contexts/DataContext";
 
-AOS.init({
-  animatedClassName: "animated",
-  duration: 400,
-  easing: "linear",
-  anchor: "#CurriculumVitae",
-  anchorPlacement: "top-center",
-});
+// AOS.init({
+//   animatedClassName: "animated",
+//   duration: 400,
+//   easing: "linear",
+//   anchor: "#CurriculumVitae",
+//   anchorPlacement: "top-center",
+// });
 
 const CurriculumText = ({ skills, jeSuis }) => {
   // const data = useContext(DataContextProvider);
