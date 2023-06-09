@@ -127,7 +127,7 @@ useEffect(() => {
         <form ref={form} autoComplete="OFF"  className="form" onSubmit={sendEmail}>
           <div className="containerInput">
             <div className="nameContact">
-              <div className="flex_input">
+              <div className="flexInput">
                 <label htmlFor="firstName">Prénom</label>
                 <input
                   type="text"

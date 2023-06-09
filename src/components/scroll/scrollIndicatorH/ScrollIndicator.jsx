@@ -1,5 +1,5 @@
 import React from "react";
-import "./scrollingIndicator.css";
+//import "./scrollingIndicator.css";
 import { useState, useEffect } from "react";
 
 const ScrollIndicator = () => {
