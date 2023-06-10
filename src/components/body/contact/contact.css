@@ -318,8 +318,12 @@ label {
 }
 
 @media (max-width: 470px) {
+  .bodyContact {
+    width: 82%;
+    margin-left: 5px;
+  }
   .blockForm {
-    width: 70%;
+    width: 100%;
     height: auto;
   }
   .titleBlockForm {
@@ -345,7 +349,7 @@ label {
   }
 }
 
-@media (max-width: 350px) {
+/* @media (max-width: 350px) {
   .bodyContact {
     width: 82%;
     margin-left: 5px;
@@ -354,4 +358,4 @@ label {
     width: 100%;
   }
   
-}
+} */
