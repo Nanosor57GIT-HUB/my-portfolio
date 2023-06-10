@@ -1,4 +1,8 @@
 /*FORM CONTACT */
+
+/* Besoin d'en savoir plus ? Prénom Nom Email En quoi puis-je vous aider ? ( 300 c…
+<section id="Contact" class="bodyContact"> */
+
 .bodyContact {
   position: relative;
   width: 100%;
@@ -80,7 +84,7 @@
 .flexInput {
   display: flex;
   flex-direction: column;
-  margin-top: 5px;
+  padding: 5px;
 }
 
 label {
@@ -96,7 +100,7 @@ label {
   height: 30px;
   font-size: 18px;
   font-weight: 500;
-  padding-left: 10px;
+ padding-left: 10px; 
   background-color: aquamarine;
   border: none;
   border-radius: 5px;
@@ -285,7 +289,7 @@ label {
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 724px) {
   .blockForm {
     width: 350px;
   }
@@ -336,6 +340,9 @@ label {
     width: 150px;
     height: 150px;
   }
+  .confirmationText {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 350px) {
@@ -346,7 +353,5 @@ label {
   .blockForm {
     width: 100%;
   }
-  .confirmationText {
-    font-size: 0.8rem;
-  }
+  
 }
