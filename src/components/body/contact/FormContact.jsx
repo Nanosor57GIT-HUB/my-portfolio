@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
 import Modal from "./ModalConfirmForm";
 
 const FormContact = () => {
@@ -63,8 +63,7 @@ const FormContact = () => {
     if (formContact) {
       const formRect = formContact.getBoundingClientRect();
       const isVisible =
-        formRect.bottom >= 0 &&
-         formRect.top >= window.innerHeight;
+        formRect.bottom >= 0 && formRect.top >= window.innerHeight;
       if (isVisible) {
         setErrors({});
       }
@@ -75,13 +74,13 @@ const FormContact = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
     if (validate()) {
-    //  console.log("Form is valid!");
+      //  console.log("Form is valid!");
       try {
         await emailjs.sendForm(
           "service_19k8uap",
           "template_t2zgykl",
           form.current,
-          "MMxU-Ki_LKRNh3M4q",
+          "MMxU-Ki_LKRNh3M4q"
         );
         console.log("message send");
         setFormData({
@@ -90,26 +89,25 @@ const FormContact = () => {
           userEmail: "",
           textarea: "",
         });
-         openModal();
+        openModal();
         // Make API call or perform other form actions
       } catch (error) {
-       // console.log(error.text);
+        // console.log(error.text);
       }
     } else {
       console.log("Form is invalid.");
     }
   };
 
-   const [modalState, setModalState] = useState(false);
+  const [modalState, setModalState] = useState(false);
 
   // Aplication de suppression général d'erreurs au scroll
-useEffect(() => {
-  window.addEventListener("scroll", resetErrors);
-  return () => {
-    window.removeEventListener("scroll", resetErrors);
-  };
-}, []);
-
+  useEffect(() => {
+    window.addEventListener("scroll", resetErrors);
+    return () => {
+      window.removeEventListener("scroll", resetErrors);
+    };
+  }, []);
 
   function openModal() {
     setModalState(!modalState);
@@ -124,7 +122,12 @@ useEffect(() => {
     <div className="containerContact">
       <div id="ResetErrorsContact" className="blockForm">
         <h2 className="titleBlockForm">Besoin d'en savoir plus ?</h2>
-        <form ref={form} autoComplete="OFF"  className="form" onSubmit={sendEmail}>
+        <form
+          ref={form}
+          autoComplete="OFF"
+          className="form"
+          onSubmit={sendEmail}
+        >
           <div className="containerInput">
             <div className="nameContact">
               <div className="flexInput">
@@ -139,9 +142,13 @@ useEffect(() => {
                   placeholder="Votre prénom"
                   required
                 />
-                {errors.firstName && (
-                  <p className="errors">{errors.firstName}</p>
-                )}
+
+                <div className="errorsInput">
+                  {errors.firstName && (
+                    <p className="errors">{errors.firstName}</p>
+                  )}
+                </div>
+                
               </div>
               <div className="flexInput">
                 <label htmlFor="lastName">Nom</label>
@@ -155,9 +162,13 @@ useEffect(() => {
                   placeholder="Votre nom"
                   required
                 />
-                {errors.lastName && (
-                  <p className="errors">{errors.lastName}</p>
-                )}
+
+                <div className="errorsInput">
+                  {errors.lastName && (
+                    <p className="errors">{errors.lastName}</p>
+                  )}
+                </div>
+
               </div>
             </div>
             <div className="flexInput">
@@ -172,17 +183,22 @@ useEffect(() => {
                 placeholder="Votre adresse mail"
                 required
               />
-              {errors.userEmail && (
-                <p className="errors">{errors.userEmail}</p>
-              )}
-         </div>
+
+              <div className="errorsInput">
+                {errors.userEmail && (
+                  <p className="errors">{errors.userEmail}</p>
+                )}
+              </div>
+            </div>
           </div>
 
-          <label htmlFor="textarea" className="titleTextarea">En quoi puis-je vous aider ?</label>
+          <label htmlFor="textarea" className="titleTextarea">
+            En quoi puis-je vous aider ?
+          </label>
           <span className="textMaxChars" style={{ color: "#fbd437" }}>
             ( 300 caractères Max. )
           </span>
-        
+
           <textarea
             rows="4"
             cols="46"
@@ -193,16 +209,18 @@ useEffect(() => {
             onChange={handleChange}
             placeholder="Votre message ici ...."
             required
-          />  <div className="flexInputTextarea">
-          {errors.textarea && <p className="errorsTextarea">{errors.textarea}</p>}
-</div>
-          <button type="submit" className="btnContact"  onClick={sendEmail} >
+          />
+          <div className="errorsTextarea">
+            {errors.textarea && <p className="errors">{errors.textarea}</p>}
+          </div>
+
+          <button type="submit" className="btnContact" onClick={sendEmail}>
             Envoyez
           </button>
         </form>
         <Modal toggle={modalState} action={closeModal} />
       </div>
-      </div>
+    </div>
   );
 };
 

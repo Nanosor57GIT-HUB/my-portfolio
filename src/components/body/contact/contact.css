@@ -82,10 +82,9 @@
 }
 
 .flexInput {
-  position: relative;
-  height: 80px;
   display: flex;
   flex-direction: column;
+  height: 75px;
   padding: 5px;
 }
 
@@ -129,7 +128,7 @@ label {
   letter-spacing: 2px;
   background-color: aquamarine;
   padding: 10px;
-  margin: 5px;
+ margin-top: 5px;
   border: 1px solid black;
   border-radius: 5px;
   overflow: scroll(Y);
@@ -139,26 +138,18 @@ label {
 }
 
 .errors {
-  position: absolute;bottom: 0;left: 0;
-  max-width: 210px;
-  height: 20px;
-  margin-left: 5px;
+  width: 100%;
+  height: auto;
   color: #fbd437;
   font-size: 12px;
-  border: 1px solid blue;
+  margin-top: 2px;
 }
 
-.flexInputTextarea {
-  text-align: center;
-  height: 50px;
-  width: 90%;
-  height: 20px;
-  border: 1px solid blue;
-}
-
+.errorsInput,
 .errorsTextarea {
-  color: #fbd437;
-  font-size: 12px;
+  width: 100%; 
+  height: 15px; 
+  text-align: center;
 }
 
 .btnContact {
@@ -328,11 +319,16 @@ label {
     font-size: 11px;
   }
   .flexInput {
-    height: 70px;
+    height: 65px;
   }
+  .flexInputTextarea {
+    height: px;
+  }
+  .errorsTextarea,
   .errors {
     font-size: 11px;
   }
+  
   .titleTextarea {
     font-size: 12px;
   }
