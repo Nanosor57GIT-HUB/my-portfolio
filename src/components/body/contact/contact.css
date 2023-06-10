@@ -267,6 +267,7 @@ label {
 @media (max-width: 800px) {
   .blockForm {
     width: 80%;
+    height: auto;
   }
   .titleBlockForm {
     font-size: 22px;
@@ -292,6 +293,7 @@ label {
 @media (max-width: 724px) {
   .blockForm {
     width: 350px;
+    height: auto;
   }
   label,
   .textMaxChars {
@@ -300,6 +302,7 @@ label {
   .firstName,
   .lastName,
   .userEmail {
+    width: auto;
     height: 25px;
     font-size: 12px;
   }
