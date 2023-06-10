@@ -182,7 +182,7 @@ useEffect(() => {
           <span className="textMaxChars" style={{ color: "#fbd437" }}>
             ( 300 caractères Max. )
           </span>
-
+        
           <textarea
             rows="4"
             cols="46"
@@ -193,9 +193,9 @@ useEffect(() => {
             onChange={handleChange}
             placeholder="Votre message ici ...."
             required
-          />
-          {errors.textarea && <p className="errors">{errors.textarea}</p>}
-
+          />  <div className="flexInputTextarea">
+          {errors.textarea && <p className="errorsTextarea">{errors.textarea}</p>}
+</div>
           <button type="submit" className="btnContact"  onClick={sendEmail} >
             Envoyez
           </button>

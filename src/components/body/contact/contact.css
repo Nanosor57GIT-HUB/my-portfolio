@@ -82,6 +82,8 @@
 }
 
 .flexInput {
+  position: relative;
+  height: 80px;
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -100,7 +102,7 @@ label {
   height: 30px;
   font-size: 18px;
   font-weight: 500;
- padding-left: 10px; 
+ padding-left: 10px;
   background-color: aquamarine;
   border: none;
   border-radius: 5px;
@@ -137,8 +139,24 @@ label {
 }
 
 .errors {
+  position: absolute;bottom: 0;left: 0;
   max-width: 210px;
-  height: auto;
+  height: 20px;
+  margin-left: 5px;
+  color: #fbd437;
+  font-size: 12px;
+  border: 1px solid blue;
+}
+
+.flexInputTextarea {
+  text-align: center;
+  height: 50px;
+  width: 90%;
+  height: 20px;
+  border: 1px solid blue;
+}
+
+.errorsTextarea {
   color: #fbd437;
   font-size: 12px;
 }
@@ -308,6 +326,9 @@ label {
   }
   ::placeholder {
     font-size: 11px;
+  }
+  .flexInput {
+    height: 70px;
   }
   .errors {
     font-size: 11px;
