@@ -67,9 +67,7 @@
 .flexInput {
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: 75px;
-  padding: 5px;
+  padding: 2px;
 }
 .containerInput {
   width: 90%;
@@ -154,7 +152,7 @@ label {
 .errors {
   width: 100%;
   color: #fbd437;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .btnContact {
@@ -322,17 +320,6 @@ label {
   ::placeholder {
     font-size: 11px;
   }
-  .flexInput {
-    height: 65px;
-  }
-  .errors {
-    margin-top: 0px;
-  }
-  .errorsTextarea,
-  .errors {
-    font-size: 11px;
-  }
-  
   .titleTextarea {
     font-size: 12px;
   }
