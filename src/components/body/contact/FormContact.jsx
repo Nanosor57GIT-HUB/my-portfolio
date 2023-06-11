@@ -30,27 +30,27 @@ const FormContact = () => {
   const validate = () => {
     let tempErrors = {};
     if (!formData.firstName) {
-      tempErrors.firstName = "FirstName is required";
+      tempErrors.firstName = "Votre prénom est requis";
     }
 
     if (!formData.lastName) {
-      tempErrors.lastName = "LastName is required";
+      tempErrors.lastName = "Votre nom est requis";
     }
 
     if (!formData.userEmail) {
-      tempErrors.userEmail = "Email is required";
+      tempErrors.userEmail = "Votre Email est requis";
     } else if (
       !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.userEmail)
     ) {
-      tempErrors.userEmail = "Invalid email address";
+      tempErrors.userEmail = "Votre adresse Email est invalide";
     }
 
     if (!formData.textarea) {
-      tempErrors.textarea = "Message is required";
+      tempErrors.textarea = "Un message est requis";
     } else if (formData.textarea.length < 15) {
-      tempErrors.textarea = "Message must be at least 15 characters long";
+      tempErrors.textarea = "Votre message doit comporter au moins 15 caractères";
     } else if (formData.textarea.length > 300) {
-      tempErrors.textarea = "Message must be no more than 300 characters long";
+      tempErrors.textarea = "Votre message ne doit pas dépasser 300 caractères";
     }
 
     setErrors(tempErrors);
@@ -125,11 +125,11 @@ const FormContact = () => {
         <form
           ref={form}
           autoComplete="OFF"
-          className="form"
+          className="formContent"
           onSubmit={sendEmail}
         >
           <div className="containerInput">
-            <div className="nameContact">
+            <div className="nameBlock">
               <div className="flexInput">
                 <label htmlFor="firstName">Prénom</label>
                 <input
@@ -148,7 +148,7 @@ const FormContact = () => {
                     <p className="errors">{errors.firstName}</p>
                   )}
                 </div>
-                
+
               </div>
               <div className="flexInput">
                 <label htmlFor="lastName">Nom</label>
