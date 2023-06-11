@@ -34,7 +34,7 @@ const PersonnelCards = ({ perso }) => {
       </div>
       <div className="containerCards">
         {perso.map((item) => (
-          <div className="cards" key={item.id} data-aos="fade-up">
+          <div className="cards" key={item.id} >
             <p className="description">{item.description}</p>
             <div className="card">
               <div className="containerCover">
