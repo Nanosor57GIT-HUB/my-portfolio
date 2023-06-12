@@ -1,45 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Modal = (props) => {
-  //props transform(css)
-  const toggle = props.toggle;
-  const action = props.action;
-
+const Modal = ({ onClose }) => {
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
 
-  
-  return (
-   
-    <div className={`containerConfirmation ${toggle ? "active" : ""}`}> 
-      <div className="modalConfirmation">
-        
-          <div className="blockCloseModal">
-            <Link
-              className="btnCloseModal"
-              onClick={() => {
-                action();
-                handleClick();
-              }}
-            >
-              X
-            </Link>
+  const handleModalClose = () => {
+    onClose();
+    handleClick();
+  };
 
-            <span className="closeTitle">Fermer</span>
-          </div>
-          <div className="blockContentConfirmation">
-        
-            <img
+  return (
+    <div className="modal-container active">
+      <div className="modal-content">
+        <div className="modal-header">
+          <Link className="close-button" onClick={handleModalClose}>
+            X
+          </Link>
+          <span className="close-title">Fermer</span>
+        </div>
+        <div className="modal-body">
+        <img
               src={process.env.PUBLIC_URL + "images/logoWithoutTitle(300x300).webp"}
-              className="imgModalConfirmation"
+              className="modal-image"
               alt="logo_My_portfolio_inline"
             />
-            <h1 className="confirmationText">
-              Nous accusons réception de votre demande et vous répondrons dans
-              les plus brefs délais.
-            </h1>
+          <h1 className="confirmation-text">
+            Nous accusons réception de votre demande et vous répondrons dans
+            les plus brefs délais.
+          </h1>
         </div>
       </div>
     </div>

@@ -109,7 +109,7 @@ const FormContact = () => {
   }, []);
 
   function openModal() {
-    setModalState(true);
+    setModalState(!modalState);
     document.body.classList.add("scroll-lock"); // Ajout de la classe pour verrouiller le scroll
   }
 
@@ -218,8 +218,7 @@ const FormContact = () => {
           </button>
         </form>
       </div>
-      {modalState && <Modal onClose={closeModal} />}
-      {/* <Modal toggle={modalState} action={closeModal} /> */}
+      <Modal toggle={modalState} action={closeModal} />
     </div>
   );
 };
