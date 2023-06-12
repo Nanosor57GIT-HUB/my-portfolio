@@ -22,7 +22,7 @@ const CurriculumText = ({ skills, jeSuis }) => {
   return (
     <div className="blockCurriculum">
       <div className="hardContainer animated" data-aos="zoom-in-right">
-        <h1 className="titleSkills">Compétences Hard-Skills</h1>
+        <h2 className="titleSkills">Compétences Hard-Skills</h2>
         <ul className="ulHard">
           {skills[0].hard_skills.map((skill, index) => (
             <li className="liHard" key={index}>
@@ -33,7 +33,7 @@ const CurriculumText = ({ skills, jeSuis }) => {
       </div>
       <PdfViewer />
       <div className="softContainer animated" data-aos="zoom-in-left">
-        <h1 className="titleSkills">Compétences Soft-Skills</h1>
+        <h2 className="titleSkills">Compétences Soft-Skills</h2>
         <ul className="ulSoft">
           {skills[1].soft_skills.map((skill, index) => (
             <li className="liSoft" key={index}>
@@ -43,7 +43,7 @@ const CurriculumText = ({ skills, jeSuis }) => {
         </ul>
       </div>
       <div className="quiSuisJeContainer animated" data-aos="zoom-in">
-        <h1 className="titleQuiSuisJe">Qui suis je ?</h1>
+        <h2 className="titleQuiSuisJe">Qui suis je ?</h2>
         <ul className="ulQuiSuisJe">
           <li className="liJeSuis" key={jeSuis}>
             {jeSuis[0].qui}

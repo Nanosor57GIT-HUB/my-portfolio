@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Modal = ({ onClose }) => {
+  
   const handleClick = () => {
     window.scrollTo(0, 0);
   };

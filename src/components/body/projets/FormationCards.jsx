@@ -17,10 +17,10 @@ const FormationCards = ({ pro }) => {
 
   return (
     <div className="formationBlockProjects">
-      <h1 className="formationTitleProjects">
+      <h2 className="formationTitleProjects">
         Projets de formation
         <span className="numberProjects"> ({pro.length})</span>
-      </h1>
+      </h2>
       <div className="blockInfoProjects">
         <div className="containerInfoProjects animated" data-aos="zoom-out">
           <p className="formationInfoProjects animated" data-aos="zoom-in">
@@ -52,7 +52,7 @@ const FormationCards = ({ pro }) => {
                 />
               </div>
               <div className="contentCards">
-                <h2 className="position">{item.position}</h2>
+                <p className="position">{item.position}</p>
                 <img
                   src={item.logo}
                   alt={item.title}

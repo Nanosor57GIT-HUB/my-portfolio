@@ -16,10 +16,10 @@ const PersonnelCards = ({ perso }) => {
 
   return (
     <div className="personalBlockProjects" id="perso">
-      <h1 className="personalTitleProjects">
+      <h2 className="personalTitleProjects">
         Projets personnels
         <span className="numberProjects"> ({perso.length})</span>
-      </h1>
+      </h2>
       <div className="blockInfoProjects">
         <div className="containerInfoProjects animated" data-aos="zoom-out">
           <p className="personalInfoProjects animated" data-aos="zoom-in">
@@ -45,7 +45,7 @@ const PersonnelCards = ({ perso }) => {
                 />
               </div>
               <div className="contentCards">
-                <h2 className="position">{item.position}</h2>
+                <p className="position">{item.position}</p>
                 <img
                   src={item.logo}
                   alt={item.title}
