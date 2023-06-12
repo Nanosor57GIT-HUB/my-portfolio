@@ -80,11 +80,11 @@ const PersonnelCards = ({ perso }) => {
                 ))}
                 <div className="containerTechnologies">
                   {item.technologies.map((logoDev, index) => (
-                    <div className="technologies" key={index}>
+                    <div className="technologiesProjects" key={index}>
                       <img
                         src={logoDev}
-                        className="logoTechno"
-                        alt="logoTechno"
+                        className="logoTechnologies"
+                        alt="logo Technologies"
                       />
                     </div>
                   ))}

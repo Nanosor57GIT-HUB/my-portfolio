@@ -34,10 +34,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 680px;
+  height: auto;
   letter-spacing: 0.07em;
   border-radius: 10px;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  min-height: 85%;
+  margin: 0 auto 20px;
+  border: 2px solid #fbd437;
+  border-radius: 10px;
 }
 
 .titleBlockForm {
@@ -49,30 +61,33 @@
   color: aquamarine;
 }
 
-.formContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 95%;
-  min-height: 85%;
-  margin: 0 auto 20px;
-  border: 2px solid #fbd437;
-  border-radius: 10px;
-}
-
 /**********************************/
 
-/* formulaire */
-
-.flexInput {
-  display: flex;
-  flex-direction: column;
-  padding: 2px;
-}
+/* container formulaire */
 .containerInput {
   width: 90%;
   height: auto;
   margin: 0;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: rgb(77, 6, 6);
+  opacity: 0.7;
+}
+
+.nameContact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flexInput {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 5px;
 }
 
 label {
@@ -95,20 +110,9 @@ label {
 }
 /***************/
 
-::placeholder {
-  font-size: 14px;
-  color: rgb(77, 6, 6);
-  opacity: 0.7;
-}
-
-.nameBlock {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .titleTextarea {
   width: 90%;
+  height: auto;
   margin-top: 10px;
   text-align: center;
 }
@@ -136,23 +140,24 @@ label {
   -ms-hyphens: auto -moz-hyphens;
 }
 
-.errorsInput{ 
+.errorsInput,
+.errorsTextarea { 
+  display: flex;
+  align-items: center;
   width: 100%; 
   height: 15px; 
   padding-top: 2px;
 }
 
-.errorsTextarea {
-  width: 90%; 
-  height: 15px; 
-  padding-top: 2px;
-  text-align: center;
-}
-
 .errors {
   width: 100%;
+  height: auto;
   color: #fbd437;
   font-size: 11px;
+}
+
+.errorsTextarea {
+  text-align: center;
 }
 
 .btnContact {
@@ -177,18 +182,20 @@ label {
 
 /*MODAL Confirm*/
 .containerConfirmation {
-  position: fixed;
-  top: 0;
+  position: absolute;
+ top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+ min-height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
   visibility: hidden;
-   opacity: 0;
+  opacity: 0;
   transform: scale(0.3);
-  transition: opacity 0.2s, visibility 0.3s, transform 0.3s;
+  transition: opacity 0.2s, visibility 0.3s, transform 0.8s; 
+  z-index: 99;
+ 
 }
 
 .containerConfirmation.active {
@@ -196,7 +203,6 @@ label {
   opacity: 1;
   transform: scale(1);
   border: none;
-  z-index: 10;
 }
 
 .modalConfirmation {
@@ -205,12 +211,11 @@ label {
   justify-content: space-evenly;
   align-items: center;
   width: 680px;
-  height: 100%;
+  height: 494px;
   background-color: #2a3b43;
   border-radius: 10px;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  z-index: 110;
 }
 
 /***************/
@@ -275,6 +280,11 @@ label {
   color: aquamarine;
 }
 
+.scroll-lock {
+  overflow: hidden;
+}
+
+
 @media (max-width: 800px) {
   .blockForm {
     width: 80%;
@@ -295,6 +305,9 @@ label {
   }
   .closeTitle {
     margin-right: 40px;
+  }
+  .modalConfirmation {
+    width: 80%;
   }
   .confirmationText {
     font-size: 1rem;
@@ -320,11 +333,26 @@ label {
   ::placeholder {
     font-size: 11px;
   }
+  .flexInput {
+    height: 65px;
+  }
+  .errors {
+    margin-top: 0px;
+  }
+  .errorsTextarea,
+  .errors {
+    font-size: 11px;
+  }
+  
   .titleTextarea {
     font-size: 12px;
   }
   .textarea {
     font-size: 12px;
+  }
+  .modalConfirmation {
+    width: 350px;
+    height: 520px;
   }
 }
 
@@ -354,6 +382,9 @@ label {
   .imgModal {
     width: 150px;
     height: 150px;
+  }
+  .modalConfirmation {
+    width: 100%;
   }
   .confirmationText {
     font-size: 0.8rem;

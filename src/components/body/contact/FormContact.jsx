@@ -5,14 +5,14 @@ import Modal from "./ModalConfirmForm";
 const FormContact = () => {
   const form = useRef();
 
+  const [errors, setErrors] = useState({});
+  const [modalState, setModalState] = useState(false);
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     userEmail: "",
-    textarea: "",
+    message: "",
   });
-
-  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     setFormData({
@@ -45,12 +45,13 @@ const FormContact = () => {
       tempErrors.userEmail = "Votre adresse Email est invalide";
     }
 
-    if (!formData.textarea) {
-      tempErrors.textarea = "Un message est requis";
-    } else if (formData.textarea.length < 15) {
-      tempErrors.textarea = "Votre message doit comporter au moins 15 caractères";
-    } else if (formData.textarea.length > 300) {
-      tempErrors.textarea = "Votre message ne doit pas dépasser 300 caractères";
+    if (!formData.message) {
+      tempErrors.message = "Un message est requis";
+    } else if (formData.message.length < 15) {
+      tempErrors.message =
+        "Votre message doit comporter au moins 15 caractères";
+    } else if (formData.message.length > 300) {
+      tempErrors.message = "Votre message ne doit pas dépasser 300 caractères";
     }
 
     setErrors(tempErrors);
@@ -87,7 +88,7 @@ const FormContact = () => {
           firstName: "",
           lastName: "",
           userEmail: "",
-          textarea: "",
+          message: "",
         });
         openModal();
         // Make API call or perform other form actions
@@ -99,8 +100,6 @@ const FormContact = () => {
     }
   };
 
-  const [modalState, setModalState] = useState(false);
-
   // Aplication de suppression général d'erreurs au scroll
   useEffect(() => {
     window.addEventListener("scroll", resetErrors);
@@ -111,10 +110,12 @@ const FormContact = () => {
 
   function openModal() {
     setModalState(!modalState);
+    document.body.classList.add("scroll-lock"); // Ajout de la classe pour verrouiller le scroll
   }
 
   function closeModal() {
     setModalState(false);
+    document.body.classList.remove("scroll-lock"); // Suppression de la classe pour réactiver le scroll
     resetErrors();
   }
 
@@ -125,11 +126,11 @@ const FormContact = () => {
         <form
           ref={form}
           autoComplete="OFF"
-          className="formContent"
+          className="form"
           onSubmit={sendEmail}
         >
           <div className="containerInput">
-            <div className="nameBlock">
+            <div className="nameContact">
               <div className="flexInput">
                 <label htmlFor="firstName">Prénom</label>
                 <input
@@ -148,7 +149,6 @@ const FormContact = () => {
                     <p className="errors">{errors.firstName}</p>
                   )}
                 </div>
-
               </div>
               <div className="flexInput">
                 <label htmlFor="lastName">Nom</label>
@@ -168,7 +168,6 @@ const FormContact = () => {
                     <p className="errors">{errors.lastName}</p>
                   )}
                 </div>
-
               </div>
             </div>
             <div className="flexInput">
@@ -203,23 +202,23 @@ const FormContact = () => {
             rows="4"
             cols="46"
             id="textarea"
-            name="textarea"
-            value={formData.textarea}
+            name="message"
+            value={formData.message}
             className="textarea"
             onChange={handleChange}
             placeholder="Votre message ici ...."
             required
           />
           <div className="errorsTextarea">
-            {errors.textarea && <p className="errors">{errors.textarea}</p>}
+            {errors.message && <p className="errors">{errors.message}</p>}
           </div>
 
           <button type="submit" className="btnContact" onClick={sendEmail}>
             Envoyez
           </button>
         </form>
-        <Modal toggle={modalState} action={closeModal} />
       </div>
+      <Modal toggle={modalState} action={closeModal} />
     </div>
   );
 };
