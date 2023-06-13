@@ -126,7 +126,7 @@ const FormContact = () => {
         <form
           ref={form}
           autoComplete="OFF"
-          className="form"
+          className="formContent"
           onSubmit={sendEmail}
         >
           <div className="containerInput">
@@ -191,9 +191,9 @@ const FormContact = () => {
             </div>
           </div>
 
-          <label htmlFor="textarea" className="titleTextarea">
+          <h3 htmlFor="textarea" className="titleTextarea">
             En quoi puis-je vous aider ?
-          </label>
+          </h3>
           <span className="textMaxChars" style={{ color: "#fbd437" }}>
             ( 300 caractères Max. )
           </span>
