@@ -52,6 +52,7 @@ const Burger = () => {
                   spy={true}
                   smooth={true}
                   duration={800}
+                  offset={-170}
                 >
                   Curriculum
                 </Link>
