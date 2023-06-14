@@ -55,7 +55,7 @@
 
 .titleBlockForm {
   width: 100%;
-  height: auto;
+  max-height: 50px;
   max-height: 60px;
   padding: 5px;
   font-size: 30px;
@@ -116,13 +116,15 @@ label {
 
 .titleTextarea {
   width: 90%;
-  height: auto;
+  max-height: 25px;
   margin-top: 10px;
   text-align: center;
   color: aquamarine;
 }
 
 .textMaxChars {
+  width: auto;
+  min-height: 16px;
   font-size: 12px;
 }
 
