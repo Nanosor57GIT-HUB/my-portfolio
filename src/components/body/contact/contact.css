@@ -94,7 +94,7 @@
 
 label {
   width: 100%;
-  height: auto;
+  max-height: 21px;
   margin-bottom: 1px;
   color: aquamarine;
 }
@@ -333,6 +333,7 @@ label {
   label,
   .textMaxChars {
     font-size: 11px;
+
   }
   .firstName,
   .lastName,

@@ -1,8 +1,8 @@
 import React from "react";
 //import "./accueil.css";
 
-// https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/6ty5apmkzc?form_factor=mobile
-// 98% perfs mobile et 99% perfs desktop.
+// https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/1v4lse5qzo?form_factor=mobile
+// 99% perfs mobile et 100% perfs desktop.
 
 const BodyAccueil = () => {
   return (

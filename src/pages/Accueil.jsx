@@ -6,15 +6,10 @@ import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
 import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
+import BodyProjects from "../components/body/projets/BodyProjects";
 import BodyContact from "../components/body/contact/BodyContact";
 import Footer from "../components/footer/Footer";
 
-
-
-
-
-
-import BodyProjects from "../components/body/projets/BodyProjects";
 
 const Accueil = () => {
   const {
@@ -29,13 +24,14 @@ const Accueil = () => {
   return (
     <div>
       <div className="containerFetchDisplay">
-        {isLoading && <div className="loading">🌀 Loading...</div>}
+        {isLoading && <div className="loading">Loading... <span className="loadingSymbol" style={{ opacity: 0.8 }}>⌛</span></div>}
         {error && (
           <div className="error">
             Ooups! une erreur est survenue pendant le chargement ...
           </div>
         )}
       </div>
+     
       <ScrollIndicator />
       <Header />
        <ScrollAnchor />
