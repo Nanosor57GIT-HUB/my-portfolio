@@ -1,15 +1,15 @@
 import React from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+//import AOS from "aos";
+//import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
-AOS.init({
-  animatedClassName: "animated",
-  duration: 400,
-  easing: "linear",
-  anchor: "#Perso",
-  anchorPlacement: "top-bottom",
-});
+// AOS.init({
+//   animatedClassName: "animated",
+//   duration: 400,
+//   easing: "linear",
+//   anchor: "#Perso",
+//   anchorPlacement: "top-bottom",
+// });
 
 const PersonnelCards = ({ perso }) => {
   // const { persoData, setPersoData } = useContext(DataContext);
