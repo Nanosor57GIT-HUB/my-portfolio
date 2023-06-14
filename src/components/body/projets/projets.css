@@ -320,6 +320,9 @@
   .coverProjects {
     width: 100%;
   }
+  /* [data-aos].animated {
+    transform: translateX(0);
+  } */
   .contentCards {
     width: 100%;
     height: 655px;
