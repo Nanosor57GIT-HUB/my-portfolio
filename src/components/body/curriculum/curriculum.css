@@ -234,17 +234,3 @@
     width: 80%;
   }
 }
-
-/* LES CARACTERES
-Entre 16 et 20px pour le texte principal,  et entre 12px et 16px pour les textes secondaires. Les éléments interactifs et boutons, 20 et 24px. Limiter la longueur à 70 caractères. Pour les images et les vidéos, il est recommandé de les adapter à la taille de l'écran.
-
- LES INTERACTIONS
-En général, le nombre d'interactions possibles sur une page n'affecte pas directement la vitesse d'affichage. Cependant, le comportement des interactions peut avoir un impact sur la performance globale de la page.
-
-Par exemple, si vous avez des interactions qui déclenchent le chargement d'éléments supplémentaires, comme des images ou des scripts, cela peut ralentir la page. De même, si vous avez des animations complexes ou des interactions qui nécessitent beaucoup de calculs, cela peut également ralentir la page.
-
-Il est donc important de concevoir des interactions efficaces qui ne surchargent pas la page en termes de chargement ou de traitement. Vous pouvez utiliser des techniques telles que le préchargement de contenu ou le chargement progressif pour améliorer la performance de la page avec des interactions complexes.
-
-Il est important de ne pas trop surcharger votre page avec des animations ou des interactions inutiles.
-
-Enfin, l'utilisation de bibliothèques externes pour les animations peut également ralentir la page. Assurez-vous de n'utiliser que les bibliothèques nécessaires et optimisées pour les performances. */
