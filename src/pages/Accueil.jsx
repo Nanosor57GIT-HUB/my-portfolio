@@ -31,21 +31,24 @@ const Accueil = () => {
           </div>
         )}
       </div>
-     
+     {portfolio && (
+      <>
       <ScrollIndicator />
       <Header />
        <ScrollAnchor />
       <BodyAccueil path="Accueil" />
-      {portfolio && (
+      
         <BodyCurriculum
           compétences={portfolio.skills}
           quiSuisJe={portfolio.je_suis}
         />
-      )}
+      
       <SideBar />
       {portfolio && <BodyProjects projets={portfolio} />}
       <BodyContact />
       <Footer />
+      </>
+      )}
     </div>
   );
 };
