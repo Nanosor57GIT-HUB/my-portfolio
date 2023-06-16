@@ -107,13 +107,22 @@
 
 @media (max-width: 1200px) {
   .presentationText {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 955px) {
-  .titlePortfolio {
-    font-size: 60px;
+  .portrait {
+    width: 200px;
+    height: 200px;
+  }
+   .titlePortfolio {
+    font-size: 36px;
+  }
+  .presentationText {
+    width: 426px;
+    margin: 10px;
+    font-size: 14px;
   }
 }
 
@@ -121,20 +130,18 @@
   .containerTitlePortfolio {
     text-align: center;
   }
-  .titlePortfolio {
-    font-size: 40px;
-  }
+ 
   .responsiveText {
     font-size: 12px;
-  }
-  .portrait {
-    width: 200px;
-    height: 200px;
   }
   .presentationText {
     width: 426px;
     margin: 10px;
     font-size: 14px;
+  }
+  .portrait {
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -146,10 +153,7 @@
   .responsiveText {
     display: none;
   }
-  .portrait {
-    width: 150px;
-    height: 150px;
-  }
+  
   .presentationText {
     width: 250px;
     font-size: 12px;
