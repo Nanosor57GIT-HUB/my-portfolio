@@ -14,13 +14,14 @@
 .containerFetchDisplay {
  position: absolute;
  top: 0;
- left: 0;
+ left: 0; 
+ width: 100%;
+height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100vh;
  background-color: #150a1f;
+ border: 1px solid white;
  z-index: -1;
 }
 
@@ -28,7 +29,9 @@
 .error {
   width: auto;
   height: auto;
+  text-align: center;
   padding: 5px 10px;
+  margin: 0 20px;
   border-radius: 10px;
   font-size: 24px;
   font-weight: bold;
@@ -50,37 +53,9 @@
 }
 
 @media (max-width: 1150px) {
-  .containerFetchDisplay {
-    justify-content: flex-start;
-    top: 0;
-  }
   .loading,
   .error {
     font-size: 20px;
-    margin-left: 50px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .loading,
-  .error {
-    top: 180px;
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 880px) {
-  .loading,
-  .error {
-    top: 180px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 724px) {
-  .loading,
-  .error {
-    top: 160px;
   }
 }
 
