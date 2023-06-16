@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import "./dropDown.css";
 import { Link } from "react-scroll";
 
 const DropDownNav = () => {

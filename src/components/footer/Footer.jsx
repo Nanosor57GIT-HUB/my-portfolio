@@ -1,5 +1,4 @@
 import React from "react";
-//import "./footer.css";
 import LogoDeveloppeur from "./LogoDeveloppeur";
 
 const Footer = () => {

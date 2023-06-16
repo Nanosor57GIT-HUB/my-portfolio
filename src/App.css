@@ -13,12 +13,15 @@
 
 .containerFetchDisplay {
  position: absolute;
- top: 160px;
+ top: 0;
+ left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100px;
+  height: 100vh;
+ background-color: #150a1f;
+ z-index: -1;
 }
 
 .loading,

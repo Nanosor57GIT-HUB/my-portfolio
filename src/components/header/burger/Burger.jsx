@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./burger.css";
 import DropDownNav from "../dropDownNavigation/DropDownNav";
 import { Link } from "react-scroll";
 
@@ -27,15 +26,15 @@ const Burger = () => {
   return (
     <div className="containerBurger">
       <div className="burgerMenu">
-        <button
-          className="burgerMenuButton"
-          aria-label="menu burger item"
-          onClick={handleMenuClick}
-        >
-          <span className="burgerMenuIcon"></span>
-        </button>
+      <button
+  className={`burgerMenuButton ${isOpen ? 'open' : ''}`}
+  aria-label="menu burger item"
+  onClick={handleMenuClick}
+>
+  <span className="burgerMenuIcon"></span>
+</button>
         {isOpen && (
-          <div className="containerDropdownBurger">
+          <div className={`containerDropdownBurger ${isOpen ? 'open' : ''}`}>
             <div className="burgerMenuDropdown">
               <nav
                 className="navBurger"
@@ -52,7 +51,7 @@ const Burger = () => {
                   spy={true}
                   smooth={true}
                   duration={800}
-                  //  offset={-170}
+                    offset={-150}
                 >
                   Curriculum
                 </Link>

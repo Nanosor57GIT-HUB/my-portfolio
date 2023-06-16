@@ -1,6 +1,4 @@
 import React from "react";
-//import "./curriculum.css";
-
 import CurriculumText from "./CurriculumText";
 
 const BodyCurriculum = (props) => {

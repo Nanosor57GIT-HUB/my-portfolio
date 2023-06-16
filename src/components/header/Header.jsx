@@ -1,5 +1,4 @@
 import React from "react";
-//import "./header.css";
 import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import Navbar from "./Navbar";

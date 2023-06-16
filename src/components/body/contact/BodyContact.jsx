@@ -1,5 +1,4 @@
 import React from "react";
-//import "./contact.css";
 import FormContact from "./FormContact";
 
 const BodyContact = () => {
