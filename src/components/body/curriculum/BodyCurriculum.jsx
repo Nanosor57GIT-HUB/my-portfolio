@@ -1,9 +1,12 @@
 import React from "react";
 import CurriculumText from "./CurriculumText";
+import { useCompetencesContext, useDescriptionContext } from "../../../DataContext";
 
 const BodyCurriculum = (props) => {
-  const skills = props.compétences;
-  const jeSuis = props.quiSuisJe;
+  // const skills = props.compétences;
+  // const jeSuis = props.quiSuisJe;
+  const competences = useCompetencesContext();
+  const description = useDescriptionContext();
 
   return (
     <section id="CurriculumVitae" className="bodyCurriculum">
@@ -12,7 +15,8 @@ const BodyCurriculum = (props) => {
         className="svgCurriculum"
         alt="Logo_Curriculum_Vitae"
       />
-      {skills && <CurriculumText skills={skills} jeSuis={jeSuis} />}
+      {competences && <CurriculumText skills={competences} jeSuis={description} />}
+      {/* {skills && <CurriculumText skills={skills} jeSuis={jeSuis} />} */}
     </section>
   );
 };

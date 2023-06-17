@@ -2,12 +2,18 @@ import React from "react";
 import FormationCards from "./FormationCards";
 import PersonnelCards from "./PersonnelCards";
 
+
+
 const BodyProjects = ({ projets }) => {
-  //console.log(projets);
-  const pro = projets.pro;
+
+  
   //console.log(pro);
+
+  
+  const pro = projets.pro;
+  console.log(pro);
   const perso = projets.perso;
-  // console.log(perso);
+   console.log(perso);
 
   return (
     <section id="Projects" className="bodyProjects">

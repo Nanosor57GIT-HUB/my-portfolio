@@ -9,12 +9,12 @@ import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyProjects from "../components/body/projets/BodyProjects";
 import BodyContact from "../components/body/contact/BodyContact";
 import Footer from "../components/footer/Footer";
-// import {
-//   CompetencesContext,
-//   DescriptionContext,
-//   FormationsProContext,
-//   FormationsPersoContext,
-// } from "../DataContext";
+import {
+  CompetencesContext,
+  DescriptionContext,
+  FormationsProContext,
+  FormationsPersoContext,
+} from "../DataContext";
 
 const Accueil = () => {
   const {
@@ -44,22 +44,32 @@ const Accueil = () => {
         )}
       </div>
       {portfolio && (
-        <>
-          <ScrollIndicator />
-          <Header />
-          <ScrollAnchor />
-          <BodyAccueil path="Accueil" />
+        <CompetencesContext.Provider value={portfolio.skills}>
+          <DescriptionContext.Provider value={portfolio.je_suis}>
+            <FormationsProContext.Provider value={portfolio.formations_pro}>
+              <FormationsPersoContext.Provider
+                value={portfolio.formations_perso}
+              >
+                <>
+                  <ScrollIndicator />
+                  <Header />
+                  <ScrollAnchor />
+                  <BodyAccueil path="Accueil" />
 
-          <BodyCurriculum
-            compétences={portfolio.skills}
-            quiSuisJe={portfolio.je_suis}
-          />
+                  <BodyCurriculum
+                    compétences={portfolio.skills}
+                    quiSuisJe={portfolio.je_suis}
+                  />
 
-          <SideBar />
-         <BodyProjects projets={portfolio} />
-          <BodyContact />
-          <Footer />
-        </>
+                  <SideBar />
+                  <BodyProjects projets={portfolio} />
+                  <BodyContact />
+                  <Footer />
+                </>
+              </FormationsPersoContext.Provider>
+            </FormationsProContext.Provider>
+          </DescriptionContext.Provider>
+        </CompetencesContext.Provider>
       )}
     </div>
   );
