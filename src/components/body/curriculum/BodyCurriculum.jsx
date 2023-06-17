@@ -15,7 +15,7 @@ const BodyCurriculum = () => {
         className="svgCurriculum"
         alt="Logo_Curriculum_Vitae"
       />
-      <CurriculumText skills={competences} jeSuis={description} />
+      {competences && <CurriculumText skills={competences} jeSuis={description} />}
       {/* {skills && <CurriculumText skills={skills} jeSuis={jeSuis} />} */}
     </section>
   );

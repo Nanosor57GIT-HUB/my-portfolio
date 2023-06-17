@@ -47,15 +47,22 @@ const Accueil = () => {
         <CompetencesContext.Provider value={portfolio.skills}>
           <DescriptionContext.Provider value={portfolio.je_suis}>
             <FormationsProContext.Provider value={portfolio.pro}>
-              <FormationsPersoContext.Provider value={portfolio.perso}>           
+              <FormationsPersoContext.Provider value={portfolio.perso}>
+                
+              
                 <>
                   <ScrollIndicator />
                   <Header />
                   <ScrollAnchor />
                   <BodyAccueil path="Accueil" />
-                  <BodyCurriculum />
+
+                  <BodyCurriculum
+                    compétences={portfolio.skills}
+                    quiSuisJe={portfolio.je_suis}
+                  />
+
                   <SideBar />
-                  <BodyProjects />
+                  <BodyProjects projets={portfolio} />
                   <BodyContact />
                   <Footer />
                 </>
