@@ -27,8 +27,8 @@ const BodyProjects = () => {
         alt="logo_projets"
       />
 
-      {pro && <FormationCards pro={pro} />}
-      {perso && <PersonnelCards perso={perso} />}
+     <FormationCards pro={pro} />
+     <PersonnelCards perso={perso} />
     </section>
   );
 };
