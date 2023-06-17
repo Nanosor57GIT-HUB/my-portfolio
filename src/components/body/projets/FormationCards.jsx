@@ -2,7 +2,7 @@ import React from "react";
 //import AOS from "aos";
 //import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-//import { FormationsProContext } from "../../../DataContext";
+//import { useFormationsProContext } from "../../../DataContext";
 
 // AOS.init({
 //   animatedClassName: "animated",
@@ -12,9 +12,8 @@ import { Link } from "react-router-dom";
 //   anchorPlacement: "top-bottom",
 // });
 
-const FormationCards = ({pro}) => {
-  //const pro = useContext(FormationsProContext)
-  
+const FormationCards = ({ pro }) => {
+ // const pro = useFormationsProContext()
   // const data = useContext(DataContext);
   // const pro = data.pro;
 
@@ -28,7 +27,17 @@ const FormationCards = ({pro}) => {
         <div className="containerInfoProjects animated" data-aos="zoom-out">
           <p className="formationInfoProjects animated" data-aos="zoom-in">
             Au cours de ma formation de développeur d'application JavaScript /
-            
+            React chez OpenClassrooms, j'ai réalisé 14 projets basé sur des cas
+            réels en entreprise avec des énnoncés composés de tenant ,
+            d'aboutissants et d'échange de mails avec les différents
+            Collaborateurs / Clients. Cette formation s'est déroulée en
+            distanciel incluant un mentorat de 45 minutes par semaine et une
+            plateforme "d'entraide". Les projets ont étaient réalisés avec
+            divers technologies et frameworks, ce qui m'a permis de développer
+            mes compétences en programmation web. Les codes sont disponibles sur
+            Git-Hub, les demos sont déployées sur Git-hub et Vercel. Ces projets
+            montrent mes capacités à développer des applications web
+            interactives et conviviales pour les utilisateurs.
           </p>
         </div>
       </div>
