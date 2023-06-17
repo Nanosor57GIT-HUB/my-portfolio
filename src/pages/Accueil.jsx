@@ -9,7 +9,12 @@ import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyProjects from "../components/body/projets/BodyProjects";
 import BodyContact from "../components/body/contact/BodyContact";
 import Footer from "../components/footer/Footer";
-
+// import {
+//   CompetencesContext,
+//   DescriptionContext,
+//   FormationsProContext,
+//   FormationsPersoContext,
+// } from "../DataContext";
 
 const Accueil = () => {
   const {
@@ -24,30 +29,37 @@ const Accueil = () => {
   return (
     <div>
       <div className="containerFetchDisplay">
-        {isLoading && <div className="loading">Loading... <span className="loadingSymbol" style={{ opacity: 0.8 }}>⌛</span></div>}
+        {isLoading && (
+          <div className="loading">
+            Loading...{" "}
+            <span className="loadingSymbol" style={{ opacity: 0.8 }}>
+              ⌛
+            </span>
+          </div>
+        )}
         {error && (
           <div className="error">
             Ooups! une erreur est survenue pendant le chargement ...
           </div>
         )}
       </div>
-     {portfolio && (
-      <>
-      <ScrollIndicator />
-      <Header />
-       <ScrollAnchor />
-      <BodyAccueil path="Accueil" />
-      
-        <BodyCurriculum
-          compétences={portfolio.skills}
-          quiSuisJe={portfolio.je_suis}
-        />
-      
-      <SideBar />
-      {portfolio && <BodyProjects projets={portfolio} />}
-      <BodyContact />
-      <Footer />
-      </>
+      {portfolio && (
+        <>
+          <ScrollIndicator />
+          <Header />
+          <ScrollAnchor />
+          <BodyAccueil path="Accueil" />
+
+          <BodyCurriculum
+            compétences={portfolio.skills}
+            quiSuisJe={portfolio.je_suis}
+          />
+
+          <SideBar />
+         <BodyProjects projets={portfolio} />
+          <BodyContact />
+          <Footer />
+        </>
       )}
     </div>
   );
