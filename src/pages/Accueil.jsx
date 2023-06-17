@@ -46,10 +46,10 @@ const Accueil = () => {
       {portfolio && (
         <CompetencesContext.Provider value={portfolio.skills}>
           <DescriptionContext.Provider value={portfolio.je_suis}>
-            <FormationsProContext.Provider value={portfolio.formations_pro}>
-              <FormationsPersoContext.Provider
-                value={portfolio.formations_perso}
-              >
+            <FormationsProContext.Provider value={portfolio.pro}>
+              <FormationsPersoContext.Provider value={portfolio.perso}>
+                
+              
                 <>
                   <ScrollIndicator />
                   <Header />

@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 //import AOS from "aos";
 //import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-//import { FormationsPersoContext } from "../../../DataContext";
+import { FormationsPersoContext } from "../../../DataContext";
 
 // AOS.init({
 //   animatedClassName: "animated",
@@ -12,9 +12,9 @@ import { Link } from "react-router-dom";
 //   anchorPlacement: "top-bottom",
 // });
 
-const PersonnelCards = ({perso}) => {
+const PersonnelCards = () => {
 
- // const perso = useContext(FormationsPersoContext)
+  const perso = useContext(FormationsPersoContext)
   // const { persoData, setPersoData } = useContext(DataContext);
 
   return (

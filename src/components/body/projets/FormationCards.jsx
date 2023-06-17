@@ -2,7 +2,7 @@ import React from "react";
 //import AOS from "aos";
 //import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-//import { useFormationsProContext } from "../../../DataContext";
+import { useFormationsProContext } from "../../../DataContext";
 
 // AOS.init({
 //   animatedClassName: "animated",
@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 //   anchorPlacement: "top-bottom",
 // });
 
-const FormationCards = ({ pro }) => {
- // const pro = useFormationsProContext()
+const FormationCards = () => {
+  const pro = useFormationsProContext()
   // const data = useContext(DataContext);
   // const pro = data.pro;
 

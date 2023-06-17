@@ -2,7 +2,7 @@ import React from "react";
 import CurriculumText from "./CurriculumText";
 import { useCompetencesContext, useDescriptionContext } from "../../../DataContext";
 
-const BodyCurriculum = (props) => {
+const BodyCurriculum = () => {
   // const skills = props.compétences;
   // const jeSuis = props.quiSuisJe;
   const competences = useCompetencesContext();
