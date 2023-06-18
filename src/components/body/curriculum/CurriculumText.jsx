@@ -2,7 +2,10 @@ import React from "react";
 //import AOS from "aos";
 //import "aos/dist/aos.css";
 import PdfViewer from "./Cv";
-import { useCompetencesContext, useDescriptionContext } from "../../../DataContext";
+import {
+  useCompetencesContext,
+  useDescriptionContext,
+} from "../../../DataContext";
 //import DataContextProvider from "../../../contexts/DataContext";
 
 // AOS.init({
@@ -14,7 +17,6 @@ import { useCompetencesContext, useDescriptionContext } from "../../../DataConte
 // });
 
 const CurriculumText = () => {
-
   const skills = useCompetencesContext();
   const jeSuis = useDescriptionContext();
   // const data = useContext(DataContextProvider);

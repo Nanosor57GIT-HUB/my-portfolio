@@ -13,9 +13,7 @@ import { useFormationsProContext } from "../../../DataContext";
 // });
 
 const FormationCards = () => {
-  const pro = useFormationsProContext()
-  // const data = useContext(DataContext);
-  // const pro = data.pro;
+  const pro = useFormationsProContext();
 
   return (
     <div className="formationBlockProjects">
@@ -43,7 +41,7 @@ const FormationCards = () => {
       </div>
       <div className="containerCards">
         {pro.map((item) => (
-          <div className="cards" key={item.id} >
+          <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
             <div className="card">
               <div className="containerCover">

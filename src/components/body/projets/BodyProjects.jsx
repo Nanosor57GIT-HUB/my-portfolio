@@ -1,23 +1,12 @@
 import React from "react";
 import FormationCards from "./FormationCards";
 import PersonnelCards from "./PersonnelCards";
-import { useFormationsProContext } from "../../../DataContext";
-import { useFormationsPersoContext } from "../../../DataContext";
-
-
+// import { useFormationsProContext } from "../../../DataContext";
+// import { useFormationsPersoContext } from "../../../DataContext";
 
 const BodyProjects = () => {
-
-  const pro = useFormationsProContext()
-  const perso = useFormationsPersoContext()
-  
-  //console.log(pro);
-
-  
-  // const pro = projets.pro;
-  // console.log(pro);
-  // const perso = projets.perso;
-  //  console.log(perso);
+  // const pro = useFormationsProContext()
+  // const perso = useFormationsPersoContext()
 
   return (
     <section id="Projects" className="bodyProjects">
@@ -27,8 +16,8 @@ const BodyProjects = () => {
         alt="logo_projets"
       />
 
-      {pro && <FormationCards pro={pro} />}
-      {perso && <PersonnelCards perso={perso} />}
+      <FormationCards />
+      <PersonnelCards />
     </section>
   );
 };

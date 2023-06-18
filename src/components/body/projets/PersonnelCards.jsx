@@ -13,9 +13,7 @@ import { FormationsPersoContext } from "../../../DataContext";
 // });
 
 const PersonnelCards = () => {
-
-  const perso = useContext(FormationsPersoContext)
-  // const { persoData, setPersoData } = useContext(DataContext);
+  const perso = useContext(FormationsPersoContext);
 
   return (
     <div className="personalBlockProjects" id="perso">
@@ -37,7 +35,7 @@ const PersonnelCards = () => {
       </div>
       <div className="containerCards">
         {perso.map((item) => (
-          <div className="cards" key={item.id} >
+          <div className="cards" key={item.id}>
             <p className="description">{item.description}</p>
             <div className="card">
               <div className="containerCover">
