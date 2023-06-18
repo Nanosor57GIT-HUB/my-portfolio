@@ -20,7 +20,6 @@ import {
 
 
 Aos.init({
-  animatedClassName: "animated",
   duration: 400,
   easing: "linear",
   anchorPlacement: "top-bottom",

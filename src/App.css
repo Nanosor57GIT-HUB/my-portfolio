@@ -65,9 +65,9 @@ height: 100vh;
   }
   }
 
-  [data-aos].animated {
+  /* [data-aos].animated {
     transform: translateX(0);
-  }
+  } */
 
 /*ERROR404*/
 /* .btn404 {
