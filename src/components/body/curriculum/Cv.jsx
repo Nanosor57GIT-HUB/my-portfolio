@@ -21,10 +21,10 @@ const PdfViewer = () => {
       </div>
       <div
         className="containerBtnCv"
-        // data-aos="zoom-in"
-        // data-aos-delay="400"
-        // data-aos-duration="600"
-        // data-aos-easing="ease-in-sine"
+        data-aos="zoom-in"
+        data-aos-delay="400"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-sine"
       >
         <button
           className="lookCvBtn"

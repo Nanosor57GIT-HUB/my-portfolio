@@ -1,16 +1,6 @@
 import React, { useContext } from "react";
-//import AOS from "aos";
-//import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import { FormationsPersoContext } from "../../../DataContext";
-
-// AOS.init({
-//   animatedClassName: "animated",
-//   duration: 400,
-//   easing: "linear",
-//   anchor: "#Perso",
-//   anchorPlacement: "top-bottom",
-// });
 
 const PersonnelCards = () => {
   const perso = useContext(FormationsPersoContext);
@@ -35,7 +25,7 @@ const PersonnelCards = () => {
       </div>
       <div className="containerCards">
         {perso.map((item) => (
-          <div className="cards" key={item.id}>
+          <div className="cards" key={item.id} data-aos="zoom-in">
             <p className="description">{item.description}</p>
             <div className="card">
               <div className="containerCover">

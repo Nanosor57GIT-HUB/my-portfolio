@@ -15,7 +15,6 @@ const BodyProjects = () => {
         className="svgProjects"
         alt="logo_projets"
       />
-
       <FormationCards />
       <PersonnelCards />
     </section>

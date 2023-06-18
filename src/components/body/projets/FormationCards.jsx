@@ -1,16 +1,6 @@
 import React from "react";
-//import AOS from "aos";
-//import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import { useFormationsProContext } from "../../../DataContext";
-
-// AOS.init({
-//   animatedClassName: "animated",
-//   duration: 400,
-//   easing: "linear",
-//   anchor: "#Projects",
-//   anchorPlacement: "top-bottom",
-// });
 
 const FormationCards = () => {
   const pro = useFormationsProContext();
@@ -39,9 +29,9 @@ const FormationCards = () => {
           </p>
         </div>
       </div>
-      <div className="containerCards">
+      <div className="containerCards" >
         {pro.map((item) => (
-          <div className="cards" key={item.id}>
+          <div className="cards" key={item.id} data-aos="zoom-in">
             <p className="description">{item.description}</p>
             <div className="card">
               <div className="containerCover">

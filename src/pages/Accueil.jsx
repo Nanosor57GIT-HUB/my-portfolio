@@ -5,6 +5,8 @@ import Header from "../components/header/Header";
 import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyProjects from "../components/body/projets/BodyProjects";
 import BodyContact from "../components/body/contact/BodyContact";
@@ -15,6 +17,14 @@ import {
   FormationsProContext,
   FormationsPersoContext,
 } from "../DataContext";
+
+
+Aos.init({
+  animatedClassName: "animated",
+  duration: 400,
+  easing: "linear",
+  anchorPlacement: "top-bottom",
+});
 
 const Accueil = () => {
   const {
