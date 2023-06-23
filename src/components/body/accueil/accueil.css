@@ -78,7 +78,7 @@
   align-items: center;
   width: 90%;
   height: 100%;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .presentationText {
@@ -145,6 +145,12 @@
   }
 }
 
+/* @media (max-width: 730px) {
+.containerPresentation {
+  margin-top: 20px;
+}
+} */
+
 @media (max-width: 530px) {
   .titlePortfolio {
     font-size: 24px;
@@ -153,7 +159,9 @@
   .responsiveText {
     display: none;
   }
-  
+  .containerPresentation {
+    margin-top: 10px;
+  }
   .presentationText {
     width: 250px;
     font-size: 12px;
