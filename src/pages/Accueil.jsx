@@ -6,7 +6,7 @@ import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
 import Aos from "aos";
-import "../aosMin.css";
+//import "../aosMin.css";
 //import "aos/dist/aos.css";
 import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyProjects from "../components/body/projets/BodyProjects";
