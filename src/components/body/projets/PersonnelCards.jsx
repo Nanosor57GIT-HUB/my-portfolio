@@ -25,7 +25,7 @@ const PersonnelCards = () => {
       </div>
       <div className="containerCards">
         {perso.map((item) => (
-          <div className="cards" key={item.id} data-aos="zoom-in">
+          <div className="cards animated" key={item.id} data-aos="zoom-in">
             <p className="description">{item.description}</p>
             <div className="card">
               <div className="containerCover">
