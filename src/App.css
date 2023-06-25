@@ -1,29 +1,25 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* #2f3330 */
 .App {
   background-color: #150a1f;
   width: 100%;
   height: auto;
 }
-
 .containerFetchDisplay {
- position: absolute;
- top: 0;
- left: 0; 
- width: 100%;
-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
- background-color: #150a1f;
- z-index: -1;
+  background-color: #150a1f;
+  z-index: -1;
 }
-
 .loading,
 .error {
   width: auto;
@@ -38,7 +34,6 @@ height: 100vh;
   filter: drop-shadow(1px 1px 1px aquamarine);
   z-index: 1500;
 }
-
 .error {
   color: red;
   border: 1px solid red;
@@ -46,28 +41,24 @@ height: 100vh;
 .loading {
   border: 1px solid aquamarine;
 }
-
 .loadingSymbol {
   font-size: 18px;
 }
-
 @media (max-width: 1150px) {
   .loading,
   .error {
     font-size: 20px;
   }
 }
-
 @media (max-width: 279px) {
   * {
     display: none;
   }
-  }
-
-  [data-aos].animated {
-    transform: translateX(0);
-    transform: none;
-  }
+}
+[data-aos].animated {
+  transform: translateX(0);
+  transform: none;
+}
 
 /*ERROR404*/
 /* .btn404 {

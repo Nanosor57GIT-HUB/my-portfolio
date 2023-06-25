@@ -1,15 +1,9 @@
-/*FORM CONTACT */
-
-/* Besoin d'en savoir plus ? Prénom Nom Email En quoi puis-je vous aider ? ( 300 c…
-<section id="Contact" class="bodyContact"> */
-
 .bodyContact {
   position: relative;
   width: 100%;
   height: 85vh;
   margin: 0;
 }
-
 .containerContact {
   display: flex;
   align-items: center;
@@ -17,7 +11,6 @@
   width: 100%;
   height: 85vh;
 }
-
 .svgContact {
   display: none;
   position: absolute;
@@ -27,8 +20,6 @@
   min-width: 50px;
   height: 12%;
 }
-
-/* modale formulaire */
 .blockForm {
   position: absolute;
   top: 50%;
@@ -41,7 +32,6 @@
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
-
 .formContent {
   display: flex;
   flex-direction: column;
@@ -52,7 +42,6 @@
   border: 2px solid #fbd437;
   border-radius: 10px;
 }
-
 .titleBlockForm {
   width: 100%;
   max-height: 50px;
@@ -62,44 +51,34 @@
   text-align: center;
   color: aquamarine;
 }
-
-/**********************************/
-
-/* container formulaire */
 .containerInput {
   width: 90%;
   height: auto;
   margin: 0;
 }
-
 ::placeholder {
   font-size: 14px;
   color: rgb(77, 6, 6);
   opacity: 0.7;
 }
-
 .nameContact {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .flexInput {
   display: flex;
   flex-direction: column;
- width: auto;
+  width: auto;
   height: auto;
   padding: 5px;
 }
-
 label {
   width: 100%;
   max-height: 21px;
   margin-bottom: 1px;
   color: aquamarine;
 }
-
-/*****input*****/
 .firstName,
 .lastName,
 .userEmail {
@@ -107,13 +86,11 @@ label {
   height: 30px;
   font-size: 18px;
   font-weight: 500;
- padding-left: 10px;
+  padding-left: 10px;
   background-color: aquamarine;
   border: none;
   border-radius: 5px;
 }
-/***************/
-
 .titleTextarea {
   width: 90%;
   max-height: 25px;
@@ -121,13 +98,11 @@ label {
   text-align: center;
   color: aquamarine;
 }
-
 .textMaxChars {
   width: auto;
   min-height: 16px;
   font-size: 12px;
 }
-
 .textarea {
   display: flex;
   width: 90%;
@@ -138,24 +113,22 @@ label {
   letter-spacing: 2px;
   background-color: aquamarine;
   padding: 10px;
- margin-top: 5px;
-  border: 1px solid black;
+  margin-top: 5px;
+  border: 1px solid #000;
   border-radius: 5px;
   overflow: scroll(Y);
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto -moz-hyphens;
 }
-
 .errorsInput,
-.errorsTextarea { 
+.errorsTextarea {
   display: flex;
   align-items: center;
-  width: 100%; 
-  height: 15px; 
+  width: 100%;
+  height: 15px;
   padding-top: 2px;
 }
-
 .errors {
   width: 100%;
   height: auto;
@@ -163,11 +136,9 @@ label {
   color: #fbd437;
   font-size: 11px;
 }
-
 .errorsTextarea {
   text-align: center;
 }
-
 .btnContact {
   width: 100px;
   height: 30px;
@@ -180,15 +151,9 @@ label {
   border: 1px solid #fbd437;
   cursor: pointer;
 }
-
 .btnContact:hover {
-  box-shadow: 0px 0px 2px 2px rgba(255, 212, 55, 0.5);
+  box-shadow: 0 0 2px 2px rgba(255, 212, 55, 0.5);
 }
-
-/***************************************/
-/***************************************/
-
-/*MODAL Confirm*/
 .modal-container {
   position: fixed;
   top: 0;
@@ -198,21 +163,13 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* visibility: hidden;
-  opacity: 1;
-  transform: scale(0.3);
-  transition: opacity 0.2s, visibility 0.3s, transform 0.8s; */
   z-index: 99;
 }
-
 .modal-container.active {
   visibility: visible;
   opacity: 1;
-  /* transform: scale(1); */
-   background-color: rgba(0,0,0,0.5); 
-   
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
 .modal-content {
   display: flex;
   flex-direction: column;
@@ -225,9 +182,6 @@ label {
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
-
-/***************/
-/* Close modal */
 .modal-header {
   position: relative;
   display: flex;
@@ -236,7 +190,6 @@ label {
   width: 95%;
   height: 40px;
 }
-
 .close-button {
   position: absolute;
   right: 10px;
@@ -248,25 +201,16 @@ label {
   font-size: 20px;
   opacity: 0.5;
 }
-
 .close-button:hover {
-  box-shadow: 0px 0px 1px 2px rgb(255, 212, 55);
+  box-shadow: 0 0 1px 2px rgb(255, 212, 55);
   opacity: 1;
 }
-
 .close-title {
   position: absolute;
   right: 50px;
   color: #fbd437;
   font-size: 0.8rem;
 }
-
-
-
-
-/* End Close modal */
-/********************/
-
 .modal-body {
   display: flex;
   flex-direction: column;
@@ -278,12 +222,10 @@ label {
   border: 2px solid #fbd437;
   border-radius: 10px;
 }
-
 .modal-image {
   width: 180px;
   height: 180px;
 }
-
 .confirmation-text {
   width: 90%;
   height: auto;
@@ -291,12 +233,6 @@ label {
   font-size: 1.3rem;
   color: aquamarine;
 }
-
-/* .scroll-lock {
-  pointer-events: none;
-} */
-
-
 @media (max-width: 800px) {
   .blockForm {
     width: 80%;
@@ -326,7 +262,6 @@ label {
     font-size: 1rem;
   }
 }
-
 @media (max-width: 724px) {
   .blockForm {
     width: 350px;
@@ -335,7 +270,6 @@ label {
   label,
   .textMaxChars {
     font-size: 11px;
-
   }
   .firstName,
   .lastName,
@@ -352,13 +286,12 @@ label {
     height: 65px;
   }
   .errors {
-    margin-top: 0px;
+    margin-top: 0;
   }
   .errorsTextarea,
   .errors {
     font-size: 11px;
   }
-  
   .titleTextarea {
     font-size: 12px;
   }
@@ -370,7 +303,6 @@ label {
     height: 520px;
   }
 }
-
 @media (max-width: 470px) {
   .bodyContact {
     width: 82%;
@@ -407,14 +339,3 @@ label {
     font-size: 0.8rem;
   }
 }
-
-/* @media (max-width: 350px) {
-  .bodyContact {
-    width: 82%;
-    margin-left: 5px;
-  }
-  .blockForm {
-    width: 100%;
-  }
-  
-} */

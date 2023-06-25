@@ -1,5 +1,3 @@
-/* SIDEBAR SCROLL */
-
 .containerSideBarLink {
   position: fixed;
   bottom: 0;
@@ -11,7 +9,6 @@
   height: 100vh;
   z-index: 10;
 }
-
 .containerSideBar { 
   visibility: hidden;
   width: 35px;
@@ -31,7 +28,6 @@
     opacity: 1;
   }
 }
-
 .btnSideBar {
   width: 18px;
   height: 18px;
@@ -40,7 +36,6 @@
   transition: all 0.3s ease-out;
   cursor: pointer;
 }
-
 .activeSide {
   width: 16px;
   height: 16px;
@@ -48,7 +43,6 @@
   background-color: #fbd437;
   border-radius: 50%;
 }
-
 @media (max-width: 800px) {
   .containerSideBar {
    visibility: visible;

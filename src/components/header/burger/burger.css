@@ -4,14 +4,12 @@
   height: auto;
   display: none;
 }
-
 .burgerMenu {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-
 .burgerMenuButton {
   position: relative;
   border: none;
@@ -21,7 +19,6 @@
   cursor: pointer;
   z-index: 90;
 }
-
 .burgerMenuIcon,
 .burgerMenuIcon:before,
 .burgerMenuIcon:after {
@@ -36,21 +33,17 @@
   transition: transform 0.3s ease;
   transform-origin: center;
 }
-
 .burgerMenuIcon:before {
   top: -7px;
   transform: translateY(-50%);
 }
-
 .burgerMenuIcon:after {
   top: 10px;
   transform: translateY(-50%);
 }
-
 .burgerMenuButton.open .burgerMenuIcon {
   transform:  rotate(-45deg);
 }
-
 .burgerMenuButton.open .burgerMenuIcon:after {
  display: none;
 }
@@ -58,7 +51,6 @@
   top: 0;
   transform: translateY(0) rotate(-90deg);
 }
-
 .containerDropdownBurger {
   display: flex;
   justify-content: center;
@@ -67,7 +59,6 @@
   height: auto;
   overflow: hidden;
 }
-
 .burgerMenuDropdown {
   background-color: transparent;
   display: flex;
@@ -78,7 +69,6 @@
   height: auto;
   line-height: 37px;
 }
-
 .navBurger {
   display: flex;
   flex-direction: column;
@@ -88,7 +78,6 @@
   height: 150px;
   cursor: pointer;
 }
-
 @media (max-width: 800px) {
   .containerBurger {
     display: block;

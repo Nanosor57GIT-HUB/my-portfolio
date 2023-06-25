@@ -1,5 +1,3 @@
-/*HEADER*/
-
 .containerHeader {
   position: sticky;
   display: flex;
@@ -12,22 +10,18 @@
   transition: opacity 1.7s;
   z-index: 20;
 }
-
 .headerVisible {
   opacity: 1;
 }
-
 .headerHidden {
   opacity: 0;
   visibility: hidden;
 }
-
 .logoWebSite {
   width: 300px;
   height: 150px;
   margin: 10px 0;
 }
-
 .containerNavLink {
   display: flex;
   flex-direction: row;
@@ -36,7 +30,6 @@
   width: 750px;
   height: 44px;
 }
-
 .containerNav {
   display: flex;
   justify-content: space-between;
@@ -45,7 +38,6 @@
   width: 650px;
   height: auto;
 }
-
 .btnNavBar {
   width: auto;
   height: 37px;
@@ -55,12 +47,10 @@
   text-decoration: none;
   cursor: pointer;
 }
-
 .btnNavBar:hover {
   color: #67c2a3;
   text-shadow: 4px 1px 2px rgba(0, 53, 63, 0.4);
 }
-
 .btnNavBar.active {
   border-bottom: 2px solid #fbd437;
   border-radius: 7px;
@@ -69,7 +59,6 @@
   text-shadow: 1px 2px 5px #00353f;
   -webkit-text-stroke: 0.01vw #00353f;
 }
-
 .linkedInLink {
   position: absolute;
   top: 15px;
@@ -79,24 +68,20 @@
   height: 30px;
   z-index: 21;
 }
-
 .linkedInImg {
   width: 30px;
   height: 30px;
   border-radius: 10px;
   cursor: pointer;
 }
-
 .linkedInImg:hover {
   box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.7);
 }
-
 @media (max-width: 1150px) {
   .containerNavLink {
     width: 100%;
   }
 }
-
 @media (max-width: 800px) {
   .containerNavLink {
     display: none;
@@ -117,29 +102,21 @@
     pointer-events: none;
   }
 }
-
 @media (max-width: 800px) {
   .containerHeader {
     display: flex;
     justify-content: center;
   }
 }
-
 @media (max-width: 530px) {
   .logoWebSite {
     width: 250px;
     height: 125px;
   }
 }
-
 @media (max-width: 320px) {
   .logoWebSite {
     width: 240px;
     height: 120px;
   }
-}
-
-.im {
-  width: 300px;
-  height: 300px;
 }

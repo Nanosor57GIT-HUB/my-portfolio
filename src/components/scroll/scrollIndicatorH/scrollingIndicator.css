@@ -1,5 +1,3 @@
-/* HORIZONTAL SCROLL */
-
 .progressMainWrapper {
   background-color: rgba(0, 0, 0, 0.3);
   height: 7px;
@@ -9,13 +7,11 @@
   width: 100%;
   z-index: 100;
 }
-
 .progressMainStyle {
   height: 7px;
   background-color: #ffe062;
   width: 10%;
 }
-
 @media (max-width: 800px) {
   .progressMainWrapper,
   .progressMainStyle {
