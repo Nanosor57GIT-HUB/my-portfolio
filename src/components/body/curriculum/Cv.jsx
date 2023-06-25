@@ -1,11 +1,7 @@
 import React from "react";
-//import AOS from "aos";
-//import "aos/dist/aos.css";
 import { pdfjs } from "react-pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `pdf.worker.min.js`;
-
-// AOS.init();
 
 const PdfViewer = () => {
   const pdfUrl = "pdf/CVFriedrichThierry.pdf"; // URL du PDF à afficher

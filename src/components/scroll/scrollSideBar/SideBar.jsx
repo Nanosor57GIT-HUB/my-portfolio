@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-//import "./sideBar.css";
 import { Link } from "react-scroll";
 
 const SideBar = () => {

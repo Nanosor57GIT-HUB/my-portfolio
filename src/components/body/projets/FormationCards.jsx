@@ -12,8 +12,8 @@ const FormationCards = () => {
         <span className="numberProjects"> ({pro.length})</span>
       </h2>
       <div className="blockInfoProjects">
-        <div className="containerInfoProjects animated" data-aos="zoom-out">
-          <p className="formationInfoProjects animated" data-aos="zoom-in">
+        <div className="containerInfoProjects " data-aos="zoom-out">
+          <p className="formationInfoProjects " data-aos="zoom-in">
             Au cours de ma formation de développeur d'application JavaScript /
             React chez OpenClassrooms, j'ai réalisé 14 projets basé sur des cas
             réels en entreprise avec des énnoncés composés de tenant ,
