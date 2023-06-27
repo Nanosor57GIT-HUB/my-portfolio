@@ -12,7 +12,7 @@ const PersonnelCards = () => {
         <span className="numberProjects"> ({perso.length})</span>
       </h2>
       <div className="blockInfoProjects">
-        <div className="containerInfoProjects " data-aos="zoom-out">
+        <div className="containerInfoProjects animated " data-aos="zoom-out">
           <p className="personalInfoProjects " data-aos="zoom-in">
             Projets personnels réalisés à la suite de ma formation pour montrer
             ma progression et mon évolution en solo sur une base neutre n'ayant

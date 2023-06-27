@@ -3,6 +3,8 @@ import { pdfjs } from "react-pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `pdf.worker.min.js`;
 
+
+
 const PdfViewer = () => {
   const pdfUrl = "pdf/CVFriedrichThierry.pdf"; // URL du PDF à afficher
 

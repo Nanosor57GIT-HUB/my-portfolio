@@ -50,15 +50,18 @@
     font-size: 20px;
   }
 }
+@media (max-width:800px) {
+  [data-aos].animated {
+    transform: translateX(0);
+    transform: none;
+  }
+}
 @media (max-width: 279px) {
   * {
     display: none;
   }
 }
-[data-aos].animated {
-  transform: translateX(0);
-  transform: none;
-}
+
 
 /*ERROR404*/
 /* .btn404 {
