@@ -11,7 +11,7 @@ const FormationCards = () => {
         Projets de formation
         <span className="numberProjects"> ({pro.length})</span>
       </h2>
-      <div className="blockInfoProjects">
+      {/* <div className="blockInfoProjects"> */}
         <div className="containerInfoProjects animated " data-aos="zoom-out">
           <p className="formationInfoProjects " data-aos="zoom-in">
             Au cours de ma formation de développeur d'application JavaScript /
@@ -28,7 +28,7 @@ const FormationCards = () => {
             interactives et conviviales pour les utilisateurs.
           </p>
         </div>
-      </div>
+      {/* </div> */}
       <div className="containerCards" >
         {pro.map((item) => (
           <div className="cards animated" key={item.id} data-aos="zoom-in">

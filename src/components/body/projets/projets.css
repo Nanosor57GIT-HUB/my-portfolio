@@ -39,10 +39,11 @@
 .numberProjects {
   font-weight: 300;
 }
-.blockInfoProjects {
+/* .blockInfoProjects {
   display: flex;
   justify-content: center;
-}
+  border: 1px solid blue;
+} */
 .containerInfoProjects {
   width: 100%;
   height: auto;

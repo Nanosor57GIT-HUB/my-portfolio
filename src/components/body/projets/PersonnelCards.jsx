@@ -11,7 +11,7 @@ const PersonnelCards = () => {
         Projets personnels
         <span className="numberProjects"> ({perso.length})</span>
       </h2>
-      <div className="blockInfoProjects">
+      {/* <div className="blockInfoProjects"> */}
         <div className="containerInfoProjects animated " data-aos="zoom-out">
           <p className="personalInfoProjects " data-aos="zoom-in">
             Projets personnels réalisés à la suite de ma formation pour montrer
@@ -22,7 +22,7 @@ const PersonnelCards = () => {
             application mes connaissances.
           </p>
         </div>
-      </div>
+      {/* </div> */}
       <div className="containerCards">
         {perso.map((item) => (
           <div className="cards animated" key={item.id} data-aos="zoom-in">
