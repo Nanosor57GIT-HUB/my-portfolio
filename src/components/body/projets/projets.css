@@ -150,9 +150,6 @@
   height: 50px;
 }
 .detailsProjects {
-  display: none;
-}
-/* .detailsProjects {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,7 +176,7 @@
   border-radius: 10px;
   background-color: #000;
   z-index: 9;
-} */
+}
 .containerLinks {
   width: 100%;
   height: 60px;
@@ -285,12 +282,12 @@
     width: 120px;
     height: 40px;
   }
-  /* .detailsProjects:hover {
+  .detailsProjects:hover {
     margin-top: -45px;
     height: 230px;
     padding-top: 40px;
     background-color: rgba(0, 0, 0, 0.2);
-  } */
+  }
   .btnDemo {
     display: none;
   }
