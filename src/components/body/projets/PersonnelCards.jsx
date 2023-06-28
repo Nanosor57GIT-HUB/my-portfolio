@@ -23,18 +23,16 @@ const PersonnelCards = () => {
           </p>
         </div>
       {/* </div> */}
-      <div className="containerCards">
+      <div className="blockCards">
         {perso.map((item) => (
           <div className="cards animated" key={item.id} data-aos="zoom-in">
             <p className="description">{item.description}</p>
             <div className="card">
-              <div className="containerCover">
                 <img
                   src={item.cover}
                   className="coverProjects"
                   alt={item.title}
                 />
-              </div>
               <div className="contentCards">
                 <p className="position">{item.position}</p>
                 <img
