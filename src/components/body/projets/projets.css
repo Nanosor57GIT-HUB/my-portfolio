@@ -104,6 +104,11 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(3px);
 }
+.card:hover {
+  transform: rotateZ(0deg);
+  background-color: rgb(39, 55, 63);
+  border: none;
+}
 .coverProjects {
   position: absolute;
   top: 0;
@@ -114,6 +119,10 @@
   object-fit: cover;
   border-radius: 20px;
   opacity: 0.7;
+}
+.card:hover .coverProjects {
+  transition-duration: 0.5s;
+  opacity: 0;
 }
 .contentCards {
   position: relative;
@@ -129,15 +138,6 @@
 .card:hover .contentCards {
   transform: translateY(190px);
   opacity: 1;
-}
-.card:hover .coverProjects {
-  transition-duration: 0.5s;
-  opacity: 0;
-}
-.card:hover {
-  transform: rotateZ(0deg);
-  background-color: rgb(39, 55, 63);
-  border: none;
 }
 .position {
   position: absolute;
@@ -240,18 +240,17 @@
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 1200px) {
-  .formationTitleProjects,
-  .personalTitleProjects {
+  .titleFormationProjects,
+  .titlePersonalProjects {
     text-align: center;
   }
 }
 @media (max-width: 827px) {
-  .formationInfoProjects,
-  .personalInfoProjects {
+  .infoFormationProjects,
+  .infoPersonalProjects {
     font-size: 13px;
   }
-  .description {
-   
+  .titleProject {
     font-size: 12px;
   }
 }
@@ -260,11 +259,12 @@
     width: 92%;
     margin-left: 5px;
   }
-  .formationBlockProjects,
+  /* .formationBlockProjects,
   .personalBlockProjects {
     width: 100%;
-  }
-  .cards {
+  } */
+  .blockFormationCard,
+  .blockPersonalCard {
     width: 250px;
     height: 360px;
     padding: 0 20px;
@@ -307,8 +307,8 @@
   }
 }
 @media (max-width: 660px) {
-  .formationInfoProjects,
-  .personalInfoProjects {
+  .infoFormationProjects,
+  .infoPersonalProjects {
     font-size: 12px;
   }
   .logoProjects {
@@ -322,8 +322,8 @@
   }
 }
 @media (max-width: 500px) {
-  .formationTitleProjects,
-  .personalTitleProjects {
+  .titleFormationProjects,
+  .titlePersonalProjects {
     font-size: 24px;
   }
   .bodyProjects {
