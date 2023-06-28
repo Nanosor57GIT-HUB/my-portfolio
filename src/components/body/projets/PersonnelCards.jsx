@@ -6,14 +6,13 @@ const PersonnelCards = () => {
   const perso = useContext(FormationsPersoContext);
 
   return (
-    <div className="personalBlockProjects" id="perso">
-      <h2 className="personalTitleProjects">
+    <div className="containerPersonalProjects" id="perso">
+      <h2 className="titlePersonalProjects">
         Projets personnels
-        <span className="numberProjects"> ({perso.length})</span>
+        <span className="numberFormationProjects"> ({perso.length})</span>
       </h2>
-      {/* <div className="blockInfoProjects"> */}
-        <div className="containerInfoProjects animated " data-aos="zoom-out">
-          <p className="personalInfoProjects " data-aos="zoom-in">
+        <div className="blockInfoProjects animated " data-aos="zoom-out">
+          <p className="infoPersonalProjects " data-aos="zoom-in">
             Projets personnels réalisés à la suite de ma formation pour montrer
             ma progression et mon évolution en solo sur une base neutre n'ayant
             que mes idées, mes connaissances et du travail de recherche pour
@@ -22,11 +21,10 @@ const PersonnelCards = () => {
             application mes connaissances.
           </p>
         </div>
-      {/* </div> */}
-      <div className="blockCards">
+      <div className="containerPersonalCards">
         {perso.map((item) => (
-          <div className="cards animated" key={item.id} data-aos="zoom-in">
-            <p className="description">{item.description}</p>
+          <div className="blockPersonalCard animated" key={item.id} data-aos="zoom-in">
+            
             <div className="card">
                 <img
                   src={item.cover}
@@ -80,6 +78,7 @@ const PersonnelCards = () => {
                 </div>
               </div>
             </div>
+            <p className="titleProject">{item.description}</p>
           </div>
         ))}
       </div>
