@@ -334,8 +334,17 @@
     padding: 0 0 30px;
   }
   .detailsProjects:hover {
-    margin-top: -33px;
+    position: relative;
+    margin-top: -50px;
     height: 200px;
     font-size: 10px;
   }
+  .position {
+    top: 10px;
+  }
+   .logoProjects {
+margin-top: 11%;
+width: 105px;
+height: 35px;
+  } 
 }
