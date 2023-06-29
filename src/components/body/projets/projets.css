@@ -5,6 +5,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 110px;
+  border: 1px solid white;
 }
 .svgProjects {
   display: none;
@@ -76,6 +77,7 @@
   width: 100%;
   min-height: 50vh;
   margin-top: 100px;
+  border: 1px solid blue;
 }
 .blockFormationCard,
 .blockPersonalCard {
@@ -259,10 +261,6 @@
     width: 92%;
     margin-left: 5px;
   }
-  /* .formationBlockProjects,
-  .personalBlockProjects {
-    width: 100%;
-  } */
   .blockFormationCard,
   .blockPersonalCard {
     width: 250px;
@@ -318,7 +316,7 @@
 }
 @media (max-width: 630px) {
   .bodyProjects {
-    width: 85%;
+    width: 90%;
   }
 }
 @media (max-width: 500px) {
@@ -327,6 +325,17 @@
     font-size: 24px;
   }
   .bodyProjects {
-    width: 80%;
+    width: 85%;
+  }
+}
+@media (max-width: 380px) {
+  .blockFormationCard,
+  .blockPersonalCard {
+    padding: 0 0 30px;
+  }
+  .detailsProjects:hover {
+    margin-top: -33px;
+    height: 200px;
+    font-size: 10px;
   }
 }
