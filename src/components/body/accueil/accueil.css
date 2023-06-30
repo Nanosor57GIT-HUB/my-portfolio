@@ -23,7 +23,6 @@
   margin: 0 auto;
 }
 .titlePortfolio {
-  display: none;
   width: 100%;
   height: auto;
   margin-bottom: 10px;
@@ -34,17 +33,17 @@
   -webkit-text-stroke: 0.08vw aquamarine;
   filter: drop-shadow(1px 1px 2px aquamarine);
 }
-.notranslate {
+/* .notranslate {
   -ms-user-select: none;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   pointer-events: none;
   translate: no !important;
-}
+} */
 .responsiveText {
   position: absolute;
-  display: none;
+  display: block;
   bottom: 0;
   right: 5px;
   font-size: 14px;
