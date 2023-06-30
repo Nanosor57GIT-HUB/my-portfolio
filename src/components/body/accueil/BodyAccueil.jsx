@@ -8,7 +8,7 @@ const BodyAccueil = () => {
     <section className="bodyAccueil">
       <div className="containerAccueil">
         <div className="containerTitlePortfolio">
-          <h1 className="titlePortfolio notranslate">
+          <h1 className="titlePortfolio ">
             Portfolio Professionnel
           </h1>
           <span className="responsiveText">( For PC & Tablet )</span>

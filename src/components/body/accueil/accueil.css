@@ -33,14 +33,6 @@
   -webkit-text-stroke: 0.08vw aquamarine;
   filter: drop-shadow(1px 1px 2px aquamarine);
 }
-/* .notranslate {
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  pointer-events: none;
-  translate: no !important;
-} */
 .responsiveText {
   position: absolute;
   display: block;
