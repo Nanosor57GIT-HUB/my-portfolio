@@ -14,7 +14,11 @@ const BodyAccueil = () => {
           <span className="responsiveText">( For PC & Tablet )</span>
         </div>
         <div className="containerPresentation">
-         
+          <img
+            src={process.env.PUBLIC_URL + "./images/portrait(360x360).webp"}
+            alt="MonPortrait"
+            className="portrait"
+          />
           <p className="presentationText">
             Je suis développeur d'applications Front-end javascript/React formé
             à un diplôme de niveau 6 (Bac +3/4) en distanciel chez
@@ -23,12 +27,7 @@ const BodyAccueil = () => {
             d'un "contrat de professionnalisation" sur du back-end, je suis
             ouvert à toutes les technologies et prêt à relever de nouveaux défis
             dans le développement logiciel.
-          </p> 
-          <img
-            src={process.env.PUBLIC_URL + "./images/portrait(240x240).webp"}
-            alt="MonPortrait"
-            className="portrait"
-          />
+          </p>
         </div>
       </div>
     </section>
