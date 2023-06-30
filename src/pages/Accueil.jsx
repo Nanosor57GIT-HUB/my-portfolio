@@ -19,7 +19,6 @@ import {
 
 
 Aos.init({
-  duration: 400,
   easing: "linear",
   anchorPlacement: "top-bottom",
 });
