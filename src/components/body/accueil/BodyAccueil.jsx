@@ -19,7 +19,7 @@ const BodyAccueil = () => {
             alt="MonPortrait"
             className="portrait"
           />
-          <p className="presentationText">
+          <p fetchpriority='high' className="presentationText">
             Je suis développeur d'applications Front-end javascript/React formé
             à un diplôme de niveau 6 (Bac +3/4) en distanciel chez
             OpenClassrooms. Mon portfolio a été conçu pour mettre en valeur mes
