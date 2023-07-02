@@ -110,12 +110,12 @@
     font-size: 12px;
   }
   .presentationText {
-    width: auto;
+    width: 426px;
     margin: 10px;
     font-size: 14px;
-   
   }
   .portrait {
+    display: none;
     width: 150px;
     height: 150px;
   }
@@ -132,7 +132,7 @@
     margin-top: 10px;
   }
   .presentationText {
-    width: auto;
+    width: 250px;
     font-size: 12px;
   }
 }
