@@ -110,9 +110,10 @@
     font-size: 12px;
   }
   .presentationText {
-    width: 426px;
+    width: auto;
     margin: 10px;
     font-size: 14px;
+   
   }
   .portrait {
     width: 150px;
@@ -131,7 +132,7 @@
     margin-top: 10px;
   }
   .presentationText {
-    width: 250px;
+    width: auto;
     font-size: 12px;
   }
 }
