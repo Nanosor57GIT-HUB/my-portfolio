@@ -24,7 +24,7 @@ const BodyAccueil = () => {
             à un diplôme de niveau 6 (Bac +3/4) en distanciel chez
             OpenClassrooms. Mon portfolio a été conçu pour mettre en valeur mes
             compétences et mes acquis. Actuellement en recherche d'emploi ou
-            d'un "contrat de professionnalisation" sur du back-end, je suis
+            d'un(e) contrat de Professionnalisation, Alternance sur du back-end.Je suis
             ouvert à toutes les technologies et prêt à relever de nouveaux défis
             dans le développement logiciel.
           </p>
