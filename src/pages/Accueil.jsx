@@ -17,7 +17,6 @@ import {
   FormationsPersoContext,
 } from "../DataContext";
 
-
 Aos.init({
   easing: "linear",
   anchorPlacement: "top-bottom",
@@ -50,27 +49,27 @@ const Accueil = () => {
           </div>
         )}
       </div>
+      <ScrollIndicator />
+      <Header />
+      <ScrollAnchor />
+      <BodyAccueil path="Accueil" />
       {portfolio && (
         <CompetencesContext.Provider value={portfolio.skills}>
           <DescriptionContext.Provider value={portfolio.je_suis}>
             <FormationsProContext.Provider value={portfolio.pro}>
               <FormationsPersoContext.Provider value={portfolio.perso}>
                 <>
-                  <ScrollIndicator />
-                  <Header />
-                  <ScrollAnchor />
-                  <BodyAccueil path="Accueil" />
                   <BodyCurriculum />
-                  <SideBar />
                   <BodyProjects />
-                  <BodyContact />
-                  <Footer />
                 </>
               </FormationsPersoContext.Provider>
             </FormationsProContext.Provider>
           </DescriptionContext.Provider>
         </CompetencesContext.Provider>
       )}
+      <SideBar />
+      <BodyContact />
+      <Footer />
     </div>
   );
 };
