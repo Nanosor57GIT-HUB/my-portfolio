@@ -1,10 +1,9 @@
 @import './App.css';
-
-@import 'components/header/header.css';
-@import 'components/header/burger/burger.css';
-@import 'components/header/dropDownNavigation/dropDown.css';
-@import 'components/body/accueil/accueil.css';
 @import 'components/scroll/scrollIndicatorH/scrollingIndicator.css';
+@import 'components/header/header.css';
+@import 'components/header/dropDownNavigation/dropDown.css';
+@import 'components/header/burger/burger.css';
+@import 'components/body/accueil/accueil.css';
 @import 'components/scroll/scrollAnchor/scrollAnchor.css';
 @import 'components/scroll/scrollSideBar/sideBar.css';
 @import "./aosMin.css";
