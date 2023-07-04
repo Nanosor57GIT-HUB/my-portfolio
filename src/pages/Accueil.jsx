@@ -49,29 +49,32 @@ const Accueil = () => {
           </div>
         )}
       </div>
-      <ScrollIndicator />
-      <Header />
-      <ScrollAnchor />
-      <BodyAccueil path="Accueil" />
+
       {portfolio && (
         <CompetencesContext.Provider value={portfolio.skills}>
           <DescriptionContext.Provider value={portfolio.je_suis}>
             <FormationsProContext.Provider value={portfolio.pro}>
               <FormationsPersoContext.Provider value={portfolio.perso}>
                 <>
+                <Header />
+                <BodyAccueil path="Accueil" />         
+                  <ScrollIndicator />
+                  <ScrollAnchor />
+                  <SideBar /> 
                   <BodyCurriculum />
                   <BodyProjects />
+                  <BodyContact />
+                  <Footer />
                 </>
               </FormationsPersoContext.Provider>
             </FormationsProContext.Provider>
           </DescriptionContext.Provider>
         </CompetencesContext.Provider>
       )}
-      <SideBar />
-      <BodyContact />
-      <Footer />
     </div>
   );
 };
 
 export default Accueil;
+
+// https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/h92t89cgia?form_factor=mobile
