@@ -1,7 +1,6 @@
 import React from "react";
 import useFetch from "../components/fetchHook/UseFetch";
 import ScrollIndicator from "../components/scroll/scrollIndicatorH/ScrollIndicator";
-import Header from "../components/header/Header";
 import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
 import SideBar from "../components/scroll/scrollSideBar/SideBar";
@@ -56,7 +55,6 @@ const Accueil = () => {
             <FormationsProContext.Provider value={portfolio.pro}>
               <FormationsPersoContext.Provider value={portfolio.perso}>
                 <>
-                <Header />
                 <BodyAccueil path="Accueil" />         
                   <ScrollIndicator />
                   <ScrollAnchor />

@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "../../header/Header";
 
 // https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/1v4lse5qzo?form_factor=mobile
 // 99% perfs mobile et 100% perfs desktop.
 
 const BodyAccueil = () => {
   return (
+    <div><Header />
     <section className="bodyAccueil">
       <div className="containerAccueil">
         <div className="containerTitlePortfolio">
@@ -31,6 +33,7 @@ const BodyAccueil = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
