@@ -8,7 +8,6 @@ import Aos from "aos";
 import BodyCurriculum from "../components/body/curriculum/BodyCurriculum";
 import BodyProjects from "../components/body/projets/BodyProjects";
 import BodyContact from "../components/body/contact/BodyContact";
-import Footer from "../components/footer/Footer";
 import {
   CompetencesContext,
   DescriptionContext,
@@ -55,14 +54,13 @@ const Accueil = () => {
             <FormationsProContext.Provider value={portfolio.pro}>
               <FormationsPersoContext.Provider value={portfolio.perso}>
                 <>
-                <BodyAccueil path="Accueil" />         
+                <BodyAccueil path="/Accueil" />         
                   <ScrollIndicator />
                   <ScrollAnchor />
                   <SideBar /> 
                   <BodyCurriculum />
                   <BodyProjects />
                   <BodyContact />
-                  <Footer />
                 </>
               </FormationsPersoContext.Provider>
             </FormationsProContext.Provider>
