@@ -54,7 +54,7 @@ const Accueil = () => {
             <FormationsProContext.Provider value={portfolio.pro}>
               <FormationsPersoContext.Provider value={portfolio.perso}>
                 <>
-                <BodyAccueil path="/Accueil" />         
+                <BodyAccueil />         
                   <ScrollIndicator />
                   <ScrollAnchor />
                   <SideBar /> 
