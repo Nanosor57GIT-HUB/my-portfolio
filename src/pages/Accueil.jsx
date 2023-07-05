@@ -26,7 +26,7 @@ const Accueil = () => {
     error,
     isLoading,
   } = useFetch(
-    `https://raw.githubusercontent.com/Nanosor57GIT-HUB/my-portfolio/main/public/myportfolioInline.json`
+    `./myportfolioInline.json`
   );
   // console.log(portfolio);
 
