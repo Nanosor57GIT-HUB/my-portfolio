@@ -48,7 +48,7 @@ const Burger = () => {
                   className="btnNavBar"
                   activeClass="active"
                   to="CurriculumVitae"
-                  spy={true}
+                 spy={true}
                   smooth={true}
                   duration={800}
                     offset={-150}
@@ -62,7 +62,7 @@ const Burger = () => {
                   to="Contact"
                   spy={true}
                   smooth={true}
-                  duration={2500}
+                 duration={2500}
                 >
                   Contact
                 </Link>

@@ -7,25 +7,27 @@
   width: 100%;
   min-height: 75vh;
   margin-top: 10px;
+  border: 1px solid blue;
 }
 .containerAccueil {
   width: 95%;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
 }
 .containerTitlePortfolio {
-  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  margin: 0 auto;
+  width: auto;
+  height: auto;
 }
 .titlePortfolio {
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  text-align: center;
   font-size: 60px;
   letter-spacing: 0.04em;
   font-weight: 700;
@@ -34,10 +36,8 @@
   filter: drop-shadow(1px 1px 2px aquamarine);
 }
 .responsiveText {
-  position: absolute;
-  display: block;
-  bottom: 0;
-  right: 5px;
+  text-align: right;
+  margin-right: 5px;
   font-size: 14px;
   color: aquamarine;
   animation: textresponsive 1s ease-in-out;
@@ -120,8 +120,7 @@
   }
 }
 @media (max-width: 737px) {
-  .containerPresentation {
-   
+  .containerPresentation {  
     flex-direction: column-reverse;
   }
 }
@@ -133,11 +132,8 @@
   .responsiveText {
     display: none;
   }
-  .containerPresentation {
-    margin-top: 10px;
-  }
   .presentationText {
-    width: 250px;
+    max-width: 90%;
     font-size: 12px;
   }
 }

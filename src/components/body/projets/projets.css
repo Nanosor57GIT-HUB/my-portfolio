@@ -5,6 +5,7 @@
   width: 100%;
   min-height: 100vh;
   margin-top: 110px;
+  border: 1px solid blue;
 }
 .svgProjects {
   display: none;
@@ -21,6 +22,7 @@
   width: 80%;
   min-height: 100vh;
   padding-top: 40px;
+  border: 1px solid white;
 }
 .blockPersonalProjects {
   padding-top: 40px;
