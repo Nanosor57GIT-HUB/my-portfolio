@@ -1,10 +1,12 @@
 .bodyCurriculum {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
   width: 100%;
   min-height: 100vh;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   border: 1px solid blue;
 }
 .svgCurriculum {
@@ -19,10 +21,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
   width: 80%;
   min-height: 100vh;
-  margin: 80px auto 0;
+  /* margin: 80px auto 0; */
   border: 1px solid white;
 }
 .hardContainer {
@@ -42,7 +45,7 @@
   border-radius: 5px;
 }
 .quiSuisJeContainer {
-  width: 96%;
+  width: 100%;
   height: auto;
   padding: 10px;
   margin: 60px 0;
@@ -176,12 +179,14 @@
     width: 100%;
   }
   .containerPdf {
-    width: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: auto;
   }
   .blockPdf {
     margin-top: 60px;
-    width: 85%;
+    width: 40%;
   }
   .imgCv {
     width: 100%;
