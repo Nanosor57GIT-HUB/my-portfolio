@@ -4,6 +4,8 @@ import Header from "../../header/Header";
 // https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/19ujz5k8lo?form_factor=mobile
 // 99% perfs mobile et 100% perfs desktop.
 
+//https://pagespeed.web.dev/analysis/https-my-portfolio-in-line-vercel-app/qb8op2ue1n?form_factor=mobile
+
 const BodyAccueil = () => {
   return (
     <div><Header />
