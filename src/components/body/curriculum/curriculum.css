@@ -186,7 +186,8 @@
   }
   .blockPdf {
     margin-top: 60px;
-    width: 40%;
+    max-width: 262px;
+    height: auto;
   }
   .imgCv {
     width: 100%;
