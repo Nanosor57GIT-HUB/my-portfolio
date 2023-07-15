@@ -48,13 +48,13 @@
   cursor: pointer;
 }
 .btnNavBar:hover {
-  color: #67c2a3;
+  color: rgb(151, 153, 152);
   text-shadow: 4px 1px 2px rgba(0, 53, 63, 0.4);
 }
 .btnNavBar.active {
   border-bottom: 2px solid #fbd437;
   border-radius: 7px;
-  color: #fbd437 !important;
+  color: #fbd437 !important;  
   opacity: 1 !important;
   text-shadow: 1px 2px 5px #00353f;
   -webkit-text-stroke: 0.01vw #00353f;

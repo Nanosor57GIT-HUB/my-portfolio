@@ -18,7 +18,7 @@
 .dropDownBox:hover .dropBtn,
 .dropDownBox:focus .dropBtn,
 .dropbtn.active {
-  color: #67C2A3;
+  color: rgb(151, 153, 152);
 }
 .dropDownArrow {
   width: 24px;
@@ -42,11 +42,12 @@
   margin: 5px;
   height: auto;
   font-size: 18px;
-  color: aquamarine;
+  color: rgba(152, 152, 152, 0.9);
+ 
   cursor: pointer;
 }
 .projectsLink:hover {
-  color: #67C2A3;
+   color: aquamarine;
 }
 @media (max-width: 800px) {
   .dropBtn {

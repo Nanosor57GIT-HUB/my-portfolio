@@ -9,11 +9,11 @@
 }
 .svgProjects {
   display: none;
-  margin-top: 0;
-  margin-left: 20px;
   width: 120px;
   min-width: 75px;
   height: 100%;
+  margin-top: 0;
+  margin-left: 20px;
 }
 .containerFormationProjects,
 .containerPersonalProjects {
@@ -26,9 +26,9 @@
 .titleFormationProjects,
 .titlePersonalProjects {
   width: 100%;
-  height: auto;
-  color: aquamarine;
+  height: auto; 
   font-size: 38px;
+  color: aquamarine;
   letter-spacing: 0.04em;
   text-align: end;
   color: #979998;
@@ -36,6 +36,7 @@
 }
 .numberFormationProjects,
 .numberPersonalProjects {
+  font-size: 26px;
   font-weight: 300;
 }
 .blockInfoProjects {
@@ -49,13 +50,13 @@
   overflow: hidden;
 }
 .infoFormationProjects,
-.infoPersonalProjects {
+.infoPersonalProjects { 
+   font-size: 15px;
+  font-weight: 600;
+  color: aquamarine;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
-  font-size: 15px;
-  font-weight: 600;
-color: aquamarine;
   padding: 5px;
   word-spacing: 1px;
   text-align: justify;
@@ -69,22 +70,30 @@ color: aquamarine;
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   min-height: 50vh;
   margin-top: 100px;
 }
+
+.containerFormationCards::after,
+.containerPersonalCards::after {
+  content: "";
+  flex: 1 0 auto;
+  margin: 20px;
+  border: 1px solid green;
+}
 .blockFormationCard,
 .blockPersonalCard {
-  position: relative;
+  position: relative; 
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   height: 470px;
   margin: 0 auto;
   padding: 0 20px 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   border: 1px solid blue;
 }
 .card {
@@ -93,19 +102,21 @@ color: aquamarine;
   align-items: center;
   width: 100%;
   height: 345px;
-  margin-bottom: 10px;
   font-size: 18px;
+  margin-bottom: 10px; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(3px);
+  transition: 1.5s;
+  z-index: 20;
 }
 .card:hover {
-  transform: rotateZ(0deg);
   background-color: rgb(39, 55, 63);
   border: none;
+  /* animation-fill-mode: forwards; */
 }
 .coverProjects {
   position: absolute;
@@ -126,13 +137,12 @@ color: aquamarine;
 .contentCards {
   position: relative;
   width: 93%;
-  height: 700px;
+  height: 690px;
   text-align: center;
   transform: translateY(0);
   opacity: 0;
   transition-duration: 0.5s;
   cursor: pointer;
-  border: 1px solid blue;
 }
 .card:hover .contentCards {
   transform: translateY(190px);
@@ -141,13 +151,13 @@ color: aquamarine;
 
 .position {
   position: absolute;
-  top: -40px;
+  top: -45px;
   right: 0;
   font-size: 5.5em;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
   opacity: 0.5;
-  z-index: -1;
+z-index: -1;
 }
 .logoProjects {
   width: 150px;
@@ -159,15 +169,15 @@ color: aquamarine;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 80px;
+  height: 80px; 
+  font-size: 12px;
+  font-weight: 600; 
+   color: aquamarine; 
   padding: 5px 10px;
-  font-size: 11px;
-  font-weight: 600;
-  word-spacing: 0.5px;
-  text-align: left;
-  color: aquamarine;
+   word-spacing: 1px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
+  text-align: justify;
   overflow: hidden;
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -176,14 +186,16 @@ color: aquamarine;
   transition-timing-function: ease-in-out;
 }
 .detailsProjects:hover {
-  margin: 0;
-  height: 220px;
+  height: 215px;
+   margin: 0;
   border-radius: 10px;
   color: aquamarine;
-  background-color: rgba(45, 35, 54, 0.7);
-  z-index: 9;
+  background-color: rgba(45, 35, 54, 0.9);
 }
 .containerLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 100%;
   height: 60px;
 }
@@ -191,25 +203,25 @@ color: aquamarine;
   position: relative;
   display: inline-block;
   width: 90px;
-  padding: 3px;
-  margin: 6px 5px;
+  height: 30px;
+  line-height: 28px; 
+  font-size: 15px;
+  font-weight: 500; 
+  color: aquamarine;
   border-radius: 10px;
   text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
   background-color: rgba(255, 212, 55, 0.2);
-  color: aquamarine;
   border: 1px solid #fbd437;
 }
 .linkProjects:hover {
   box-shadow: 0 0 2px 1px rgba(255, 212, 55, 0.5);
 }
-.containerTechnologies {
-  width: 100%;
-  height: auto;
+.containerTechnologies { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 100%;
+  height: auto;
   margin-top: 10px;
 }
 .technologiesProjects {
@@ -225,28 +237,34 @@ color: aquamarine;
   width: 25px;
   height: 20px;
 }
-.titleProject {
-  width: 100%;
-  height: 80px;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.07em;
-  word-spacing: 2px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  display: flex;
+.titleProject { 
+   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  width: 258px;
+  height: 80px;
+  font-size: 14px;
+  font-weight: 600;
   color: aquamarine;
+  text-align: center;
+  padding: 0 5px;
+  letter-spacing: 0.07em; 
+  word-spacing: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
 .card:hover + .titleProject {
-  transition-duration: 1.5s;
-color: yellowgreen;
+border: 1px solid aquamarine;
+  color: #fbd437;
+  /* transition-duration: 1s;
+  transition-delay: 0.5s; */
+  /* animation-fill-mode: forwards; */
 }
+
 /*responsive*/
+
 @media (max-width: 1200px) {
   .titleFormationProjects,
   .titlePersonalProjects {
@@ -271,8 +289,8 @@ color: yellowgreen;
   .blockPersonalCard {
     width: 250px;
     height: 360px;
-    padding: 0 20px;
     margin-top: 25px;
+    padding: 0 20px;
   }
   .card {
     margin-bottom: 10px;
@@ -301,8 +319,8 @@ color: yellowgreen;
   }
   .btnGitHub {
     width: auto;
-    padding: 2px 10px;
     font-size: 11px;
+    padding: 2px 10px;
   }
   .linkProjects:hover {
     box-shadow: none;
@@ -342,16 +360,16 @@ color: yellowgreen;
   }
   .detailsProjects:hover {
     position: relative;
-    margin-top: -50px;
     height: 200px;
+    margin-top: -50px;
     font-size: 10px;
   }
   .position {
     top: 10px;
   }
    .logoProjects {
-margin-top: 11%;
 width: 105px;
 height: 35px;
+margin-top: 11%;
   } 
 }
