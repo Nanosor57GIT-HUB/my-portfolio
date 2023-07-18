@@ -31,18 +31,16 @@
   
   @keyframes spin {
     0% {
-      transform: rotateY(320deg);
+      transform: rotateY(320deg) scaleX(1);
     }
     30% {
-      transform: rotate(2200deg) translateX(200px) translateY(200px);
+      transform: rotate(2200deg) translateX(200px) translateY(200px) scaleX(1.5);
     }
     90% {
-      width: 300px;
-       transform: rotateZ(360deg);
+      transform: rotateZ(360deg) scaleX(3);
     }
     100% {
-     transform: rotate(360deg);
+      transform: rotate(360deg) scaleX(1);
     }
-    
   }
   
