@@ -1,5 +1,6 @@
 import React from "react";
 import useFetch from "../components/fetchHook/UseFetch";
+import LoadingSpinner from "../components/loadingSpinner/LoadingSpinner";
 import ScrollIndicator from "../components/scroll/scrollIndicatorH/ScrollIndicator";
 import BodyAccueil from "../components/body/accueil/BodyAccueil";
 import ScrollAnchor from "../components/scroll/scrollAnchor/ScrollAnchor";
@@ -14,6 +15,7 @@ import {
   FormationsProContext,
   FormationsPersoContext,
 } from "../DataContext";
+
 
 Aos.init({
   easing: "linear",
@@ -34,11 +36,11 @@ const Accueil = () => {
     <div>
       <div className="containerFetchDisplay">
         {isLoading && (
-          <div className="loading">
-            Loading...{" "}
+          <div className="loading"><LoadingSpinner />Chargement en cours
+            {/* Loading...{" "}
             <span className="loadingSymbol" style={{ opacity: 0.8 }}>
               ⌛
-            </span>
+            </span> */}
           </div>
         )}
         {error && (

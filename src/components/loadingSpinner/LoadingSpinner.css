@@ -1,0 +1,48 @@
+.loading-spinner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+   
+  }
+  
+  .loading-spinner.show {
+    opacity: 1;
+  }
+  
+  .spinner {
+    position: absolute;
+   top: 18%;
+    border: 4px solid #27373f;
+    border-bottom: 8px solid #3dd235;
+    border-top: 8px solid aquamarine;
+    border-left: 4px solid #212f36;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    animation: spin 5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: -1;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotateY(320deg);
+    }
+    30% {
+      transform: rotate(2200deg) translateX(200px) translateY(200px);
+    }
+    90% {
+      width: 300px;
+       transform: rotateZ(360deg);
+    }
+    100% {
+     transform: rotate(360deg);
+    }
+    
+  }
+  

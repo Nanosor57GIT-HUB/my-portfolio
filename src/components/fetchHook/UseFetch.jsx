@@ -13,6 +13,7 @@ const useFetch = (url, cacheTime = 1200000) => {
       setData(JSON.parse(cachedData));
       setIsLoading(false);
     } else {
+      setTimeout(() => {
       fetch(url)
         .then((response) => {
           if (!response.ok) {
@@ -34,6 +35,7 @@ const useFetch = (url, cacheTime = 1200000) => {
           setError(err.message);
           setIsLoading(false);
         });
+      }, 5000);
     }
   }, [url, cacheTime]);
 

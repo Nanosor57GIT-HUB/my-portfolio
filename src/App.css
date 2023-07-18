@@ -22,8 +22,10 @@
 }
 .loading,
 .error {
+position: relative;
   width: auto;
-  height: auto;
+  min-height: 129px;
+  line-height: 129px;
   text-align: center;
   padding: 5px 10px;
   margin: 0 20px;
@@ -31,7 +33,6 @@
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 3px;
-  filter: drop-shadow(1px 1px 1px aquamarine);
   z-index: 1500;
 }
 .error {
@@ -39,7 +40,9 @@
   border: 1px solid red;
 }
 .loading {
-  border: 1px solid aquamarine;
+  color: #979998;
+ 
+  /* border: 1px solid aquamarine; */
 }
 .loadingSymbol {
   font-size: 18px;

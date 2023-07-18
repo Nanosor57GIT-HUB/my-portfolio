@@ -263,7 +263,7 @@ border: 1px solid aquamarine;
     text-align: center;
   }
 }
-@media (max-width: 827px) {
+/* @media (max-width: 827px) {
   .infoFormationProjects,
   .infoPersonalProjects {
     font-size: 13px;
@@ -271,11 +271,21 @@ border: 1px solid aquamarine;
   .titleProject {
     font-size: 12px;
   }
-}
+} */
 @media (max-width: 800px) {
   .bodyProjects {
     width: 92%;
     margin-left: 5px;
+  }
+  .containerFormationProjects {
+    width: 100%;
+  }
+  .infoFormationProjects,
+  .infoPersonalProjects {
+    font-size: 13px;
+  }
+  .titleProject {
+    font-size: 12px;
   }
   .btnDemo {
     display: none;
@@ -285,6 +295,9 @@ border: 1px solid aquamarine;
   }
 }
 @media (max-width: 660px) {
+  .bodyProjects {
+    width: 80%;
+  }
   .infoFormationProjects,
   .infoPersonalProjects {
     font-size: 12px;
@@ -292,9 +305,6 @@ border: 1px solid aquamarine;
 }
 
 @media (max-width: 500px) { 
-  .bodyProjects {
-    width: 85%;
-  }
   .titleFormationProjects,
   .titlePersonalProjects {
     font-size: 24px;
