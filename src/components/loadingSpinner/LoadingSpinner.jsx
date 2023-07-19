@@ -14,7 +14,7 @@ const LoadingSpinner = () => {
 
   return (
     <div className={`loading-spinner ${show ? 'show' : ''}`}>
-      <div className="spinner"></div>
+      <div className={`spinner${show ? ' animate' : ''}`}></div>
     </div>
   );
 };

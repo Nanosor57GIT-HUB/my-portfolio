@@ -36,16 +36,14 @@ const Accueil = () => {
     <div>
       <div className="containerFetchDisplay">
         {isLoading && (
-          <div className="loading"><LoadingSpinner />Chargement en cours
-            {/* Loading...{" "}
-            <span className="loadingSymbol" style={{ opacity: 0.8 }}>
-              ⌛
-            </span> */}
+          <div className="loading"><LoadingSpinner />
+          Chargement en cours
           </div>
         )}
         {error && (
           <div className="error">
-            Ooups! une erreur est survenue pendant le chargement ...
+            Ooups! une erreur est survenue pendant le chargement ...<br/><br/>
+            Veuillez réessayer plus tard !
           </div>
         )}
       </div>

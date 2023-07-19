@@ -22,11 +22,10 @@
 }
 .loading,
 .error {
-position: relative;
+  position: relative;
   width: auto;
   min-height: 129px;
-  line-height: 129px;
-  text-align: center;
+  line-height: auto;
   padding: 5px 10px;
   margin: 0 20px;
   border-radius: 10px;
@@ -36,16 +35,14 @@ position: relative;
   z-index: 1500;
 }
 .error {
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: red;
   border: 1px solid red;
 }
 .loading {
   color: #979998;
- 
-  /* border: 1px solid aquamarine; */
-}
-.loadingSymbol {
-  font-size: 18px;
 }
 @media (max-width: 1150px) {
   .loading,
@@ -53,10 +50,14 @@ position: relative;
     font-size: 20px;
   }
 }
-@media (max-width:800px) {
+@media (max-width: 800px) {
   [data-aos].animated {
     transform: translateX(0);
     transform: none;
+  }
+  .loading,
+  .error {
+    font-size: 16px;
   }
 }
 @media (max-width: 279px) {
@@ -64,7 +65,6 @@ position: relative;
     display: none;
   }
 }
-
 
 /*ERROR404*/
 /* .btn404 {

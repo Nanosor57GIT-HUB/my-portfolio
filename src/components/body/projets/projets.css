@@ -26,7 +26,7 @@
 .titleFormationProjects,
 .titlePersonalProjects {
   width: 100%;
-  height: auto; 
+  height: auto;
   font-size: 38px;
   color: aquamarine;
   letter-spacing: 0.04em;
@@ -50,8 +50,8 @@
   overflow: hidden;
 }
 .infoFormationProjects,
-.infoPersonalProjects { 
-   font-size: 15px;
+.infoPersonalProjects {
+  font-size: 15px;
   font-weight: 600;
   color: aquamarine;
   border-radius: 10px;
@@ -71,22 +71,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-gap: 75px;
+  gap: 75px;
   width: 100%;
   min-height: 50vh;
   margin-top: 100px;
 }
 .blockFormationCard,
 .blockPersonalCard {
-  position: relative; 
-   display: flex;
+  position: relative;
+  display: flex;
   flex-direction: column;
- 
-  
-   width: 258px; 
+  width: 258px;
   height: auto;
-  
- border: 1px solid blue;
 }
 .card {
   display: flex;
@@ -95,7 +91,7 @@ gap: 75px;
   width: 258px;
   height: 345px;
   font-size: 18px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -108,7 +104,6 @@ gap: 75px;
 .card:hover {
   background-color: rgb(39, 55, 63);
   border: none;
-  /* animation-fill-mode: forwards; */
 }
 .coverProjects {
   position: absolute;
@@ -119,7 +114,7 @@ gap: 75px;
   padding: 10px;
   object-fit: cover;
   border-radius: 20px;
-  opacity: 0.7; 
+  opacity: 0.7;
   transition: 0.5s;
   transition-timing-function: ease-in-out;
 }
@@ -140,7 +135,6 @@ gap: 75px;
   transform: translateY(190px);
   opacity: 1;
 }
-
 .position {
   position: absolute;
   top: -45px;
@@ -149,24 +143,23 @@ gap: 75px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
   opacity: 0.5;
-z-index: -1;
+  z-index: -1;
 }
 .logoProjects {
   width: 150px;
   height: 50px;
-
 }
 .detailsProjects {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 80px; 
+  height: 80px;
   font-size: 12px;
-  font-weight: 600; 
-   color: aquamarine; 
+  font-weight: 600;
+  color: aquamarine;
   padding: 5px 10px;
-   word-spacing: 1px;
+  word-spacing: 1px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   text-align: justify;
@@ -179,7 +172,7 @@ z-index: -1;
 }
 .detailsProjects:hover {
   height: 215px;
-   margin: 0;
+  margin: 0;
   border-radius: 10px;
   color: aquamarine;
   background-color: rgba(45, 35, 54, 0.9);
@@ -196,9 +189,9 @@ z-index: -1;
   display: inline-block;
   width: 90px;
   height: 30px;
-  line-height: 28px; 
+  line-height: 28px;
   font-size: 15px;
-  font-weight: 500; 
+  font-weight: 500;
   color: aquamarine;
   border-radius: 10px;
   text-decoration: none;
@@ -208,7 +201,7 @@ z-index: -1;
 .linkProjects:hover {
   box-shadow: 0 0 2px 1px rgba(255, 212, 55, 0.5);
 }
-.containerTechnologies { 
+.containerTechnologies {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -229,8 +222,8 @@ z-index: -1;
   width: 25px;
   height: 20px;
 }
-.titleProject { 
-   display: flex;
+.titleProject {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 258px;
@@ -240,7 +233,7 @@ z-index: -1;
   color: aquamarine;
   text-align: center;
   padding: 0 5px;
-  letter-spacing: 0.07em; 
+  letter-spacing: 0.07em;
   word-spacing: 2px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
@@ -248,36 +241,23 @@ z-index: -1;
   z-index: 10;
 }
 .card:hover + .titleProject {
-border: 1px solid aquamarine;
+  border: 1px solid aquamarine;
   color: #fbd437;
-   /* transition-duration: 1s; */
-  /* transition-delay: 0.5s;  */
-  /* animation-fill-mode: forwards; */
 }
-
 /*responsive*/
-
 @media (max-width: 1200px) {
   .titleFormationProjects,
   .titlePersonalProjects {
     text-align: center;
   }
 }
-/* @media (max-width: 827px) {
-  .infoFormationProjects,
-  .infoPersonalProjects {
-    font-size: 13px;
-  }
-  .titleProject {
-    font-size: 12px;
-  }
-} */
 @media (max-width: 800px) {
   .bodyProjects {
     width: 92%;
     margin-left: 5px;
   }
-  .containerFormationProjects {
+  .containerFormationProjects,
+  .containerPersonalProjects {
     width: 100%;
   }
   .infoFormationProjects,
@@ -303,8 +283,7 @@ border: 1px solid aquamarine;
     font-size: 12px;
   }
 }
-
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   .titleFormationProjects,
   .titlePersonalProjects {
     font-size: 24px;
@@ -326,9 +305,9 @@ border: 1px solid aquamarine;
   .position {
     top: 10px;
   }
-   .logoProjects {
-width: 105px;
-height: 35px;
-margin-top: 11%;
-  } 
+  .logoProjects {
+    width: 105px;
+    height: 35px;
+    margin-top: 11%;
+  }
 }
