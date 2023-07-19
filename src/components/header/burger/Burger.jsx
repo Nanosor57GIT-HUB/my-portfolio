@@ -14,12 +14,12 @@ const Burger = () => {
       setIsOpen(false);
     };
 
-    window.addEventListener("resize", handleCloseMenu);
-    window.addEventListener("scroll", handleCloseMenu);
+    window.addEventListener("resize", handleCloseMenu, { passive: true });
+    window.addEventListener("scroll", handleCloseMenu, { passive: true });
 
     return () => {
-      window.removeEventListener("resize", handleCloseMenu);
-      window.removeEventListener("scroll", handleCloseMenu);
+      window.removeEventListener("resize", handleCloseMenu, { passive: true });
+      window.removeEventListener("scroll", handleCloseMenu, { passive: true });
     };
   }, []);
 
