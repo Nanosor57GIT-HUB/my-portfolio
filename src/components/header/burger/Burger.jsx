@@ -1,27 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import DropDownNav from "../dropDownNavigation/DropDownNav";
 import { Link } from "react-scroll";
 
 const Burger = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef(null); // Référence pour le menu burger
 
   const handleMenuClick = () => {
     setIsOpen(!isOpen);
   };
 
   useEffect(() => {
-    const handleCloseMenu = () => {
-      setIsOpen(false);
-    };
-
-    window.addEventListener("resize", handleCloseMenu, { passive: true });
-    window.addEventListener("scroll", handleCloseMenu, { passive: true });
-
-    return () => {
-      window.removeEventListener("resize", handleCloseMenu, { passive: true });
-      window.removeEventListener("scroll", handleCloseMenu, { passive: true });
-    };
-  }, []);
+    // Calcul de la hauteur du menu burger
+    const menuHeight = menuRef.current ? menuRef.current.offsetHeight : 0;
+    // Ajustement de l'offset en fonction de la hauteur du menu burger
+    const adjustedOffset = -menuHeight;
+    // Mise à jour de l'offset dans les liens du menu
+    document.querySelectorAll(".btnNavBar").forEach((link) => {
+      link.setAttribute("offset", adjustedOffset);
+    });
+  }, [isOpen]); // Recalculer l'offset lorsque le menu est ouvert ou fermé
 
   return (
     <div className="containerBurger">
@@ -51,7 +49,7 @@ const Burger = () => {
                  spy={true}
                   smooth={true}
                   duration={800}
-                    offset={-150}
+                    
                 >
                   Curriculum
                 </Link>
