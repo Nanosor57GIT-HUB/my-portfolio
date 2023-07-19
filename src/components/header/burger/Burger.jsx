@@ -10,6 +10,24 @@ const Burger = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleOutsideClick = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isOpen) {
+      // Ajoutez un événement mousedown pour gérer les clics à l'extérieur du menu
+      window.addEventListener("mousedown", handleOutsideClick);
+    }
+
+    return () => {
+      // Supprimez l'événement mousedown lorsque le menu est fermé
+      window.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, [isOpen]);
+
   useEffect(() => {
     // Calcul de la hauteur du menu burger
     const menuHeight = menuRef.current ? menuRef.current.offsetHeight : 0;
@@ -22,17 +40,17 @@ const Burger = () => {
   }, [isOpen]); // Recalculer l'offset lorsque le menu est ouvert ou fermé
 
   return (
-    <div className="containerBurger">
+    <div className="containerBurger" ref={menuRef}>
       <div className="burgerMenu">
-      <button
-  className={`burgerMenuButton ${isOpen ? 'open' : ''}`}
-  aria-label="menu burger item"
-  onClick={handleMenuClick}
->
-  <span className="burgerMenuIcon"></span>
-</button>
+        <button
+          className={`burgerMenuButton ${isOpen ? "open" : ""}`}
+          aria-label="menu burger item"
+          onClick={handleMenuClick}
+        >
+          <span className="burgerMenuIcon"></span>
+        </button>
         {isOpen && (
-          <div className={`containerDropdownBurger ${isOpen ? 'open' : ''}`}>
+          <div className={`containerDropdownBurger ${isOpen ? "open" : ""}`}>
             <div className="burgerMenuDropdown">
               <nav
                 className="navBurger"
@@ -46,10 +64,10 @@ const Burger = () => {
                   className="btnNavBar"
                   activeClass="active"
                   to="CurriculumVitae"
-                 spy={true}
+                  spy={true}
                   smooth={true}
                   duration={800}
-                    
+                 
                 >
                   Curriculum
                 </Link>
@@ -60,7 +78,7 @@ const Burger = () => {
                   to="Contact"
                   spy={true}
                   smooth={true}
-                 duration={2500}
+                  duration={2500}
                 >
                   Contact
                 </Link>
@@ -74,3 +92,4 @@ const Burger = () => {
 };
 
 export default Burger;
+
