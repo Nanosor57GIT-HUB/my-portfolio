@@ -264,6 +264,10 @@
   .infoPersonalProjects {
     font-size: 13px;
   }
+  .blockFormationCard,
+  .blockPersonalCard {
+    height: 300px;
+  }
   .titleProject {
     font-size: 12px;
   }
@@ -311,3 +315,7 @@
     margin-top: 11%;
   }
 }
+
+
+/* width min 220px */
+/* réduire le heigth version mobile */
