@@ -1,5 +1,3 @@
-
-
 [data-aos][data-aos][data-aos-duration="400"],
 body[data-aos-duration="400"] [data-aos] {
   transition-duration: 0.4s;
@@ -41,5 +39,3 @@ body[data-aos-easing="linear"] [data-aos] {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
-
-
