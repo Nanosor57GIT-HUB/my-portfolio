@@ -5,18 +5,23 @@ const LoadingSpinner = () => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    // const timer = setTimeout(() => {
+    const timer = setTimeout(() => {
       setShow(true);
-    // }, 500); // Délai avant d'afficher le spinner (500ms dans cet exemple)
+    }, 500); // Délai avant d'afficher le spinner (500ms dans cet exemple)
 
-    // return () => clearTimeout(timer);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div className={`loading-spinner ${show ? 'show' : ''}`}>
-      <div className={`spinner${show ? ' animate' : ''}`}></div>
+    <div>
+      {show ? (
+        <div className="loading-spinner show">
+          <div className="spinner animate"></div>
+        </div>
+      ) : null}
     </div>
   );
 };
 
 export default LoadingSpinner;
+
