@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  /* margin-top: 110px; */
   border: 1px solid blue;
 }
 .svgProjects {
@@ -20,14 +21,14 @@
   flex-direction: column;
   width: 80%;
   min-height: 100vh;
-  border: 1px solid #fff;
+  border: 1px solid white;
 }
 .titleFormationProjects,
 .titlePersonalProjects {
   width: 100%;
   height: auto;
   font-size: 38px;
-  color: #7fffd4;
+  color: aquamarine;
   letter-spacing: 0.04em;
   text-align: end;
   color: #979998;
@@ -52,7 +53,7 @@
 .infoPersonalProjects {
   font-size: 15px;
   font-weight: 600;
-  color: #7fffd4;
+  color: aquamarine;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
@@ -101,7 +102,7 @@
   z-index: 20;
 }
 .card:hover {
-  background-color: #27373f;
+  background-color: rgb(39, 55, 63);
   border: none;
 }
 .coverProjects {
@@ -156,7 +157,7 @@
   height: 80px;
   font-size: 12px;
   font-weight: 600;
-  color: #7fffd4;
+  color: aquamarine;
   padding: 5px 10px;
   word-spacing: 1px;
   background-color: rgba(0, 0, 0, 0.4);
@@ -173,7 +174,7 @@
   height: 215px;
   margin: 0;
   border-radius: 10px;
-  color: #7fffd4;
+  color: aquamarine;
   background-color: rgba(45, 35, 54, 0.9);
 }
 .containerLinks {
@@ -191,7 +192,7 @@
   line-height: 28px;
   font-size: 15px;
   font-weight: 500;
-  color: #7fffd4;
+  color: aquamarine;
   border-radius: 10px;
   text-decoration: none;
   background-color: rgba(255, 212, 55, 0.2);
@@ -229,7 +230,7 @@
   height: 80px;
   font-size: 1em;
   font-weight: 600;
-  color: #7fffd4;
+  color: aquamarine;
   text-align: center;
   padding: 0 5px;
   letter-spacing: 0.07em;
@@ -240,9 +241,10 @@
   z-index: 10;
 }
 .card:hover + .titleProject {
-  border: 1px solid #7fffd4;
+  border: 1px solid aquamarine;
   color: #fbd437;
 }
+/*responsive*/
 @media (max-width: 1200px) {
   .titleFormationProjects,
   .titlePersonalProjects {
@@ -259,13 +261,13 @@
     width: 100%;
   }
   .containerFormationCards,
-  .containerPersonalCards {
-    gap: 35px 75px;
-    margin-top: 35px;
-  }
-  .blockInfoProjects {
-    margin-top: 50px;
-  }
+.containerPersonalCards {
+  gap: 35px 75px;
+  margin-top: 35px;
+}
+.blockInfoProjects  {
+  margin-top: 50px;
+}
   .infoFormationProjects,
   .infoPersonalProjects {
     font-size: 13px;
@@ -331,6 +333,7 @@
     width: 200px;
   }
 }
+
 
 /* width min 220px */
 /* réduire le heigth version mobile */

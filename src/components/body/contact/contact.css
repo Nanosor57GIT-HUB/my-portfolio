@@ -11,7 +11,8 @@
   justify-content: center;
   width: 100%;
   height: 85vh;
-  border: 1px solid #fff;
+ 
+  border: 1px solid white;
 }
 .svgContact {
   display: none;
@@ -28,7 +29,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 680px;
-  height: auto;
+  height: auto; 
   background-color: rgba(45, 35, 54, 0.8);
   letter-spacing: 0.07em;
   border-radius: 10px;
@@ -42,7 +43,7 @@
   width: 95%;
   min-height: 85%;
   margin: 0 auto 20px;
-  background-color: #27373f;
+  background-color: rgb(39, 55, 63);
   border: 2px solid #fbd437;
   border-radius: 10px;
 }
@@ -53,7 +54,7 @@
   padding: 5px;
   font-size: 30px;
   text-align: center;
-  color: #7fffd4;
+  color: aquamarine;
 }
 .containerInput {
   width: 90%;
@@ -62,7 +63,7 @@
 }
 ::placeholder {
   font-size: 14px;
-  color: #4d0606;
+  color: rgb(77, 6, 6);
   opacity: 0.7;
 }
 .nameContact {
@@ -81,7 +82,7 @@ label {
   width: 100%;
   max-height: 21px;
   margin-bottom: 1px;
-  color: #7fffd4;
+  color: aquamarine;
 }
 .firstName,
 .lastName,
@@ -91,7 +92,7 @@ label {
   font-size: 18px;
   font-weight: 500;
   padding-left: 10px;
-  background-color: #7fffd4;
+  background-color: aquamarine;
   border: none;
   border-radius: 5px;
 }
@@ -100,7 +101,7 @@ label {
   max-height: 25px;
   margin-top: 10px;
   text-align: center;
-  color: #7fffd4;
+  color: aquamarine;
 }
 .textMaxChars {
   width: auto;
@@ -115,7 +116,7 @@ label {
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 2px;
-  background-color: #7fffd4;
+  background-color: aquamarine;
   padding: 10px;
   margin-top: 5px;
   border: 1px solid #000;
@@ -151,14 +152,16 @@ label {
   margin: 15px auto;
   border-radius: 10px;
   background-color: rgba(255, 212, 55, 0.2);
-  color: #7fffd4;
+  color: aquamarine;
   border: 1px solid #fbd437;
   cursor: pointer;
 }
 .btnContact:hover {
   box-shadow: 0 0 2px 2px rgba(255, 212, 55, 0.5);
 }
+/*ConfirmModal*/
 .modal-container {
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -205,7 +208,7 @@ label {
   opacity: 0.5;
 }
 .close-button:hover {
-  box-shadow: 0 0 1px 2px #ffd437;
+  box-shadow: 0 0 1px 2px rgb(255, 212, 55);
   opacity: 1;
 }
 .close-title {
@@ -234,7 +237,7 @@ label {
   height: auto;
   text-align: center;
   font-size: 1.3rem;
-  color: #7fffd4;
+  color: aquamarine;
 }
 @media (max-width: 800px) {
   .blockForm {
